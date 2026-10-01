@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UNpredicted — Recover From Gambling & Prediction Market Losses</title>
+<meta name="description" content="Free tools to understand gambling debt, calculate your payoff, stop chasing losses and start rebuilding.">
+
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+ margin:0;background:#f8f9f6;color:#142018;
+ font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+ line-height:1.5
+}
+.wrap{max-width:1050px;margin:auto;padding:0 22px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0}
+.logo{font-size:25px;font-weight:850}.logo span{color:#32834d}
+nav a{color:#263129;text-decoration:none;margin-left:22px;font-weight:650}
+.hero{text-align:center;padding:85px 0 110px}
+.pill{display:inline-block;padding:8px 15px;border-radius:30px;background:#e5f3e8;color:#287341;font-weight:750}
+h1{font-size:clamp(45px,8vw,76px);letter-spacing:-3px;line-height:1.02;margin:24px auto;max-width:900px}
+.heroText{font-size:20px;color:#626b64;max-width:680px;margin:auto}
+.primary{display:inline-block;border:0;background:#277a43;color:#fff;text-decoration:none;padding:16px 23px;border-radius:11px;font-weight:750;font-size:16px;margin-top:28px;cursor:pointer}
+.secondary{display:inline-block;color:#277a43;text-decoration:none;font-weight:750;margin-left:20px}
+section{padding:70px 0}
+h2{font-size:clamp(34px,5vw,48px);letter-spacing:-1.5px;line-height:1.1;margin:0 0 13px}
+.sub{font-size:18px;color:#687169;max-width:720px}
+.emergency{
+ background:#17231b;color:#fff;border-radius:22px;padding:35px;
+ display:flex;justify-content:space-between;align-items:center;gap:25px
+}
+.emergency p{color:#c8d0ca;max-width:650px}
+.emergency .primary{background:#fff;color:#17231b;margin:0}
+.box{background:#fff;border:1px solid #dfe5df;border-radius:18px;padding:30px;box-shadow:0 12px 35px rgba(0,0,0,.045);margin-top:30px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}
+.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:17px}
+label{font-weight:700;display:block;margin-bottom:7px}
+input{width:100%;padding:14px;border:1px solid #cbd3cc;border-radius:9px;font-size:17px;background:#fff}
+button{border:0;background:#277a43;color:#fff;padding:15px 22px;border-radius:9px;font-size:16px;font-weight:750;cursor:pointer;margin-top:20px}
+.result{display:none;background:#edf6ef;border-radius:13px;padding:25px;margin-top:25px}
+.big{font-size:31px;font-weight:850;margin:5px 0}
+.resultGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:20px}
+.metric{background:#fff;border-radius:10px;padding:17px}
+.metric small{color:#687169}.metric strong{display:block;font-size:21px;margin-top:3px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}
+.card{background:#fff;border:1px solid #dfe5df;border-radius:16px;padding:26px}
+.num{font-size:13px;font-weight:850;color:#338451}
+.card h3{margin:9px 0;font-size:21px}
+.card p{color:#626c64}
+.warning{background:#fff7e8;border:1px solid #f0dfbd;border-radius:16px;padding:26px;margin-top:30px}
+.lossbox{background:#17231b;color:#fff;border-radius:22px;padding:35px;margin-top:30px}
+.lossbox p{color:#c8d0ca}
+.lossbox input{max-width:300px}
+.lossResult{font-size:28px;font-weight:800;margin-top:20px}
+.promise{text-align:center;background:#e7f3e9;border-radius:22px;padding:50px 25px}
+.promise h2{max-width:720px;margin:0 auto 15px}
+.steps{counter-reset:item}
+.helpLinks a{color:#fff}
+footer{border-top:1px solid #dfe4df;padding:45px 0;color:#737c75;font-size:14px}
+.disclaimer{font-size:13px;color:#7b837c;margin-top:25px}
+@media(max-width:720px){
+ nav .navlinks{display:none}
+ .hero{padding:55px 0 80px}
+ h1{letter-spacing:-2px}
+ .grid3,.grid2,.cards,.resultGrid{grid-template-columns:1fr}
+ .emergency{display:block}
+ .emergency .primary{margin-top:15px}
+ .secondary{display:block;margin:18px 0 0}
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+<nav>
+ <div class="logo"><span>UN</span>predicted</div>
+ <div class="navlinks">
+  <a href="#start">Start Here</a>
+  <a href="#calculator">Debt Calculator</a>
+  <a href="#understand">Understand</a>
+  <a href="#help">Help</a>
+ </div>
+</nav>
+
+<header class="hero">
+ <span class="pill">No judgment. Just a way forward.</span>
+ <h1>You can't change the loss.<br>You can change what happens next.</h1>
+ <p class="heroText">
+ If gambling or prediction markets left you with debt, fear, or the urge to win everything back,
+ UNpredicted helps you slow things down, see the numbers and build a path forward.
+ </p>
+<a class="primary" href="/recovery.html">I need a recovery plan</a>
+ <a class="secondary" href="#calculator">Calculate my debt →</a>
+</header>
+</div>
+
+<div class="wrap">
+<section id="start">
+ <div class="emergency">
+  <div>
+   <h2>Did you lose money today?</h2>
+   <p>
+    The hours immediately after a loss can make another wager feel like the fastest way out.
+    It isn't your only option. Before depositing again, give yourself time between the loss
+    and your next financial decision.
+   </p>
+  </div>
+  <a class="primary" href="#stop">Help me stop chasing</a>
+ </div>
+</section>
+</div>
+
+<div class="wrap">
+<section id="calculator">
+ <span class="pill">FREE DEBT TOOL</span>
+ <h2>Turn a scary number into a timeline.</h2>
+ <p class="sub">
+ Enter your current debt, average APR and the amount you can consistently pay each month.
+ Nothing you enter here is sent anywhere.
+ </p>
+
+ <div class="box">
+  <div class="grid3">
+   <div>
+    <label for="debt">Total debt</label>
+    <input id="debt" type="number" inputmode="decimal" placeholder="$50,000">
+   </div>
+   <div>
+    <label for="apr">Average APR</label>
+    <input id="apr" type="number" inputmode="decimal" step=".1" placeholder="27%">
+   </div>
+   <div>
+    <label for="payment">Monthly payment</label>
+    <input id="payment" type="number" inputmode="decimal" placeholder="$3,000">
+   </div>
+  </div>
+
+  <button onclick="calculateDebt()">Show my path out</button>
+
+  <div class="result" id="debtResult">
+   <div>Estimated debt-free timeline</div>
+   <div class="big" id="payoffTime"></div>
+
+   <div class="resultGrid">
+    <div class="metric">
+     <small>Estimated interest</small>
+     <strong id="interestTotal"></strong>
+    </div>
+    <div class="metric">
+     <small>Estimated total paid</small>
+     <strong id="totalPaid"></strong>
+    </div>
+    <div class="metric">
+     <small>Approx. debt-free date</small>
+     <strong id="debtFreeDate"></strong>
+    </div>
+   </div>
+
+   <p class="disclaimer">
+    Estimates assume the APR and monthly payment remain constant and no new charges are added.
+   </p>
+  </div>
+ </div>
+</section>
+</div>
+
+<div class="wrap">
+<section id="stop">
+ <span class="pill">THE FIRST 24 HOURS</span>
+ <h2>Don't make the loss bigger tonight.</h2>
+ <p class="sub">
+ You don't have to solve your entire financial situation immediately.
+ The first goal is simply preventing another loss.
+ </p>
+
+ <div class="cards">
+  <div class="card">
+   <div class="num">01</div>
+   <h3>Stop depositing</h3>
+   <p>Don't borrow, transfer savings or use another credit card to try to recover what was lost.</p>
+  </div>
+
+  <div class="card">
+   <div class="num">02</div>
+   <h3>Create friction</h3>
+   <p>Log out, remove stored payment methods, use available account limits or self-exclusion tools, and step away.</p>
+  </div>
+
+  <div class="card">
+   <div class="num">03</div>
+   <h3>Tell one person</h3>
+   <p>Secrecy makes it easier to return to the cycle. Consider telling someone you trust what happened.</p>
+  </div>
+ </div>
+
+ <div class="warning">
+  <strong>The money you've already lost doesn't make the next wager more likely to win.</strong>
+  <p>
+   Previous losses are already in the past. Taking additional risk can increase the amount
+   you'll eventually need to recover.
+  </p>
+ </div>
+</section>
+</div>
+
+<div class="wrap">
+<section id="understand">
+ <span class="pill">LOSS REALITY CHECK</span>
+ <h2>What would rebuilding look like without another bet?</h2>
+ <p class="sub">
+ Enter an amount you lost. Instead of calculating how to gamble it back, we'll show what rebuilding
+ that amount through regular saving could look like.
+ </p>
+
+ <div class="lossbox">
+  <label for="loss">Amount lost</label>
+  <input id="loss" type="number" inputmode="decimal" placeholder="$20,000">
+  <button onclick="lossReality()">Show rebuilding options</button>
+  <div class="lossResult" id="lossResult"></div>
+ </div>
+</section>
+</div>
+
+<div class="wrap">
+<section>
+ <h2>Recovery is a process.</h2>
+
+ <div class="cards">
+  <div class="card">
+   <div class="num">PHASE 01</div>
+   <h3>Stabilize</h3>
+   <p>Protect housing, food, transportation and other essentials while stopping additional gambling losses.</p>
+  </div>
+  <div class="card">
+   <div class="num">PHASE 02</div>
+   <h3>Inventory</h3>
+   <p>List balances, minimum payments, APRs, income and essential expenses so you know what you're dealing with.</p>
+  </div>
+  <div class="card">
+   <div class="num">PHASE 03</div>
+   <h3>Attack the debt</h3>
+   <p>Choose a sustainable repayment strategy and direct additional money toward reducing expensive debt.</p>
+  </div>
+  <div class="card">
+   <div class="num">PHASE 04</div>
+   <h3>Build protection</h3>
+   <p>Create savings and safeguards that make another financial emergency less likely to restart the cycle.</p>
+  </div>
+  <div class="card">
+   <div class="num">PHASE 05</div>
+   <h3>Measure progress</h3>
+   <p>Track debt reduced and money retained instead of measuring success by wins and losses.</p>
+  </div>
+  <div class="card">
+   <div class="num">PHASE 06</div>
+   <h3>Keep going</h3>
+   <p>A financial setback can take time to repair. Progress still counts when it happens gradually.</p>
+  </div>
+ </div>
+</section>
+</div>
+
+<div class="wrap">
+<section>
+ <div class="promise">
+  <span class="pill">OUR PROMISE</span>
+  <h2>UNpredicted will never make money by sending you back to gambling.</h2>
+  <p>
+   Core recovery tools will remain free. We won't accept sportsbook,
+   casino or prediction-market referral commissions.
+  </p>
+ </div>
+</section>
+</div>
+
+<div class="wrap">
+<section id="help">
+ <div class="emergency">
+  <div class="helpLinks">
+   <h2>You don't have to handle this alone.</h2>
+   <p>
+    In the United States, the National Problem Gambling Helpline can be reached by
+    calling or texting <strong>1-800-GAMBLER</strong>.
+   </p>
+   <p>
+    If you're in immediate danger or thinking about suicide or self-harm,
+    call or text <strong>988</strong> in the U.S.
+   </p>
+  </div>
+ </div>
+</section>
+
+<footer>
+ <strong>UNpredicted</strong><br>
+ Financial recovery after gambling and prediction-market losses.
+ <p class="disclaimer">
+  UNpredicted provides educational information and mathematical estimates.
+  It is not financial, legal, medical or mental-health advice.
+ </p>
+ <p>© 2026 UNpredicted</p>
+</footer>
+</div>
+
+<script>
+function money(n){
+ return "$"+Math.round(n).toLocaleString();
+}
+
+document.addEventListener("input", function(event){
+ if(["debt","apr","payment"].includes(event.target.id)) document.getElementById("debtResult").style.display="none";
+ if(event.target.id==="loss") document.getElementById("lossResult").innerHTML="";
+});
+
+function calculateDebt(){
+ const result=document.getElementById("debtResult");
+ result.style.display="none";
+ for(const id of ["payoffTime","interestTotal","totalPaid","debtFreeDate"]) document.getElementById(id).innerText="—";
+ let balance=parseFloat(document.getElementById("debt").value);
+ const starting=balance;
+ const apr=parseFloat(document.getElementById("apr").value);
+ const payment=parseFloat(document.getElementById("payment").value);
+
+ if(!Number.isFinite(starting)||starting<=0||!Number.isFinite(apr)||apr<0||!Number.isFinite(payment)||payment<=0){
+  alert("Please enter your debt, APR and monthly payment.");
+  return;
+ }
+
+ const r=apr/100/12;
+ result.style.display="block";
+
+ if(r>0 && payment<=starting*r){
+  document.getElementById("payoffTime").innerText="Payment too low to reduce this balance";
+  document.getElementById("interestTotal").innerText="—";
+  document.getElementById("totalPaid").innerText="—";
+  document.getElementById("debtFreeDate").innerText="—";
+  result.scrollIntoView({behavior:"smooth",block:"center"});
+  return;
+ }
+
+ let months=0;
+ let interest=0;
+ let paid=0;
+
+ while(balance>0 && months<1200){
+  const i=balance*r;
+  interest+=i;
+  balance+=i;
+
+  const actual=Math.min(payment,balance);
+  balance-=actual;
+  paid+=actual;
+  months++;
+ }
+
+ if(balance>0){
+  document.getElementById("payoffTime").innerText="More than 100 years";
+  return;
+ }
+
+ const years=Math.floor(months/12);
+ const rem=months%12;
+ let txt="";
+ if(years) txt+=years+(years===1?" year":" years");
+ if(years&&rem) txt+=" and ";
+ if(rem) txt+=rem+(rem===1?" month":" months");
+
+ const date=new Date();
+ date.setDate(1);
+ date.setMonth(date.getMonth()+months);
+
+ document.getElementById("payoffTime").innerText=txt || "Less than one month";
+ document.getElementById("interestTotal").innerText=money(interest);
+ document.getElementById("totalPaid").innerText=money(paid);
+ document.getElementById("debtFreeDate").innerText=
+  date.toLocaleDateString(undefined,{month:"short",year:"numeric"});
+
+ result.scrollIntoView({behavior:"smooth",block:"center"});
+}
+
+function lossReality(){
+ const loss=parseFloat(document.getElementById("loss").value);
+ const out=document.getElementById("lossResult");
+
+ out.innerHTML="";
+ if(!Number.isFinite(loss)||loss<=0){
+  alert("Enter the amount you want to rebuild.");
+  return;
+ }
+
+ const m500=Math.ceil(loss/500);
+ const m1000=Math.ceil(loss/1000);
+ const m2000=Math.ceil(loss/2000);
+
+ out.innerHTML=
+  "Rebuilding "+money(loss)+" without another wager:<br><br>"+
+  "$500/month → "+formatMonths(m500)+"<br>"+
+  "$1,000/month → "+formatMonths(m1000)+"<br>"+
+  "$2,000/month → "+formatMonths(m2000);
+}
+
+function formatMonths(m){
+ const y=Math.floor(m/12);
+ const r=m%12;
+ if(!y) return m+(m===1?" month":" months");
+ if(!r) return y+(y===1?" year":" years");
+ return y+(y===1?" year ":" years ")+r+(r===1?" month":" months");
+}
+</script>
+
+</body>
+</html>
