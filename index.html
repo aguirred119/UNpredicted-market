@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UNpredicted | Financial Recovery After Gambling Losses</title>
+  <meta name="description" content="Free tools to understand gambling losses, make a debt recovery plan, and start rebuilding your finances.">
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f7f8f6;
+      color: #172019;
+      line-height: 1.5;
+    }
+
+    nav {
+      max-width: 1100px;
+      margin: auto;
+      padding: 22px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 23px;
+      font-weight: 800;
+    }
+
+    .logo span { color: #26834a; }
+
+    nav a {
+      color: #172019;
+      text-decoration: none;
+      font-weight: 600;
+      margin-left: 18px;
+    }
+
+    .hero {
+      max-width: 900px;
+      margin: auto;
+      padding: 90px 22px 75px;
+      text-align: center;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #e5f4e9;
+      color: #176b37;
+      padding: 8px 14px;
+      border-radius: 30px;
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    h1 {
+      font-size: clamp(42px, 8vw, 76px);
+      line-height: 1.02;
+      letter-spacing: -3px;
+      margin: 24px 0;
+    }
+
+    .hero p {
+      max-width: 680px;
+      margin: auto;
+      color: #59625b;
+      font-size: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 23px;
+      border-radius: 10px;
+      background: #1f7a43;
+      color: white;
+      text-decoration: none;
+      font-weight: 750;
+    }
+
+    .section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 65px 22px;
+    }
+
+    h2 {
+      font-size: 36px;
+      letter-spacing: -1px;
+      margin-bottom: 12px;
+    }
+
+    .sub {
+      color: #667068;
+      margin-bottom: 30px;
+      font-size: 18px;
+    }
+
+    .calculator {
+      background: white;
+      border: 1px solid #e0e4e0;
+      border-radius: 18px;
+      padding: 30px;
+      box-shadow: 0 10px 35px rgba(0,0,0,.05);
+    }
+
+    .inputs {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    label {
+      display: block;
+      font-weight: 700;
+      margin-bottom: 7px;
+    }
+
+    input {
+      width: 100%;
+      padding: 14px;
+      font-size: 17px;
+      border: 1px solid #cfd5cf;
+      border-radius: 9px;
+    }
+
+    button {
+      border: 0;
+      padding: 15px 22px;
+      background: #1f7a43;
+      color: white;
+      font-size: 16px;
+      font-weight: 750;
+      border-radius: 9px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+
+    #results {
+      display: none;
+      margin-top: 25px;
+      padding: 22px;
+      background: #edf7ef;
+      border-radius: 12px;
+    }
+
+    .result-number {
+      font-size: 30px;
+      font-weight: 800;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border: 1px solid #e0e4e0;
+      border-radius: 14px;
+    }
+
+    .card-number {
+      color: #23834a;
+      font-weight: 800;
+      font-size: 14px;
+    }
+
+    .card h3 { margin: 9px 0; }
+
+    .help {
+      background: #172019;
+      color: white;
+      border-radius: 20px;
+      padding: 35px;
+    }
+
+    .help p { color: #cbd2cc; }
+
+    footer {
+      text-align: center;
+      padding: 50px 20px;
+      color: #707870;
+      font-size: 14px;
+    }
+
+    @media(max-width:700px) {
+      .inputs, .cards { grid-template-columns: 1fr; }
+      nav .links { display: none; }
+      h1 { letter-spacing: -2px; }
+      .hero { padding-top: 55px; }
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <div class="logo"><span>UN</span>predicted</div>
+  <div class="links">
+    <a href="#calculator">Calculator</a>
+    <a href="#recovery">Recovery</a>
+    <a href="#help">Get Help</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="tag">Financial recovery starts here</div>
+
+  <h1>The loss happened.<br>Your story isn't over.</h1>
+
+  <p>
+    Gambling and prediction-market losses can become much bigger than a bad bet.
+    UNpredicted gives you free tools to understand the damage, make a plan,
+    and start rebuilding.
+  </p>
+
+  <a class="button" href="#calculator">Build my recovery plan</a>
+</section>
+
+<section class="section" id="calculator">
+  <h2>See a path out.</h2>
+
+  <p class="sub">
+    Enter your debt below. We'll estimate how long it could take to pay it off.
+    Your information stays in your browser.
+  </p>
+
+  <div class="calculator">
+
+    <div class="inputs">
+
+      <div>
+        <label>Total debt ($)</label>
+        <input id="debt" type="number" placeholder="50000">
+      </div>
+
+      <div>
+        <label>Interest rate (%)</label>
+        <input id="apr" type="number" step="0.1" placeholder="27">
+      </div>
+
+      <div>
+        <label>Monthly payment ($)</label>
+        <input id="payment" type="number" placeholder="3000">
+      </div>
+
+    </div>
+
+    <button onclick="calculate()">Calculate my payoff</button>
+
+    <div id="results">
+      <div>Your estimated payoff time</div>
+      <div class="result-number" id="time"></div>
+      <div id="interest"></div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section" id="recovery">
+
+  <h2>You don't recover a loss by chasing it.</h2>
+
+  <p class="sub">
+    Recovery begins by stopping the cycle and dealing with what exists today.
+  </p>
+
+  <div class="cards">
+
+    <div class="card">
+      <div class="card-number">STEP 01</div>
+      <h3>Stop the bleeding</h3>
+      <p>
+        Don't try to win the money back. Remove access, deposits and other
+        opportunities to chase previous losses.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="card-number">STEP 02</div>
+      <h3>Know the number</h3>
+      <p>
+        Write down every balance, interest rate and minimum payment.
+        The number can be frightening, but it gives you something concrete to solve.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="card-number">STEP 03</div>
+      <h3>Start rebuilding</h3>
+      <p>
+        Create a sustainable repayment plan, protect essential expenses,
+        and measure progress over months rather than bets.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section" id="help">
+
+  <div class="help">
+
+    <h2>If this feels bigger than money</h2>
+
+    <p>
+      Financial losses can bring panic, shame and an overwhelming urge to fix
+      everything immediately. You don't have to handle that alone.
+    </p>
+
+    <p>
+      In the U.S., the National Problem Gambling Helpline can be reached by
+      calling or texting <strong>1-800-GAMBLER</strong>.
+    </p>
+
+    <p>
+      If you're in immediate danger or thinking about harming yourself,
+      call or text <strong>988</strong> in the United States.
+    </p>
+
+  </div>
+
+</section>
+
+<footer>
+  © 2026 UNpredicted · Educational tools, not financial advice.
+</footer>
+
+<script>
+function calculate() {
+
+  let balance = parseFloat(document.getElementById("debt").value);
+  const originalBalance = balance;
+  const apr = parseFloat(document.getElementById("apr").value);
+  const payment = parseFloat(document.getElementById("payment").value);
+
+  if (!balance || apr < 0 || !payment) {
+    alert("Please enter your debt, APR and monthly payment.");
+    return;
+  }
+
+  const monthlyRate = apr / 100 / 12;
+
+  if (monthlyRate > 0 && payment <= balance * monthlyRate) {
+    document.getElementById("results").style.display = "block";
+    document.getElementById("time").innerText =
+      "Your payment isn't high enough yet";
+
+    document.getElementById("interest").innerText =
+      "At this payment, monthly interest is at least as large as your payment.";
+
+    return;
+  }
+
+  let months = 0;
+  let totalInterest = 0;
+
+  while (balance > 0 && months < 1200) {
+
+    const monthlyInterest = balance * monthlyRate;
+    totalInterest += monthlyInterest;
+
+    balance += monthlyInterest;
+    balance -= payment;
+
+    months++;
+
+  }
+
+  const years = Math.floor(months / 12);
+  const remainingMonths = months % 12;
+
+  let timeText = "";
+
+  if (years > 0) {
+    timeText += years + (years === 1 ? " year " : " years ");
+  }
+
+  if (remainingMonths > 0) {
+    timeText += remainingMonths +
+      (remainingMonths === 1 ? " month" : " months");
+  }
+
+  document.getElementById("results").style.display = "block";
+  document.getElementById("time").innerText = timeText;
+
+  document.getElementById("interest").innerText =
+    "Estimated interest paid: $" +
+    Math.round(totalInterest).toLocaleString();
+
+}
+</script>
+
+</body>
+</html>
