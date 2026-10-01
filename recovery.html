@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Recovery Planner | UNpredicted</title>
+<meta name="description" content="Build a free debt recovery plan after gambling or prediction-market losses.">
+
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;background:#f8f9f6;color:#142018;
+ font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+ line-height:1.5
+}
+.wrap{max-width:950px;margin:auto;padding:0 20px}
+nav{padding:24px 0;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:24px;font-weight:850;text-decoration:none;color:#142018}
+.logo span{color:#32834d}
+.back{color:#32834d;text-decoration:none;font-weight:700}
+.hero{padding:55px 0 40px}
+.pill{
+ display:inline-block;background:#e5f3e8;color:#287341;
+ padding:8px 14px;border-radius:30px;font-weight:750;font-size:14px
+}
+h1{font-size:clamp(40px,7vw,64px);line-height:1.04;letter-spacing:-2px;margin:20px 0}
+h2{font-size:30px;letter-spacing:-1px}
+.sub{font-size:18px;color:#687169;max-width:700px}
+.box{
+ background:white;border:1px solid #dfe5df;border-radius:18px;
+ padding:25px;margin:25px 0;box-shadow:0 10px 30px rgba(0,0,0,.04)
+}
+.debt{
+ border-bottom:1px solid #e5e9e5;padding-bottom:24px;margin-bottom:24px
+}
+.debt:last-child{border-bottom:0}
+.debtTop{display:flex;justify-content:space-between;align-items:center}
+.debtTitle{font-size:19px;font-weight:800}
+.grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:13px;margin-top:15px}
+label{font-size:14px;font-weight:750;display:block;margin-bottom:6px}
+input{
+ width:100%;padding:14px;border:1px solid #cbd3cc;
+ border-radius:9px;font-size:16px
+}
+button{
+ border:0;border-radius:9px;padding:14px 19px;
+ font-size:16px;font-weight:750;cursor:pointer
+}
+.add{background:#edf6ef;color:#277a43}
+.remove{background:none;color:#a14343;padding:5px}
+.primary{background:#277a43;color:white;width:100%;margin-top:15px;padding:17px}
+.budget{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.result{display:none}
+.summary{
+ display:grid;grid-template-columns:repeat(3,1fr);gap:13px;margin:20px 0
+}
+.metric{background:#edf6ef;border-radius:13px;padding:18px}
+.metric small{color:#667069}
+.metric strong{display:block;font-size:23px;margin-top:5px}
+.planItem{
+ display:flex;justify-content:space-between;gap:20px;
+ border-bottom:1px solid #e4e8e4;padding:16px 0
+}
+.planItem:last-child{border:0}
+.rank{
+ background:#277a43;color:white;border-radius:50%;
+ min-width:30px;height:30px;display:flex;align-items:center;
+ justify-content:center;font-weight:800
+}
+.planName{flex:1}
+.planName strong{display:block}
+.planName small{color:#687169}
+.extra{
+ background:#17231b;color:white;border-radius:18px;padding:25px;margin-top:25px
+}
+.extra p{color:#cad2cc}
+.extraGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.extraCard{background:#263329;border-radius:10px;padding:15px}
+.extraCard strong{font-size:20px;display:block}
+.notice{
+ background:#fff7e8;border:1px solid #efdfbd;
+ padding:18px;border-radius:12px;margin-top:20px
+}
+footer{padding:45px 0;color:#737c75;font-size:13px}
+@media(max-width:650px){
+ .grid{grid-template-columns:1fr}
+ .budget,.summary,.extraGrid{grid-template-columns:1fr}
+ h1{letter-spacing:-1.5px}
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+
+<nav>
+ <a class="logo" href="/"><span>UN</span>predicted</a>
+ <a class="back" href="/">← Home</a>
+</nav>
+
+<header class="hero">
+ <span class="pill">FREE RECOVERY PLANNER</span>
+ <h1>Let's turn your debt into a plan.</h1>
+ <p class="sub">
+ Add each debt separately. UNpredicted will organize the numbers
+ and estimate a repayment path without asking you to risk another dollar.
+ </p>
+</header>
+
+<div class="box">
+
+<h2>Your debts</h2>
+
+<div id="debts"></div>
+
+<button class="add" onclick="addDebt()">+ Add another debt</button>
+
+</div>
+
+<div class="box">
+
+<h2>Your monthly plan</h2>
+
+<p class="sub">
+Enter how much you can put toward all of these debts combined each month.
+</p>
+
+<div class="budget">
+ <div>
+  <label>Total monthly debt payment</label>
+  <input id="budget" type="number" inputmode="decimal" placeholder="$3,000">
+ </div>
+
+ <div>
+  <label>Optional extra monthly payment</label>
+  <input id="extra" type="number" inputmode="decimal" placeholder="$0">
+ </div>
+</div>
+
+<button class="primary" onclick="buildPlan()">Build my recovery plan</button>
+
+<div class="notice">
+ <strong>Protect essentials first.</strong><br>
+ Don't choose a debt payment that prevents you from paying for housing,
+ food, utilities, transportation, insurance or other necessities.
+</div>
+
+</div>
+
+<div class="box result" id="results">
+
+<span class="pill">YOUR PLAN</span>
+
+<h2>Your path forward</h2>
+
+<div class="summary">
+
+ <div class="metric">
+  <small>Total debt</small>
+  <strong id="totalDebt"></strong>
+ </div>
+
+ <div class="metric">
+  <small>Weighted APR</small>
+  <strong id="weightedApr"></strong>
+ </div>
+
+ <div class="metric">
+  <small>Starting monthly interest</small>
+  <strong id="monthlyInterest"></strong>
+ </div>
+
+ <div class="metric">
+  <small>Estimated payoff</small>
+  <strong id="payoff"></strong>
+ </div>
+
+ <div class="metric">
+  <small>Estimated interest</small>
+  <strong id="interest"></strong>
+ </div>
+
+ <div class="metric">
+  <small>Debt-free around</small>
+  <strong id="date"></strong>
+ </div>
+
+</div>
+
+<h2>Suggested payoff order</h2>
+
+<p class="sub">
+This uses the debt-avalanche approach: highest APR first while continuing
+required payments on the other debts.
+</p>
+
+<div id="order"></div>
+
+<div class="extra">
+
+ <h2>What if you paid more?</h2>
+
+ <p>
+ Even relatively small increases can shorten a repayment timeline.
+ These estimates assume the additional amount goes toward debt every month.
+ </p>
+
+ <div class="extraGrid">
+
+  <div class="extraCard">
+   <small>+$100/month</small>
+   <strong id="extra100"></strong>
+  </div>
+
+  <div class="extraCard">
+   <small>+$500/month</small>
+   <strong id="extra500"></strong>
+  </div>
+
+  <div class="extraCard">
+   <small>+$1,000/month</small>
+   <strong id="extra1000"></strong>
+  </div>
+
+ </div>
+
+</div>
+
+</div>
+
+<footer>
+ <strong>UNpredicted</strong>
+ <p>
+ Estimates are educational and may differ from actual lender calculations.
+ UNpredicted does not provide financial, legal, medical or mental-health advice.
+ </p>
+ © 2026 UNpredicted
+</footer>
+
+</div>
+
+<script>
+
+let debtCount=0;
+
+function addDebt(){
+ debtCount++;
+
+ const container=document.getElementById("debts");
+
+ const div=document.createElement("div");
+ div.className="debt";
+
+ div.innerHTML=`
+ <div class="debtTop">
+   <div class="debtTitle">Debt ${debtCount}</div>
+   ${debtCount>1?'<button class="remove" onclick="this.closest(\'.debt\').remove()">Remove</button>':''}
+ </div>
+
+ <div class="grid">
+
+  <div>
+   <label>Name (optional)</label>
+   <input class="name" placeholder="Credit card">
+  </div>
+
+  <div>
+   <label>Balance</label>
+   <input class="balance" type="number" inputmode="decimal" placeholder="$10,000">
+  </div>
+
+  <div>
+   <label>APR</label>
+   <input class="apr" type="number" inputmode="decimal" step=".1" placeholder="27%">
+  </div>
+
+ </div>
+ `;
+
+ container.appendChild(div);
+}
+
+addDebt();
+addDebt();
+
+function money(n){
+ return "$"+Math.round(n).toLocaleString();
+}
+
+function getDebts(){
+
+ const rows=[...document.querySelectorAll(".debt")];
+ const debts=[];
+
+ for(const row of rows){
+
+  const balance=parseFloat(row.querySelector(".balance").value);
+  const apr=parseFloat(row.querySelector(".apr").value);
+  const name=row.querySelector(".name").value.trim() || "Debt";
+
+  if(!(balance>0)||!(apr>=0)) continue;
+
+  debts.push({
+   name:name,
+   balance:balance,
+   original:balance,
+   apr:apr
+  });
+ }
+
+ return debts;
+}
+
+function simulate(source,monthlyPayment){
+
+ let debts=source.map(d=>({...d}));
+ let months=0;
+ let interest=0;
+ let totalPaid=0;
+
+ while(debts.some(d=>d.balance>.01) && months<1200){
+
+  let monthInterest=0;
+
+  for(const d of debts){
+
+   if(d.balance<=0) continue;
+
+   const i=d.balance*(d.apr/100/12);
+   d.balance+=i;
+   interest+=i;
+   monthInterest+=i;
+  }
+
+  if(monthlyPayment<=monthInterest){
+   return {possible:false};
+  }
+
+  let available=monthlyPayment;
+
+  const active=debts
+   .filter(d=>d.balance>0)
+   .sort((a,b)=>b.apr-a.apr);
+
+  for(const d of active){
+
+   if(available<=0) break;
+
+   const amount=Math.min(available,d.balance);
+
+   d.balance-=amount;
+   available-=amount;
+   totalPaid+=amount;
+  }
+
+  months++;
+ }
+
+ if(months>=1200) return {possible:false};
+
+ return {
+  possible:true,
+  months:months,
+  interest:interest,
+  totalPaid:totalPaid
+ };
+}
+
+function formatMonths(m){
+
+ const years=Math.floor(m/12);
+ const months=m%12;
+
+ if(!years)
+  return months+(months===1?" month":" months");
+
+ if(!months)
+  return years+(years===1?" year":" years");
+
+ return years+(years===1?" yr ":" yrs ")+months+" mo";
+}
+
+function buildPlan(){
+
+ const debts=getDebts();
+
+ if(!debts.length){
+  alert("Enter at least one debt balance and APR.");
+  return;
+ }
+
+ const budget=parseFloat(document.getElementById("budget").value);
+ const userExtra=parseFloat(document.getElementById("extra").value)||0;
+
+ if(!(budget>0)){
+  alert("Enter your total monthly debt payment.");
+  return;
+ }
+
+ const payment=budget+userExtra;
+
+ const total=debts.reduce((s,d)=>s+d.balance,0);
+
+ const weighted=
+  debts.reduce((s,d)=>s+(d.balance*d.apr),0)/total;
+
+ const startingInterest=
+  debts.reduce((s,d)=>s+d.balance*(d.apr/100/12),0);
+
+ const sim=simulate(debts,payment);
+
+ if(!sim.possible){
+  alert(
+   "At this payment amount, your balances may not decrease because interest is too high. " +
+   "Consider reviewing the numbers or speaking with a qualified nonprofit credit counselor."
+  );
+  return;
+ }
+
+ document.getElementById("results").style.display="block";
+
+ document.getElementById("totalDebt").innerText=money(total);
+ document.getElementById("weightedApr").innerText=weighted.toFixed(1)+"%";
+ document.getElementById("monthlyInterest").innerText=money(startingInterest);
+
+ document.getElementById("payoff").innerText=formatMonths(sim.months);
+ document.getElementById("interest").innerText=money(sim.interest);
+
+ const date=new Date();
+ date.setMonth(date.getMonth()+sim.months);
+
+ document.getElementById("date").innerText=
+  date.toLocaleDateString(undefined,{
+   month:"short",
+   year:"numeric"
+  });
+
+ const ordered=[...debts].sort((a,b)=>b.apr-a.apr);
+
+ document.getElementById("order").innerHTML=
+  ordered.map((d,i)=>`
+   <div class="planItem">
+
+    <div class="rank">${i+1}</div>
+
+    <div class="planName">
+     <strong>${escapeHTML(d.name)}</strong>
+     <small>${money(d.balance)} balance</small>
+    </div>
+
+    <strong>${d.apr.toFixed(1)}% APR</strong>
+
+   </div>
+  `).join("");
+
+ showExtra(debts,payment,100,"extra100");
+ showExtra(debts,payment,500,"extra500");
+ showExtra(debts,payment,1000,"extra1000");
+
+ document.getElementById("results")
+  .scrollIntoView({behavior:"smooth",block:"start"});
+}
+
+function showExtra(debts,current,extra,id){
+
+ const s=simulate(debts,current+extra);
+
+ document.getElementById(id).innerText=
+  s.possible ? formatMonths(s.months) : "—";
+}
+
+function escapeHTML(str){
+
+ return str.replace(/[&<>"']/g,function(c){
+
+  return {
+   "&":"&amp;",
+   "<":"&lt;",
+   ">":"&gt;",
+   '"':"&quot;",
+   "'":"&#039;"
+  }[c];
+
+ });
+}
+
+</script>
+
+</body>
+</html>
