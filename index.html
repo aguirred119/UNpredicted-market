@@ -125,15 +125,15 @@ footer{border-top:1px solid #dfe4df;padding:45px 0;color:#737c75;font-size:14px}
  <div class="box">
   <div class="grid3">
    <div>
-    <label>Total debt</label>
+    <label for="debt">Total debt</label>
     <input id="debt" type="number" inputmode="decimal" placeholder="$50,000">
    </div>
    <div>
-    <label>Average APR</label>
+    <label for="apr">Average APR</label>
     <input id="apr" type="number" inputmode="decimal" step=".1" placeholder="27%">
    </div>
    <div>
-    <label>Monthly payment</label>
+    <label for="payment">Monthly payment</label>
     <input id="payment" type="number" inputmode="decimal" placeholder="$3,000">
    </div>
   </div>
@@ -216,7 +216,7 @@ footer{border-top:1px solid #dfe4df;padding:45px 0;color:#737c75;font-size:14px}
  </p>
 
  <div class="lossbox">
-  <label>Amount lost</label>
+  <label for="loss">Amount lost</label>
   <input id="loss" type="number" inputmode="decimal" placeholder="$20,000">
   <button onclick="lossReality()">Show rebuilding options</button>
   <div class="lossResult" id="lossResult"></div>
@@ -309,19 +309,26 @@ function money(n){
  return "$"+Math.round(n).toLocaleString();
 }
 
+document.addEventListener("input", function(event){
+ if(["debt","apr","payment"].includes(event.target.id)) document.getElementById("debtResult").style.display="none";
+ if(event.target.id==="loss") document.getElementById("lossResult").innerHTML="";
+});
+
 function calculateDebt(){
+ const result=document.getElementById("debtResult");
+ result.style.display="none";
+ for(const id of ["payoffTime","interestTotal","totalPaid","debtFreeDate"]) document.getElementById(id).innerText="—";
  let balance=parseFloat(document.getElementById("debt").value);
  const starting=balance;
  const apr=parseFloat(document.getElementById("apr").value);
  const payment=parseFloat(document.getElementById("payment").value);
 
- if(!(starting>0)||!(apr>=0)||!(payment>0)){
+ if(!Number.isFinite(starting)||starting<=0||!Number.isFinite(apr)||apr<0||!Number.isFinite(payment)||payment<=0){
   alert("Please enter your debt, APR and monthly payment.");
   return;
  }
 
  const r=apr/100/12;
- const result=document.getElementById("debtResult");
  result.style.display="block";
 
  if(r>0 && payment<=starting*r){
@@ -348,7 +355,7 @@ function calculateDebt(){
   months++;
  }
 
- if(months>=1200){
+ if(balance>0){
   document.getElementById("payoffTime").innerText="More than 100 years";
   return;
  }
@@ -361,6 +368,7 @@ function calculateDebt(){
  if(rem) txt+=rem+(rem===1?" month":" months");
 
  const date=new Date();
+ date.setDate(1);
  date.setMonth(date.getMonth()+months);
 
  document.getElementById("payoffTime").innerText=txt || "Less than one month";
@@ -376,7 +384,8 @@ function lossReality(){
  const loss=parseFloat(document.getElementById("loss").value);
  const out=document.getElementById("lossResult");
 
- if(!(loss>0)){
+ out.innerHTML="";
+ if(!Number.isFinite(loss)||loss<=0){
   alert("Enter the amount you want to rebuild.");
   return;
  }

@@ -36,7 +36,7 @@ h2{font-size:30px;letter-spacing:-1px}
 .debt:last-child{border-bottom:0}
 .debtTop{display:flex;justify-content:space-between;align-items:center}
 .debtTitle{font-size:19px;font-weight:800}
-.grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:13px;margin-top:15px}
+.grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:13px;margin-top:15px}
 label{font-size:14px;font-weight:750;display:block;margin-bottom:6px}
 input{
  width:100%;padding:14px;border:1px solid #cbd3cc;
@@ -128,12 +128,12 @@ Enter how much you can put toward all of these debts combined each month.
 
 <div class="budget">
  <div>
-  <label>Total monthly debt payment</label>
+  <label for="budget">Total monthly debt payment</label>
   <input id="budget" type="number" inputmode="decimal" placeholder="$3,000">
  </div>
 
  <div>
-  <label>Optional extra monthly payment</label>
+  <label for="extra">Optional extra monthly payment</label>
   <input id="extra" type="number" inputmode="decimal" placeholder="$0">
  </div>
 </div>
@@ -255,33 +255,34 @@ function addDebt(){
  div.innerHTML=`
  <div class="debtTop">
    <div class="debtTitle">Debt ${debtCount}</div>
-   ${debtCount>1?'<button class="remove" onclick="this.closest(\'.debt\').remove()">Remove</button>':''}
+   ${debtCount>1?'<button class="remove" onclick="this.closest(\'.debt\').remove(); clearResults()">Remove</button>':''}
  </div>
 
  <div class="grid">
 
   <div>
-   <label>Name (optional)</label>
-   <input class="name" placeholder="Credit card">
+   <label for="name-${debtCount}">Name (optional)</label>
+   <input id="name-${debtCount}" class="name" placeholder="Credit card">
   </div>
 
   <div>
-   <label>Balance</label>
-   <input class="balance" type="number" inputmode="decimal" placeholder="$10,000">
+   <label for="balance-${debtCount}">Balance</label>
+   <input id="balance-${debtCount}" class="balance" type="number" inputmode="decimal" placeholder="$10,000">
   </div>
 
   <div>
-   <label>APR</label>
-   <input class="apr" type="number" inputmode="decimal" step=".1" placeholder="27%">
+   <label for="apr-${debtCount}">APR</label>
+   <input id="apr-${debtCount}" class="apr" type="number" inputmode="decimal" step=".1" placeholder="27%">
   </div>
 <div>
- <label>Minimum payment</label>
- <input class="minimum" type="number" inputmode="decimal" placeholder="$300">
+ <label for="minimum-${debtCount}">Minimum payment</label>
+ <input id="minimum-${debtCount}" class="minimum" type="number" inputmode="decimal" placeholder="$300">
 </div>
  </div>
  `;
 
  container.appendChild(div);
+ clearResults();
 }
 
 addDebt();
@@ -290,6 +291,12 @@ addDebt();
 function money(n){
  return "$"+Math.round(n).toLocaleString();
 }
+
+function clearResults(){
+ document.getElementById("results").style.display="none";
+}
+
+document.addEventListener("input", clearResults);
 
 function getDebts(){
 
@@ -300,10 +307,16 @@ function getDebts(){
 
   const balance=parseFloat(row.querySelector(".balance").value);
   const apr=parseFloat(row.querySelector(".apr").value);
-  const minimum=parseFloat(row.querySelector(".minimum").value)||0;
+  const minimumValue=row.querySelector(".minimum").value.trim();
+  const minimum=minimumValue==="" ? 0 : Number(minimumValue);
   const name=row.querySelector(".name").value.trim() || "Debt";
 
-  if(!(balance>0)||!(apr>=0)) continue;
+  const hasNumbers=["balance","apr","minimum"].some(key=>row.querySelector("."+key).value.trim()!=="");
+  if(!hasNumbers && !row.querySelector(".name").value.trim()) continue;
+  if(!Number.isFinite(balance)||balance<=0||!Number.isFinite(apr)||apr<0||!Number.isFinite(minimum)||minimum<0){
+   alert("Complete each debt with a positive balance, an APR of 0 or more, and a minimum payment of 0 or more. Remove unused debts or leave them entirely blank.");
+   return null;
+  }
 
   debts.push({
    name:name,
@@ -385,7 +398,7 @@ function simulate(source,monthlyPayment){
   months++;
  }
 
- if(months>=1200){
+ if(debts.some(d=>d.balance>.01)){
   return {possible:false,reason:"timeline"};
  }
 
@@ -413,7 +426,9 @@ function formatMonths(m){
 
 function buildPlan(){
 
+ clearResults();
  const debts=getDebts();
+ if(debts===null) return;
 
  if(!debts.length){
   alert("Enter at least one debt balance and APR.");
@@ -421,10 +436,11 @@ function buildPlan(){
  }
 
  const budget=parseFloat(document.getElementById("budget").value);
- const userExtra=parseFloat(document.getElementById("extra").value)||0;
+ const extraValue=document.getElementById("extra").value.trim();
+ const userExtra=extraValue==="" ? 0 : Number(extraValue);
 
- if(!(budget>0)){
-  alert("Enter your total monthly debt payment.");
+ if(!Number.isFinite(budget)||budget<=0||!Number.isFinite(userExtra)||userExtra<0){
+  alert("Enter a positive total monthly debt payment and an extra payment of 0 or more.");
   return;
  }
 
@@ -468,6 +484,7 @@ function buildPlan(){
  document.getElementById("interest").innerText=money(sim.interest);
 
  const date=new Date();
+ date.setDate(1);
  date.setMonth(date.getMonth()+sim.months);
 
  document.getElementById("date").innerText=
