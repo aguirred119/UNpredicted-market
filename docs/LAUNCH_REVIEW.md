@@ -4,7 +4,7 @@ Prepared October 1, 2026. This is an engineering and review brief, not a legal o
 
 ## Current product
 
-A sports-first local browser research tool, also supporting other event categories. User CSVs train logistic regression; manual probability assumptions are not AI outputs. Fictional examples and synthetic datasets are labeled. The operator has not published real picks or asserted real-world accuracy or profitability. User notebook results are editable and not audited.
+A sports-first local browser research tool covering NBA, MLB, NFL, NHL, WNBA and major soccer competitions, also supporting other event categories. Planned Pro pricing is $4.99 per month. Pick of the Day is selected by the operator; any model analysis must be identified separately. No pick is currently published. User CSVs train logistic regression; manual probability assumptions are not AI outputs. Fictional examples and synthetic datasets are labeled. The operator has not published real picks or asserted real-world accuracy or profitability. User notebook results are editable and not audited.
 
 ## Claims supported by this release
 
