@@ -44,3 +44,11 @@ This beta is not an operational paid picks business. It has no validated operato
 ## Pick of the Day
 
 The operator selects the daily pick. No selection is currently published. `src/daily-pick.js` is operator-controlled content; browser visitors cannot edit it. A future selected record requires league, event, selection, rationale, publishedAt and eventStart (ISO timestamps). Publication must precede the event; expired picks are suppressed. Publication of real recommendations requires the launch review described in `docs/LAUNCH_REVIEW.md`. Preserve original published records in an append-only server archive before making public track-record claims. Editor choice is not evidence of AI generation or simulation.
+
+## The Odds API activation
+
+Create a free account at https://the-odds-api.com/ and accept the provider terms yourself. In the Vercel project's environment-variable settings, add `ODDS_API_KEY` as a sensitive server-only Production variable, then redeploy. Never paste the key into public code, a browser URL, a repository issue or chat. `ODDS_CACHE_SECONDS` defaults to 86400 (one day) for free-tier testing; a paid plan may use 1800 (30 minutes) or longer.
+
+The selected-league button fetches only one sport, US-region moneyline odds, not every sport in parallel. Fixed sport keys, one market and one region limit request cost. Warm-instance caching, concurrent-request coalescing and CDN caching reduce usage. These caches are not a durable global quota limiter: multiple regions, evictions and deployments can increase upstream calls. Provider quota enforcement remains the final cap; usage must be monitored before increasing refresh frequency. Low-credit responses and authorization/rate-limit failures pause uncached requests in the current instance. No automatic retry loop or polling is implemented.
+
+Odds are displayed as bookmaker prices and derived implied chances with timestamps, including the soccer draw. They are not independent AI forecasts. The API key, upstream URL and account quota are never sent to browsers or intentionally logged. With no key the site reports an inactive connection and never queries the provider. No paid subscription has been purchased.
