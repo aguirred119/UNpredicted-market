@@ -274,7 +274,10 @@ function addDebt(){
    <label>APR</label>
    <input class="apr" type="number" inputmode="decimal" step=".1" placeholder="27%">
   </div>
-
+<div>
+ <label>Minimum payment</label>
+ <input class="minimum" type="number" inputmode="decimal" placeholder="$300">
+</div>
  </div>
  `;
 
@@ -297,6 +300,7 @@ function getDebts(){
 
   const balance=parseFloat(row.querySelector(".balance").value);
   const apr=parseFloat(row.querySelector(".apr").value);
+  const minimum=parseFloat(row.querySelector(".minimum").value)||0;
   const name=row.querySelector(".name").value.trim() || "Debt";
 
   if(!(balance>0)||!(apr>=0)) continue;
@@ -305,6 +309,7 @@ function getDebts(){
    name:name,
    balance:balance,
    original:balance,
+   minimum:minimum
    apr:apr
   });
  }
@@ -321,8 +326,7 @@ function simulate(source,monthlyPayment){
 
  while(debts.some(d=>d.balance>.01) && months<1200){
 
-  let monthInterest=0;
-
+  // Add one month of interest to every active debt
   for(const d of debts){
 
    if(d.balance<=0) continue;
@@ -330,20 +334,44 @@ function simulate(source,monthlyPayment){
    const i=d.balance*(d.apr/100/12);
    d.balance+=i;
    interest+=i;
-   monthInterest+=i;
   }
 
-  if(monthlyPayment<=monthInterest){
-   return {possible:false};
+  const active=debts.filter(d=>d.balance>.01);
+
+  // Determine the minimum payments currently required
+  let requiredMinimums=0;
+
+  for(const d of active){
+   requiredMinimums+=Math.min(d.minimum,d.balance);
+  }
+
+  // The user's monthly budget must cover all minimums
+  if(monthlyPayment<requiredMinimums){
+   return {
+    possible:false,
+    reason:"minimums",
+    required:requiredMinimums
+   };
   }
 
   let available=monthlyPayment;
 
-  const active=debts
-   .filter(d=>d.balance>0)
+  // Pay each debt's minimum first
+  for(const d of active){
+
+   const minimumPayment=Math.min(d.minimum,d.balance);
+
+   d.balance-=minimumPayment;
+   available-=minimumPayment;
+   totalPaid+=minimumPayment;
+  }
+
+  // Send everything remaining to the highest-APR debt
+  const avalanche=debts
+   .filter(d=>d.balance>.01)
    .sort((a,b)=>b.apr-a.apr);
 
-  for(const d of active){
+  for(const d of avalanche){
 
    if(available<=0) break;
 
@@ -357,7 +385,9 @@ function simulate(source,monthlyPayment){
   months++;
  }
 
- if(months>=1200) return {possible:false};
+ if(months>=1200){
+  return {possible:false,reason:"timeline"};
+ }
 
  return {
   possible:true,
@@ -411,12 +441,22 @@ function buildPlan(){
  const sim=simulate(debts,payment);
 
  if(!sim.possible){
-  alert(
-   "At this payment amount, your balances may not decrease because interest is too high. " +
-   "Consider reviewing the numbers or speaking with a qualified nonprofit credit counselor."
-  );
+
+  if(sim.reason==="minimums"){
+    alert(
+      "Your monthly debt payment is below the required minimum payments. " +
+      "Your current minimums require about " + money(sim.required) +
+      " per month."
+    );
+  } else {
+    alert(
+      "This repayment plan could not produce a realistic payoff timeline. " +
+      "Please review your numbers or consider speaking with a qualified nonprofit credit counselor."
+    );
+  }
+
   return;
- }
+}
 
  document.getElementById("results").style.display="block";
 
