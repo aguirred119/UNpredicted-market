@@ -1,0 +1,27 @@
+name: Validate TONATI LAB
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test
+      - run: npm run build
+      - name: Preserve published history
+        env:
+          BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          if [ -n "$BASE" ] && [ "$BASE" != "0000000000000000000000000000000000000000" ] && git cat-file -e "$BASE:data/ledger.jsonl" 2>/dev/null; then
+            node scripts/ledger.mjs check "$BASE"
+          else
+            node scripts/ledger.mjs check
+          fi

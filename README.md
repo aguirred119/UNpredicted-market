@@ -1,54 +1,62 @@
-# UNpredicted
+# TONATI LAB
 
-Sports-first prediction research beta hosted on the existing Vercel project. The recovery calculator remains at `/recovery.html`; the original homepage calculator is preserved at `/calculator.html`.
+AI Sports Intelligence. Improved in the existing `aguirred119/UNpredicted-market` repository without replacing the static/Vercel architecture.
 
-## Implemented
+## Working product
 
-- Responsive market explorer using visibly fictional demo markets by default.
-- NBA, MLB, NFL, NHL, WNBA, Premier League, La Liga, Serie A, Bundesliga, Ligue 1, MLS, Liga MX and UEFA Champions League filters.
-- Operator-controlled Pick of the Day section (empty until an eligible selection is published); editor selection is separate from model analysis.
-- Planned Pro subscription price: $4.99/month, with checkout inactive.
-- Local watchlists and a personal research notebook with user-entered outcomes and JSON exports.
-- Two-feature logistic regression trained locally from CSV; chronological 80/20 holdout, training-only standardization, Brier score and constant-baseline comparison.
-- Seeded Monte Carlo binary simulations with actual trial counts, evidence JSON, model parameters and SHA-256 integrity hashes.
-- Educational guides, methodology, beta privacy and terms, and proposed Pro pricing (no charges).
-- An optional authorized JSON feed endpoint, closed by default. No exchange APIs are queried.
+- Responsive sports dashboard, requested league filters, local dates/search and persistent local watchlists.
+- Server-only The Odds API events integration (`/api/games`), cached up to one hour. Starts inactive if no key exists; no demo/current-data substitution.
+- Existing league-specific cached bookmaker moneyline integration (`/api/odds`). Implied probabilities are visibly separate from model forecasts.
+- Existing real logistic-regression training, chronological holdout, reproducible binary simulations and evidence downloads.
+- Pick of the Day preparation at `/editor.html`; publication uses the authenticated GitHub workflow, not an anonymous browser endpoint.
+- Git-versioned public forecast ledger, pregame timestamps, hash chain, separate resolution/correction entries, Brier and threshold-accuracy reporting for model forecasts, separate editorial results, complete loss retention.
+- Free recovery planner and original recovery resources under Resources; prior notebook/watchlist storage keys preserved.
+- Pro founding price **$2.99/month** with a planned **14-day free trial**. Trial converts to $2.99/month unless canceled. Billing and trial enrollment inactive. Versioned plan catalog supports retaining founding price assignments while new subscribers use a future price version. See `docs/SUBSCRIPTIONS.md`.
 
-## Development
+## Run and verify
 
-Node 22+; no third-party runtime packages required.
+Node 22+, no third-party runtime dependencies.
 
-```
+```sh
 npm test
 npm run build
+npm run dev
 ```
 
-Vercel serves `public` and deploys the `api/markets.js` function. No API keys are required for the free beta.
+Vercel serves `public` and the functions in `api/`. `vercel.json` retains the existing build/deployment configuration and security headers. `/__preview/mobile` is a local-only layout harness; it is not part of the deployed output.
 
-## Authorized feed
+## Sports data activation
 
-Set all of `MARKET_FEED_AUTHORIZED=true`, `MARKET_FEED_PERMISSION_REFERENCE` (internal evidence reference) and `MARKET_FEED_URL` (HTTPS JSON endpoint). These switches attest to operator authorization; they cannot confer legal permission. The feed must be authorized for public redistribution and any commercial use. A configuration change requires review of the data agreement and privacy notice. Never use these switches to bypass a provider's restrictions.
+In the existing Vercel project add sensitive server-only `ODDS_API_KEY`, then redeploy. The owner must create the account and accept the provider's terms; no paid plan is activated by this release. Do not paste a key in chat, code, repository issues or client-side variables. Existing keys are reused if already configured. `ODDS_CACHE_SECONDS` defaults to 86400, minimum 1800. Schedules have a separate one-hour cache and use the documented events endpoint that does not count against usage credits.
 
-Feed format:
-
-```json
-{"source":"Licensed source name","attribution":"Required attribution and delay information","markets":[{"id":"unique-id","question":"Defined event question","category":"Sports","league":"NBA","ask":0.62}]}
-```
-
-Supported categories: Sports, Economics, Politics, Technology. Ask is a dollar price between 0 and 1, or null. The endpoint returns at most 100 records. It caches for 60 seconds; quotes may be stale. No authentication secrets should be embedded in a URL or client assets.
-
-## Release boundaries
-
-This beta is not an operational paid picks business. It has no validated operator model, public prediction history, licensed live feed, cloud accounts, alerts, subscriptions or automated trading. See `docs/LAUNCH_REVIEW.md` for requirements. Supabase and Stripe connections alone do not provision a database, authorize a business model, or establish legal compliance.
+Bookmaker odds and schedules are cached snapshots; they are not live scores or independent AI estimates. Requests are constrained to known leagues and fixed upstream paths. Account quota monitoring remains necessary. Provider terms reviewed on October 2, 2026 permit commercial analytical UI use and model training while prohibiting raw-data resale. The site exposes a bounded UI integration, not a bulk reseller feed. See `docs/DATA_SOURCES.md`.
 
 ## Pick of the Day
 
-The operator selects the daily pick. No selection is currently published. `src/daily-pick.js` is operator-controlled content; browser visitors cannot edit it. A future selected record requires league, event, selection, rationale, publishedAt and eventStart (ISO timestamps). Publication must precede the event; expired picks are suppressed. Publication of real recommendations requires the launch review described in `docs/LAUNCH_REVIEW.md`. Preserve original published records in an append-only server archive before making public track-record claims. Editor choice is not evidence of AI generation or simulation.
+1. Open `/editor.html` and prepare the editorial record with exact event/team names, selection, start time, settlement rule, rationale, input time and a public-safe source/permission reference.
+2. Copy its JSON into GitHub Actions → Publish TONATI LAB record → Run workflow → action `publish`, branch `main`.
+3. The trusted publisher stamps `publishedAt`, validates pregame timing, appends the forecast to `data/ledger.jsonl`, tests and commits it. Vercel deploys the commit.
+4. Append results using action `resolve`; a correction must reference `correctsEntryId`. Never modify original records to remove losses.
 
-## The Odds API activation
+Workflow-generated commits may not trigger other Actions via `GITHUB_TOKEN`; the publication job itself tests/builds before pushing. Vercel's Git integration must be verified for the first actual publication. No sample pick is published by this release.
 
-Create a free account at https://the-odds-api.com/ and accept the provider terms yourself. In the Vercel project's environment-variable settings, add `ODDS_API_KEY` as a sensitive server-only Production variable, then redeploy. Never paste the key into public code, a browser URL, a repository issue or chat. `ODDS_CACHE_SECONDS` defaults to 86400 (one day) for free-tier testing; a paid plan may use 1800 (30 minutes) or longer.
+## Model publication and grading pipeline
 
-The selected-league button fetches only one sport, US-region moneyline odds, not every sport in parallel. Fixed sport keys, one market and one region limit request cost. Warm-instance caching, concurrent-request coalescing and CDN caching reduce usage. These caches are not a durable global quota limiter: multiple regions, evictions and deployments can increase upstream calls. Provider quota enforcement remains the final cap; usage must be monitored before increasing refresh frequency. Low-credit responses and authorization/rate-limit failures pause uncached requests in the current instance. No automatic retry loop or polling is implemented.
+`node scripts/generate.mjs /private/path/batch.json` trains the existing model on authorized historical CSV data and computes actual forecasts. Input: `trainingCSVPath`, `synthetic:false`, `dataUseAuthorized:true`, two `featureDefinitions`, `dataSource`, public-safe `dataPermissionReference`, optional `trials`/`seed`, and `games` with event metadata, features, input timestamps and settlement definition. All batch records validate before append. Store input datasets outside this public repository. This pipeline is not scheduled or fed by a licensed historical dataset yet.
 
-Odds are displayed as bookmaker prices and derived implied chances with timestamps, including the soccer draw. They are not independent AI forecasts. The API key, upstream URL and account quota are never sent to browsers or intentionally logged. With no key the site reports an inactive connection and never queries the provider. No paid subscription has been purchased.
+`node scripts/ledger.mjs publish record.json` stamps and archives a reviewed individual forecast. Model submissions must reproduce their probability and simulations from included model evidence; synthetic public model records are rejected. Mathematical consistency does not certify the data truth or accuracy.
+
+`ODDS_API_KEY=... node scripts/grade.mjs` is a server/CI operation. Completed scores grade matching US-sport match-winner selections including overtime, and append results. Score calls with `daysFrom=3` consume two provider credits per league; no unattended calls are configured. Soccer, events older than the provider window, canceled/postponed games and ambiguous settlement remain pending until manually reviewed. Secrets should be injected from the host, never typed into a shared shell history.
+
+`node scripts/ledger.mjs check BASE_SHA` rejects modification/removal of archived lines. Quality CI runs tests, build and history-prefix checks. Repository administrators can override history/checks, so this is not a tamper-proof or independently audited record. Branch protection and independent publication anchoring are future options requiring review.
+
+## Still required for an operational paid product
+
+- Owner sports-data account/key and permissioned historical pregame features.
+- Validated sports-specific daily models; scheduled generation and grading with a durable quota plan.
+- Deeper licensed injury/lineup/team statistics and soccer settlement adapters.
+- Accounts, secure subscription checkout/webhooks, entitlements and self-service cancellation.
+- Private operator support contact and final legal/payment-provider review.
+- User approval before real billing, any paid provider upgrade or domain purchase.
+
+No domain purchase, paid API activation, real billing or acceptance of provider terms is included.

@@ -8,7 +8,7 @@ export function createOddsHandler({fetchImpl=fetch,env=process.env,now=Date.now,
  const query=req.query||Object.fromEntries(new URL(req.url||'/api/odds','http://localhost').searchParams);
  if(Object.keys(query).some(k=>k!=='league')||Array.isArray(query.league))return res.status(400).json({error:'Invalid request'});
  if(!env.ODDS_API_KEY){res.setHeader('Cache-Control','no-store');return res.status(200).json({enabled:false,reason:'not-configured'});}
- const league=query.league||'NBA',sport=SPORT_KEYS[league];if(!sport)return res.status(400).json({error:'Unsupported league'});
+ const league=query.league||'NBA',sport=SPORT_KEYS[league];if(!Object.hasOwn(SPORT_KEYS,league))return res.status(400).json({error:'Unsupported league'});
  const ttl=cacheSeconds(env.ODDS_CACHE_SECONDS),cached=store.get(league);
  function send(data){res.setHeader('Cache-Control',`public, max-age=0, s-maxage=${ttl}`);return res.status(200).json(data);}
  if(cached&&cached.expires>now())return send(cached.data);

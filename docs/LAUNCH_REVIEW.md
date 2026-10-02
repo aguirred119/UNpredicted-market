@@ -1,10 +1,10 @@
-# UNpredicted launch review
+# TONATI LAB launch review
 
 Prepared October 1, 2026. This is an engineering and review brief, not a legal opinion or certification. The free beta can be reviewed concretely; paid publication remains unavailable.
 
 ## Current product
 
-A sports-first local browser research tool covering NBA, MLB, NFL, NHL, WNBA and major soccer competitions, also supporting other event categories. Planned Pro pricing is $4.99 per month. Pick of the Day is selected by the operator; any model analysis must be identified separately. No pick is currently published. User CSVs train logistic regression; manual probability assumptions are not AI outputs. Fictional examples and synthetic datasets are labeled. The operator has not published real picks or asserted real-world accuracy or profitability. User notebook results are editable and not audited.
+A sports-first local browser research tool covering NBA, MLB, NFL, NHL, WNBA and major soccer competitions, also supporting other event categories. Planned Pro founding pricing is $2.99 per month with a 14-day free trial converting to $2.99/month unless canceled. Pick of the Day is selected by the operator; any model analysis must be identified separately. No pick is currently published. User CSVs train logistic regression; manual probability assumptions are not AI outputs. Fictional examples and synthetic datasets are labeled. The operator has not published real picks or asserted real-world accuracy or profitability. User notebook results are editable and not audited.
 
 ## Claims supported by this release
 
@@ -12,7 +12,7 @@ A sports-first local browser research tool covering NBA, MLB, NFL, NHL, WNBA and
 - “Run reproducible binary simulations.” The code executes 10,000 or 100,000 seeded Bernoulli trials.
 - “Download the evidence behind your estimate.” The report includes inputs, source labels, model version and parameters, training-data hash, holdout metrics and simulation settings.
 
-Do not advertise that UNpredicted currently provides validated AI sports picks, licensed live analytics, demonstrated profits, or an audited win rate. A simulation-count claim supports execution count only. It does not support forecast quality.
+Do not advertise that TONATI LAB currently provides validated AI sports picks, licensed live analytics, demonstrated profits, or an audited win rate. A simulation-count claim supports execution count only. It does not support forecast quality.
 
 ## Required review before selling prediction recommendations
 
@@ -29,6 +29,10 @@ Do not advertise that UNpredicted currently provides validated AI sports picks, 
 “AI-assisted prediction research backed by statistical analysis and documented simulations. Explore estimated probabilities, model assumptions and a transparent prediction history.”
 
 Use only after the actual production service supports every statement. Nearby disclosure: “Model estimates are uncertain and can be wrong. Simulated and historical results do not guarantee future performance or profits. Wagering and trading involve risk of loss.” Disclosures cannot cure a false headline.
+
+## Implemented October 2 update
+
+Sports dashboard rebrand, server-only cached events connection, Git-versioned append-only forecast/resolution ledger, authenticated publication workflow, model-generation script, completed-score grading script and public separated model/editorial metrics are implemented. No forecasts are published yet. The archive is not independently audited or immutable, scripts are not scheduled, and no production historical dataset/model is connected. See README, DATA_SOURCES.md and SUBSCRIPTIONS.md for current behavior.
 
 ## Next infrastructure
 
