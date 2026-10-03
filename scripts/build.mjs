@@ -2,8 +2,8 @@ import {mkdir,copyFile,rm,readFile,writeFile} from 'node:fs/promises';
 import {parseLedger,publicArchive} from '../lib/predictions.js';
 await rm('public',{recursive:true,force:true});
 await mkdir('public/assets',{recursive:true});await mkdir('public/data',{recursive:true});
-for(const f of ['index.html','analytics.html','track-record.html','learn.html','methodology.html','plans.html','privacy.html','terms.html','recovery.html','calculator.html','editor.html','nba-research.html','nfl-research.html','app.html','offline.html','matchup.html','stats.html'])await copyFile(f,`public/${f}`);
-for(const f of ['research.css','mobile.css','recovery-brand.css','research.js','dashboard.js','archive.js','editor.js','model.js','sports.js','team-colors.js','daily-pick.js','favicon.svg','plans.js','nba-research.js','daily-feed.js','app.js','matchup.js','matchup-data.js','team-form.js','soccer-data.js','stats.js'])await copyFile(`src/${f}`,`public/assets/${f}`);
+for(const f of ['index.html','analytics.html','track-record.html','learn.html','methodology.html','plans.html','privacy.html','terms.html','recovery.html','calculator.html','editor.html','nba-research.html','nfl-research.html','app.html','offline.html','matchup.html','stats.html','soccer-research.html'])await copyFile(f,`public/${f}`);
+for(const f of ['research.css','mobile.css','recovery-brand.css','research.js','dashboard.js','archive.js','editor.js','model.js','sports.js','team-colors.js','daily-pick.js','favicon.svg','plans.js','nba-research.js','daily-feed.js','app.js','matchup.js','matchup-data.js','team-form.js','soccer-data.js','stats.js','soccer-research.js'])await copyFile(`src/${f}`,`public/assets/${f}`);
 await mkdir('public/assets/icons',{recursive:true});
 for(const name of ['icon-192.png','icon-512.png','apple-touch-icon.png'])await copyFile(`src/icons/${name}`,`public/assets/icons/${name}`);
 for(const name of ['manifest.webmanifest','sw.js'])await copyFile(name,`public/${name}`);
@@ -41,3 +41,7 @@ if(saved){
 }
 
 await copyFile('data/soccer-context.json','public/data/soccer-context.json');
+
+await copyFile('data/soccer-research.json','public/data/soccer-research.json');
+const soccerReview=(await readFile('soccer-research.html','utf8')).replace(/&/g,'&amp;').replace(/"/g,'&quot;');
+await writeFile('public/soccer-review.html',`<!doctype html><html lang="en"><head><meta name="robots" content="noindex"><title>Soccer research phone review</title></head><body style="margin:0;padding:20px;background:#292929;color:white;font:14px system-ui"><p>Actual soccer research document · 390px phone width</p><iframe title="Soccer research phone website" style="width:390px;height:1400px;border:0" srcdoc="${soccerReview}"></iframe></body></html>`);

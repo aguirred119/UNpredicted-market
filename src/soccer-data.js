@@ -22,5 +22,5 @@ export function competitionDay(time,league){
 export function soccerSeason(now=Date.now()){const d=new Date(now),y=d.getUTCFullYear()-(d.getUTCMonth()<6?1:0);return`${y}-${String(y+1).slice(-2)}`;}
 export function sourceHealth(report,now=Date.now()){
  const fetched=Date.parse(report?.generatedAt),through=Date.parse((report?.dataThrough||'')+'T23:59:59.999Z');
- return{snapshotOverdue:!Number.isFinite(fetched)||fetched>now+60000||now-fetched>36*3600000,resultsDelayed:!Number.isFinite(through)||now-through>7*86400000,daysBehind:Number.isFinite(through)?Math.max(0,Math.floor((now-through)/86400000)):null};
+ return{snapshotOverdue:!Number.isFinite(fetched)||fetched>now+60000||now-fetched>36*3600000,resultsDelayed:!Number.isFinite(through)||now-through>7*86400000,daysBehind:Number.isFinite(through)?Math.max(0,Math.floor((now-Date.parse(report.dataThrough+'T00:00:00Z'))/86400000)):null};
 }

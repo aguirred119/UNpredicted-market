@@ -65,3 +65,7 @@ No domain purchase, paid API activation, real billing or acceptance of provider 
 ### Free soccer team statistics
 
 `stats.html` and dedicated matchup pages show source-derived team form for Premier League, La Liga, Serie A, Bundesliga and Ligue 1. Up to 10 same-season domestic league games, explicit draws and goal averages, public-domain attribution, match dates and source delay labels. No soccer model forecasts are claimed. Run `node scripts/soccer-context.mjs` to refresh; GitHub Actions retrieves the public source daily and preserves old dates on errors. Event matching uses only the existing zero-credit schedule endpoint, with no automated odds/score quota usage. See `docs/DATA_SOURCES.md` for provenance and limits.
+
+### Soccer three-outcome research
+
+`/soccer-research.html` publishes five separately fitted multinomial logistic models with 2023–24 training and untouched later-season 2024–25 tests. Home win, draw and away win have separate probabilities and calibration. Missing outcomes, thin-history exclusions, fixed parameters and source hashes are disclosed. This is retrospective research only; no current soccer forecasts, market edges, simulations or profit claims. Rebuild with `node scripts/soccer-research.mjs` using only free public historical files. Daily statistics now distinguish unchanged results from successful source checks.

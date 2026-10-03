@@ -8,7 +8,7 @@
   if(state)state.textContent='You’re already using the home-screen app.';
   const nav=document.createElement('nav');nav.className='app-tabs';nav.setAttribute('aria-label','App navigation');
   const path=location.pathname;
-  for(const [label,href,active] of [['Games','/',path==='/'||path==='/index.html'],['Lab','/analytics.html',path==='/analytics.html'||path==='/stats.html'||/\/(nba|nfl)-research\.html$/.test(path)],['Record','/track-record.html',path==='/track-record.html']]){
+  for(const [label,href,active] of [['Games','/',path==='/'||path==='/index.html'],['Lab','/analytics.html',path==='/analytics.html'||path==='/stats.html'||path==='/soccer-research.html'||/\/(nba|nfl)-research\.html$/.test(path)],['Record','/track-record.html',path==='/track-record.html']]){
    const a=document.createElement('a');a.textContent=label;a.href=href;if(active)a.setAttribute('aria-current','page');nav.append(a);
   }
   document.body.append(nav);

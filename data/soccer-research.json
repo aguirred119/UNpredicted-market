@@ -1,0 +1,1148 @@
+{
+  "schemaVersion": 1,
+  "status": "retrospective-research-only",
+  "generatedAt": "2026-10-03T23:06:20.809Z",
+  "processing": {
+    "trainingSeason": "2023-24",
+    "holdoutSeason": "2024-25",
+    "window": 10,
+    "minimumGamesPerTeam": 5,
+    "lagHours": 48,
+    "historicalEventCutoff": "Start of the fixture calendar date minus two hours UTC, before subtracting the 48-hour lag",
+    "datePrecision": "day",
+    "features": [
+      "Home minus away recent average goal margin",
+      "Half the sum of both teams’ recent goals scored and allowed per game"
+    ],
+    "outcomes": [
+      "Home win",
+      "Draw",
+      "Away win"
+    ],
+    "scoreDefinition": "Multiclass Brier: mean sum of the three squared probability errors; range 0–2, lower is better.",
+    "limitations": "Retrospective revised community results, not archived point-in-time inputs. Date-only result availability uses end-of-day UTC; historical fixture cutoff uses the earliest possible European local day boundary (00:00 UTC minus two hours), then a 48-hour assumed availability lag. Domestic league full-time outcomes only. No odds, injuries, lineups, cups, xG or roster features. Coefficients and training scales are frozen during the later-season holdout; form updates only from earlier same-season results. Fixed hyperparameters were not tuned on this holdout. No prospective soccer predictions are published and no profitability is evaluated."
+  },
+  "source": {
+    "name": "OpenFootball community league results",
+    "license": "CC0 1.0 / public domain",
+    "licenseUrl": "https://github.com/openfootball/football.json/blob/master/LICENSE.md",
+    "attribution": "OpenFootball contributors. Normalized and modeled by TONATI LAB; no endorsement."
+  },
+  "leagues": {
+    "Premier League": {
+      "league": "Premier League",
+      "model": {
+        "version": "soccer-softmax-form-v1",
+        "classes": [
+          "Home win",
+          "Draw",
+          "Away win"
+        ],
+        "weights": [
+          [
+            0.398018108152066,
+            0.47373584108618005,
+            0.09477488956833358
+          ],
+          [
+            -0.30073448987546214,
+            -0.0033264661793928883,
+            0.12191026499087516
+          ],
+          [
+            -0.09728361827660323,
+            -0.4704093749067875,
+            -0.21668515455920875
+          ]
+        ],
+        "means": [
+          -0.029193805181647124,
+          3.24937762338978
+        ],
+        "sd": [
+          1.3343058159615797,
+          0.400637520308444
+        ],
+        "trainingCount": 329,
+        "trainingFrom": "2023-09-23",
+        "trainingThrough": "2024-05-19",
+        "ranges": [
+          [
+            -3.9000000000000004,
+            3.6
+          ],
+          [
+            2.166666666666667,
+            4.300000000000001
+          ]
+        ],
+        "baseline": [
+          0.46808510638297873,
+          0.2188449848024316,
+          0.3130699088145897
+        ],
+        "optimizer": {
+          "epochs": 1000,
+          "learningRate": 0.1,
+          "l2": 0.02
+        }
+      },
+      "evaluation": {
+        "metrics": {
+          "count": 330,
+          "brier": 0.6141131481106233,
+          "logLoss": 1.0267288537496932,
+          "accuracy": 0.5242424242424243
+        },
+        "baseline": {
+          "count": 330,
+          "brier": 0.6537633613880108,
+          "logLoss": 1.0777592020547324,
+          "accuracy": 0.41818181818181815
+        },
+        "calibration": [
+          {
+            "outcome": "Home win",
+            "bins": [
+              {
+                "from": 0,
+                "to": 0.2,
+                "count": 16,
+                "meanProbability": 0.14681986025574525,
+                "observedFraction": 0.125
+              },
+              {
+                "from": 0.2,
+                "to": 0.4,
+                "count": 113,
+                "meanProbability": 0.31421010648131315,
+                "observedFraction": 0.26548672566371684
+              },
+              {
+                "from": 0.4,
+                "to": 0.6,
+                "count": 150,
+                "meanProbability": 0.4947395682882607,
+                "observedFraction": 0.5266666666666666
+              },
+              {
+                "from": 0.6,
+                "to": 0.8,
+                "count": 50,
+                "meanProbability": 0.68198006961514,
+                "observedFraction": 0.52
+              },
+              {
+                "from": 0.8,
+                "to": 1,
+                "count": 1,
+                "meanProbability": 0.8294035412701487,
+                "observedFraction": 1
+              }
+            ]
+          },
+          {
+            "outcome": "Draw",
+            "bins": [
+              {
+                "from": 0,
+                "to": 0.2,
+                "count": 147,
+                "meanProbability": 0.17724180557447325,
+                "observedFraction": 0.29931972789115646
+              },
+              {
+                "from": 0.2,
+                "to": 0.4,
+                "count": 183,
+                "meanProbability": 0.22580687192458687,
+                "observedFraction": 0.18579234972677597
+              },
+              {
+                "from": 0.4,
+                "to": 0.6,
+                "count": 0,
+                "meanProbability": null,
+                "observedFraction": null
+              },
+              {
+                "from": 0.6,
+                "to": 0.8,
+                "count": 0,
+                "meanProbability": null,
+                "observedFraction": null
+              },
+              {
+                "from": 0.8,
+                "to": 1,
+                "count": 0,
+                "meanProbability": null,
+                "observedFraction": null
+              }
+            ]
+          },
+          {
+            "outcome": "Away win",
+            "bins": [
+              {
+                "from": 0,
+                "to": 0.2,
+                "count": 54,
+                "meanProbability": 0.13451060863623826,
+                "observedFraction": 0.16666666666666666
+              },
+              {
+                "from": 0.2,
+                "to": 0.4,
+                "count": 155,
+                "meanProbability": 0.2997870701304115,
+                "observedFraction": 0.2709677419354839
+              },
+              {
+                "from": 0.4,
+                "to": 0.6,
+                "count": 103,
+                "meanProbability": 0.48292829871789505,
+                "observedFraction": 0.49514563106796117
+              },
+              {
+                "from": 0.6,
+                "to": 0.8,
+                "count": 18,
+                "meanProbability": 0.6753561917829181,
+                "observedFraction": 0.6666666666666666
+              },
+              {
+                "from": 0.8,
+                "to": 1,
+                "count": 0,
+                "meanProbability": null,
+                "observedFraction": null
+              }
+            ]
+          }
+        ],
+        "holdoutFrom": "2024-09-28",
+        "holdoutThrough": "2025-05-25",
+        "outsideTrainingRange": 6
+      },
+      "excluded": {
+        "training": 51,
+        "holdout": 50,
+        "reason": "Fewer than five same-season prior results for either team at the conservative 48-hour cutoff"
+      },
+      "sources": [
+        {
+          "season": "2023-24",
+          "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2023-24/en.1.json",
+          "sha256": "03e13eafbf78dfe00d7e89dd3bf6643986eb6e8fd86c7664aeb8c5bc0bed88d0",
+          "fixtures": 380,
+          "completedGames": 380,
+          "missingResults": 0,
+          "sourceTitle": "English Premier League 2023/24"
+        },
+        {
+          "season": "2024-25",
+          "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2024-25/en.1.json",
+          "sha256": "c3d18f552d83382cd4b6b21127adbbfe38e7f8618ddc979fb5404f2df07d0a75",
+          "fixtures": 380,
+          "completedGames": 380,
+          "missingResults": 0,
+          "sourceTitle": "English Premier League 2024/25"
+        }
+      ]
+    },
+    "La Liga": {
+      "league": "La Liga",
+      "model": {
+        "version": "soccer-softmax-form-v1",
+        "classes": [
+          "Home win",
+          "Draw",
+          "Away win"
+        ],
+        "weights": [
+          [
+            0.2599074163904198,
+            0.6861584490219113,
+            0.0584402469123288
+          ],
+          [
+            -0.011399288711596222,
+            -0.17338183843314478,
+            0.021546235487608024
+          ],
+          [
+            -0.24850812767882355,
+            -0.5127766105887659,
+            -0.07998648239993679
+          ]
+        ],
+        "means": [
+          0.0064883372048006,
+          2.63092757936508
+        ],
+        "sd": [
+          1.0361712578492757,
+          0.4393065271198984
+        ],
+        "trainingCount": 328,
+        "trainingFrom": "2023-09-22",
+        "trainingThrough": "2024-05-26",
+        "ranges": [
+          [
+            -2.5,
+            2.6
+          ],
+          [
+            1.55,
+            4.023809523809524
+          ]
+        ],
+        "baseline": [
+          0.4329268292682927,
+          0.29878048780487804,
+          0.2682926829268293
+        ],
+        "optimizer": {
+          "epochs": 1000,
+          "learningRate": 0.1,
+          "l2": 0.02
+        }
+      },
+      "evaluation": {
+        "metrics": {
+          "count": 319,
+          "brier": 0.6174992919366351,
+          "logLoss": 1.0370035143040728,
+          "accuracy": 0.4670846394984326
+        },
+        "baseline": {
+          "count": 319,
+          "brier": 0.6512606785407256,
+          "logLoss": 1.0771890904083197,
+          "accuracy": 0.44200626959247646
+        },
+        "calibration": [
+          {
+            "outcome": "Home win",
+            "bins": [
+              {
+                "from": 0,
+                "to": 0.2,
+                "count": 53,
+                "meanProbability": 0.13207704510440849,
+                "observedFraction": 0.22641509433962265
+              },
+              {
+                "from": 0.2,
+                "to": 0.4,
+                "count": 114,
+                "meanProbability": 0.29796230154296804,
+                "observedFraction": 0.38596491228070173
+              },
+              {
+                "from": 0.4,
+                "to": 0.6,
+                "count": 80,
+                "meanProbability": 0.49775629560124646,
+                "observedFraction": 0.45
+              },
+              {
+                "from": 0.6,
+                "to": 0.8,
+                "count": 55,
+                "meanProbability": 0.6948852252819614,
+                "observedFraction": 0.6363636363636364
+              },
+              {
+                "from": 0.8,
+                "to": 1,
+                "count": 17,
+                "meanProbability": 0.8628912938684932,
+                "observedFraction": 0.8235294117647058
+              }
+            ]
+          },
+          {
+            "outcome": "Draw",
+            "bins": [
+              {
+                "from": 0,
+                "to": 0.2,
+                "count": 44,
+                "meanProbability": 0.14542679609997036,
+                "observedFraction": 0.1590909090909091
+              },
+              {
+                "from": 0.2,
+                "to": 0.4,
+                "count": 273,
+                "meanProbability": 0.32505055848407594,
+                "observedFraction": 0.2673992673992674
+              },
+              {
+                "from": 0.4,
+                "to": 0.6,
+                "count": 2,
+                "meanProbability": 0.4096918668997992,
+                "observedFraction": 0
+              },
+              {
+                "from": 0.6,
+                "to": 0.8,
+                "count": 0,
+                "meanProbability": null,
+                "observedFraction": null
+              },
+              {
+                "from": 0.8,
+                "to": 1,
+                "count": 0,
+                "meanProbability": null,
+                "observedFraction": null
+              }
+            ]
+          },
+          {
+            "outcome": "Away win",
+            "bins": [
+              {
+                "from": 0,
+                "to": 0.2,
+                "count": 105,
+                "meanProbability": 0.11723303657605022,
+                "observedFraction": 0.12380952380952381
+              },
+              {
+                "from": 0.2,
+                "to": 0.4,
+                "count": 137,
+                "meanProbability": 0.2980815204255654,
+                "observedFraction": 0.36496350364963503
+              },
+              {
+                "from": 0.4,
+                "to": 0.6,
+                "count": 72,
+                "meanProbability": 0.4587944474349397,
+                "observedFraction": 0.4444444444444444
+              },
+              {
+                "from": 0.6,
+                "to": 0.8,
+                "count": 5,
+                "meanProbability": 0.6374137233483133,
+                "observedFraction": 0.6
+              },
+              {
+                "from": 0.8,
+                "to": 1,
+                "count": 0,
+                "meanProbability": null,
+                "observedFraction": null
+              }
+            ]
+          }
+        ],
+        "holdoutFrom": "2024-09-19",
+        "holdoutThrough": "2025-05-18",
+        "outsideTrainingRange": 12
+      },
+      "excluded": {
+        "training": 52,
+        "holdout": 51,
+        "reason": "Fewer than five same-season prior results for either team at the conservative 48-hour cutoff"
+      },
+      "sources": [
+        {
+          "season": "2023-24",
+          "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2023-24/es.1.json",
+          "sha256": "e4c1e1a958f224ba3c815c898982ab495b9577315cc58ee7a5e7b532960f738b",
+          "fixtures": 380,
+          "completedGames": 380,
+          "missingResults": 0,
+          "sourceTitle": "Primera División de España 2023/24"
+        },
+        {
+          "season": "2024-25",
+          "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2024-25/es.1.json",
+          "sha256": "da5bfa1b3634e1039d9e71aec50bdc847f8761189e3de235a4e730e0dc64ca38",
+          "fixtures": 380,
+          "completedGames": 370,
+          "missingResults": 10,
+          "sourceTitle": "Spain Primera División 2024/25"
+        }
+      ]
+    },
+    "Serie A": {
+      "league": "Serie A",
+      "model": {
+        "version": "soccer-softmax-form-v1",
+        "classes": [
+          "Home win",
+          "Draw",
+          "Away win"
+        ],
+        "weights": [
+          [
+            0.23121880369797707,
+            0.4924378750031675,
+            0.03188627278346613
+          ],
+          [
+            -0.00668522811091732,
+            0.06385260365210474,
+            -0.13755451298556318
+          ],
+          [
+            -0.22453357558706016,
+            -0.5562904786552726,
+            0.10566824020209707
+          ]
+        ],
+        "means": [
+          -0.01192687601356333,
+          2.5953916654381084
+        ],
+        "sd": [
+          1.1369896697071666,
+          0.37844131945651255
+        ],
+        "trainingCount": 323,
+        "trainingFrom": "2023-09-28",
+        "trainingThrough": "2024-06-02",
+        "ranges": [
+          [
+            -3.5999999999999996,
+            2.9
+          ],
+          [
+            1.6500000000000001,
+            3.55
+          ]
+        ],
+        "baseline": [
+          0.4117647058823529,
+          0.30340557275541796,
+          0.2848297213622291
+        ],
+        "optimizer": {
+          "epochs": 1000,
+          "learningRate": 0.1,
+          "l2": 0.02
+        }
+      },
+      "evaluation": {
+        "metrics": {
+          "count": 320,
+          "brier": 0.5886077678088673,
+          "logLoss": 0.9848803348903544,
+          "accuracy": 0.503125
+        },
+        "baseline": {
+          "count": 320,
+          "brier": 0.6588128061229389,
+          "logLoss": 1.0874126385237983,
+          "accuracy": 0.409375
+        },
+        "calibration": [
+          {
+            "outcome": "Home win",
+            "bins": [
+              {
+                "from": 0,
+                "to": 0.2,
+                "count": 29,
+                "meanProbability": 0.13914443726713968,
+                "observedFraction": 0.10344827586206896
+              },
+              {
+                "from": 0.2,
+                "to": 0.4,
+                "count": 129,
+                "meanProbability": 0.30508288467228845,
+                "observedFraction": 0.2868217054263566
+              },
+              {
+                "from": 0.4,
+                "to": 0.6,
+                "count": 123,
+                "meanProbability": 0.497685825230134,
+                "observedFraction": 0.5284552845528455
+              },
+              {
+                "from": 0.6,
+                "to": 0.8,
+                "count": 39,
+                "meanProbability": 0.6760859618596113,
+                "observedFraction": 0.6666666666666666
+              },
+              {
+                "from": 0.8,
+                "to": 1,
+                "count": 0,
+                "meanProbability": null,
+                "observedFraction": null
+              }
+            ]
+          },
+          {
+            "outcome": "Draw",
+            "bins": [
+              {
+                "from": 0,
+                "to": 0.2,
+                "count": 21,
+                "meanProbability": 0.17261357041958864,
+                "observedFraction": 0.047619047619047616
+              },
+              {
+                "from": 0.2,
+                "to": 0.4,
+                "count": 291,
+                "meanProbability": 0.3081207023711899,
+                "observedFraction": 0.28865979381443296
+              },
+              {
+                "from": 0.4,
+                "to": 0.6,
+                "count": 8,
+                "meanProbability": 0.4158334954155918,
+                "observedFraction": 0.5
+              },
+              {
+                "from": 0.6,
+                "to": 0.8,
+                "count": 0,
+                "meanProbability": null,
+                "observedFraction": null
+              },
+              {
+                "from": 0.8,
+                "to": 1,
+                "count": 0,
+                "meanProbability": null,
+                "observedFraction": null
+              }
+            ]
+          },
+          {
+            "outcome": "Away win",
+            "bins": [
+              {
+                "from": 0,
+                "to": 0.2,
+                "count": 119,
+                "meanProbability": 0.12778758587745173,
+                "observedFraction": 0.13445378151260504
+              },
+              {
+                "from": 0.2,
+                "to": 0.4,
+                "count": 128,
+                "meanProbability": 0.2962626548944609,
+                "observedFraction": 0.3515625
+              },
+              {
+                "from": 0.4,
+                "to": 0.6,
+                "count": 53,
+                "meanProbability": 0.4803294892466462,
+                "observedFraction": 0.4339622641509434
+              },
+              {
+                "from": 0.6,
+                "to": 0.8,
+                "count": 20,
+                "meanProbability": 0.6912963686282021,
+                "observedFraction": 0.8
+              },
+              {
+                "from": 0.8,
+                "to": 1,
+                "count": 0,
+                "meanProbability": null,
+                "observedFraction": null
+              }
+            ]
+          }
+        ],
+        "holdoutFrom": "2024-09-27",
+        "holdoutThrough": "2025-05-18",
+        "outsideTrainingRange": 4
+      },
+      "excluded": {
+        "training": 57,
+        "holdout": 50,
+        "reason": "Fewer than five same-season prior results for either team at the conservative 48-hour cutoff"
+      },
+      "sources": [
+        {
+          "season": "2023-24",
+          "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2023-24/it.1.json",
+          "sha256": "47734fc8d2ec34c5529ca814c97d1c86ecddc4a2c8095506d9b12f29cb283308",
+          "fixtures": 380,
+          "completedGames": 380,
+          "missingResults": 0,
+          "sourceTitle": "Italian Serie A 2023/24"
+        },
+        {
+          "season": "2024-25",
+          "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2024-25/it.1.json",
+          "sha256": "7d9bb936de3ccaeec54d57371512a58a5eeb21277e7d5f0882911a834d22b659",
+          "fixtures": 380,
+          "completedGames": 370,
+          "missingResults": 10,
+          "sourceTitle": "Italian Serie A 2024/25"
+        }
+      ]
+    },
+    "Bundesliga": {
+      "league": "Bundesliga",
+      "model": {
+        "version": "soccer-softmax-form-v1",
+        "classes": [
+          "Home win",
+          "Draw",
+          "Away win"
+        ],
+        "weights": [
+          [
+            0.2966810427628452,
+            0.4320226859102116,
+            0.07574760918170662
+          ],
+          [
+            -0.11399264823501415,
+            0.17003241435884422,
+            -0.09214039373756888
+          ],
+          [
+            -0.18268839452783114,
+            -0.6020551002690556,
+            0.01639278455586228
+          ]
+        ],
+        "means": [
+          -0.04516511585477106,
+          3.1867405582922808
+        ],
+        "sd": [
+          1.429106744639484,
+          0.49832814892689514
+        ],
+        "trainingCount": 261,
+        "trainingFrom": "2023-09-29",
+        "trainingThrough": "2024-05-18",
+        "ranges": [
+          [
+            -4.285714285714286,
+            3.9999999999999996
+          ],
+          [
+            1.7,
+            4.333333333333334
+          ]
+        ],
+        "baseline": [
+          0.42911877394636017,
+          0.2720306513409962,
+          0.2988505747126437
+        ],
+        "optimizer": {
+          "epochs": 1000,
+          "learningRate": 0.1,
+          "l2": 0.02
+        }
+      },
+      "evaluation": {
+        "metrics": {
+          "count": 261,
+          "brier": 0.6350630572971312,
+          "logLoss": 1.0593965024086573,
+          "accuracy": 0.47126436781609193
+        },
+        "baseline": {
+          "count": 261,
+          "brier": 0.663906871596131,
+          "logLoss": 1.0936926691983564,
+          "accuracy": 0.3831417624521073
+        },
+        "calibration": [
+          {
+            "outcome": "Home win",
+            "bins": [
+              {
+                "from": 0,
+                "to": 0.2,
+                "count": 7,
+                "meanProbability": 0.14766823781881785,
+                "observedFraction": 0.14285714285714285
+              },
+              {
+                "from": 0.2,
+                "to": 0.4,
+                "count": 103,
+                "meanProbability": 0.3263630681495284,
+                "observedFraction": 0.2621359223300971
+              },
+              {
+                "from": 0.4,
+                "to": 0.6,
+                "count": 128,
+                "meanProbability": 0.486442514121374,
+                "observedFraction": 0.4375
+              },
+              {
+                "from": 0.6,
+                "to": 0.8,
+                "count": 23,
+                "meanProbability": 0.6674367812404963,
+                "observedFraction": 0.6956521739130435
+              },
+              {
+                "from": 0.8,
+                "to": 1,
+                "count": 0,
+                "meanProbability": null,
+                "observedFraction": null
+              }
+            ]
+          },
+          {
+            "outcome": "Draw",
+            "bins": [
+              {
+                "from": 0,
+                "to": 0.2,
+                "count": 12,
+                "meanProbability": 0.1656431580579367,
+                "observedFraction": 0.5833333333333334
+              },
+              {
+                "from": 0.2,
+                "to": 0.4,
+                "count": 249,
+                "meanProbability": 0.286212318130606,
+                "observedFraction": 0.24497991967871485
+              },
+              {
+                "from": 0.4,
+                "to": 0.6,
+                "count": 0,
+                "meanProbability": null,
+                "observedFraction": null
+              },
+              {
+                "from": 0.6,
+                "to": 0.8,
+                "count": 0,
+                "meanProbability": null,
+                "observedFraction": null
+              },
+              {
+                "from": 0.8,
+                "to": 1,
+                "count": 0,
+                "meanProbability": null,
+                "observedFraction": null
+              }
+            ]
+          },
+          {
+            "outcome": "Away win",
+            "bins": [
+              {
+                "from": 0,
+                "to": 0.2,
+                "count": 81,
+                "meanProbability": 0.13842910677332504,
+                "observedFraction": 0.2345679012345679
+              },
+              {
+                "from": 0.2,
+                "to": 0.4,
+                "count": 130,
+                "meanProbability": 0.29732230745997373,
+                "observedFraction": 0.36923076923076925
+              },
+              {
+                "from": 0.4,
+                "to": 0.6,
+                "count": 43,
+                "meanProbability": 0.48155069693765756,
+                "observedFraction": 0.5348837209302325
+              },
+              {
+                "from": 0.6,
+                "to": 0.8,
+                "count": 6,
+                "meanProbability": 0.6825047927605196,
+                "observedFraction": 0.3333333333333333
+              },
+              {
+                "from": 0.8,
+                "to": 1,
+                "count": 1,
+                "meanProbability": 0.814287085265119,
+                "observedFraction": 1
+              }
+            ]
+          }
+        ],
+        "holdoutFrom": "2024-10-04",
+        "holdoutThrough": "2025-05-17",
+        "outsideTrainingRange": 4
+      },
+      "excluded": {
+        "training": 45,
+        "holdout": 45,
+        "reason": "Fewer than five same-season prior results for either team at the conservative 48-hour cutoff"
+      },
+      "sources": [
+        {
+          "season": "2023-24",
+          "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2023-24/de.1.json",
+          "sha256": "d104edde48a5e254545eac3d3ed379a09801e1ebcef5c6480e28bc36fcfa202d",
+          "fixtures": 306,
+          "completedGames": 306,
+          "missingResults": 0,
+          "sourceTitle": "Deutsche Bundesliga 2023/24"
+        },
+        {
+          "season": "2024-25",
+          "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2024-25/de.1.json",
+          "sha256": "f473d6595e6c29ebedc08b09177aed6a6b2ff0fa8378b82f51dea469139f44c3",
+          "fixtures": 306,
+          "completedGames": 306,
+          "missingResults": 0,
+          "sourceTitle": "Deutsche Bundesliga 2024/25"
+        }
+      ]
+    },
+    "Ligue 1": {
+      "league": "Ligue 1",
+      "model": {
+        "version": "soccer-softmax-form-v1",
+        "classes": [
+          "Home win",
+          "Draw",
+          "Away win"
+        ],
+        "weights": [
+          [
+            0.20446512128168026,
+            0.3336637026925275,
+            -0.08303627139761077
+          ],
+          [
+            -0.2732249029249308,
+            0.040748162207639604,
+            -0.05163511268876185
+          ],
+          [
+            0.068759781643251,
+            -0.3744118649001666,
+            0.1346713840863726
+          ]
+        ],
+        "means": [
+          -0.0025253907437815487,
+          2.6041773094934006
+        ],
+        "sd": [
+          0.9613546701669037,
+          0.403208236450503
+        ],
+        "trainingCount": 261,
+        "trainingFrom": "2023-09-22",
+        "trainingThrough": "2024-05-19",
+        "ranges": [
+          [
+            -2.5,
+            2.8
+          ],
+          [
+            1.35,
+            3.7
+          ]
+        ],
+        "baseline": [
+          0.40229885057471265,
+          0.23754789272030652,
+          0.36015325670498083
+        ],
+        "optimizer": {
+          "epochs": 1000,
+          "learningRate": 0.1,
+          "l2": 0.02
+        }
+      },
+      "evaluation": {
+        "metrics": {
+          "count": 261,
+          "brier": 0.6142964049500648,
+          "logLoss": 1.0229429942315331,
+          "accuracy": 0.5057471264367817
+        },
+        "baseline": {
+          "count": 261,
+          "brier": 0.6361914828026628,
+          "logLoss": 1.0508155904787155,
+          "accuracy": 0.4674329501915709
+        },
+        "calibration": [
+          {
+            "outcome": "Home win",
+            "bins": [
+              {
+                "from": 0,
+                "to": 0.2,
+                "count": 29,
+                "meanProbability": 0.13301021872829516,
+                "observedFraction": 0.27586206896551724
+              },
+              {
+                "from": 0.2,
+                "to": 0.4,
+                "count": 116,
+                "meanProbability": 0.29587835919957267,
+                "observedFraction": 0.4224137931034483
+              },
+              {
+                "from": 0.4,
+                "to": 0.6,
+                "count": 93,
+                "meanProbability": 0.4933047924317942,
+                "observedFraction": 0.5376344086021505
+              },
+              {
+                "from": 0.6,
+                "to": 0.8,
+                "count": 23,
+                "meanProbability": 0.6530477292107827,
+                "observedFraction": 0.6521739130434783
+              },
+              {
+                "from": 0.8,
+                "to": 1,
+                "count": 0,
+                "meanProbability": null,
+                "observedFraction": null
+              }
+            ]
+          },
+          {
+            "outcome": "Draw",
+            "bins": [
+              {
+                "from": 0,
+                "to": 0.2,
+                "count": 41,
+                "meanProbability": 0.16453099302757665,
+                "observedFraction": 0.21951219512195122
+              },
+              {
+                "from": 0.2,
+                "to": 0.4,
+                "count": 220,
+                "meanProbability": 0.2301256208783701,
+                "observedFraction": 0.19090909090909092
+              },
+              {
+                "from": 0.4,
+                "to": 0.6,
+                "count": 0,
+                "meanProbability": null,
+                "observedFraction": null
+              },
+              {
+                "from": 0.6,
+                "to": 0.8,
+                "count": 0,
+                "meanProbability": null,
+                "observedFraction": null
+              },
+              {
+                "from": 0.8,
+                "to": 1,
+                "count": 0,
+                "meanProbability": null,
+                "observedFraction": null
+              }
+            ]
+          },
+          {
+            "outcome": "Away win",
+            "bins": [
+              {
+                "from": 0,
+                "to": 0.2,
+                "count": 32,
+                "meanProbability": 0.15049030158271998,
+                "observedFraction": 0.15625
+              },
+              {
+                "from": 0.2,
+                "to": 0.4,
+                "count": 101,
+                "meanProbability": 0.29414003024052765,
+                "observedFraction": 0.25742574257425743
+              },
+              {
+                "from": 0.4,
+                "to": 0.6,
+                "count": 98,
+                "meanProbability": 0.4976241674933415,
+                "observedFraction": 0.4387755102040816
+              },
+              {
+                "from": 0.6,
+                "to": 0.8,
+                "count": 25,
+                "meanProbability": 0.6834603448140267,
+                "observedFraction": 0.44
+              },
+              {
+                "from": 0.8,
+                "to": 1,
+                "count": 5,
+                "meanProbability": 0.8344906949427205,
+                "observedFraction": 0.6
+              }
+            ]
+          }
+        ],
+        "holdoutFrom": "2024-09-27",
+        "holdoutThrough": "2025-05-17",
+        "outsideTrainingRange": 17
+      },
+      "excluded": {
+        "training": 45,
+        "holdout": 45,
+        "reason": "Fewer than five same-season prior results for either team at the conservative 48-hour cutoff"
+      },
+      "sources": [
+        {
+          "season": "2023-24",
+          "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2023-24/fr.1.json",
+          "sha256": "fa328cecf4c12232ac77a5d477059eebe16b68b3712ec87800b89efda8ddfb70",
+          "fixtures": 306,
+          "completedGames": 306,
+          "missingResults": 0,
+          "sourceTitle": "French Ligue 1 2023/24"
+        },
+        {
+          "season": "2024-25",
+          "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2024-25/fr.1.json",
+          "sha256": "90e9974afe6597452622387ad218f6b0011a5f91f1b426f05152f5b9c105e355",
+          "fixtures": 306,
+          "completedGames": 306,
+          "missingResults": 0,
+          "sourceTitle": "French Ligue 1 2024/25"
+        }
+      ]
+    }
+  }
+}

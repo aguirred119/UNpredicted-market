@@ -10,7 +10,11 @@ export async function refreshSoccer({now=Date.now(),fetchImpl=fetch,previous={le
    if(!response.ok)throw Error('Source unavailable');const raw=await response.text();if(raw.length>1000000)throw Error('Oversized source');
    // Only the existing zero-credit event schedule endpoint. Never request odds/scores.
    let feed=null;try{const r=await fetchImpl(`https://unpredicted-market.vercel.app/api/games?league=${encodeURIComponent(league)}`,{signal:AbortSignal.timeout(10000)});if(r.ok)feed=await r.json();}catch{}
-   leagues[league]=buildSoccerReport({league,season,raw,feed,now});refresh[league]={state:'updated',attemptedAt:new Date(now).toISOString()};
+   leagues[league]=buildSoccerReport({league,season,raw,feed,now});
+   const before=previous.leagues?.[league],after=leagues[league];
+   // Retrieval success is separate from whether the source's results advanced.
+   const resultsChanged=before?JSON.stringify([before.dataThrough,before.completedGames,before.teams])!==JSON.stringify([after.dataThrough,after.completedGames,after.teams]):null;
+   refresh[league]={state:'updated',attemptedAt:new Date(now).toISOString(),resultsChanged,sourceFileChanged:before?before.source?.sha256!==after.source.sha256:null};
   }catch{
    // Preserve earlier snapshots with their original dates. A failed attempt is not fresh data.
    if(previous.leagues?.[league])leagues[league]=previous.leagues[league];
