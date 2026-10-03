@@ -22,3 +22,7 @@ export function findContext(game,report){
  const matches=(report?.upcoming||[]).filter(g=>canon(g.home)===canon(game.home)&&canon(g.away)===canon(game.away)&&g.eventStart===game.eventStart);
  return matches.length===1?matches[0]:null;
 }
+export function findMarket(game,markets){
+ const matches=(markets||[]).filter(m=>m.id==='odds-'+game.id&&m.home===game.home&&m.away===game.away&&Number.isFinite(Date.parse(m.eventStart))&&Date.parse(m.eventStart)===Date.parse(game.eventStart));
+ return matches.length===1?matches[0]:null;
+}

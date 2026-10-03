@@ -1,6 +1,6 @@
 import test from 'node:test';import assert from 'node:assert/strict';
 import {matchupForm} from '../lib/matchup-form.js';
-import {parseMatchup,resolveMatchup,findContext,recordUrl} from '../src/matchup-data.js';
+import {parseMatchup,resolveMatchup,findContext,recordUrl,findMarket} from '../src/matchup-data.js';
 test('Form uses same-season completed games available 48h before event, retains ties and perspective',()=>{
  const game={id:'next',season:2026,date:'2026-10-06T12:00:00Z',home:'Home',away:'Away'};
  const base={complete:true,season:2026,home:'Home',away:'Away',homeScore:10,awayScore:10};
@@ -16,3 +16,5 @@ test('Saved forecast identity survives schedule removal and cannot be replaced b
  assert.equal(resolveMatchup(q,archive,null,Date.parse('2026-09-01')),null);
 });
 test('Form attaches only to exact unique teams and start time',()=>{const game={league:'NBA',home:'Los Angeles Clippers',away:'Boston Celtics',eventStart:'2026-10-05T12:00:00Z'},context={home:'LA Clippers',away:game.away,eventStart:game.eventStart};assert.equal(findContext(game,{upcoming:[context]}),context);assert.equal(findContext(game,{upcoming:[context,context]}),null);assert.equal(findContext(game,{upcoming:[{...context,eventStart:'2026-10-06T12:00:00Z'}]}),null);});
+
+test('Market identity accepts equivalent ISO timestamps but rejects changed events and duplicates',()=>{const g={id:'abc',home:'Home',away:'Away',eventStart:'2026-10-04T17:00:00.000Z'},m={id:'odds-abc',home:'Home',away:'Away',eventStart:'2026-10-04T17:00:00Z'};assert.equal(findMarket(g,[m]),m);assert.equal(findMarket(g,[m,m]),null);assert.equal(findMarket(g,[{...m,home:'Other'}]),null);assert.equal(findMarket(g,[{...m,eventStart:'2026-10-04T18:00:00Z'}]),null);});
