@@ -76,3 +76,6 @@
 #matchup-content .card{min-width:0;overflow-wrap:anywhere}
 #matchup-content .section-heading{margin-bottom:20px}
 @media(max-width:600px){.matchup-table th,.matchup-table td{padding:12px 4px}.matchup-table time{display:block;min-width:82px}.matchup-hero{padding-top:26px}#matchup-content .actions button{flex:1}}
+.matchup-table th{white-space:nowrap;overflow-wrap:normal}
+.matchup-table td:nth-child(2){min-width:90px}
+.matchup-table td:nth-child(3),.matchup-table td:nth-child(4){white-space:nowrap;min-width:45px}
