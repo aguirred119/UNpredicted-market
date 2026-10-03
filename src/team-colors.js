@@ -9,7 +9,7 @@ const luminance=hex=>rgb(hex).map(v=>{v/=255;return v<=.04045?v/12.92:((v+.055)/
 export function contrast(a,b){const x=luminance(a),y=luminance(b);return (Math.max(x,y)+.05)/(Math.min(x,y)+.05);}
 export function readableTeamColor(hex){
  const base=rgb(hex);let color=hex;
- for(let step=0;contrast(color,'#181818')<4.5&&step<=100;step++){color='#'+base.map(v=>Math.round(v+(255-v)*step/100).toString(16).padStart(2,'0')).join('');}
+ for(let step=0;contrast(color,'#262626')<4.5&&step<=100;step++){color='#'+base.map(v=>Math.round(v+(255-v)*step/100).toString(16).padStart(2,'0')).join('');}
  return color;
 }
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

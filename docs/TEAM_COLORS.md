@@ -1,6 +1,6 @@
 # Team colors
 
-Static presentation metadata retrieved on 2026-10-03 from ESPN team listings. Team colors do not imply affiliation or endorsement. Primary colors are lightened only as needed for a minimum 4.5:1 text contrast against the darkest card surface, #181818. The secondary color supplies a thin underline. Unknown names and fictional demo teams inherit the neutral text color. Lookup is scoped by league and normalizes punctuation and accents. No runtime request, API key or subscription is required.
+Static presentation metadata retrieved on 2026-10-03 from ESPN team listings. Team colors do not imply affiliation or endorsement. Primary colors are lightened only as needed for a minimum 4.5:1 text contrast against #262626, a lighter reference than the card surfaces. The secondary color supplies a thin underline. Unknown names and fictional demo teams inherit the neutral text color. Lookup is scoped by league and normalizes punctuation and accents. No runtime request, API key or subscription is required.
 
 Sources:
 
