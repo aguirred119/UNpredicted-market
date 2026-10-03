@@ -36,6 +36,6 @@ await writeFile('public/app-review.html',`<!doctype html><html lang="en"><head><
 const matchupPage=await readFile('matchup.html','utf8'),saved=publicArchive(parseLedger(await readFile('data/ledger.jsonl','utf8'))).predictions[0];
 if(saved){
  const query='?league='+encodeURIComponent(saved.league)+'&event='+encodeURIComponent(saved.eventId)+'&record='+encodeURIComponent(saved.id);
- const phone=matchupPage.replace('<script type="module" src="/assets/matchup.js"></script>',`<script type="module">import {start} from '/assets/matchup.js';start(${JSON.stringify(query)});</script>`);
+ const phone=matchupPage.replace('<script type="module" src="/assets/matchup.js"></script>',`<script type="module">import {start} from '/assets/matchup.js';start(window.parent.location.search||${JSON.stringify(query)});</script>`);
  await writeFile('public/matchup-review.html',`<!doctype html><html lang="en"><head><meta name="robots" content="noindex"><title>Matchup phone review</title></head><body style="margin:0;padding:20px;background:#292929;color:white;font:14px system-ui"><p>Actual saved publication · 390px phone viewport</p><iframe title="Matchup phone website" style="width:390px;height:1700px;border:0" srcdoc="${phone.replace(/&/g,'&amp;').replace(/"/g,'&quot;')}"></iframe></body></html>`);
 }
