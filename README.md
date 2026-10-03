@@ -7,7 +7,8 @@ AI Sports Intelligence. Improved in the existing `aguirred119/UNpredicted-market
 - Responsive sports dashboard, requested league filters, local dates/search and persistent local watchlists.
 - Server-only The Odds API events integration (`/api/games`), cached up to one hour. Starts inactive if no key exists; no demo/current-data substitution.
 - Existing league-specific cached bookmaker moneyline integration (`/api/odds`). Implied probabilities are visibly separate from model forecasts.
-- Existing real logistic-regression training, chronological holdout, reproducible binary simulations and evidence downloads.
+- Real NBA and NFL historical research, separate chronological evaluations, reproducible simulations and downloadable model evidence. Experimental daily publication/grading runs through GitHub Actions; checks can skip every game. Historical backtests never populate the public live record.
+- Installable home-screen web app at `/app.html`, branded PNG icons, standalone phone navigation and a connection-only offline fallback. Sports pages, APIs and prediction data are never cached by the service worker. No app-store release or push alerts yet.
 - Pick of the Day preparation at `/editor.html`; publication uses the authenticated GitHub workflow, not an anonymous browser endpoint.
 - Git-versioned public forecast ledger, pregame timestamps, hash chain, separate resolution/correction entries, Brier and threshold-accuracy reporting for model forecasts, separate editorial results, complete loss retention.
 - Free recovery planner and original recovery resources under Resources; prior notebook/watchlist storage keys preserved.
@@ -38,11 +39,11 @@ Bookmaker odds and schedules are cached snapshots; they are not live scores or i
 3. The trusted publisher stamps `publishedAt`, validates pregame timing, appends the forecast to `data/ledger.jsonl`, tests and commits it. Vercel deploys the commit.
 4. Append results using action `resolve`; a correction must reference `correctsEntryId`. Never modify original records to remove losses.
 
-Workflow-generated commits may not trigger other Actions via `GITHUB_TOKEN`; the publication job itself tests/builds before pushing. Vercel's Git integration must be verified for the first actual publication. No sample pick is published by this release.
+Workflow-generated commits may not trigger other Actions via `GITHUB_TOKEN`; the publication job itself tests/builds before pushing. Vercel's Git integration must be verified for the first actual publication. Existing editorial publications remain in the append-only ledger.
 
 ## Model publication and grading pipeline
 
-`node scripts/generate.mjs /private/path/batch.json` trains the existing model on authorized historical CSV data and computes actual forecasts. Input: `trainingCSVPath`, `synthetic:false`, `dataUseAuthorized:true`, two `featureDefinitions`, `dataSource`, public-safe `dataPermissionReference`, optional `trials`/`seed`, and `games` with event metadata, features, input timestamps and settlement definition. All batch records validate before append. Store input datasets outside this public repository. This pipeline is not scheduled or fed by a licensed historical dataset yet.
+`node scripts/generate.mjs /private/path/batch.json` trains the existing model on authorized historical CSV data and computes actual forecasts. Input: `trainingCSVPath`, `synthetic:false`, `dataUseAuthorized:true`, two `featureDefinitions`, `dataSource`, public-safe `dataPermissionReference`, optional `trials`/`seed`, and `games` with event metadata, features, input timestamps and settlement definition. All batch records validate before append. Store input datasets outside this public repository. This generic upload/batch pipeline remains operator supplied. The separately implemented NBA and NFL daily jobs use their documented licensed sources; see `docs/DATA_SOURCES.md`.
 
 `node scripts/ledger.mjs publish record.json` stamps and archives a reviewed individual forecast. Model submissions must reproduce their probability and simulations from included model evidence; synthetic public model records are rejected. Mathematical consistency does not certify the data truth or accuracy.
 
@@ -52,8 +53,8 @@ Workflow-generated commits may not trigger other Actions via `GITHUB_TOKEN`; the
 
 ## Still required for an operational paid product
 
-- Owner sports-data account/key and permissioned historical pregame features.
-- Validated sports-specific daily models; scheduled generation and grading with a durable quota plan.
+- Continued provider quota/permission review and permissioned deeper pregame features.
+- Prospective validation of the experimental NBA/NFL models and trained pipelines for additional leagues.
 - Deeper licensed injury/lineup/team statistics and soccer settlement adapters.
 - Accounts, secure subscription checkout/webhooks, entitlements and self-service cancellation.
 - Private operator support contact and final legal/payment-provider review.

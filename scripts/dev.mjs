@@ -9,7 +9,7 @@ http.createServer(async(req,res)=>{
  }
  if(url.pathname.startsWith('/api/')){res.status=n=>{res.statusCode=n;return res;};res.json=v=>{res.setHeader('Content-Type','application/json');res.end(JSON.stringify(v));};req.query=Object.fromEntries(url.searchParams);const h={'/api/games':games,'/api/odds':odds,'/api/markets':markets}[url.pathname];if(!h)return res.status(404).json({error:'Not found'});await h(req,res);return;}
  const file=path.resolve(root,'.'+decodeURIComponent(url.pathname==='/'?'/index.html':url.pathname));if(!file.startsWith(root+path.sep)){res.writeHead(403);res.end();return;}
- const ext=path.extname(file),type={'.html':'text/html','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.json':'application/json'}[ext]||'application/octet-stream';
+ const ext=path.extname(file),type={'.html':'text/html','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.json':'application/json','.webmanifest':'application/manifest+json','.png':'image/png'}[ext]||'application/octet-stream';
  res.setHeader('Content-Type',type);res.end(await readFile(file));
  }catch{res.writeHead(404);res.end('Not found');}
 }).listen(3000,'0.0.0.0',()=>console.log('TONATI LAB development server on port 3000'));

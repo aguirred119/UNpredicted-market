@@ -2,11 +2,14 @@ import {mkdir,copyFile,rm,readFile,writeFile} from 'node:fs/promises';
 import {parseLedger,publicArchive} from '../lib/predictions.js';
 await rm('public',{recursive:true,force:true});
 await mkdir('public/assets',{recursive:true});await mkdir('public/data',{recursive:true});
-for(const f of ['index.html','analytics.html','track-record.html','learn.html','methodology.html','plans.html','privacy.html','terms.html','recovery.html','calculator.html','editor.html','nba-research.html','nfl-research.html'])await copyFile(f,`public/${f}`);
-for(const f of ['research.css','mobile.css','recovery-brand.css','research.js','dashboard.js','archive.js','editor.js','model.js','sports.js','team-colors.js','daily-pick.js','favicon.svg','plans.js','nba-research.js','daily-feed.js'])await copyFile(`src/${f}`,`public/assets/${f}`);
+for(const f of ['index.html','analytics.html','track-record.html','learn.html','methodology.html','plans.html','privacy.html','terms.html','recovery.html','calculator.html','editor.html','nba-research.html','nfl-research.html','app.html','offline.html'])await copyFile(f,`public/${f}`);
+for(const f of ['research.css','mobile.css','recovery-brand.css','research.js','dashboard.js','archive.js','editor.js','model.js','sports.js','team-colors.js','daily-pick.js','favicon.svg','plans.js','nba-research.js','daily-feed.js','app.js'])await copyFile(`src/${f}`,`public/assets/${f}`);
+await mkdir('public/assets/icons',{recursive:true});
+for(const name of ['icon-192.png','icon-512.png','apple-touch-icon.png'])await copyFile(`src/icons/${name}`,`public/assets/icons/${name}`);
+for(const name of ['manifest.webmanifest','sw.js'])await copyFile(name,`public/${name}`);
 await writeFile('public/data/predictions.json',JSON.stringify(publicArchive(parseLedger(await readFile('data/ledger.jsonl','utf8'))),null,2));
 // Review utility uses the actual deployed documents in phone-width frames.
-const pageNames=['index.html','analytics.html','plans.html','track-record.html','nba-research.html','nfl-research.html'];
+const pageNames=['index.html','analytics.html','plans.html','track-record.html','nba-research.html','nfl-research.html','app.html'];
 const frames=[];
 for(const name of pageNames){
  const page=await readFile(name,'utf8'),attr=page.replace(/&/g,'&amp;').replace(/"/g,'&quot;');
@@ -23,3 +26,9 @@ await copyFile('data/nfl-feed.json','public/data/nfl-feed.json');
 
 const researchPage=await readFile('nba-research.html','utf8');
 await writeFile('public/research-review.html',`<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="robots" content="noindex"><title>Research mobile review</title></head><body style="margin:0;background:#292929;color:white;font:16px system-ui"><p>NBA research · 390px mobile viewport</p><iframe title="NBA research mobile website" style="width:390px;height:2800px;border:0" srcdoc="${researchPage.replace(/&/g,'&amp;').replace(/"/g,'&quot;')}"></iframe></body></html>`);
+
+// Explicit render-only simulation of standalone layout, alongside actual install/offline pages.
+const appPage=await readFile('app.html','utf8'),homePage=await readFile('index.html','utf8'),offlinePage=await readFile('offline.html','utf8');
+const simulated=homePage.replace('<body>','<body class="installed-app">').replace('</body>','<nav class="app-tabs" aria-label="App navigation"><a href="/" aria-current="page">Games</a><a href="/analytics.html">Lab</a><a href="/track-record.html">Record</a></nav></body>');
+const appFrames=[['Add to home screen',appPage],['Installed layout — simulation',simulated],['Connection fallback',offlinePage]].map(([title,page])=>`<section><h2>${title}</h2><iframe title="${title}" style="width:390px;height:760px;border:1px solid #494132" srcdoc="${page.replace(/&/g,'&amp;').replace(/"/g,'&quot;')}"></iframe></section>`).join('');
+await writeFile('public/app-review.html',`<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="robots" content="noindex"><title>Home-screen mobile review</title><style>body{margin:0;padding:20px;background:#292929;color:white;font:14px system-ui}main{display:flex;gap:24px}h2{font-size:14px}</style></head><body><p>Phone layout review · installed mode is simulated; verify installation on a real device.</p><main>${appFrames}</main></body></html>`);
