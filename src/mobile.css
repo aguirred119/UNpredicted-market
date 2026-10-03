@@ -43,3 +43,4 @@
  .source-key{font-size:13px;gap:12px}.coverage-tags{gap:8px}.coverage-tags span{font-size:12px}
 }
 @media(max-width:360px){.logo{font-size:18px}.brand-tag{font-size:9px}.mobile-menu>summary{min-width:70px;padding:8px}.container{padding-left:12px;padding-right:12px}.dashboard-intro h1{font-size:27px}.league-shortcuts button{padding:10px 14px}}
+@media(max-width:800px){.workspace-grid{grid-template-columns:minmax(0,1fr)}.games-panel,.insight-rail,.league-shortcuts{min-width:0}.games-panel{max-width:100%}.league-shortcuts{max-width:100%}}
