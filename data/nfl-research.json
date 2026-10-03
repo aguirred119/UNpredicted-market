@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "status": "retrospective-research",
+  "generatedAt": "2026-10-03T17:15:18.876Z",
+  "dataThrough": "2026-09-29T00:15:00.000Z",
+  "holdoutSeasons": [
+    2024,
+    2025
+  ],
+  "source": {
+    "name": "nflverse game schedules and results",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://github.com/nflverse/nflverse-data/blob/main/LICENSE.md",
+    "attribution": "NFL schedule data maintained by Lee Sharpe and nflverse contributors. Normalized and transformed by TONATI LAB; no endorsement.",
+    "sources": [
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.csv",
+        "sha256": "24887b4f0a2671a4a03083da81c609b48d7c83d1fd8bacda24f88a98d6b023a1"
+      }
+    ]
+  },
+  "processing": {
+    "excluded": 5195,
+    "completedGames": 2136,
+    "lagHours": 48,
+    "minimumGamesPerTeam": 4,
+    "historyWindow": 8,
+    "exclude": "Playoffs, preseason, neutral-site games, invalid times, incomplete scores and prematurely final results",
+    "limitations": "Revised historical files, not archived point-in-time snapshots. Scheduled kickoff timestamps use Eastern time with daylight-saving conversion. A 48-hour lag approximates final availability; ties count as non-wins. No injuries, quarterback, roster, weather or odds features."
+  },
+  "model": {
+    "version": "logistic-two-feature-v1",
+    "weights": [
+      0.2304098448433552,
+      0.3736688023830401,
+      0.2545045003274035
+    ],
+    "means": [
+      -0.27081192922374414,
+      -0.006169479778212652
+    ],
+    "sd": [
+      9.821298057976051,
+      0.3170190141767807
+    ],
+    "trainingCount": 1168,
+    "holdoutCount": 401,
+    "trainThrough": "2024-01-08T01:20:00.000Z",
+    "holdoutThrough": "2026-01-05T01:20:00.000Z",
+    "ranges": [
+      [
+        -36.75,
+        39.2
+      ],
+      [
+        -1,
+        0.875
+      ]
+    ],
+    "metrics": {
+      "brier": 0.21435061276988168,
+      "baselineBrier": 0.2503026027654637,
+      "accuracy": 0.6583541147132169
+    }
+  },
+  "baselineProbability": 0.553082191780822,
+  "baselineAccuracy": 0.5236907730673317,
+  "trainFrom": "2018-10-05T00:20:00.000Z",
+  "holdoutFrom": "2024-10-04T00:15:00.000Z",
+  "calibration": [
+    {
+      "from": 0,
+      "to": 0.1,
+      "count": 0,
+      "meanProbability": null,
+      "winFraction": null
+    },
+    {
+      "from": 0.1,
+      "to": 0.2,
+      "count": 2,
+      "meanProbability": 0.19319882396028387,
+      "winFraction": 0
+    },
+    {
+      "from": 0.2,
+      "to": 0.3,
+      "count": 14,
+      "meanProbability": 0.27598065787801834,
+      "winFraction": 0.14285714285714285
+    },
+    {
+      "from": 0.3,
+      "to": 0.4,
+      "count": 51,
+      "meanProbability": 0.3518921895394529,
+      "winFraction": 0.29411764705882354
+    },
+    {
+      "from": 0.4,
+      "to": 0.5,
+      "count": 85,
+      "meanProbability": 0.45733173861649556,
+      "winFraction": 0.3764705882352941
+    },
+    {
+      "from": 0.5,
+      "to": 0.6,
+      "count": 96,
+      "meanProbability": 0.5504123201030148,
+      "winFraction": 0.5208333333333334
+    },
+    {
+      "from": 0.6,
+      "to": 0.7,
+      "count": 90,
+      "meanProbability": 0.6482639342793072,
+      "winFraction": 0.6444444444444445
+    },
+    {
+      "from": 0.7,
+      "to": 0.8,
+      "count": 47,
+      "meanProbability": 0.7491864141299723,
+      "winFraction": 0.8085106382978723
+    },
+    {
+      "from": 0.8,
+      "to": 0.9,
+      "count": 16,
+      "meanProbability": 0.8332811952739814,
+      "winFraction": 0.9375
+    },
+    {
+      "from": 0.9,
+      "to": 1,
+      "count": 0,
+      "meanProbability": null,
+      "winFraction": null
+    }
+  ],
+  "featureDefinitions": [
+    "Home minus away average point margin in up to 8 prior current-season regular-season games",
+    "Home minus away win fraction in those same games; ties count as non-wins"
+  ],
+  "upcoming": [
+    {
+      "event": "Arizona Cardinals at New York Giants",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "eligible": false,
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "features": null
+    },
+    {
+      "event": "Dallas Cowboys at Houston Texans",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "eligible": false,
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "features": null
+    },
+    {
+      "event": "Green Bay Packers at Tampa Bay Buccaneers",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "eligible": false,
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "features": null
+    },
+    {
+      "event": "Jacksonville Jaguars at Cincinnati Bengals",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "eligible": false,
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "features": null
+    },
+    {
+      "event": "Los Angeles Rams at Philadelphia Eagles",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "eligible": false,
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "features": null
+    },
+    {
+      "event": "New England Patriots at Buffalo Bills",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "eligible": false,
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "features": null
+    },
+    {
+      "event": "New York Jets at Chicago Bears",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "eligible": false,
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "features": null
+    },
+    {
+      "event": "Tennessee Titans at Baltimore Ravens",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "eligible": false,
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "features": null
+    },
+    {
+      "event": "Miami Dolphins at Minnesota Vikings",
+      "eventStart": "2026-10-04T20:05:00.000Z",
+      "eligible": false,
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "features": null
+    },
+    {
+      "event": "Denver Broncos at San Francisco 49ers",
+      "eventStart": "2026-10-04T20:25:00.000Z",
+      "eligible": false,
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "features": null
+    },
+    {
+      "event": "Kansas City Chiefs at Las Vegas Raiders",
+      "eventStart": "2026-10-04T20:25:00.000Z",
+      "eligible": false,
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "features": null
+    },
+    {
+      "event": "Los Angeles Chargers at Seattle Seahawks",
+      "eventStart": "2026-10-04T20:25:00.000Z",
+      "eligible": false,
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "features": null
+    },
+    {
+      "event": "Detroit Lions at Carolina Panthers",
+      "eventStart": "2026-10-05T00:20:00.000Z",
+      "eligible": false,
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "features": null
+    },
+    {
+      "event": "Atlanta Falcons at New Orleans Saints",
+      "eventStart": "2026-10-06T00:15:00.000Z",
+      "eligible": false,
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "features": null
+    }
+  ],
+  "publishing": "Experimental forecasts run daily only when evaluation, history, freshness and exact event identity checks pass. No historical backfill into the live record."
+}

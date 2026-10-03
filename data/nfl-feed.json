@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "mode": "experimental",
+  "lastAttemptAt": "2026-10-03T17:15:18.876Z",
+  "state": "waiting-for-eligible-games",
+  "publishedThisRun": 0,
+  "gradedThisRun": 0,
+  "skipped": [
+    {
+      "event": "Arizona Cardinals at New York Giants",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ]
+    },
+    {
+      "event": "Dallas Cowboys at Houston Texans",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ]
+    },
+    {
+      "event": "Green Bay Packers at Tampa Bay Buccaneers",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ]
+    },
+    {
+      "event": "Jacksonville Jaguars at Cincinnati Bengals",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ]
+    },
+    {
+      "event": "Los Angeles Rams at Philadelphia Eagles",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ]
+    },
+    {
+      "event": "New England Patriots at Buffalo Bills",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ]
+    },
+    {
+      "event": "New York Jets at Chicago Bears",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ]
+    },
+    {
+      "event": "Tennessee Titans at Baltimore Ravens",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ]
+    },
+    {
+      "event": "Miami Dolphins at Minnesota Vikings",
+      "eventStart": "2026-10-04T20:05:00.000Z",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ]
+    },
+    {
+      "event": "Denver Broncos at San Francisco 49ers",
+      "eventStart": "2026-10-04T20:25:00.000Z",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ]
+    },
+    {
+      "event": "Kansas City Chiefs at Las Vegas Raiders",
+      "eventStart": "2026-10-04T20:25:00.000Z",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ]
+    },
+    {
+      "event": "Los Angeles Chargers at Seattle Seahawks",
+      "eventStart": "2026-10-04T20:25:00.000Z",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ]
+    },
+    {
+      "event": "Detroit Lions at Carolina Panthers",
+      "eventStart": "2026-10-05T00:20:00.000Z",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ]
+    },
+    {
+      "event": "Atlanta Falcons at New Orleans Saints",
+      "eventStart": "2026-10-06T00:15:00.000Z",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ]
+    }
+  ],
+  "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
+  "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
+  "sourceThrough": "2026-09-29T00:15:00.000Z",
+  "scheduleAsOf": "2026-10-03T17:15:33.624Z",
+  "completedAt": "2026-10-03T17:15:33.694Z"
+}

@@ -1,14 +1,15 @@
-name: Publish and grade daily NBA analysis
+name: Publish and grade daily NFL analysis
 on:
   push:
     branches: [main]
     paths:
-      - .github/workflows/nba-research.yml
-      - scripts/nba-daily.mjs
-      - scripts/nba-research.mjs
+      - .github/workflows/nfl-research.yml
+      - scripts/nfl-daily.mjs
+      - scripts/nfl-research.mjs
+      - lib/nfl.js
       - lib/nba-publication.js
   schedule:
-    - cron: '17 12 * * *'
+    - cron: '27 12 * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -27,7 +28,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node scripts/nba-daily.mjs
+      - run: node scripts/nfl-daily.mjs
+        env:
+          DAILY_CADENCE: 'Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.'
       - run: npm test && npm run build
       - name: Check preserved history
         run: node scripts/ledger.mjs check HEAD
@@ -35,8 +38,8 @@ jobs:
         run: |
           git config user.name 'TONATI LAB Research'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/nba-research.json data/daily-feed.json data/ledger.jsonl
+          git add data/nfl-research.json data/nfl-feed.json data/ledger.jsonl
           if ! git diff --cached --quiet; then
-            git commit -m 'Run daily experimental NBA publication and grading'
+            git commit -m 'Run daily experimental NFL publication and grading'
             git push origin HEAD:main
           fi
