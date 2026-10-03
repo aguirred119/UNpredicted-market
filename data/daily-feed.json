@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "mode": "experimental",
-  "lastAttemptAt": "2026-10-03T17:22:31.023Z",
+  "lastAttemptAt": "2026-10-03T20:35:51.577Z",
   "state": "waiting-for-eligible-games",
   "publishedThisRun": 0,
   "gradedThisRun": 0,
@@ -9,6 +9,6 @@
   "cadence": "Daily, approximately 05:17 Pacific daylight time / 04:17 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
   "sourceThrough": "2026-04-13T00:30:00.000Z",
-  "scheduleAsOf": "2026-10-03T17:22:37.629Z",
-  "completedAt": "2026-10-03T17:22:37.677Z"
+  "scheduleAsOf": "2026-10-03T20:35:57.582Z",
+  "completedAt": "2026-10-03T20:35:57.601Z"
 }
