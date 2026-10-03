@@ -8,8 +8,9 @@ export function parseCSV(text){
  if(c.length!==4||!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/.test(date)||!Number.isFinite(Date.parse(date))||new Date(date).toISOString().slice(0,19)+'Z'!==date||date<prior||dates.has(date)||Date.parse(date)>Date.now()||[a,b,y].some(v=>v.trim()===''||!Number.isFinite(Number(v)))||![0,1].includes(Number(y))||Math.abs(Number(a))>1e6||Math.abs(Number(b))>1e6)throw Error(`Invalid row ${i+2}: use unique past UTC timestamps in order, finite features, and binary outcomes.`);
  prior=date;dates.add(date);return{date,x:[Number(a),Number(b)],y:Number(y)};});
 }
-export function train(rows){
- const cut=Math.floor(rows.length*.8), training=rows.slice(0,cut),test=rows.slice(cut);
+export function train(rows,cut=Math.floor(rows.length*.8)){
+ if(!Number.isInteger(cut)||cut<80||rows.length-cut<20)throw Error('Insufficient chronological training/holdout observations');
+ const training=rows.slice(0,cut),test=rows.slice(cut);
  if(new Set(training.map(r=>r.y)).size<2||new Set(test.map(r=>r.y)).size<2)throw Error('Training and holdout periods must each contain both outcomes.');
  const means=[0,1].map(j=>training.reduce((s,r)=>s+r.x[j],0)/training.length);
  const sd=[0,1].map(j=>Math.sqrt(training.reduce((s,r)=>s+(r.x[j]-means[j])**2,0)/training.length)||1);

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "status": "retrospective-research",
+  "generatedAt": "2026-10-03T01:39:58.507Z",
+  "dataThrough": "2026-04-13T00:30:00.000Z",
+  "holdoutSeason": 2026,
+  "source": {
+    "name": "SportsDataverse / hoopR NBA schedules (ESPN upstream)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://github.com/sportsdataverse/hoopR-nba-data/blob/main/LICENSE.md",
+    "attribution": "© hoopR.nba authors. Normalized and filtered by TONATI LAB; no endorsement.",
+    "sources": [
+      {
+        "season": 2023,
+        "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_schedules/nba_schedule_2023.csv",
+        "sha256": "71aad62f4c082455ba7659b5cc900745a72b113b85bc22727ac04a603a9b5dca"
+      },
+      {
+        "season": 2024,
+        "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_schedules/nba_schedule_2024.csv",
+        "sha256": "ae89a6e51dec1817b41e457d02ffc4cfc26d25b411d318906c1ec5f39a6c5527"
+      },
+      {
+        "season": 2025,
+        "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_schedules/nba_schedule_2025.csv",
+        "sha256": "a7a5b6607a256c84a324f819e4461248bdff90a78b1ddb675a5a117a9a94e74f"
+      },
+      {
+        "season": 2026,
+        "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_schedules/nba_schedule_2026.csv",
+        "sha256": "5a4a7473fce1c49d56382211c5955ad405f421d59869143b1d501e997e79223e"
+      },
+      {
+        "season": 2027,
+        "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_schedules/nba_schedule_2027.csv",
+        "sha256": "4fd22097f4b56fdff3a1da6217631a1efab58341d5205d6dbb44a2e79cb340c4"
+      }
+    ]
+  },
+  "processing": {
+    "excluded": 393,
+    "completedGames": 4907,
+    "lagHours": 48,
+    "minimumGamesPerTeam": 10,
+    "historyWindow": 20,
+    "exclude": "All-Star, playoffs, preseason, neutral-site games, invalid or prematurely final results",
+    "limitations": "Latest revised historical files are used; this is not an archived point-in-time data feed. Start times are used with a conservative 48-hour lag because final-publication times are unavailable. No injuries, lineups, roster changes or odds features."
+  },
+  "model": {
+    "version": "logistic-two-feature-v1",
+    "weights": [
+      0.23872854098695642,
+      0.5267433715593167,
+      0.21955164029205132
+    ],
+    "means": [
+      -0.23067493336959993,
+      -0.007130147629932039
+    ],
+    "sd": [
+      8.512265615858935,
+      0.2552380889082601
+    ],
+    "trainingCount": 3188,
+    "holdoutCount": 1062,
+    "trainThrough": "2025-04-13T19:30:00.000Z",
+    "holdoutThrough": "2026-04-13T00:30:00.000Z",
+    "ranges": [
+      [
+        -27.2,
+        26.65
+      ],
+      [
+        -0.75,
+        0.8
+      ]
+    ],
+    "metrics": {
+      "brier": 0.20947801642541677,
+      "baselineBrier": 0.24751905117581768,
+      "accuracy": 0.6741996233521658
+    }
+  },
+  "baselineProbability": 0.5530112923462986,
+  "baselineAccuracy": 0.5499058380414312,
+  "trainFrom": "2022-11-08T00:15:00.000Z",
+  "holdoutFrom": "2025-11-12T00:30:00.000Z",
+  "calibration": [
+    {
+      "from": 0,
+      "to": 0.1,
+      "count": 0,
+      "meanProbability": null,
+      "winFraction": null
+    },
+    {
+      "from": 0.1,
+      "to": 0.2,
+      "count": 26,
+      "meanProbability": 0.1720477619195977,
+      "winFraction": 0.11538461538461539
+    },
+    {
+      "from": 0.2,
+      "to": 0.3,
+      "count": 81,
+      "meanProbability": 0.25544890578730484,
+      "winFraction": 0.24691358024691357
+    },
+    {
+      "from": 0.3,
+      "to": 0.4,
+      "count": 107,
+      "meanProbability": 0.3520448033006099,
+      "winFraction": 0.32710280373831774
+    },
+    {
+      "from": 0.4,
+      "to": 0.5,
+      "count": 182,
+      "meanProbability": 0.45214843767097324,
+      "winFraction": 0.4065934065934066
+    },
+    {
+      "from": 0.5,
+      "to": 0.6,
+      "count": 205,
+      "meanProbability": 0.5533076518628903,
+      "winFraction": 0.5463414634146342
+    },
+    {
+      "from": 0.6,
+      "to": 0.7,
+      "count": 200,
+      "meanProbability": 0.6470553345578723,
+      "winFraction": 0.67
+    },
+    {
+      "from": 0.7,
+      "to": 0.8,
+      "count": 156,
+      "meanProbability": 0.7441047894344531,
+      "winFraction": 0.7371794871794872
+    },
+    {
+      "from": 0.8,
+      "to": 0.9,
+      "count": 98,
+      "meanProbability": 0.8424498504413388,
+      "winFraction": 0.8775510204081632
+    },
+    {
+      "from": 0.9,
+      "to": 1,
+      "count": 7,
+      "meanProbability": 0.916524599855496,
+      "winFraction": 0.7142857142857143
+    }
+  ],
+  "featureDefinitions": [
+    "Home minus away average point margin in up to 20 prior regular-season games",
+    "Home minus away win fraction in those same games"
+  ],
+  "upcoming": [],
+  "publishing": "Research only. Automatic public forecasts remain disabled until the prospective feed has been reviewed. Historical backtests are never inserted into the public prediction ledger."
+}
