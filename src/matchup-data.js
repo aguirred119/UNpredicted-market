@@ -1,3 +1,4 @@
+import {canonicalSoccer} from './soccer-data.js';
 import {LEAGUES} from './sports.js';
 export const validId=id=>typeof id==='string'&&/^[-a-zA-Z0-9]{1,100}$/.test(id);
 export const matchupUrl=g=>`/matchup.html?league=${encodeURIComponent(g.league)}&event=${encodeURIComponent(g.id)}`;
@@ -19,8 +20,18 @@ export function resolveMatchup(query,archive,feed,now=Date.now()){
 }
 export function findContext(game,report){
  const canon=t=>game.league==='NBA'&&t==='Los Angeles Clippers'?'LA Clippers':t;
- const matches=(report?.upcoming||[]).filter(g=>canon(g.home)===canon(game.home)&&canon(g.away)===canon(game.away)&&g.eventStart===game.eventStart);
- return matches.length===1?matches[0]:null;
+ const matches=(report?.upcoming||[]).filter(g=>canon(g.home)===canon(game.home)&&canon(g.away)===canon(game.away)&&g.eventStart===game.eventStart&&(!g.eventId||g.eventId===game.id));
+ if(matches.length!==1)return null;
+ const context=matches[0];
+ if(report.status==='descriptive-statistics'){
+  if(report.league!==game.league||!Number.isFinite(Date.parse(report.generatedAt))||Date.parse(report.generatedAt)>=Date.parse(game.eventStart))return null;
+  const home=report.teams.filter(t=>t.team===canonicalSoccer(game.home,game.league)),away=report.teams.filter(t=>t.team===canonicalSoccer(game.away,game.league));
+  if(home.length!==1||away.length!==1)return null;
+  // Source summaries already exclude results less than 48h before generation.
+  // They are conservative pregame inputs for the future matched events in this snapshot.
+  return{...context,form:{season:report.season,window:report.processing.window,lagHours:report.processing.lagHours,datePrecision:'day',cutoff:new Date(Date.parse(game.eventStart)-report.processing.lagHours*3600000).toISOString(),home:home[0],away:away[0]}};
+ }
+ return context;
 }
 export function findMarket(game,markets){
  const matches=(markets||[]).filter(m=>m.id==='odds-'+game.id&&m.home===game.home&&m.away===game.away&&Number.isFinite(Date.parse(m.eventStart))&&Date.parse(m.eventStart)===Date.parse(game.eventStart));

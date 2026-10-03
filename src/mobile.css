@@ -79,3 +79,12 @@
 .matchup-table th{white-space:nowrap;overflow-wrap:normal}
 .matchup-table td:nth-child(2){min-width:90px}
 .matchup-table td:nth-child(3),.matchup-table td:nth-child(4){white-space:nowrap;min-width:45px}
+
+.stats-controls{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.stats-controls label{display:flex;flex-direction:column;gap:8px;color:#b7b7b7;font-size:.9rem}
+.stats-controls select{width:100%;min-height:48px;font-size:16px}
+#stats-status{line-height:1.8}#stats-status .pill{margin-bottom:8px}
+.stats-team-link{background:none;border:0;text-align:left;font:inherit;padding:8px 0;min-height:44px;text-transform:none;letter-spacing:normal}
+#stats-profile .card,#stats-source{overflow-wrap:anywhere;min-width:0}
+#stats-comparison .matchup-table{padding:16px}
+@media(max-width:600px){.stats-controls{grid-template-columns:1fr}.stats-team-link{max-width:180px}#stats-comparison th:last-child{white-space:normal;min-width:80px}}

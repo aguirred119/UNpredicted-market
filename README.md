@@ -61,3 +61,7 @@ Workflow-generated commits may not trigger other Actions via `GITHUB_TOKEN`; the
 - User approval before real billing, any paid provider upgrade or domain purchase.
 
 No domain purchase, paid API activation, real billing or acceptance of provider terms is included.
+
+### Free soccer team statistics
+
+`stats.html` and dedicated matchup pages show source-derived team form for Premier League, La Liga, Serie A, Bundesliga and Ligue 1. Up to 10 same-season domestic league games, explicit draws and goal averages, public-domain attribution, match dates and source delay labels. No soccer model forecasts are claimed. Run `node scripts/soccer-context.mjs` to refresh; GitHub Actions retrieves the public source daily and preserves old dates on errors. Event matching uses only the existing zero-credit schedule endpoint, with no automated odds/score quota usage. See `docs/DATA_SOURCES.md` for provenance and limits.
