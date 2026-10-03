@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "retrospective-research",
-  "generatedAt": "2026-10-03T15:06:06.002Z",
+  "generatedAt": "2026-10-03T16:53:09.903Z",
   "dataThrough": "2026-04-13T00:30:00.000Z",
   "holdoutSeason": 2026,
   "source": {
@@ -162,5 +162,5 @@
     "Home minus away win fraction in those same games"
   ],
   "upcoming": [],
-  "publishing": "Research only. Automatic public forecasts remain disabled until the prospective feed has been reviewed. Historical backtests are never inserted into the public prediction ledger."
+  "publishing": "Experimental prospective publication is scheduled daily, subject to data, freshness and evaluation gates. Historical backtests are never inserted into the public prediction ledger."
 }
