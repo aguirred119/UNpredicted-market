@@ -2,8 +2,8 @@ import {mkdir,copyFile,rm,readFile,writeFile} from 'node:fs/promises';
 import {parseLedger,publicArchive} from '../lib/predictions.js';
 await rm('public',{recursive:true,force:true});
 await mkdir('public/assets',{recursive:true});await mkdir('public/data',{recursive:true});
-for(const f of ['index.html','analytics.html','track-record.html','learn.html','methodology.html','plans.html','privacy.html','terms.html','recovery.html','calculator.html','editor.html','nba-research.html','nfl-research.html','app.html','offline.html'])await copyFile(f,`public/${f}`);
-for(const f of ['research.css','mobile.css','recovery-brand.css','research.js','dashboard.js','archive.js','editor.js','model.js','sports.js','team-colors.js','daily-pick.js','favicon.svg','plans.js','nba-research.js','daily-feed.js','app.js'])await copyFile(`src/${f}`,`public/assets/${f}`);
+for(const f of ['index.html','analytics.html','track-record.html','learn.html','methodology.html','plans.html','privacy.html','terms.html','recovery.html','calculator.html','editor.html','nba-research.html','nfl-research.html','app.html','offline.html','matchup.html'])await copyFile(f,`public/${f}`);
+for(const f of ['research.css','mobile.css','recovery-brand.css','research.js','dashboard.js','archive.js','editor.js','model.js','sports.js','team-colors.js','daily-pick.js','favicon.svg','plans.js','nba-research.js','daily-feed.js','app.js','matchup.js','matchup-data.js'])await copyFile(`src/${f}`,`public/assets/${f}`);
 await mkdir('public/assets/icons',{recursive:true});
 for(const name of ['icon-192.png','icon-512.png','apple-touch-icon.png'])await copyFile(`src/icons/${name}`,`public/assets/icons/${name}`);
 for(const name of ['manifest.webmanifest','sw.js'])await copyFile(name,`public/${name}`);
@@ -32,3 +32,10 @@ const appPage=await readFile('app.html','utf8'),homePage=await readFile('index.h
 const simulated=homePage.replace('<body>','<body class="installed-app">').replace('</body>','<nav class="app-tabs" aria-label="App navigation"><a href="/" aria-current="page">Games</a><a href="/analytics.html">Lab</a><a href="/track-record.html">Record</a></nav></body>');
 const appFrames=[['Add to home screen',appPage],['Installed layout — simulation',simulated],['Connection fallback',offlinePage]].map(([title,page])=>`<section><h2>${title}</h2><iframe title="${title}" style="width:390px;height:760px;border:1px solid #494132" srcdoc="${page.replace(/&/g,'&amp;').replace(/"/g,'&quot;')}"></iframe></section>`).join('');
 await writeFile('public/app-review.html',`<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="robots" content="noindex"><title>Home-screen mobile review</title><style>body{margin:0;padding:20px;background:#292929;color:white;font:14px system-ui}main{display:flex;gap:24px}h2{font-size:14px}</style></head><body><p>Phone layout review · installed mode is simulated; verify installation on a real device.</p><main>${appFrames}</main></body></html>`);
+
+const matchupPage=await readFile('matchup.html','utf8'),saved=publicArchive(parseLedger(await readFile('data/ledger.jsonl','utf8'))).predictions[0];
+if(saved){
+ const query='?league='+encodeURIComponent(saved.league)+'&event='+encodeURIComponent(saved.eventId)+'&record='+encodeURIComponent(saved.id);
+ const phone=matchupPage.replace('<script type="module" src="/assets/matchup.js"></script>',`<script type="module">import {start} from '/assets/matchup.js';start(${JSON.stringify(query)});</script>`);
+ await writeFile('public/matchup-review.html',`<!doctype html><html lang="en"><head><meta name="robots" content="noindex"><title>Matchup phone review</title></head><body style="margin:0;padding:20px;background:#292929;color:white;font:14px system-ui"><p>Actual saved publication · 390px phone viewport</p><iframe title="Matchup phone website" style="width:390px;height:1700px;border:0" srcdoc="${phone.replace(/&/g,'&amp;').replace(/"/g,'&quot;')}"></iframe></body></html>`);
+}

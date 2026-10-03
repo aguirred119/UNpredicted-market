@@ -63,3 +63,16 @@
  .app-tabs a{display:flex;align-items:center;justify-content:center;min-height:48px;border-radius:9px;font-size:14px;color:#bcb8af;text-decoration:none}
  .app-tabs a[aria-current]{background:#292317;color:#e9c46a;font-weight:700}
 }
+
+/* Matchup pages preserve a full website layout and readable phone context. */
+.matchup-hero h1{font-size:clamp(1.8rem,4vw,3.5rem);max-width:100%;overflow-wrap:anywhere}
+.matchup-at{display:block;font-size:.75rem;text-transform:uppercase;letter-spacing:.16em;color:var(--muted);margin:12px 0}
+.matchup-table{overflow-x:auto;max-width:100%;margin-top:16px}
+.matchup-table table{width:100%;border-collapse:collapse;font-size:.875rem}
+.matchup-table caption{text-align:left;color:#b6a477;padding-bottom:12px}
+.matchup-table th,.matchup-table td{padding:12px 8px;text-align:left;border-bottom:1px solid #29251d;vertical-align:top}
+.matchup-table th{font-weight:600}.matchup-table td{min-width:65px}
+#matchup-content pre{max-width:100%;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere}
+#matchup-content .card{min-width:0;overflow-wrap:anywhere}
+#matchup-content .section-heading{margin-bottom:20px}
+@media(max-width:600px){.matchup-table th,.matchup-table td{padding:12px 4px}.matchup-table time{display:block;min-width:82px}.matchup-hero{padding-top:26px}#matchup-content .actions button{flex:1}}

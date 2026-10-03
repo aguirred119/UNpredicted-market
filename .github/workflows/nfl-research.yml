@@ -8,6 +8,7 @@ on:
       - scripts/nfl-research.mjs
       - lib/nfl.js
       - lib/nba-publication.js
+      - lib/matchup-form.js
   schedule:
     - cron: '27 12 * * *'
   workflow_dispatch:
