@@ -1,10 +1,10 @@
 import {matchupUrl,recordUrl} from './matchup-data.js';
 import {teamNameHtml} from './team-colors.js';
 import {LEAGUES} from './sports.js';
-import {selectedPick,currentPick} from './daily-pick.js';
+import {editorialDisplay} from './daily-pick.js';
 const $=id=>document.getElementById(id),esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),pct=v=>(v*100).toFixed(1)+'%';
 const localDay=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
-const time=v=>new Date(v).toLocaleString(undefined,{month:'short',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'});
+const time=v=>new Date(v).toLocaleString(undefined,{year:'numeric',month:'short',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'});
 let games=[],odds=[],records=[],demo=false,watchOnly=false,version=0,oddsVersion=0,connection='loading';
 let watches=[];try{watches=JSON.parse(localStorage.getItem('unpredicted-watch-v1')||'[]').filter(x=>typeof x==='string');}catch{}
 $('game-day').value=localDay(new Date());
@@ -40,7 +40,13 @@ $('game-day').onchange=render;$('search').oninput=render;
 $('watch-only').onclick=()=>{watchOnly=!watchOnly;$('watch-only').setAttribute('aria-pressed',String(watchOnly));render();};
 $('show-demo').onclick=()=>{++version;++oddsVersion;demo=true;connection='ready';odds=[];$('load-odds').disabled=false;games=[{id:'tonati-demo-'+$('league').value,home:'Fictional Harbor Hawks',away:'Fictional Coast Comets',eventStart:new Date().toISOString()}];$('feed-label').textContent='FICTIONAL DEMO';$('feed-status').textContent='Fictional team names. No actual event, odds, model estimate or recommendation. Refresh schedule to return to provider data.';render();};
 $('games').onclick=e=>{const b=e.target.closest('[data-watch]');if(!b)return;const id=b.dataset.watch;try{const next=watches.includes(id)?watches.filter(x=>x!==id):[...watches,id].slice(-200);localStorage.setItem('unpredicted-watch-v1',JSON.stringify(next));watches=next;render();}catch{$('feed-status').textContent='Browser storage is unavailable. This watchlist could not be saved.';}};
-function renderPick(p){const pick=currentPick(p);if(!pick)return;$('daily-pick').innerHTML=`<h3>${teamNameHtml(pick.away,pick.league)} at ${teamNameHtml(pick.home,pick.league)}</h3><p><strong>${teamNameHtml(pick.selection,pick.league)}${pick.handicap!==undefined?' '+(pick.handicap>0?'+':'')+esc(pick.handicap)+' runs':''}</strong> · ${esc(pick.league)}</p><p>${esc(pick.rationale)}</p><p class="small">Editorial selection · Published ${esc(time(pick.publishedAt))} · Event ${esc(time(pick.eventStart))}</p><p class="small">${pick.modelPredictionId?'Supporting model record: '+esc(pick.modelPredictionId)+'. See publication history.':'No AI or model support claimed.'} No outcome or profit is guaranteed.</p>`;}
-renderPick(selectedPick);
-fetch('/data/predictions.json').then(r=>{if(!r.ok)throw Error();return r.json();}).then(data=>{records=data.predictions||[];renderPick(records.filter(p=>p.kind==='editorial').at(-1));render();}).catch(()=>{});
+function renderPick(archive){
+ const state=editorialDisplay(archive);if(!state)return;
+ const {pick,status,resolution}=state;
+ const scores=resolution?.evidence;
+ const scoreline=Number.isInteger(scores?.homeScore)&&Number.isInteger(scores?.awayScore)?`${pick.home} ${scores.homeScore} · ${pick.away} ${scores.awayScore}`:null;
+ const result=resolution?`<div class="card"><span class="pill">${esc(resolution.result.toUpperCase())} · EDITORIAL RESULT</span><p>${esc(scoreline||resolution.reason)}</p><p class="small">Verified ${esc(time(resolution.resolvedAt))}. Source and settlement reasoning are retained in the original publication.</p></div>`:'';
+ $('daily-pick').innerHTML=`<span class="pill">${status==='upcoming'?'PREGAME SELECTION':status==='settled'?'LATEST SETTLED SELECTION':'AWAITING VERIFIED RESULT'}</span><h3>${teamNameHtml(pick.away,pick.league)} at ${teamNameHtml(pick.home,pick.league)}</h3><p><strong>${teamNameHtml(pick.selection,pick.league)}${pick.handicap!==undefined?' '+(pick.handicap>0?'+':'')+esc(pick.handicap)+' runs':''}</strong> · ${esc(pick.league)}</p><p>${esc(pick.rationale)}</p><p class="small">Editorial selection · Published ${esc(time(pick.publishedAt))} · Event ${esc(time(pick.eventStart))}</p>${result}${status!=='upcoming'?'<p class="small">Previous selection. No new pregame selection has been published.</p>':''}<p class="small">${pick.modelPredictionId?'Supporting model record: '+esc(pick.modelPredictionId)+'. See publication history.':'No AI or model support claimed.'} No outcome or profit is guaranteed.</p><a class="button secondary" href="${esc(recordUrl(pick))}">Inspect original publication →</a>`;
+}
+fetch('/data/predictions.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json();}).then(data=>{records=data.predictions||[];renderPick(data);render();}).catch(()=>{$('daily-pick').innerHTML='<p>Publication history is temporarily unavailable. No selection or result is inferred.</p><a class="text-link" href="/track-record.html">Retry in the public record →</a>';});
 loadGames();

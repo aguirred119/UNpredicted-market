@@ -24,3 +24,21 @@ export function sourceHealth(report,now=Date.now()){
  const fetched=Date.parse(report?.generatedAt),through=Date.parse((report?.dataThrough||'')+'T23:59:59.999Z');
  return{snapshotOverdue:!Number.isFinite(fetched)||fetched>now+60000||now-fetched>36*3600000,resultsDelayed:!Number.isFinite(through)||now-through>7*86400000,daysBehind:Number.isFinite(through)?Math.max(0,Math.floor((now-Date.parse(report.dataThrough+'T00:00:00Z'))/86400000)):null};
 }
+
+// Input preflight only. Passing does not produce or authorize a model forecast.
+export function soccerInputReadiness(report,event,now=Date.now()){
+ const reasons=[],health=sourceHealth(report,now),start=Date.parse(event?.eventStart),schedule=Date.parse(report?.scheduleAsOf);
+ if(!SOCCER_LEAGUES[report?.league]||report.season!==soccerSeason(now))reasons.push('Current-season league data is required.');
+ if(health.resultsDelayed)reasons.push('Available results are more than seven days behind today or unavailable.');
+ if(health.snapshotOverdue)reasons.push('The results snapshot needs a successful refresh.');
+ if(!Number.isFinite(schedule)||schedule>now||now-schedule>2*3600000)reasons.push('The event schedule needs a refresh within two hours.');
+ if(!Number.isFinite(start)||start<=now||start-now>14*86400000)reasons.push('A future event within fourteen days is required.');
+ const matches=(report?.upcoming||[]).filter(g=>g.eventId===event?.eventId&&g.home===event?.home&&g.away===event?.away&&Date.parse(g.eventStart)===start);
+ if(!event?.eventId||matches.length!==1)reasons.push('A unique provider-matched event is required.');
+ for(const [label,name] of [['Home',event?.home],['Away',event?.away]]){
+  const teams=(report?.teams||[]).filter(t=>t.team===name),team=teams.length===1?teams[0]:null;
+  if(!team||!Number.isInteger(team.count)||team.count<5||team.count>10)reasons.push(`${label} team needs five to ten same-season prior games.`);
+  else if(!Number.isFinite(Date.parse(team.inputAsOf))||Date.parse(team.inputAsOf)>now-48*3600000||![team.averageMargin,team.averageScored,team.averageAllowed].every(Number.isFinite))reasons.push(`${label} team inputs need valid statistics and the 48-hour availability lag.`);
+ }
+ return{status:reasons.length?'blocked':'inputs-pass',reasons};
+}
