@@ -15,3 +15,15 @@ test('resolution correction preserves prior loss and must reference it',()=>{con
 test('grader requires exact event and completed scores; ambiguous soccer remains pending',()=>{const e={id:'event1',home_team:'Home',away_team:'Away',completed:true,scores:[{name:'Home',score:'99'},{name:'Away',score:'101'}]};assert.equal(gradeScore(editorial,e),'loss');assert.equal(gradeScore(editorial,{...e,completed:false}),null);assert.equal(gradeScore(editorial,{...e,home_team:'Other'}),null);assert.equal(gradeScore({...editorial,league:'La Liga'},e),null);assert.equal(gradeScore(editorial,{...e,scores:[{name:'Home',score:'99'},{name:'Home',score:'100'}]}),null);});
 import {launchPlan,planForSubscription} from '../src/plans.js';
 test('founding catalog retains versioned monthly price and keeps billing inactive',()=>{const p=launchPlan();assert.equal(p.amountCents,299);assert.equal(p.trialDays,14);assert.equal(p.billingEnabled,false);assert.equal(planForSubscription({planVersion:'pro-founding-v1'}),p);assert.equal(planForSubscription({planVersion:'unknown'}),null);});
+
+test('MLB run line grades coverage rather than the outright winner',()=>{
+ const p={...editorial,league:'MLB',settlementRule:'run-line-including-extra-innings',handicap:-1.5};
+ assert.doesNotThrow(()=>forecast(p));
+ const e={id:'event1',home_team:'Home',away_team:'Away',completed:true,scores:[{name:'Home',score:'4'},{name:'Away',score:'3'}]};
+ assert.equal(gradeScore(p,e),'loss');
+ assert.equal(gradeScore(p,{...e,scores:[{name:'Home',score:'5'},{name:'Away',score:'3'}]}),'win');
+ assert.equal(gradeScore({...p,selection:'Away',handicap:1.5},e),'win');
+ assert.equal(gradeScore(p,{...e,completed:false}),null);
+ for(const change of [{handicap:undefined},{handicap:-1},{handicap:NaN},{handicap:30.5},{league:'NBA'},{kind:'model'}])assert.throws(()=>forecast({...p,...change}));
+ assert.throws(()=>forecast({...editorial,handicap:-1.5}));
+});
