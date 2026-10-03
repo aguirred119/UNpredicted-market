@@ -9,6 +9,7 @@ let watches=[];try{watches=JSON.parse(localStorage.getItem('unpredicted-watch-v1
 $('game-day').value=localDay(new Date());
 try{const old=localStorage.getItem('tonati-league');if(LEAGUES.includes(old))$('league').value=old;}catch{}
 function render(){
+ document.querySelectorAll('[data-league]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.league===$('league').value)));
  const league=$('league').value,term=$('search').value.trim().toLowerCase(),day=$('game-day').value;
  $('game-context').textContent=`${league} · ${day||'all dates'} · your local time`;
  const list=games.filter(g=>(demo||!day||localDay(new Date(g.eventStart))===day)&&`${g.home} ${g.away}`.toLowerCase().includes(term)&&(!watchOnly||watches.includes(g.id)||watches.includes('odds-'+g.id)));
@@ -33,6 +34,7 @@ async function loadOdds(){
 }
 $('load-games').onclick=loadGames;$('load-odds').onclick=loadOdds;
 $('league').onchange=()=>{try{localStorage.setItem('tonati-league',$('league').value);}catch{}$('load-odds').disabled=false;loadGames();};
+document.querySelectorAll('[data-league]').forEach(b=>b.onclick=()=>{if($('league').value===b.dataset.league)return;$('league').value=b.dataset.league;$('league').onchange();});
 $('game-day').onchange=render;$('search').oninput=render;
 $('watch-only').onclick=()=>{watchOnly=!watchOnly;$('watch-only').setAttribute('aria-pressed',String(watchOnly));render();};
 $('show-demo').onclick=()=>{++version;++oddsVersion;demo=true;connection='ready';odds=[];$('load-odds').disabled=false;games=[{id:'tonati-demo-'+$('league').value,home:'Fictional Harbor Hawks',away:'Fictional Coast Comets',eventStart:new Date().toISOString()}];$('feed-label').textContent='FICTIONAL DEMO';$('feed-status').textContent='Fictional team names. No actual event, odds, model estimate or recommendation. Refresh schedule to return to provider data.';render();};
