@@ -7,6 +7,7 @@ on:
       - scripts/nba-daily.mjs
       - scripts/nba-research.mjs
       - lib/nba-publication.js
+      - lib/nba.js
       - lib/matchup-form.js
   schedule:
     - cron: '17 12 * * *'

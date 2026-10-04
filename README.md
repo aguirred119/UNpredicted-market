@@ -69,3 +69,7 @@ No domain purchase, paid API activation, real billing or acceptance of provider 
 ### Soccer three-outcome research
 
 `/soccer-research.html` publishes five separately fitted multinomial logistic models with 2023–24 training and untouched later-season 2024–25 tests. Home win, draw and away win have separate probabilities and calibration. Missing outcomes, thin-history exclusions, fixed parameters and source hashes are disclosed. This is retrospective research only; no current soccer forecasts, market edges, simulations or profit claims. Rebuild with `node scripts/soccer-research.mjs` using only free public historical files. Daily statistics now distinguish unchanged results from successful source checks.
+
+### Exact-event daily publication checks
+
+NBA/NFL daily feeds now use schema version 2 and retain a timestamped check for every source candidate and every unique provider-scheduled event in the upcoming 72-hour window. Schedule-only games receive an explicit blocked reason; no missing statistical inputs are synthesized. Ambiguous provider or source identities cannot publish. Checks distinguish new publications, existing archived forecasts and withheld forecasts. Game cards and matchup pages match these checks by league, event ID, teams and start time; checks older than 36 hours, future timestamps and mismatched events are not presented as current. This is a dated pipeline status, not a live score, a probability or a substitute for the immutable publication record. No extra API, paid odds/score request or billing service was added.
