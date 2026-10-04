@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "retrospective-research",
-  "generatedAt": "2026-10-04T00:44:45.883Z",
+  "generatedAt": "2026-10-04T18:18:18.817Z",
   "dataThrough": "2026-04-13T00:30:00.000Z",
   "holdoutSeason": 2026,
   "source": {
@@ -33,7 +33,7 @@
       {
         "season": 2027,
         "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_schedules/nba_schedule_2027.csv",
-        "sha256": "4fd22097f4b56fdff3a1da6217631a1efab58341d5205d6dbb44a2e79cb340c4"
+        "sha256": "9e07665fb1e2982150baf305b4bf8fab20157f55a316225a2ef0fcbbe5d6eb68"
       }
     ]
   },
