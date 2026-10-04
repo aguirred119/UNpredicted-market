@@ -3,13 +3,13 @@ import {parseLedger,publicArchive} from '../lib/predictions.js';
 await rm('public',{recursive:true,force:true});
 await mkdir('public/assets',{recursive:true});await mkdir('public/data',{recursive:true});
 for(const f of ['index.html','analytics.html','track-record.html','learn.html','methodology.html','plans.html','privacy.html','terms.html','recovery.html','calculator.html','editor.html','nba-research.html','nfl-research.html','app.html','offline.html','matchup.html','stats.html','soccer-research.html'])await copyFile(f,`public/${f}`);
-for(const f of ['research.css','mobile.css','recovery-brand.css','research.js','dashboard.js','archive.js','editor.js','model.js','sports.js','team-colors.js','daily-pick.js','favicon.svg','plans.js','nba-research.js','daily-feed.js','app.js','matchup.js','matchup-data.js','team-form.js','soccer-data.js','stats.js','soccer-research.js','analysis-status.js'])await copyFile(`src/${f}`,`public/assets/${f}`);
+for(const f of ['research.css','mobile.css','recovery-brand.css','research.js','dashboard.js','archive.js','editor.js','model.js','sports.js','team-colors.js','daily-pick.js','favicon.svg','plans.js','nba-research.js','daily-feed.js','app.js','matchup.js','matchup-data.js','team-form.js','soccer-data.js','stats.js','soccer-research.js','analysis-status.js','editor-data.js'])await copyFile(`src/${f}`,`public/assets/${f}`);
 await mkdir('public/assets/icons',{recursive:true});
 for(const name of ['icon-192.png','icon-512.png','apple-touch-icon.png'])await copyFile(`src/icons/${name}`,`public/assets/icons/${name}`);
 for(const name of ['manifest.webmanifest','sw.js'])await copyFile(name,`public/${name}`);
 await writeFile('public/data/predictions.json',JSON.stringify(publicArchive(parseLedger(await readFile('data/ledger.jsonl','utf8'))),null,2));
 // Review utility uses the actual deployed documents in phone-width frames.
-const pageNames=['index.html','analytics.html','plans.html','track-record.html','nba-research.html','nfl-research.html','app.html','stats.html'];
+const pageNames=['index.html','analytics.html','plans.html','track-record.html','nba-research.html','nfl-research.html','app.html','stats.html','editor.html'];
 const frames=[];
 for(const name of pageNames){
  const page=await readFile(name,'utf8'),attr=page.replace(/&/g,'&amp;').replace(/"/g,'&quot;');
