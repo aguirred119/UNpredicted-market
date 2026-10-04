@@ -1,7 +1,220 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
+  "league": "NFL",
+  "checks": [
+    {
+      "league": "NFL",
+      "eventId": "664e6bda5721dc63be16bcf7d962a436",
+      "sourceGameId": "2026_04_ARI_NYG",
+      "home": "New York Giants",
+      "away": "Arizona Cardinals",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-04T00:44:35.140Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "daf55e2df5341c007fee5a0fc5bbc2d4",
+      "sourceGameId": "2026_04_DAL_HOU",
+      "home": "Houston Texans",
+      "away": "Dallas Cowboys",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-04T00:44:35.140Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "99a9bae4dc0dc2590496bd3102b211f2",
+      "sourceGameId": "2026_04_GB_TB",
+      "home": "Tampa Bay Buccaneers",
+      "away": "Green Bay Packers",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-04T00:44:35.140Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "2ea94ddf20f66432b9024fe2e2eaba5f",
+      "sourceGameId": "2026_04_JAX_CIN",
+      "home": "Cincinnati Bengals",
+      "away": "Jacksonville Jaguars",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-04T00:44:35.140Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "1b4f2e60ce83fa1d63a5dff83769d27c",
+      "sourceGameId": "2026_04_LA_PHI",
+      "home": "Philadelphia Eagles",
+      "away": "Los Angeles Rams",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-04T00:44:35.140Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "573cc0ef39631a4f6673ec843a8bedd4",
+      "sourceGameId": "2026_04_NE_BUF",
+      "home": "Buffalo Bills",
+      "away": "New England Patriots",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-04T00:44:35.140Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "164e6eb68f31bac190381903c3cccd31",
+      "sourceGameId": "2026_04_NYJ_CHI",
+      "home": "Chicago Bears",
+      "away": "New York Jets",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-04T00:44:35.140Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "f01589b0e7e6dd4f4ac1220a1db81f53",
+      "sourceGameId": "2026_04_TEN_BAL",
+      "home": "Baltimore Ravens",
+      "away": "Tennessee Titans",
+      "eventStart": "2026-10-04T17:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-04T00:44:35.140Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "c327223d76a3b7b0db8c6c104442f44b",
+      "sourceGameId": "2026_04_MIA_MIN",
+      "home": "Minnesota Vikings",
+      "away": "Miami Dolphins",
+      "eventStart": "2026-10-04T20:05:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-04T00:44:35.140Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "a7e7efb75a9792ac63480ae6328dca18",
+      "sourceGameId": "2026_04_DEN_SF",
+      "home": "San Francisco 49ers",
+      "away": "Denver Broncos",
+      "eventStart": "2026-10-04T20:25:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-04T00:44:35.140Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "e0cbd266dcf997089203a1b33ba0333d",
+      "sourceGameId": "2026_04_KC_LV",
+      "home": "Las Vegas Raiders",
+      "away": "Kansas City Chiefs",
+      "eventStart": "2026-10-04T20:25:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-04T00:44:35.140Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "96d2373cda647873b971f268482bced0",
+      "sourceGameId": "2026_04_LAC_SEA",
+      "home": "Seattle Seahawks",
+      "away": "Los Angeles Chargers",
+      "eventStart": "2026-10-04T20:25:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-04T00:44:35.140Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "a73a76599a4f3422803e57bd8f61b626",
+      "sourceGameId": "2026_04_DET_CAR",
+      "home": "Carolina Panthers",
+      "away": "Detroit Lions",
+      "eventStart": "2026-10-05T00:20:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-04T00:44:35.140Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "8bd90781e17e6d97df3941063cedae1e",
+      "sourceGameId": "2026_04_ATL_NO",
+      "home": "New Orleans Saints",
+      "away": "Atlanta Falcons",
+      "eventStart": "2026-10-06T00:15:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-04T00:44:35.140Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "c9d8ed8aa4889486eaf10a630138ede0",
+      "sourceGameId": null,
+      "home": "Washington Commanders",
+      "away": "Indianapolis Colts",
+      "eventStart": "2026-10-04T13:30:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-04T00:44:35.140Z"
+    }
+  ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-10-03T20:36:14.245Z",
+  "lastAttemptAt": "2026-10-04T00:44:32.877Z",
   "state": "waiting-for-eligible-games",
   "publishedThisRun": 0,
   "gradedThisRun": 0,
@@ -103,11 +316,18 @@
       "reasons": [
         "Each team needs 4 current-season prior games"
       ]
+    },
+    {
+      "event": "Indianapolis Colts at Washington Commanders",
+      "eventStart": "2026-10-04T13:30:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
     }
   ],
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
-  "sourceThrough": "2026-09-29T00:15:00.000Z",
-  "scheduleAsOf": "2026-10-03T20:36:15.912Z",
-  "completedAt": "2026-10-03T20:36:15.964Z"
+  "sourceThrough": "2026-10-02T00:15:00.000Z",
+  "scheduleAsOf": "2026-10-04T00:44:35.087Z",
+  "completedAt": "2026-10-04T00:44:35.143Z"
 }
