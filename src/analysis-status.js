@@ -10,7 +10,7 @@ export function analysisStatus(game,feed,now=Date.now()){
  if(!Number.isFinite(at)||at<started||at>completed||!['blocked','published','already-published'].includes(check.status)||!Array.isArray(check.reasons)||check.reasons.some(r=>typeof r!=='string')||(check.status==='blocked'&&!check.reasons.length))return{label:'Current check unavailable',reasons:['The saved event check could not be verified.'],checkedAt:null};
  return{label:check.status==='blocked'?'Publication withheld':'Publication recorded',reasons:check.reasons,checkedAt:check.checkedAt};
 }
-export function analysisStatusHtml(game,feed,esc,time,now=Date.now()){
+export function analysisStatusHtml(game,feed,esc,time,now=Date.now(),expanded=false){
  const s=analysisStatus(game,feed,now);
- return`<details class="analysis-check"><summary>${esc(s.label)}</summary>${s.checkedAt?`<p class="small">Pipeline checked ${time(s.checkedAt)}. This dated check does not confirm current game status.</p>`:''}${s.reasons.length?'<ul class="small">'+s.reasons.map(r=>'<li>'+esc(r)+'</li>').join('')+'</ul>':'<p class="small">Inspect the public archive for the forecast, frozen inputs and publication time.</p>'}<p class="small">No estimate is substituted when a check fails. Published forecasts remain in the archive.</p></details>`;
+ return`<details class="analysis-check"${expanded?' open':''}><summary>${esc(s.label)}</summary>${s.checkedAt?`<p class="small">Pipeline checked ${time(s.checkedAt)}. This dated check does not confirm current game status.</p>`:''}${s.reasons.length?'<ul class="small">'+s.reasons.map(r=>'<li>'+esc(r)+'</li>').join('')+'</ul>':'<p class="small">Inspect the public archive for the forecast, frozen inputs and publication time.</p>'}<p class="small">No estimate is substituted when a check fails. Published forecasts remain in the archive.</p></details>`;
 }
