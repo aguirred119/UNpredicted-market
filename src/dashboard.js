@@ -14,6 +14,7 @@ try{const old=localStorage.getItem('tonati-league');if(LEAGUES.includes(old))$('
 function render(){
  document.querySelectorAll('[data-league]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.league===$('league').value)));
  const league=$('league').value,term=$('search').value.trim().toLowerCase(),day=$('game-day').value;
+ $('games-title').textContent=day===localDay(new Date())?"Today's games":'Scheduled games';
  $('game-context').textContent=`${league} · ${day||'all dates'} · your local time`;
  const list=games.filter(g=>(demo||!day||localDay(new Date(g.eventStart))===day)&&`${g.home} ${g.away}`.toLowerCase().includes(term)&&(!watchOnly||watches.includes(g.id)||watches.includes('odds-'+g.id)));
  $('games').innerHTML=list.map(g=>{
