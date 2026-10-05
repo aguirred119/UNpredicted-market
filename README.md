@@ -73,3 +73,9 @@ No domain purchase, paid API activation, real billing or acceptance of provider 
 ### Exact-event daily publication checks
 
 NBA/NFL daily feeds now use schema version 2 and retain a timestamped check for every source candidate and every unique provider-scheduled event in the upcoming 72-hour window. Schedule-only games receive an explicit blocked reason; no missing statistical inputs are synthesized. Ambiguous provider or source identities cannot publish. Checks distinguish new publications, existing archived forecasts and withheld forecasts. Game cards and matchup pages match these checks by league, event ID, teams and start time; checks older than 36 hours, future timestamps and mismatched events are not presented as current. This is a dated pipeline status, not a live score, a probability or a substitute for the immutable publication record. No extra API, paid odds/score request or billing service was added.
+
+### NFL / NBA team statistics and editorial settlement
+
+`teamStatistics` in the existing research reports supports league-wide browsing on `/stats.html`. Summaries use only the stated season, a 48-hour result lag and windows of 8 NFL / 20 NBA games. Empty current-season samples are retained. Source retrieval and result coverage dates remain separate; these summaries are not forecasts or official standings. Sources and attribution remain the existing CC BY 4.0 research datasets.
+
+The daily licensed-source pipeline grades supported NBA/NFL editorial outright and half-point spread selections as well as model forecasts, after a unique exact teams/start-time match and the result lag. Saved source IDs, when present, must also match. Existing resolutions are never duplicated. Manually reviewed final results may be appended earlier through the authenticated publisher, with the score, source and settlement reasoning. Never change the original forecast or remove a loss.
