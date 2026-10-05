@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "retrospective-research",
-  "generatedAt": "2026-10-05T06:37:31.917Z",
+  "generatedAt": "2026-10-05T06:43:36.395Z",
   "dataThrough": "2026-04-13T00:30:00.000Z",
   "holdoutSeason": 2026,
   "source": {
@@ -165,7 +165,7 @@
     "season": 2027,
     "window": 20,
     "lagHours": 48,
-    "cutoff": "2026-10-03T06:37:31.917Z",
+    "cutoff": "2026-10-03T06:43:36.395Z",
     "completedGames": 0,
     "dataThrough": null,
     "teams": [
