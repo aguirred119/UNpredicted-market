@@ -4,76 +4,6 @@
   "checks": [
     {
       "league": "NFL",
-      "eventId": "c327223d76a3b7b0db8c6c104442f44b",
-      "sourceGameId": "2026_04_MIA_MIN",
-      "home": "Minnesota Vikings",
-      "away": "Miami Dolphins",
-      "eventStart": "2026-10-04T20:05:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "Each team needs 4 current-season prior games"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-10-04T18:18:42.031Z"
-    },
-    {
-      "league": "NFL",
-      "eventId": "a7e7efb75a9792ac63480ae6328dca18",
-      "sourceGameId": "2026_04_DEN_SF",
-      "home": "San Francisco 49ers",
-      "away": "Denver Broncos",
-      "eventStart": "2026-10-04T20:25:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "Each team needs 4 current-season prior games"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-10-04T18:18:42.031Z"
-    },
-    {
-      "league": "NFL",
-      "eventId": "e0cbd266dcf997089203a1b33ba0333d",
-      "sourceGameId": "2026_04_KC_LV",
-      "home": "Las Vegas Raiders",
-      "away": "Kansas City Chiefs",
-      "eventStart": "2026-10-04T20:25:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "Each team needs 4 current-season prior games"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-10-04T18:18:42.031Z"
-    },
-    {
-      "league": "NFL",
-      "eventId": "96d2373cda647873b971f268482bced0",
-      "sourceGameId": "2026_04_LAC_SEA",
-      "home": "Seattle Seahawks",
-      "away": "Los Angeles Chargers",
-      "eventStart": "2026-10-04T20:25:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "Each team needs 4 current-season prior games"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-10-04T18:18:42.031Z"
-    },
-    {
-      "league": "NFL",
-      "eventId": "a73a76599a4f3422803e57bd8f61b626",
-      "sourceGameId": "2026_04_DET_CAR",
-      "home": "Carolina Panthers",
-      "away": "Detroit Lions",
-      "eventStart": "2026-10-05T00:20:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "Each team needs 4 current-season prior games"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-10-04T18:18:42.031Z"
-    },
-    {
-      "league": "NFL",
       "eventId": "8bd90781e17e6d97df3941063cedae1e",
       "sourceGameId": "2026_04_ATL_NO",
       "home": "New Orleans Saints",
@@ -84,50 +14,15 @@
         "Each team needs 4 current-season prior games"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-04T18:18:42.031Z"
+      "checkedAt": "2026-10-05T06:43:25.021Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-10-04T18:18:40.376Z",
+  "lastAttemptAt": "2026-10-05T06:43:22.910Z",
   "state": "waiting-for-eligible-games",
   "publishedThisRun": 0,
   "gradedThisRun": 0,
   "skipped": [
-    {
-      "event": "Miami Dolphins at Minnesota Vikings",
-      "eventStart": "2026-10-04T20:05:00.000Z",
-      "reasons": [
-        "Each team needs 4 current-season prior games"
-      ]
-    },
-    {
-      "event": "Denver Broncos at San Francisco 49ers",
-      "eventStart": "2026-10-04T20:25:00.000Z",
-      "reasons": [
-        "Each team needs 4 current-season prior games"
-      ]
-    },
-    {
-      "event": "Kansas City Chiefs at Las Vegas Raiders",
-      "eventStart": "2026-10-04T20:25:00.000Z",
-      "reasons": [
-        "Each team needs 4 current-season prior games"
-      ]
-    },
-    {
-      "event": "Los Angeles Chargers at Seattle Seahawks",
-      "eventStart": "2026-10-04T20:25:00.000Z",
-      "reasons": [
-        "Each team needs 4 current-season prior games"
-      ]
-    },
-    {
-      "event": "Detroit Lions at Carolina Panthers",
-      "eventStart": "2026-10-05T00:20:00.000Z",
-      "reasons": [
-        "Each team needs 4 current-season prior games"
-      ]
-    },
     {
       "event": "Atlanta Falcons at New Orleans Saints",
       "eventStart": "2026-10-06T00:15:00.000Z",
@@ -139,6 +34,6 @@
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
   "sourceThrough": "2026-10-02T00:15:00.000Z",
-  "scheduleAsOf": "2026-10-04T18:18:41.988Z",
-  "completedAt": "2026-10-04T18:18:42.034Z"
+  "scheduleAsOf": "2026-10-05T06:43:24.983Z",
+  "completedAt": "2026-10-05T06:43:25.023Z"
 }
