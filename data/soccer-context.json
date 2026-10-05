@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastAttemptAt": "2026-10-04T18:19:30.905Z",
+  "lastAttemptAt": "2026-10-05T12:56:04.739Z",
   "cadence": "Daily retrieval; upstream community results are not guaranteed to update daily.",
   "leagues": {
     "Premier League": {
@@ -8,7 +8,7 @@
       "league": "Premier League",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-10-04T18:19:30.905Z",
+      "generatedAt": "2026-10-05T12:56:04.739Z",
       "dataThrough": "2026-09-20",
       "completedGames": 50,
       "source": {
@@ -26,7 +26,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-10-04T18:19:31.758Z",
+      "scheduleAsOf": "2026-10-05T12:56:05.680Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -36,6 +36,8 @@
           "losses": 1,
           "ties": 0,
           "averageMargin": 0.8,
+          "averageScored": 1.6,
+          "averageAllowed": 0.8,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -85,9 +87,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1.6,
-          "averageAllowed": 0.8
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Aston Villa",
@@ -96,6 +96,8 @@
           "losses": 3,
           "ties": 1,
           "averageMargin": -1,
+          "averageScored": 0.8,
+          "averageAllowed": 1.8,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -145,9 +147,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 0.8,
-          "averageAllowed": 1.8
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Bournemouth",
@@ -156,6 +156,8 @@
           "losses": 2,
           "ties": 3,
           "averageMargin": -0.4,
+          "averageScored": 1.2,
+          "averageAllowed": 1.6,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -205,9 +207,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1.2,
-          "averageAllowed": 1.6
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Brentford",
@@ -216,6 +216,8 @@
           "losses": 0,
           "ties": 3,
           "averageMargin": 1.2,
+          "averageScored": 2,
+          "averageAllowed": 0.8,
           "inputAsOf": "2026-09-18T23:59:59.999Z",
           "recent": [
             {
@@ -265,9 +267,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-18",
-          "averageScored": 2,
-          "averageAllowed": 0.8
+          "inputAsOfDateOnly": "2026-09-18"
         },
         {
           "team": "Brighton and Hove Albion",
@@ -276,6 +276,8 @@
           "losses": 1,
           "ties": 1,
           "averageMargin": 2.2,
+          "averageScored": 3.2,
+          "averageAllowed": 1,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -325,9 +327,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 3.2,
-          "averageAllowed": 1
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Chelsea",
@@ -336,6 +336,8 @@
           "losses": 2,
           "ties": 1,
           "averageMargin": -0.4,
+          "averageScored": 2,
+          "averageAllowed": 2.4,
           "inputAsOf": "2026-09-18T23:59:59.999Z",
           "recent": [
             {
@@ -385,9 +387,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-18",
-          "averageScored": 2,
-          "averageAllowed": 2.4
+          "inputAsOfDateOnly": "2026-09-18"
         },
         {
           "team": "Coventry City",
@@ -396,6 +396,8 @@
           "losses": 4,
           "ties": 0,
           "averageMargin": -1.8,
+          "averageScored": 0.2,
+          "averageAllowed": 2,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -445,9 +447,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 0.2,
-          "averageAllowed": 2
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Crystal Palace",
@@ -456,6 +456,8 @@
           "losses": 3,
           "ties": 1,
           "averageMargin": -1,
+          "averageScored": 1.2,
+          "averageAllowed": 2.2,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -505,9 +507,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1.2,
-          "averageAllowed": 2.2
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Everton",
@@ -516,6 +516,8 @@
           "losses": 0,
           "ties": 3,
           "averageMargin": 0.6,
+          "averageScored": 1.2,
+          "averageAllowed": 0.6,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -565,9 +567,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1.2,
-          "averageAllowed": 0.6
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Fulham",
@@ -576,6 +576,8 @@
           "losses": 3,
           "ties": 2,
           "averageMargin": -0.6,
+          "averageScored": 1,
+          "averageAllowed": 1.6,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -625,9 +627,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1,
-          "averageAllowed": 1.6
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Hull City",
@@ -636,6 +636,8 @@
           "losses": 1,
           "ties": 2,
           "averageMargin": 0.4,
+          "averageScored": 1.2,
+          "averageAllowed": 0.8,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -685,9 +687,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1.2,
-          "averageAllowed": 0.8
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Ipswich Town",
@@ -696,6 +696,8 @@
           "losses": 3,
           "ties": 0,
           "averageMargin": -0.8,
+          "averageScored": 1.4,
+          "averageAllowed": 2.2,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -745,9 +747,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1.4,
-          "averageAllowed": 2.2
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Leeds United",
@@ -756,6 +756,8 @@
           "losses": 0,
           "ties": 3,
           "averageMargin": 0.8,
+          "averageScored": 1.4,
+          "averageAllowed": 0.6,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -805,9 +807,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1.4,
-          "averageAllowed": 0.6
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Liverpool",
@@ -816,6 +816,8 @@
           "losses": 0,
           "ties": 3,
           "averageMargin": 0.6,
+          "averageScored": 1.4,
+          "averageAllowed": 0.8,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -865,9 +867,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1.4,
-          "averageAllowed": 0.8
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Manchester City",
@@ -876,6 +876,8 @@
           "losses": 0,
           "ties": 0,
           "averageMargin": 1.6,
+          "averageScored": 2.6,
+          "averageAllowed": 1,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -925,9 +927,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 2.6,
-          "averageAllowed": 1
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Manchester United",
@@ -936,6 +936,8 @@
           "losses": 2,
           "ties": 2,
           "averageMargin": 0,
+          "averageScored": 1.6,
+          "averageAllowed": 1.6,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -985,9 +987,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1.6,
-          "averageAllowed": 1.6
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Newcastle United",
@@ -996,6 +996,8 @@
           "losses": 1,
           "ties": 2,
           "averageMargin": 0,
+          "averageScored": 1.8,
+          "averageAllowed": 1.8,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -1045,9 +1047,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1.8,
-          "averageAllowed": 1.8
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Nottingham Forest",
@@ -1056,6 +1056,8 @@
           "losses": 2,
           "ties": 2,
           "averageMargin": -0.2,
+          "averageScored": 0.8,
+          "averageAllowed": 1,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -1105,9 +1107,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 0.8,
-          "averageAllowed": 1
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Sunderland",
@@ -1116,6 +1116,8 @@
           "losses": 3,
           "ties": 1,
           "averageMargin": -0.8,
+          "averageScored": 1.2,
+          "averageAllowed": 2,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -1165,9 +1167,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1.2,
-          "averageAllowed": 2
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Tottenham Hotspur",
@@ -1176,6 +1176,8 @@
           "losses": 3,
           "ties": 2,
           "averageMargin": -1.2,
+          "averageScored": 0.4,
+          "averageAllowed": 1.6,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -1225,9 +1227,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 0.4,
-          "averageAllowed": 1.6
+          "inputAsOfDateOnly": "2026-09-19"
         }
       ],
       "upcoming": [
@@ -1410,7 +1410,7 @@
       "league": "La Liga",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-10-04T18:19:30.905Z",
+      "generatedAt": "2026-10-05T12:56:04.739Z",
       "dataThrough": "2026-09-20",
       "completedGames": 69,
       "source": {
@@ -1428,7 +1428,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-10-04T18:19:31.927Z",
+      "scheduleAsOf": "2026-10-05T12:56:06.104Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -1438,6 +1438,8 @@
           "losses": 2,
           "ties": 2,
           "averageMargin": 0.7142857142857143,
+          "averageScored": 1.5714285714285714,
+          "averageAllowed": 0.8571428571428571,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -1487,9 +1489,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1.5714285714285714,
-          "averageAllowed": 0.8571428571428571
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Athletic Bilbao",
@@ -1498,6 +1498,8 @@
           "losses": 2,
           "ties": 2,
           "averageMargin": 0.16666666666666666,
+          "averageScored": 1.1666666666666667,
+          "averageAllowed": 1,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -1547,9 +1549,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1.1666666666666667,
-          "averageAllowed": 1
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Atlético Madrid",
@@ -1558,6 +1558,8 @@
           "losses": 1,
           "ties": 1,
           "averageMargin": 1.2857142857142858,
+          "averageScored": 2.2857142857142856,
+          "averageAllowed": 1,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -1607,9 +1609,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 2.2857142857142856,
-          "averageAllowed": 1
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Barcelona",
@@ -1618,6 +1618,8 @@
           "losses": 0,
           "ties": 0,
           "averageMargin": 3.4285714285714284,
+          "averageScored": 4.428571428571429,
+          "averageAllowed": 1,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -1667,9 +1669,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 4.428571428571429,
-          "averageAllowed": 1
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "CA Osasuna",
@@ -1678,6 +1678,8 @@
           "losses": 3,
           "ties": 2,
           "averageMargin": -1,
+          "averageScored": 0.8571428571428571,
+          "averageAllowed": 1.8571428571428572,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -1727,9 +1729,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 0.8571428571428571,
-          "averageAllowed": 1.8571428571428572
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Celta Vigo",
@@ -1738,6 +1738,8 @@
           "losses": 2,
           "ties": 4,
           "averageMargin": 0.2857142857142857,
+          "averageScored": 1.1428571428571428,
+          "averageAllowed": 0.8571428571428571,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -1787,9 +1789,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1.1428571428571428,
-          "averageAllowed": 0.8571428571428571
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Deportivo La Coruña",
@@ -1798,6 +1798,8 @@
           "losses": 1,
           "ties": 4,
           "averageMargin": 0.2857142857142857,
+          "averageScored": 1.4285714285714286,
+          "averageAllowed": 1.1428571428571428,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -1847,9 +1849,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1.4285714285714286,
-          "averageAllowed": 1.1428571428571428
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Elche CF",
@@ -1858,6 +1858,8 @@
           "losses": 4,
           "ties": 2,
           "averageMargin": -0.8571428571428571,
+          "averageScored": 1.5714285714285714,
+          "averageAllowed": 2.4285714285714284,
           "inputAsOf": "2026-09-18T23:59:59.999Z",
           "recent": [
             {
@@ -1907,9 +1909,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-18",
-          "averageScored": 1.5714285714285714,
-          "averageAllowed": 2.4285714285714284
+          "inputAsOfDateOnly": "2026-09-18"
         },
         {
           "team": "Espanyol",
@@ -1918,6 +1918,8 @@
           "losses": 4,
           "ties": 1,
           "averageMargin": 0,
+          "averageScored": 1.4285714285714286,
+          "averageAllowed": 1.4285714285714286,
           "inputAsOf": "2026-09-18T23:59:59.999Z",
           "recent": [
             {
@@ -1967,9 +1969,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-18",
-          "averageScored": 1.4285714285714286,
-          "averageAllowed": 1.4285714285714286
+          "inputAsOfDateOnly": "2026-09-18"
         },
         {
           "team": "Getafe",
@@ -1978,6 +1978,8 @@
           "losses": 3,
           "ties": 2,
           "averageMargin": -0.42857142857142855,
+          "averageScored": 0.5714285714285714,
+          "averageAllowed": 1,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -2027,9 +2029,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 0.5714285714285714,
-          "averageAllowed": 1
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Levante",
@@ -2038,6 +2038,8 @@
           "losses": 3,
           "ties": 2,
           "averageMargin": -0.6666666666666666,
+          "averageScored": 1.3333333333333333,
+          "averageAllowed": 2,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -2087,9 +2089,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1.3333333333333333,
-          "averageAllowed": 2
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Málaga",
@@ -2098,6 +2098,8 @@
           "losses": 4,
           "ties": 3,
           "averageMargin": -1.2857142857142858,
+          "averageScored": 0.42857142857142855,
+          "averageAllowed": 1.7142857142857142,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -2147,9 +2149,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 0.42857142857142855,
-          "averageAllowed": 1.7142857142857142
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Rayo Vallecano",
@@ -2158,6 +2158,8 @@
           "losses": 3,
           "ties": 2,
           "averageMargin": -0.7142857142857143,
+          "averageScored": 1.5714285714285714,
+          "averageAllowed": 2.2857142857142856,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -2207,9 +2209,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1.5714285714285714,
-          "averageAllowed": 2.2857142857142856
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Real Betis",
@@ -2218,6 +2218,8 @@
           "losses": 1,
           "ties": 1,
           "averageMargin": 0.2857142857142857,
+          "averageScored": 1.2857142857142858,
+          "averageAllowed": 1,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -2267,9 +2269,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1.2857142857142858,
-          "averageAllowed": 1
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Real Madrid",
@@ -2278,6 +2278,8 @@
           "losses": 2,
           "ties": 0,
           "averageMargin": 1.4285714285714286,
+          "averageScored": 2.5714285714285716,
+          "averageAllowed": 1.1428571428571428,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -2327,9 +2329,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 2.5714285714285716,
-          "averageAllowed": 1.1428571428571428
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Real Racing Club de Santander",
@@ -2338,6 +2338,8 @@
           "losses": 4,
           "ties": 1,
           "averageMargin": -1.4285714285714286,
+          "averageScored": 1.5714285714285714,
+          "averageAllowed": 3,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -2387,9 +2389,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1.5714285714285714,
-          "averageAllowed": 3
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Real Sociedad",
@@ -2398,6 +2398,8 @@
           "losses": 3,
           "ties": 1,
           "averageMargin": -0.5714285714285714,
+          "averageScored": 1.2857142857142858,
+          "averageAllowed": 1.8571428571428572,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -2447,9 +2449,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1.2857142857142858,
-          "averageAllowed": 1.8571428571428572
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Sevilla",
@@ -2458,6 +2458,8 @@
           "losses": 2,
           "ties": 1,
           "averageMargin": 0.14285714285714285,
+          "averageScored": 1.4285714285714286,
+          "averageAllowed": 1.2857142857142858,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -2507,9 +2509,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1.4285714285714286,
-          "averageAllowed": 1.2857142857142858
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Valencia",
@@ -2518,6 +2518,8 @@
           "losses": 5,
           "ties": 1,
           "averageMargin": -1.2857142857142858,
+          "averageScored": 0.5714285714285714,
+          "averageAllowed": 1.8571428571428572,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -2567,9 +2569,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 0.5714285714285714,
-          "averageAllowed": 1.8571428571428572
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Villarreal",
@@ -2578,6 +2578,8 @@
           "losses": 3,
           "ties": 2,
           "averageMargin": 0.14285714285714285,
+          "averageScored": 1.8571428571428572,
+          "averageAllowed": 1.7142857142857142,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -2627,9 +2629,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1.8571428571428572,
-          "averageAllowed": 1.7142857142857142
+          "inputAsOfDateOnly": "2026-09-20"
         }
       ],
       "upcoming": [
@@ -2794,6 +2794,15 @@
           "sourceEventId": "soccer-2bdf9a4c9999a480b2da8d88",
           "sourceDate": "2026-10-18",
           "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "eccd63bf768e2f2a358b871d3f33a63d",
+          "home": "Real Madrid",
+          "away": "Sevilla",
+          "eventStart": "2026-10-18T19:00:00.000Z",
+          "sourceEventId": "soccer-76b46bcf7269ccd2d7afa5c3",
+          "sourceDate": "2026-10-18",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
         }
       ],
       "skipped": []
@@ -2803,7 +2812,7 @@
       "league": "Serie A",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-10-04T18:19:30.905Z",
+      "generatedAt": "2026-10-05T12:56:04.739Z",
       "dataThrough": "2026-09-20",
       "completedGames": 50,
       "source": {
@@ -2821,7 +2830,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-10-04T18:19:32.517Z",
+      "scheduleAsOf": "2026-10-05T12:56:06.423Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -2831,6 +2840,8 @@
           "losses": 0,
           "ties": 2,
           "averageMargin": 1.2,
+          "averageScored": 2,
+          "averageAllowed": 0.8,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -2880,9 +2891,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 2,
-          "averageAllowed": 0.8
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "AS Roma",
@@ -2891,6 +2900,8 @@
           "losses": 0,
           "ties": 1,
           "averageMargin": 2.2,
+          "averageScored": 2.8,
+          "averageAllowed": 0.6,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -2940,9 +2951,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 2.8,
-          "averageAllowed": 0.6
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Atalanta BC",
@@ -2951,6 +2960,8 @@
           "losses": 3,
           "ties": 0,
           "averageMargin": -0.4,
+          "averageScored": 1,
+          "averageAllowed": 1.4,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -3000,9 +3011,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1,
-          "averageAllowed": 1.4
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Bologna",
@@ -3011,6 +3020,8 @@
           "losses": 3,
           "ties": 2,
           "averageMargin": -0.6,
+          "averageScored": 0.6,
+          "averageAllowed": 1.2,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -3060,9 +3071,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 0.6,
-          "averageAllowed": 1.2
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Cagliari",
@@ -3071,6 +3080,8 @@
           "losses": 1,
           "ties": 0,
           "averageMargin": 0.6,
+          "averageScored": 1,
+          "averageAllowed": 0.4,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -3120,9 +3131,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1,
-          "averageAllowed": 0.4
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Como",
@@ -3131,6 +3140,8 @@
           "losses": 1,
           "ties": 1,
           "averageMargin": 0.6,
+          "averageScored": 1.8,
+          "averageAllowed": 1.2,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -3180,9 +3191,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1.8,
-          "averageAllowed": 1.2
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Fiorentina",
@@ -3191,6 +3200,8 @@
           "losses": 3,
           "ties": 1,
           "averageMargin": -1.2,
+          "averageScored": 1.2,
+          "averageAllowed": 2.4,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -3240,9 +3251,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1.2,
-          "averageAllowed": 2.4
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Frosinone",
@@ -3251,6 +3260,8 @@
           "losses": 1,
           "ties": 1,
           "averageMargin": 1,
+          "averageScored": 1.8,
+          "averageAllowed": 0.8,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -3300,9 +3311,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1.8,
-          "averageAllowed": 0.8
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Genoa",
@@ -3311,6 +3320,8 @@
           "losses": 4,
           "ties": 1,
           "averageMargin": -1.4,
+          "averageScored": 0.6,
+          "averageAllowed": 2,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -3360,9 +3371,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 0.6,
-          "averageAllowed": 2
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Inter Milan",
@@ -3371,6 +3380,8 @@
           "losses": 0,
           "ties": 1,
           "averageMargin": 1.4,
+          "averageScored": 3,
+          "averageAllowed": 1.6,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -3420,9 +3431,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 3,
-          "averageAllowed": 1.6
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Juventus",
@@ -3431,6 +3440,8 @@
           "losses": 1,
           "ties": 1,
           "averageMargin": 0.8,
+          "averageScored": 1.6,
+          "averageAllowed": 0.8,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -3480,9 +3491,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1.6,
-          "averageAllowed": 0.8
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Lazio",
@@ -3491,6 +3500,8 @@
           "losses": 0,
           "ties": 1,
           "averageMargin": 1,
+          "averageScored": 1.6,
+          "averageAllowed": 0.6,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -3540,9 +3551,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1.6,
-          "averageAllowed": 0.6
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Lecce",
@@ -3551,6 +3560,8 @@
           "losses": 3,
           "ties": 0,
           "averageMargin": -1,
+          "averageScored": 1,
+          "averageAllowed": 2,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -3600,9 +3611,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1,
-          "averageAllowed": 2
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Monza",
@@ -3611,6 +3620,8 @@
           "losses": 3,
           "ties": 1,
           "averageMargin": -0.8,
+          "averageScored": 1.6,
+          "averageAllowed": 2.4,
           "inputAsOf": "2026-09-18T23:59:59.999Z",
           "recent": [
             {
@@ -3660,9 +3671,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-18",
-          "averageScored": 1.6,
-          "averageAllowed": 2.4
+          "inputAsOfDateOnly": "2026-09-18"
         },
         {
           "team": "Napoli",
@@ -3671,6 +3680,8 @@
           "losses": 2,
           "ties": 1,
           "averageMargin": 0.2,
+          "averageScored": 1.4,
+          "averageAllowed": 1.2,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -3720,9 +3731,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1.4,
-          "averageAllowed": 1.2
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Parma",
@@ -3731,6 +3740,8 @@
           "losses": 3,
           "ties": 1,
           "averageMargin": -0.6,
+          "averageScored": 0.8,
+          "averageAllowed": 1.4,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -3780,9 +3791,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 0.8,
-          "averageAllowed": 1.4
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Sassuolo",
@@ -3791,6 +3800,8 @@
           "losses": 2,
           "ties": 1,
           "averageMargin": 0,
+          "averageScored": 1.8,
+          "averageAllowed": 1.8,
           "inputAsOf": "2026-09-18T23:59:59.999Z",
           "recent": [
             {
@@ -3840,9 +3851,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-18",
-          "averageScored": 1.8,
-          "averageAllowed": 1.8
+          "inputAsOfDateOnly": "2026-09-18"
         },
         {
           "team": "Torino",
@@ -3851,6 +3860,8 @@
           "losses": 3,
           "ties": 1,
           "averageMargin": -0.6,
+          "averageScored": 1,
+          "averageAllowed": 1.6,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -3900,9 +3911,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1,
-          "averageAllowed": 1.6
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Udinese",
@@ -3911,6 +3920,8 @@
           "losses": 3,
           "ties": 1,
           "averageMargin": -0.6,
+          "averageScored": 1.6,
+          "averageAllowed": 2.2,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -3960,9 +3971,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1.6,
-          "averageAllowed": 2.2
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Venezia",
@@ -3971,6 +3980,8 @@
           "losses": 5,
           "ties": 0,
           "averageMargin": -1.8,
+          "averageScored": 0.8,
+          "averageAllowed": 2.6,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -4020,9 +4031,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 0.8,
-          "averageAllowed": 2.6
+          "inputAsOfDateOnly": "2026-09-19"
         }
       ],
       "upcoming": [
@@ -4178,6 +4187,15 @@
           "sourceEventId": "soccer-f96bf5c49999d7b2ec690717",
           "sourceDate": "2026-10-18",
           "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "4c4026e2782f09d6f0ff2bde2a390513",
+          "home": "Juventus",
+          "away": "Lazio",
+          "eventStart": "2026-10-18T18:45:00.000Z",
+          "sourceEventId": "soccer-5b6d97a70cf8408a45b28c59",
+          "sourceDate": "2026-10-18",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
         }
       ],
       "skipped": []
@@ -4187,7 +4205,7 @@
       "league": "Bundesliga",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-10-04T18:19:30.905Z",
+      "generatedAt": "2026-10-05T12:56:04.739Z",
       "dataThrough": "2026-09-20",
       "completedGames": 36,
       "source": {
@@ -4205,7 +4223,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-10-04T18:19:33.224Z",
+      "scheduleAsOf": "2026-10-05T12:56:06.681Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -4215,6 +4233,8 @@
           "losses": 2,
           "ties": 1,
           "averageMargin": -0.75,
+          "averageScored": 1.5,
+          "averageAllowed": 2.25,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -4255,9 +4275,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1.5,
-          "averageAllowed": 2.25
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Augsburg",
@@ -4266,6 +4284,8 @@
           "losses": 1,
           "ties": 1,
           "averageMargin": 1.25,
+          "averageScored": 2.75,
+          "averageAllowed": 1.5,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -4306,9 +4326,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 2.75,
-          "averageAllowed": 1.5
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Bayer Leverkusen",
@@ -4317,6 +4335,8 @@
           "losses": 1,
           "ties": 1,
           "averageMargin": 1.25,
+          "averageScored": 2.5,
+          "averageAllowed": 1.25,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -4357,9 +4377,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 2.5,
-          "averageAllowed": 1.25
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Bayern Munich",
@@ -4368,6 +4386,8 @@
           "losses": 0,
           "ties": 1,
           "averageMargin": 3,
+          "averageScored": 3.5,
+          "averageAllowed": 0.5,
           "inputAsOf": "2026-09-18T23:59:59.999Z",
           "recent": [
             {
@@ -4408,9 +4428,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-18",
-          "averageScored": 3.5,
-          "averageAllowed": 0.5
+          "inputAsOfDateOnly": "2026-09-18"
         },
         {
           "team": "Borussia Dortmund",
@@ -4419,6 +4437,8 @@
           "losses": 0,
           "ties": 0,
           "averageMargin": 1.75,
+          "averageScored": 2.25,
+          "averageAllowed": 0.5,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -4459,9 +4479,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 2.25,
-          "averageAllowed": 0.5
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Borussia Monchengladbach",
@@ -4470,6 +4488,8 @@
           "losses": 4,
           "ties": 0,
           "averageMargin": -2.5,
+          "averageScored": 1.5,
+          "averageAllowed": 4,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -4510,9 +4530,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1.5,
-          "averageAllowed": 4
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Eintracht Frankfurt",
@@ -4521,6 +4539,8 @@
           "losses": 1,
           "ties": 2,
           "averageMargin": -0.25,
+          "averageScored": 2.25,
+          "averageAllowed": 2.5,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -4561,9 +4581,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 2.25,
-          "averageAllowed": 2.5
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Elversberg",
@@ -4572,6 +4590,8 @@
           "losses": 1,
           "ties": 1,
           "averageMargin": 0.25,
+          "averageScored": 2,
+          "averageAllowed": 1.75,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -4612,9 +4632,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 2,
-          "averageAllowed": 1.75
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "FC Schalke 04",
@@ -4623,6 +4641,8 @@
           "losses": 1,
           "ties": 2,
           "averageMargin": -0.25,
+          "averageScored": 0.75,
+          "averageAllowed": 1,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -4663,9 +4683,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 0.75,
-          "averageAllowed": 1
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "FSV Mainz 05",
@@ -4674,6 +4692,8 @@
           "losses": 1,
           "ties": 1,
           "averageMargin": 1,
+          "averageScored": 2.5,
+          "averageAllowed": 1.5,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -4714,9 +4734,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 2.5,
-          "averageAllowed": 1.5
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Hamburger SV",
@@ -4725,6 +4743,8 @@
           "losses": 3,
           "ties": 0,
           "averageMargin": -2.75,
+          "averageScored": 0.5,
+          "averageAllowed": 3.25,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -4765,9 +4785,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 0.5,
-          "averageAllowed": 3.25
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "RB Leipzig",
@@ -4776,6 +4794,8 @@
           "losses": 2,
           "ties": 0,
           "averageMargin": 1,
+          "averageScored": 2.25,
+          "averageAllowed": 1.25,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -4816,9 +4836,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 2.25,
-          "averageAllowed": 1.25
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "SC Freiburg",
@@ -4827,6 +4845,8 @@
           "losses": 0,
           "ties": 1,
           "averageMargin": 2.25,
+          "averageScored": 3,
+          "averageAllowed": 0.75,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -4867,9 +4887,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 3,
-          "averageAllowed": 0.75
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "SC Paderborn",
@@ -4878,6 +4896,8 @@
           "losses": 2,
           "ties": 1,
           "averageMargin": -0.5,
+          "averageScored": 0.75,
+          "averageAllowed": 1.25,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -4918,9 +4938,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 0.75,
-          "averageAllowed": 1.25
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "TSG Hoffenheim",
@@ -4929,6 +4947,8 @@
           "losses": 3,
           "ties": 0,
           "averageMargin": -0.75,
+          "averageScored": 1.75,
+          "averageAllowed": 2.5,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -4969,9 +4989,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1.75,
-          "averageAllowed": 2.5
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Union Berlin",
@@ -4980,6 +4998,8 @@
           "losses": 3,
           "ties": 1,
           "averageMargin": -3.25,
+          "averageScored": 1,
+          "averageAllowed": 4.25,
           "inputAsOf": "2026-09-18T23:59:59.999Z",
           "recent": [
             {
@@ -5020,9 +5040,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-18",
-          "averageScored": 1,
-          "averageAllowed": 4.25
+          "inputAsOfDateOnly": "2026-09-18"
         },
         {
           "team": "VfB Stuttgart",
@@ -5031,6 +5049,8 @@
           "losses": 3,
           "ties": 0,
           "averageMargin": -0.75,
+          "averageScored": 1.5,
+          "averageAllowed": 2.25,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -5071,9 +5091,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1.5,
-          "averageAllowed": 2.25
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Werder Bremen",
@@ -5082,6 +5100,8 @@
           "losses": 1,
           "ties": 1,
           "averageMargin": 0,
+          "averageScored": 2,
+          "averageAllowed": 2,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -5122,9 +5142,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 2,
-          "averageAllowed": 2
+          "inputAsOfDateOnly": "2026-09-19"
         }
       ],
       "upcoming": [
@@ -5298,7 +5316,7 @@
       "league": "Ligue 1",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-10-04T18:19:30.905Z",
+      "generatedAt": "2026-10-05T12:56:04.739Z",
       "dataThrough": "2026-09-20",
       "completedGames": 45,
       "source": {
@@ -5316,7 +5334,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-10-04T18:19:33.346Z",
+      "scheduleAsOf": "2026-10-05T12:56:06.893Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -5326,6 +5344,8 @@
           "losses": 0,
           "ties": 1,
           "averageMargin": 1,
+          "averageScored": 1.6,
+          "averageAllowed": 0.6,
           "inputAsOf": "2026-09-18T23:59:59.999Z",
           "recent": [
             {
@@ -5375,9 +5395,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-18",
-          "averageScored": 1.6,
-          "averageAllowed": 0.6
+          "inputAsOfDateOnly": "2026-09-18"
         },
         {
           "team": "Angers",
@@ -5386,6 +5404,8 @@
           "losses": 2,
           "ties": 1,
           "averageMargin": 0.2,
+          "averageScored": 1.2,
+          "averageAllowed": 1,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -5435,9 +5455,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1.2,
-          "averageAllowed": 1
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Auxerre",
@@ -5446,6 +5464,8 @@
           "losses": 3,
           "ties": 0,
           "averageMargin": -1,
+          "averageScored": 1.4,
+          "averageAllowed": 2.4,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -5495,9 +5515,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1.4,
-          "averageAllowed": 2.4
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Brest",
@@ -5506,6 +5524,8 @@
           "losses": 2,
           "ties": 2,
           "averageMargin": -0.2,
+          "averageScored": 1.4,
+          "averageAllowed": 1.6,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -5555,9 +5575,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1.4,
-          "averageAllowed": 1.6
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Le Havre",
@@ -5566,6 +5584,8 @@
           "losses": 3,
           "ties": 2,
           "averageMargin": -0.6,
+          "averageScored": 0.8,
+          "averageAllowed": 1.4,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -5615,9 +5635,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 0.8,
-          "averageAllowed": 1.4
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Le Mans FC",
@@ -5626,6 +5644,8 @@
           "losses": 1,
           "ties": 3,
           "averageMargin": 0,
+          "averageScored": 1.8,
+          "averageAllowed": 1.8,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -5675,9 +5695,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1.8,
-          "averageAllowed": 1.8
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Lille",
@@ -5686,6 +5704,8 @@
           "losses": 1,
           "ties": 1,
           "averageMargin": 0.8,
+          "averageScored": 1.6,
+          "averageAllowed": 0.8,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -5735,9 +5755,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1.6,
-          "averageAllowed": 0.8
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Lorient",
@@ -5746,6 +5764,8 @@
           "losses": 2,
           "ties": 2,
           "averageMargin": -0.2,
+          "averageScored": 1,
+          "averageAllowed": 1.2,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -5795,9 +5815,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1,
-          "averageAllowed": 1.2
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Lyon",
@@ -5806,6 +5824,8 @@
           "losses": 0,
           "ties": 2,
           "averageMargin": 1.6,
+          "averageScored": 2,
+          "averageAllowed": 0.4,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -5855,9 +5875,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 2,
-          "averageAllowed": 0.4
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Marseille",
@@ -5866,6 +5884,8 @@
           "losses": 4,
           "ties": 0,
           "averageMargin": -0.2,
+          "averageScored": 1.4,
+          "averageAllowed": 1.6,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -5915,9 +5935,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1.4,
-          "averageAllowed": 1.6
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Nice",
@@ -5926,6 +5944,8 @@
           "losses": 2,
           "ties": 2,
           "averageMargin": -0.6,
+          "averageScored": 0.6,
+          "averageAllowed": 1.2,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -5975,9 +5995,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 0.6,
-          "averageAllowed": 1.2
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "Paris FC",
@@ -5986,6 +6004,8 @@
           "losses": 0,
           "ties": 2,
           "averageMargin": 1,
+          "averageScored": 1.6,
+          "averageAllowed": 0.6,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -6035,9 +6055,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1.6,
-          "averageAllowed": 0.6
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Paris Saint Germain",
@@ -6046,6 +6064,8 @@
           "losses": 1,
           "ties": 2,
           "averageMargin": 0.2,
+          "averageScored": 1.6,
+          "averageAllowed": 1.4,
           "inputAsOf": "2026-09-20T23:59:59.999Z",
           "recent": [
             {
@@ -6095,9 +6115,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-20",
-          "averageScored": 1.6,
-          "averageAllowed": 1.4
+          "inputAsOfDateOnly": "2026-09-20"
         },
         {
           "team": "RC Lens",
@@ -6106,6 +6124,8 @@
           "losses": 3,
           "ties": 1,
           "averageMargin": 0,
+          "averageScored": 1.8,
+          "averageAllowed": 1.8,
           "inputAsOf": "2026-09-18T23:59:59.999Z",
           "recent": [
             {
@@ -6155,9 +6175,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-18",
-          "averageScored": 1.8,
-          "averageAllowed": 1.8
+          "inputAsOfDateOnly": "2026-09-18"
         },
         {
           "team": "Rennes",
@@ -6166,6 +6184,8 @@
           "losses": 1,
           "ties": 1,
           "averageMargin": -0.2,
+          "averageScored": 1.6,
+          "averageAllowed": 1.8,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -6215,9 +6235,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1.6,
-          "averageAllowed": 1.8
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Strasbourg",
@@ -6226,6 +6244,8 @@
           "losses": 2,
           "ties": 1,
           "averageMargin": 0,
+          "averageScored": 2,
+          "averageAllowed": 2,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -6275,9 +6295,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 2,
-          "averageAllowed": 2
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Toulouse",
@@ -6286,6 +6304,8 @@
           "losses": 2,
           "ties": 2,
           "averageMargin": -0.4,
+          "averageScored": 1.4,
+          "averageAllowed": 1.8,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -6335,9 +6355,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 1.4,
-          "averageAllowed": 1.8
+          "inputAsOfDateOnly": "2026-09-19"
         },
         {
           "team": "Troyes",
@@ -6346,6 +6364,8 @@
           "losses": 3,
           "ties": 1,
           "averageMargin": -1.4,
+          "averageScored": 0.8,
+          "averageAllowed": 2.2,
           "inputAsOf": "2026-09-19T23:59:59.999Z",
           "recent": [
             {
@@ -6395,9 +6415,7 @@
             }
           ],
           "datePrecision": "day",
-          "inputAsOfDateOnly": "2026-09-19",
-          "averageScored": 0.8,
-          "averageAllowed": 2.2
+          "inputAsOfDateOnly": "2026-09-19"
         }
       ],
       "upcoming": [
@@ -6553,6 +6571,15 @@
           "sourceEventId": "soccer-0adaa7d80d8e89e6049f6bb5",
           "sourceDate": "2026-10-18",
           "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "471f891b1f6516a864ad94c8eb649f5e",
+          "home": "Lyon",
+          "away": "Nice",
+          "eventStart": "2026-10-18T18:45:00.000Z",
+          "sourceEventId": "soccer-afb1f9bf8d2d19124bdee0ae",
+          "sourceDate": "2026-10-18",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
         }
       ],
       "skipped": []
@@ -6561,32 +6588,32 @@
   "refresh": {
     "Premier League": {
       "state": "updated",
-      "attemptedAt": "2026-10-04T18:19:30.905Z",
-      "resultsChanged": false,
+      "attemptedAt": "2026-10-05T12:56:04.739Z",
+      "resultsChanged": true,
       "sourceFileChanged": false
     },
     "La Liga": {
       "state": "updated",
-      "attemptedAt": "2026-10-04T18:19:30.905Z",
-      "resultsChanged": false,
+      "attemptedAt": "2026-10-05T12:56:04.739Z",
+      "resultsChanged": true,
       "sourceFileChanged": false
     },
     "Serie A": {
       "state": "updated",
-      "attemptedAt": "2026-10-04T18:19:30.905Z",
-      "resultsChanged": false,
+      "attemptedAt": "2026-10-05T12:56:04.739Z",
+      "resultsChanged": true,
       "sourceFileChanged": false
     },
     "Bundesliga": {
       "state": "updated",
-      "attemptedAt": "2026-10-04T18:19:30.905Z",
-      "resultsChanged": false,
+      "attemptedAt": "2026-10-05T12:56:04.739Z",
+      "resultsChanged": true,
       "sourceFileChanged": false
     },
     "Ligue 1": {
       "state": "updated",
-      "attemptedAt": "2026-10-04T18:19:30.905Z",
-      "resultsChanged": false,
+      "attemptedAt": "2026-10-05T12:56:04.739Z",
+      "resultsChanged": true,
       "sourceFileChanged": false
     }
   }
