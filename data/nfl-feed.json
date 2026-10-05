@@ -14,11 +14,11 @@
         "Each team needs 4 current-season prior games"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-05T06:43:25.021Z"
+      "checkedAt": "2026-10-05T12:44:54.583Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-10-05T06:43:22.910Z",
+  "lastAttemptAt": "2026-10-05T12:44:52.962Z",
   "state": "waiting-for-eligible-games",
   "publishedThisRun": 0,
   "gradedThisRun": 0,
@@ -34,6 +34,6 @@
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
   "sourceThrough": "2026-10-02T00:15:00.000Z",
-  "scheduleAsOf": "2026-10-05T06:43:24.983Z",
-  "completedAt": "2026-10-05T06:43:25.023Z"
+  "scheduleAsOf": "2026-10-05T12:44:54.561Z",
+  "completedAt": "2026-10-05T12:44:54.584Z"
 }
