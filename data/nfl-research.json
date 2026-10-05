@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "retrospective-research",
-  "generatedAt": "2026-10-05T12:44:52.963Z",
+  "generatedAt": "2026-10-05T18:50:02.270Z",
   "dataThrough": "2026-10-02T00:15:00.000Z",
   "holdoutSeasons": [
     2024,
@@ -15,7 +15,7 @@
     "sources": [
       {
         "url": "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.csv",
-        "sha256": "bc86cf165290d54f6257e45ff944f7d1a503860bde371e56816404b151a663f2"
+        "sha256": "d27f02814a81fa0242e67603325b92d12f10f5be5c40f8c73a05ebd7c23f9e09"
       }
     ]
   },
@@ -147,7 +147,7 @@
     "season": 2026,
     "window": 8,
     "lagHours": 48,
-    "cutoff": "2026-10-03T12:44:52.963Z",
+    "cutoff": "2026-10-03T18:50:02.270Z",
     "completedGames": 47,
     "dataThrough": "2026-10-02T00:15:00.000Z",
     "teams": [
