@@ -79,3 +79,13 @@ NBA/NFL daily feeds now use schema version 2 and retain a timestamped check for 
 `teamStatistics` in the existing research reports supports league-wide browsing on `/stats.html`. Summaries use only the stated season, a 48-hour result lag and windows of 8 NFL / 20 NBA games. Empty current-season samples are retained. Source retrieval and result coverage dates remain separate; these summaries are not forecasts or official standings. Sources and attribution remain the existing CC BY 4.0 research datasets.
 
 The daily licensed-source pipeline grades supported NBA/NFL editorial outright and half-point spread selections as well as model forecasts, after a unique exact teams/start-time match and the result lag. Saved source IDs, when present, must also match. Existing resolutions are never duplicated. Manually reviewed final results may be appended earlier through the authenticated publisher, with the score, source and settlement reasoning. Never change the original forecast or remove a loss.
+
+## MLB and NHL statistics
+
+`node scripts/baseball-hockey-stats.mjs` refreshes each source independently; no API key, paid endpoint or billing setup is needed. The daily GitHub workflow publishes successful snapshots and retains previous dated data when a source fails. Sources are hashed and attributed publicly.
+
+- NHL: SportsDataverse `nhl_schedules` CSV assets, published as CC BY 4.0 datasets; current and explicitly selected prior season, last 10 regular-season games, 48-hour lag. NHL W/L are outcomes, not official points or a regulation-only record.
+- MLB: Retrosheet `gl2025.zip` archive, explicit reuse permission with required notice; last 20 regular-season games in 2025. Suspensions, forfeits and protests excluded. No current-season result connection or silent historical fallback. Python 3 standard library only retrieves/unpacks the archive; Node validates and aggregates it.
+- Both are descriptive statistics, with separate current provider schedules, not generated forecasts. No MLB/NHL model or automatic ledger grading has been added.
+
+The information used here was obtained free of charge from and is copyrighted by Retrosheet. Interested parties may contact Retrosheet at "www.retrosheet.org".

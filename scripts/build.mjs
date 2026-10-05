@@ -45,3 +45,5 @@ await copyFile('data/soccer-context.json','public/data/soccer-context.json');
 await copyFile('data/soccer-research.json','public/data/soccer-research.json');
 const soccerReview=(await readFile('soccer-research.html','utf8')).replace(/&/g,'&amp;').replace(/"/g,'&quot;');
 await writeFile('public/soccer-review.html',`<!doctype html><html lang="en"><head><meta name="robots" content="noindex"><title>Soccer research phone review</title></head><body style="margin:0;padding:20px;background:#292929;color:white;font:14px system-ui"><p>Actual soccer research document · 390px phone width</p><iframe title="Soccer research phone website" style="width:390px;height:1400px;border:0" srcdoc="${soccerReview}"></iframe></body></html>`);
+
+for(const league of ['mlb','nhl'])await copyFile(`data/${league}-stats.json`,`public/data/${league}-stats.json`);

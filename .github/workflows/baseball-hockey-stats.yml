@@ -1,0 +1,53 @@
+name: Refresh MLB archive and NHL statistics
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/baseball-hockey-stats.yml
+      - scripts/baseball-hockey-stats.mjs
+      - scripts/retrosheet-source.py
+      - lib/baseball-hockey.js
+      - lib/matchup-form.js
+  schedule:
+    - cron: '43 13 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: tonati-publication
+  cancel-in-progress: false
+jobs:
+  statistics:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh each source independently
+        id: refresh
+        continue-on-error: true
+        run: node scripts/baseball-hockey-stats.mjs
+      - run: npm test && npm run build
+      - run: node scripts/ledger.mjs check HEAD
+      - name: Save successful dated snapshots
+        run: |
+          git config user.name 'TONATI LAB Research'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/mlb-stats.json data/nhl-stats.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh descriptive MLB archive and NHL statistics'
+            git push origin HEAD:main
+          fi
+      - name: Report partial source failure
+        if: steps.refresh.outcome == 'failure'
+        run: |
+          echo 'A source failed; its previous dated snapshot was retained.'
+          exit 1

@@ -1,0 +1,1655 @@
+{
+  "schemaVersion": 1,
+  "status": "descriptive-statistics",
+  "league": "MLB",
+  "generatedAt": "2026-10-05T18:45:48.754Z",
+  "teamStatistics": null,
+  "currentSeasonStatus": "source-not-connected",
+  "historicalStatistics": {
+    "season": 2025,
+    "window": 20,
+    "lagHours": 48,
+    "cutoff": "2026-10-03T18:45:48.754Z",
+    "completedGames": 2426,
+    "dataThrough": "2025-09-28T23:59:59.999Z",
+    "teams": [
+      {
+        "team": "Arizona Diamondbacks",
+        "count": 20,
+        "wins": 9,
+        "losses": 11,
+        "ties": 0,
+        "averageMargin": -0.9,
+        "averageScored": 4.45,
+        "averageAllowed": 5.35,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "San Diego Padres",
+            "venue": "away",
+            "scored": 4,
+            "allowed": 12,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "San Diego Padres",
+            "venue": "away",
+            "scored": 1,
+            "allowed": 5,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "San Diego Padres",
+            "venue": "away",
+            "scored": 4,
+            "allowed": 7,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "Los Angeles Dodgers",
+            "venue": "home",
+            "scored": 0,
+            "allowed": 8,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Los Angeles Dodgers",
+            "venue": "home",
+            "scored": 4,
+            "allowed": 5,
+            "result": "L"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Athletics",
+        "count": 20,
+        "wins": 11,
+        "losses": 9,
+        "ties": 0,
+        "averageMargin": -0.1,
+        "averageScored": 4.25,
+        "averageAllowed": 4.35,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Kansas City Royals",
+            "venue": "home",
+            "scored": 2,
+            "allowed": 9,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Kansas City Royals",
+            "venue": "home",
+            "scored": 2,
+            "allowed": 4,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Kansas City Royals",
+            "venue": "home",
+            "scored": 4,
+            "allowed": 3,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "Houston Astros",
+            "venue": "home",
+            "scored": 5,
+            "allowed": 11,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Houston Astros",
+            "venue": "home",
+            "scored": 6,
+            "allowed": 0,
+            "result": "W"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Atlanta Braves",
+        "count": 20,
+        "wins": 12,
+        "losses": 8,
+        "ties": 0,
+        "averageMargin": 0.5,
+        "averageScored": 5,
+        "averageAllowed": 4.5,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Pittsburgh Pirates",
+            "venue": "home",
+            "scored": 4,
+            "allowed": 1,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Pittsburgh Pirates",
+            "venue": "home",
+            "scored": 1,
+            "allowed": 3,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Pittsburgh Pirates",
+            "venue": "home",
+            "scored": 3,
+            "allowed": 9,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Washington Nationals",
+            "venue": "home",
+            "scored": 3,
+            "allowed": 4,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-23T23:59:59.999Z",
+            "opponent": "Washington Nationals",
+            "venue": "home",
+            "scored": 3,
+            "allowed": 2,
+            "result": "W"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Baltimore Orioles",
+        "count": 20,
+        "wins": 9,
+        "losses": 11,
+        "ties": 0,
+        "averageMargin": -1.6,
+        "averageScored": 2.95,
+        "averageAllowed": 4.55,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "New York Yankees",
+            "venue": "away",
+            "scored": 2,
+            "allowed": 3,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "New York Yankees",
+            "venue": "away",
+            "scored": 1,
+            "allowed": 6,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "New York Yankees",
+            "venue": "away",
+            "scored": 4,
+            "allowed": 8,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "Tampa Bay Rays",
+            "venue": "home",
+            "scored": 6,
+            "allowed": 5,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Tampa Bay Rays",
+            "venue": "home",
+            "scored": 2,
+            "allowed": 6,
+            "result": "L"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Boston Red Sox",
+        "count": 20,
+        "wins": 11,
+        "losses": 9,
+        "ties": 0,
+        "averageMargin": 0.7,
+        "averageScored": 4.25,
+        "averageAllowed": 3.55,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Detroit Tigers",
+            "venue": "home",
+            "scored": 4,
+            "allowed": 3,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Detroit Tigers",
+            "venue": "home",
+            "scored": 1,
+            "allowed": 2,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Detroit Tigers",
+            "venue": "home",
+            "scored": 4,
+            "allowed": 3,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "Toronto Blue Jays",
+            "venue": "away",
+            "scored": 1,
+            "allowed": 6,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Toronto Blue Jays",
+            "venue": "away",
+            "scored": 7,
+            "allowed": 1,
+            "result": "W"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Chicago Cubs",
+        "count": 20,
+        "wins": 11,
+        "losses": 9,
+        "ties": 0,
+        "averageMargin": 1.2,
+        "averageScored": 4.65,
+        "averageAllowed": 3.45,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "St. Louis Cardinals",
+            "venue": "home",
+            "scored": 2,
+            "allowed": 0,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "St. Louis Cardinals",
+            "venue": "home",
+            "scored": 7,
+            "allowed": 3,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "St. Louis Cardinals",
+            "venue": "home",
+            "scored": 12,
+            "allowed": 1,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "New York Mets",
+            "venue": "home",
+            "scored": 5,
+            "allowed": 8,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "New York Mets",
+            "venue": "home",
+            "scored": 10,
+            "allowed": 3,
+            "result": "W"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Chicago White Sox",
+        "count": 20,
+        "wins": 6,
+        "losses": 14,
+        "ties": 0,
+        "averageMargin": -0.95,
+        "averageScored": 3.55,
+        "averageAllowed": 4.5,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Washington Nationals",
+            "venue": "away",
+            "scored": 8,
+            "allowed": 0,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Washington Nationals",
+            "venue": "away",
+            "scored": 5,
+            "allowed": 6,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Washington Nationals",
+            "venue": "away",
+            "scored": 10,
+            "allowed": 9,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "New York Yankees",
+            "venue": "away",
+            "scored": 3,
+            "allowed": 5,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "New York Yankees",
+            "venue": "away",
+            "scored": 1,
+            "allowed": 8,
+            "result": "L"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Cincinnati Reds",
+        "count": 20,
+        "wins": 12,
+        "losses": 8,
+        "ties": 0,
+        "averageMargin": 0.3,
+        "averageScored": 3.6,
+        "averageAllowed": 3.3,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Milwaukee Brewers",
+            "venue": "away",
+            "scored": 2,
+            "allowed": 4,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Milwaukee Brewers",
+            "venue": "away",
+            "scored": 7,
+            "allowed": 4,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Milwaukee Brewers",
+            "venue": "away",
+            "scored": 3,
+            "allowed": 1,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "Pittsburgh Pirates",
+            "venue": "home",
+            "scored": 2,
+            "allowed": 1,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Pittsburgh Pirates",
+            "venue": "home",
+            "scored": 3,
+            "allowed": 4,
+            "result": "L"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Cleveland Guardians",
+        "count": 20,
+        "wins": 16,
+        "losses": 4,
+        "ties": 0,
+        "averageMargin": 2.1,
+        "averageScored": 4.55,
+        "averageAllowed": 2.45,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Texas Rangers",
+            "venue": "home",
+            "scored": 9,
+            "allowed": 8,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Texas Rangers",
+            "venue": "home",
+            "scored": 3,
+            "allowed": 2,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Texas Rangers",
+            "venue": "home",
+            "scored": 3,
+            "allowed": 7,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "Detroit Tigers",
+            "venue": "home",
+            "scored": 2,
+            "allowed": 4,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Detroit Tigers",
+            "venue": "home",
+            "scored": 5,
+            "allowed": 1,
+            "result": "W"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Colorado Rockies",
+        "count": 20,
+        "wins": 3,
+        "losses": 17,
+        "ties": 0,
+        "averageMargin": -3.05,
+        "averageScored": 2.8,
+        "averageAllowed": 5.85,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "San Francisco Giants",
+            "venue": "away",
+            "scored": 0,
+            "allowed": 4,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "San Francisco Giants",
+            "venue": "away",
+            "scored": 3,
+            "allowed": 4,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "San Francisco Giants",
+            "venue": "away",
+            "scored": 3,
+            "allowed": 6,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "Seattle Mariners",
+            "venue": "away",
+            "scored": 2,
+            "allowed": 6,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Seattle Mariners",
+            "venue": "away",
+            "scored": 2,
+            "allowed": 9,
+            "result": "L"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Detroit Tigers",
+        "count": 20,
+        "wins": 6,
+        "losses": 14,
+        "ties": 0,
+        "averageMargin": -0.8,
+        "averageScored": 3.65,
+        "averageAllowed": 4.45,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Boston Red Sox",
+            "venue": "away",
+            "scored": 3,
+            "allowed": 4,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Boston Red Sox",
+            "venue": "away",
+            "scored": 2,
+            "allowed": 1,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Boston Red Sox",
+            "venue": "away",
+            "scored": 3,
+            "allowed": 4,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "Cleveland Guardians",
+            "venue": "away",
+            "scored": 4,
+            "allowed": 2,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Cleveland Guardians",
+            "venue": "away",
+            "scored": 1,
+            "allowed": 5,
+            "result": "L"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Houston Astros",
+        "count": 20,
+        "wins": 10,
+        "losses": 10,
+        "ties": 0,
+        "averageMargin": 0.55,
+        "averageScored": 4.5,
+        "averageAllowed": 3.95,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Los Angeles Angels",
+            "venue": "away",
+            "scored": 6,
+            "allowed": 2,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Los Angeles Angels",
+            "venue": "away",
+            "scored": 6,
+            "allowed": 1,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Los Angeles Angels",
+            "venue": "away",
+            "scored": 3,
+            "allowed": 4,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "Athletics",
+            "venue": "away",
+            "scored": 11,
+            "allowed": 5,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Athletics",
+            "venue": "away",
+            "scored": 0,
+            "allowed": 6,
+            "result": "L"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Kansas City Royals",
+        "count": 20,
+        "wins": 9,
+        "losses": 11,
+        "ties": 0,
+        "averageMargin": 0.55,
+        "averageScored": 5.05,
+        "averageAllowed": 4.5,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Athletics",
+            "venue": "away",
+            "scored": 9,
+            "allowed": 2,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Athletics",
+            "venue": "away",
+            "scored": 4,
+            "allowed": 2,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Athletics",
+            "venue": "away",
+            "scored": 3,
+            "allowed": 4,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "Los Angeles Angels",
+            "venue": "away",
+            "scored": 9,
+            "allowed": 4,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Los Angeles Angels",
+            "venue": "away",
+            "scored": 2,
+            "allowed": 3,
+            "result": "L"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Los Angeles Angels",
+        "count": 20,
+        "wins": 6,
+        "losses": 14,
+        "ties": 0,
+        "averageMargin": -2.15,
+        "averageScored": 3.45,
+        "averageAllowed": 5.6,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Houston Astros",
+            "venue": "home",
+            "scored": 2,
+            "allowed": 6,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Houston Astros",
+            "venue": "home",
+            "scored": 1,
+            "allowed": 6,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Houston Astros",
+            "venue": "home",
+            "scored": 4,
+            "allowed": 3,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "Kansas City Royals",
+            "venue": "home",
+            "scored": 4,
+            "allowed": 9,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Kansas City Royals",
+            "venue": "home",
+            "scored": 3,
+            "allowed": 2,
+            "result": "W"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Los Angeles Dodgers",
+        "count": 20,
+        "wins": 15,
+        "losses": 5,
+        "ties": 0,
+        "averageMargin": 2.5,
+        "averageScored": 5.55,
+        "averageAllowed": 3.05,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Seattle Mariners",
+            "venue": "away",
+            "scored": 6,
+            "allowed": 1,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Seattle Mariners",
+            "venue": "away",
+            "scored": 5,
+            "allowed": 3,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Seattle Mariners",
+            "venue": "away",
+            "scored": 3,
+            "allowed": 2,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "Arizona Diamondbacks",
+            "venue": "away",
+            "scored": 8,
+            "allowed": 0,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Arizona Diamondbacks",
+            "venue": "away",
+            "scored": 5,
+            "allowed": 4,
+            "result": "W"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Miami Marlins",
+        "count": 20,
+        "wins": 14,
+        "losses": 6,
+        "ties": 0,
+        "averageMargin": 0.6,
+        "averageScored": 4.9,
+        "averageAllowed": 4.3,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "New York Mets",
+            "venue": "home",
+            "scored": 4,
+            "allowed": 0,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "New York Mets",
+            "venue": "home",
+            "scored": 0,
+            "allowed": 5,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "New York Mets",
+            "venue": "home",
+            "scored": 6,
+            "allowed": 2,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "Philadelphia Phillies",
+            "venue": "away",
+            "scored": 0,
+            "allowed": 1,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Philadelphia Phillies",
+            "venue": "away",
+            "scored": 1,
+            "allowed": 11,
+            "result": "L"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Milwaukee Brewers",
+        "count": 20,
+        "wins": 10,
+        "losses": 10,
+        "ties": 0,
+        "averageMargin": 0.35,
+        "averageScored": 4.2,
+        "averageAllowed": 3.85,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Cincinnati Reds",
+            "venue": "home",
+            "scored": 4,
+            "allowed": 2,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Cincinnati Reds",
+            "venue": "home",
+            "scored": 4,
+            "allowed": 7,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Cincinnati Reds",
+            "venue": "home",
+            "scored": 1,
+            "allowed": 3,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "San Diego Padres",
+            "venue": "away",
+            "scored": 3,
+            "allowed": 1,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-23T23:59:59.999Z",
+            "opponent": "San Diego Padres",
+            "venue": "away",
+            "scored": 0,
+            "allowed": 7,
+            "result": "L"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Minnesota Twins",
+        "count": 20,
+        "wins": 8,
+        "losses": 12,
+        "ties": 0,
+        "averageMargin": -0.4,
+        "averageScored": 4.15,
+        "averageAllowed": 4.55,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Philadelphia Phillies",
+            "venue": "away",
+            "scored": 1,
+            "allowed": 2,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Philadelphia Phillies",
+            "venue": "away",
+            "scored": 5,
+            "allowed": 0,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Philadelphia Phillies",
+            "venue": "away",
+            "scored": 1,
+            "allowed": 3,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "Texas Rangers",
+            "venue": "away",
+            "scored": 4,
+            "allowed": 0,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Texas Rangers",
+            "venue": "away",
+            "scored": 2,
+            "allowed": 4,
+            "result": "L"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "New York Mets",
+        "count": 20,
+        "wins": 7,
+        "losses": 13,
+        "ties": 0,
+        "averageMargin": -0.8,
+        "averageScored": 4.2,
+        "averageAllowed": 5,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Miami Marlins",
+            "venue": "away",
+            "scored": 0,
+            "allowed": 4,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Miami Marlins",
+            "venue": "away",
+            "scored": 5,
+            "allowed": 0,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Miami Marlins",
+            "venue": "away",
+            "scored": 2,
+            "allowed": 6,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "Chicago Cubs",
+            "venue": "away",
+            "scored": 8,
+            "allowed": 5,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Chicago Cubs",
+            "venue": "away",
+            "scored": 3,
+            "allowed": 10,
+            "result": "L"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "New York Yankees",
+        "count": 20,
+        "wins": 15,
+        "losses": 5,
+        "ties": 0,
+        "averageMargin": 1.25,
+        "averageScored": 5.2,
+        "averageAllowed": 3.95,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Baltimore Orioles",
+            "venue": "home",
+            "scored": 3,
+            "allowed": 2,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Baltimore Orioles",
+            "venue": "home",
+            "scored": 6,
+            "allowed": 1,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Baltimore Orioles",
+            "venue": "home",
+            "scored": 8,
+            "allowed": 4,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "Chicago White Sox",
+            "venue": "home",
+            "scored": 5,
+            "allowed": 3,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Chicago White Sox",
+            "venue": "home",
+            "scored": 8,
+            "allowed": 1,
+            "result": "W"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Philadelphia Phillies",
+        "count": 20,
+        "wins": 13,
+        "losses": 7,
+        "ties": 0,
+        "averageMargin": 1.1,
+        "averageScored": 5,
+        "averageAllowed": 3.9,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Minnesota Twins",
+            "venue": "home",
+            "scored": 2,
+            "allowed": 1,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Minnesota Twins",
+            "venue": "home",
+            "scored": 0,
+            "allowed": 5,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Minnesota Twins",
+            "venue": "home",
+            "scored": 3,
+            "allowed": 1,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "Miami Marlins",
+            "venue": "home",
+            "scored": 1,
+            "allowed": 0,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Miami Marlins",
+            "venue": "home",
+            "scored": 11,
+            "allowed": 1,
+            "result": "W"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Pittsburgh Pirates",
+        "count": 20,
+        "wins": 7,
+        "losses": 13,
+        "ties": 0,
+        "averageMargin": -0.2,
+        "averageScored": 3.2,
+        "averageAllowed": 3.4,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Atlanta Braves",
+            "venue": "away",
+            "scored": 1,
+            "allowed": 4,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Atlanta Braves",
+            "venue": "away",
+            "scored": 3,
+            "allowed": 1,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Atlanta Braves",
+            "venue": "away",
+            "scored": 9,
+            "allowed": 3,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "Cincinnati Reds",
+            "venue": "away",
+            "scored": 1,
+            "allowed": 2,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Cincinnati Reds",
+            "venue": "away",
+            "scored": 4,
+            "allowed": 3,
+            "result": "W"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "San Diego Padres",
+        "count": 20,
+        "wins": 13,
+        "losses": 7,
+        "ties": 0,
+        "averageMargin": 1.7,
+        "averageScored": 5,
+        "averageAllowed": 3.3,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Arizona Diamondbacks",
+            "venue": "home",
+            "scored": 12,
+            "allowed": 4,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Arizona Diamondbacks",
+            "venue": "home",
+            "scored": 5,
+            "allowed": 1,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Arizona Diamondbacks",
+            "venue": "home",
+            "scored": 7,
+            "allowed": 4,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Milwaukee Brewers",
+            "venue": "home",
+            "scored": 1,
+            "allowed": 3,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-23T23:59:59.999Z",
+            "opponent": "Milwaukee Brewers",
+            "venue": "home",
+            "scored": 7,
+            "allowed": 0,
+            "result": "W"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "San Francisco Giants",
+        "count": 20,
+        "wins": 9,
+        "losses": 11,
+        "ties": 0,
+        "averageMargin": -0.3,
+        "averageScored": 4.5,
+        "averageAllowed": 4.8,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Colorado Rockies",
+            "venue": "home",
+            "scored": 4,
+            "allowed": 0,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Colorado Rockies",
+            "venue": "home",
+            "scored": 4,
+            "allowed": 3,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Colorado Rockies",
+            "venue": "home",
+            "scored": 6,
+            "allowed": 3,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "St. Louis Cardinals",
+            "venue": "home",
+            "scored": 4,
+            "allowed": 3,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-23T23:59:59.999Z",
+            "opponent": "St. Louis Cardinals",
+            "venue": "home",
+            "scored": 8,
+            "allowed": 9,
+            "result": "L"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Seattle Mariners",
+        "count": 20,
+        "wins": 16,
+        "losses": 4,
+        "ties": 0,
+        "averageMargin": 2.8,
+        "averageScored": 5.85,
+        "averageAllowed": 3.05,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Los Angeles Dodgers",
+            "venue": "home",
+            "scored": 1,
+            "allowed": 6,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Los Angeles Dodgers",
+            "venue": "home",
+            "scored": 3,
+            "allowed": 5,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Los Angeles Dodgers",
+            "venue": "home",
+            "scored": 2,
+            "allowed": 3,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "Colorado Rockies",
+            "venue": "home",
+            "scored": 6,
+            "allowed": 2,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Colorado Rockies",
+            "venue": "home",
+            "scored": 9,
+            "allowed": 2,
+            "result": "W"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "St. Louis Cardinals",
+        "count": 20,
+        "wins": 8,
+        "losses": 12,
+        "ties": 0,
+        "averageMargin": -1.15,
+        "averageScored": 3.7,
+        "averageAllowed": 4.85,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Chicago Cubs",
+            "venue": "away",
+            "scored": 0,
+            "allowed": 2,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Chicago Cubs",
+            "venue": "away",
+            "scored": 3,
+            "allowed": 7,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Chicago Cubs",
+            "venue": "away",
+            "scored": 1,
+            "allowed": 12,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "San Francisco Giants",
+            "venue": "away",
+            "scored": 3,
+            "allowed": 4,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-23T23:59:59.999Z",
+            "opponent": "San Francisco Giants",
+            "venue": "away",
+            "scored": 9,
+            "allowed": 8,
+            "result": "W"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Tampa Bay Rays",
+        "count": 20,
+        "wins": 6,
+        "losses": 14,
+        "ties": 0,
+        "averageMargin": -1.25,
+        "averageScored": 3.55,
+        "averageAllowed": 4.8,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Toronto Blue Jays",
+            "venue": "away",
+            "scored": 4,
+            "allowed": 13,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Toronto Blue Jays",
+            "venue": "away",
+            "scored": 1,
+            "allowed": 5,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Toronto Blue Jays",
+            "venue": "away",
+            "scored": 2,
+            "allowed": 4,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "Baltimore Orioles",
+            "venue": "away",
+            "scored": 5,
+            "allowed": 6,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Baltimore Orioles",
+            "venue": "away",
+            "scored": 6,
+            "allowed": 2,
+            "result": "W"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Texas Rangers",
+        "count": 20,
+        "wins": 8,
+        "losses": 12,
+        "ties": 0,
+        "averageMargin": -0.6,
+        "averageScored": 3.7,
+        "averageAllowed": 4.3,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Cleveland Guardians",
+            "venue": "away",
+            "scored": 8,
+            "allowed": 9,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Cleveland Guardians",
+            "venue": "away",
+            "scored": 2,
+            "allowed": 3,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Cleveland Guardians",
+            "venue": "away",
+            "scored": 7,
+            "allowed": 3,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "Minnesota Twins",
+            "venue": "home",
+            "scored": 0,
+            "allowed": 4,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Minnesota Twins",
+            "venue": "home",
+            "scored": 4,
+            "allowed": 2,
+            "result": "W"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Toronto Blue Jays",
+        "count": 20,
+        "wins": 12,
+        "losses": 8,
+        "ties": 0,
+        "averageMargin": 0.55,
+        "averageScored": 4.3,
+        "averageAllowed": 3.75,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Tampa Bay Rays",
+            "venue": "home",
+            "scored": 13,
+            "allowed": 4,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Tampa Bay Rays",
+            "venue": "home",
+            "scored": 5,
+            "allowed": 1,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Tampa Bay Rays",
+            "venue": "home",
+            "scored": 4,
+            "allowed": 2,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-25T23:59:59.999Z",
+            "opponent": "Boston Red Sox",
+            "venue": "home",
+            "scored": 6,
+            "allowed": 1,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Boston Red Sox",
+            "venue": "home",
+            "scored": 1,
+            "allowed": 7,
+            "result": "L"
+          }
+        ],
+        "datePrecision": "day"
+      },
+      {
+        "team": "Washington Nationals",
+        "count": 20,
+        "wins": 8,
+        "losses": 12,
+        "ties": 0,
+        "averageMargin": -2,
+        "averageScored": 4.3,
+        "averageAllowed": 6.3,
+        "inputAsOf": "2025-09-28T23:59:59.999Z",
+        "recent": [
+          {
+            "date": "2025-09-28T23:59:59.999Z",
+            "opponent": "Chicago White Sox",
+            "venue": "home",
+            "scored": 0,
+            "allowed": 8,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-27T23:59:59.999Z",
+            "opponent": "Chicago White Sox",
+            "venue": "home",
+            "scored": 6,
+            "allowed": 5,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-26T23:59:59.999Z",
+            "opponent": "Chicago White Sox",
+            "venue": "home",
+            "scored": 9,
+            "allowed": 10,
+            "result": "L"
+          },
+          {
+            "date": "2025-09-24T23:59:59.999Z",
+            "opponent": "Atlanta Braves",
+            "venue": "away",
+            "scored": 4,
+            "allowed": 3,
+            "result": "W"
+          },
+          {
+            "date": "2025-09-23T23:59:59.999Z",
+            "opponent": "Atlanta Braves",
+            "venue": "away",
+            "scored": 2,
+            "allowed": 3,
+            "result": "L"
+          }
+        ],
+        "datePrecision": "day"
+      }
+    ]
+  },
+  "source": {
+    "name": "Retrosheet 2025 regular-season game logs",
+    "license": "Retrosheet reuse permission with attribution",
+    "licenseUrl": "https://www.retrosheet.org/gamelogs/index.html",
+    "attribution": "The information used here was obtained free of charge from and is copyrighted by Retrosheet. Interested parties may contact Retrosheet at \"www.retrosheet.org\".",
+    "sources": [
+      {
+        "season": 2025,
+        "url": "https://www.retrosheet.org/gamelogs/gl2025.zip",
+        "sha256": "f8a36120bc5f6925ffc914f964167f745e61a3421be9318e2ee24a576392693a"
+      }
+    ]
+  },
+  "processing": {
+    "excluded": 4,
+    "limitations": "Historical 2025 research only. Current-season MLB results are not connected. Up to the last 20 regular-season games per team; no postseason, pitching, lineup, injury or park-adjusted inputs. Suspended, forfeited and protested games are excluded. Match dates have day precision; the end-of-day UTC timestamp is a conservative processing cutoff, not the game start time. This archive must not be used as current form or a published forecast."
+  }
+}
