@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "status": "descriptive-statistics",
   "league": "NHL",
-  "generatedAt": "2026-10-05T18:50:16.272Z",
+  "generatedAt": "2026-10-05T19:13:46.453Z",
   "teamStatistics": {
     "season": 2027,
     "window": 10,
     "lagHours": 48,
-    "cutoff": "2026-10-03T18:50:16.272Z",
+    "cutoff": "2026-10-03T19:13:46.453Z",
     "completedGames": 21,
     "dataThrough": "2026-10-03T02:00:00.000Z",
     "teams": [
@@ -768,7 +768,7 @@
     "season": 2026,
     "window": 10,
     "lagHours": 48,
-    "cutoff": "2026-10-03T18:50:16.272Z",
+    "cutoff": "2026-10-03T19:13:46.453Z",
     "completedGames": 1312,
     "dataThrough": "2026-04-17T02:00:00.000Z",
     "teams": [
