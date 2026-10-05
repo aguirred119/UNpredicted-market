@@ -1,6 +1,6 @@
 // An exact, dated pipeline check; never a probability or a replacement forecast.
 export function analysisStatus(game,feed,now=Date.now()){
- if(!['NBA','NFL'].includes(game?.league))return{label:'Daily model not connected',reasons:['This league does not yet have a daily publication pipeline.'],checkedAt:null};
+ if(!['NBA','NFL','NHL'].includes(game?.league))return{label:'Daily model not connected',reasons:['This league does not yet have a daily publication pipeline.'],checkedAt:null};
  const completed=Date.parse(feed?.completedAt),started=Date.parse(feed?.lastAttemptAt);
  if(!feed||feed.schemaVersion!==2||feed.league!==game.league||!Number.isFinite(completed)||!Number.isFinite(started)||started>completed||completed>now||now-completed>36*3600000)return{label:'Current check unavailable',reasons:['No recent verified pipeline check is available for this event.'],checkedAt:null};
  if(['source-or-validation-error','schedule-unavailable'].includes(feed.state))return{label:'Daily check interrupted',reasons:[feed.state==='schedule-unavailable'?'The schedule could not be verified in the last run.':'The source or validation step failed in the last run.'],checkedAt:feed.completedAt};

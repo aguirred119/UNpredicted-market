@@ -19,7 +19,7 @@ export function resolveMatchup(query,archive,feed,now=Date.now()){
  return{id:query.event,league:query.league,home,away,eventStart,record,publications:publications.filter(p=>p.home===home&&p.away===away&&p.eventStart===eventStart),schedule:(feed?.games||[]).find(g=>g.id===query.event&&g.home===home&&g.away===away&&g.eventStart===eventStart)||null};
 }
 export function findContext(game,report){
- const canon=t=>game.league==='NBA'&&t==='Los Angeles Clippers'?'LA Clippers':t;
+ const canon=t=>game.league==='NBA'&&t==='Los Angeles Clippers'?'LA Clippers':game.league==='NHL'?({'LA Kings':'Los Angeles Kings','Montréal Canadiens':'Montreal Canadiens','St Louis Blues':'St. Louis Blues'}[t]||t):t;
  const matches=(report?.upcoming||[]).filter(g=>canon(g.home)===canon(game.home)&&canon(g.away)===canon(game.away)&&g.eventStart===game.eventStart&&(!g.eventId||g.eventId===game.id));
  if(matches.length!==1)return null;
  const context=matches[0];

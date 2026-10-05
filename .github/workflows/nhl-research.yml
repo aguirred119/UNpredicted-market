@@ -1,0 +1,46 @@
+name: Publish and grade daily NHL analysis
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/nhl-research.yml
+      - scripts/nhl-daily.mjs
+      - scripts/nhl-research.mjs
+      - lib/nhl.js
+      - lib/baseball-hockey.js
+      - lib/nba-publication.js
+      - lib/matchup-form.js
+      - src/model.js
+  schedule:
+    - cron: '57 13 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: tonati-publication
+  cancel-in-progress: false
+jobs:
+  research:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/nhl-daily.mjs
+      - run: npm test && npm run build
+      - name: Check preserved history
+        run: node scripts/ledger.mjs check HEAD
+      - name: Save NHL research and checks
+        run: |
+          git config user.name 'TONATI LAB Research'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/nhl-research.json data/nhl-feed.json data/ledger.jsonl
+          if ! git diff --cached --quiet; then
+            git commit -m 'Run daily experimental NHL publication and grading'
+            git push origin HEAD:main
+          fi

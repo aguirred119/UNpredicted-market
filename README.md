@@ -7,7 +7,7 @@ AI Sports Intelligence. Improved in the existing `aguirred119/UNpredicted-market
 - Responsive sports dashboard, requested league filters, local dates/search and persistent local watchlists.
 - Server-only The Odds API events integration (`/api/games`), cached up to one hour. Starts inactive if no key exists; no demo/current-data substitution.
 - Existing league-specific cached bookmaker moneyline integration (`/api/odds`). Implied probabilities are visibly separate from model forecasts.
-- Real NBA and NFL historical research, separate chronological evaluations, reproducible simulations and downloadable model evidence. Experimental daily publication/grading runs through GitHub Actions; checks can skip every game. Historical backtests never populate the public live record.
+- Real NBA, NFL and NHL historical research, separate chronological evaluations, reproducible simulations and downloadable model evidence. Experimental daily publication/grading runs through GitHub Actions; checks can skip every game. Historical backtests never populate the public live record.
 - Installable home-screen web app at `/app.html`, branded PNG icons, standalone phone navigation and a connection-only offline fallback. Sports pages, APIs and prediction data are never cached by the service worker. No app-store release or push alerts yet.
 - Pick of the Day preparation at `/editor.html`; publication uses the authenticated GitHub workflow, not an anonymous browser endpoint.
 - Git-versioned public forecast ledger, pregame timestamps, hash chain, separate resolution/correction entries, Brier and threshold-accuracy reporting for model forecasts, separate editorial results, complete loss retention.
@@ -54,7 +54,7 @@ Workflow-generated commits may not trigger other Actions via `GITHUB_TOKEN`; the
 ## Still required for an operational paid product
 
 - Continued provider quota/permission review and permissioned deeper pregame features.
-- Prospective validation of the experimental NBA/NFL models and trained pipelines for additional leagues.
+- Prospective validation of the experimental NBA/NFL/NHL models and trained pipelines for additional leagues.
 - Deeper licensed injury/lineup/team statistics and soccer settlement adapters.
 - Accounts, secure subscription checkout/webhooks, entitlements and self-service cancellation.
 - Private operator support contact and final legal/payment-provider review.
@@ -72,7 +72,7 @@ No domain purchase, paid API activation, real billing or acceptance of provider 
 
 ### Exact-event daily publication checks
 
-NBA/NFL daily feeds now use schema version 2 and retain a timestamped check for every source candidate and every unique provider-scheduled event in the upcoming 72-hour window. Schedule-only games receive an explicit blocked reason; no missing statistical inputs are synthesized. Ambiguous provider or source identities cannot publish. Checks distinguish new publications, existing archived forecasts and withheld forecasts. Game cards and matchup pages match these checks by league, event ID, teams and start time; checks older than 36 hours, future timestamps and mismatched events are not presented as current. This is a dated pipeline status, not a live score, a probability or a substitute for the immutable publication record. No extra API, paid odds/score request or billing service was added.
+NBA/NFL/NHL daily feeds now use schema version 2 and retain a timestamped check for every source candidate and every unique provider-scheduled event in the upcoming 72-hour window. Schedule-only games receive an explicit blocked reason; no missing statistical inputs are synthesized. Ambiguous provider or source identities cannot publish. Checks distinguish new publications, existing archived forecasts and withheld forecasts. Game cards and matchup pages match these checks by league, event ID, teams and start time; checks older than 36 hours, future timestamps and mismatched events are not presented as current. This is a dated pipeline status, not a live score, a probability or a substitute for the immutable publication record. No extra API, paid odds/score request or billing service was added.
 
 ### NFL / NBA team statistics and editorial settlement
 
@@ -86,6 +86,12 @@ The daily licensed-source pipeline grades supported NBA/NFL editorial outright a
 
 - NHL: SportsDataverse `nhl_schedules` CSV assets, published as CC BY 4.0 datasets; current and explicitly selected prior season, last 10 regular-season games, 48-hour lag. NHL W/L are outcomes, not official points or a regulation-only record.
 - MLB: Retrosheet `gl2025.zip` archive, explicit reuse permission with required notice; last 20 regular-season games in 2025. Suspensions, forfeits and protests excluded. No current-season result connection or silent historical fallback. Python 3 standard library only retrieves/unpacks the archive; Node validates and aggregates it.
-- Both are descriptive statistics, with separate current provider schedules, not generated forecasts. No MLB/NHL model or automatic ledger grading has been added.
+- Both are descriptive statistics, with separate current provider schedules, not generated forecasts. MLB has no trained model or automatic ledger grading. NHL historical model research and gated grading are separate, as documented below.
 
 The information used here was obtained free of charge from and is copyrighted by Retrosheet. Interested parties may contact Retrosheet at "www.retrosheet.org".
+
+### NHL model and daily publication gate
+
+`/nhl-research.html` exposes a trained two-feature logistic model using prior same-season goal margin and win fraction, with 10 qualifying games/team and a 48-hour lag. Fixed training ending seasons 2023–2025; frozen evaluation ending season 2026. The initial report has 3,410 training and 1,137 holdout games. It does not meet the predeclared 0.005 Brier-improvement threshold, so current publication stays blocked. No holdout-driven threshold changes or historical ledger entries.
+
+`node scripts/nhl-daily.mjs` records exact per-event checks and uses the existing append-only forecast/grading pipeline. Future publications additionally require current-season history, a fresh report, in-range features, exact provider identity/time, and 30-minute lead time. NHL outright settlements include overtime/shootouts; no puck-line or regulation-only probabilities. Daily job 13:57 UTC, delays possible. All losses remain. Free published source datasets and the existing zero-credit schedule endpoint only; billing stays disabled.

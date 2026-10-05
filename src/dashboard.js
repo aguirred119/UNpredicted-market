@@ -53,4 +53,4 @@ function renderPick(archive){
 }
 fetch('/data/predictions.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json();}).then(data=>{records=data.predictions||[];renderPick(data);render();}).catch(()=>{$('daily-pick').innerHTML='<p>Publication history is temporarily unavailable. No selection or result is inferred.</p><a class="text-link" href="/track-record.html">Retry in the public record →</a>';});
 loadGames();
-for(const league of ['NBA','NFL'])fetch(league==='NBA'?'/data/daily-feed.json':'/data/nfl-feed.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json();}).then(data=>{analysisFeeds[league]=data;render();}).catch(()=>{});
+for(const league of ['NBA','NFL','NHL'])fetch(league==='NBA'?'/data/daily-feed.json':`/data/${league.toLowerCase()}-feed.json`,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json();}).then(data=>{analysisFeeds[league]=data;render();}).catch(()=>{});
