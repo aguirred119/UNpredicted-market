@@ -2,20 +2,23 @@
   "schemaVersion": 1,
   "status": "retrospective-research",
   "league": "NHL",
-  "generatedAt": "2026-10-05T19:02:38.355Z",
+  "generatedAt": "2026-10-05T19:05:24.271Z",
   "dataThrough": "2026-10-03T02:00:00.000Z",
   "holdoutSeason": 2026,
+  "revision": {
+    "id": "nhl-valid-seasons-v2",
+    "reason": "The initial research included the upstream 2022–23 file, which had identical 2–3 scores in all 1,312 regular-season games. That file is quarantined and this report is rebuilt from valid 2023–24 and 2024–25 training seasons. The 2025–26 holdout, model settings and publication threshold are unchanged. No NHL prospective forecasts were published from the initial report.",
+    "excludedSource": {
+      "season": 2023,
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nhl_schedules/nhl_schedule_2023.csv"
+    }
+  },
   "source": {
     "name": "SportsDataverse / fastRhockey NHL schedules (NHL upstream)",
     "license": "CC BY 4.0 (published datasets)",
     "licenseUrl": "https://github.com/sportsdataverse/sportsdataverse-data#readme",
     "attribution": "SportsDataverse / fastRhockey authors; NHL source results normalized and transformed by TONATI LAB. No endorsement.",
     "sources": [
-      {
-        "season": 2023,
-        "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nhl_schedules/nhl_schedule_2023.csv",
-        "sha256": "04c68162d7f83390d9c3204ec73d94971d90fba97f6efef506ee992b44d7d247"
-      },
       {
         "season": 2024,
         "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nhl_schedules/nhl_schedule_2024.csv",
@@ -43,7 +46,6 @@
     "historyWindow": 10,
     "minimumGamesPerTeam": 10,
     "trainingSeasons": [
-      2023,
       2024,
       2025
     ],
@@ -55,19 +57,19 @@
   "model": {
     "version": "logistic-two-feature-v1",
     "weights": [
-      -0.5332512055908911,
-      0.29908495334769647,
-      -0.16594688223402412
+      0.22330354764955812,
+      0.23989406501392369,
+      -0.009652929773390863
     ],
     "means": [
-      0.02067448680351911,
-      0.01313782991202342
+      -0.0026777875329236102,
+      0.002853380158033367
     ],
     "sd": [
-      1.129712346108622,
-      0.2311588967536603
+      1.354440825482927,
+      0.24717140195466988
     ],
-    "trainingCount": 3410,
+    "trainingCount": 2278,
     "holdoutCount": 1137,
     "trainThrough": "2025-04-18T01:30:00.000Z",
     "holdoutThrough": "2026-04-17T02:00:00.000Z",
@@ -82,14 +84,14 @@
       ]
     ],
     "metrics": {
-      "brier": 0.2692753145899271,
-      "baselineBrier": 0.27161602685733427,
-      "accuracy": 0.48197009674582236
+      "brier": 0.24892243816289203,
+      "baselineBrier": 0.2509357920262768,
+      "accuracy": 0.5364995602462621
     }
   },
-  "baselineProbability": 0.37067448680351905,
-  "baselineAccuracy": 0.4810905892700088,
-  "trainFrom": "2022-11-04T00:00:00.000Z",
+  "baselineProbability": 0.5548726953467954,
+  "baselineAccuracy": 0.5189094107299912,
+  "trainFrom": "2023-11-03T23:00:00.000Z",
   "holdoutFrom": "2025-10-29T02:00:00.000Z",
   "calibration": [
     {
@@ -109,44 +111,44 @@
     {
       "from": 0.2,
       "to": 0.3,
-      "count": 77,
-      "meanProbability": 0.2823730438565373,
-      "winFraction": 0.42857142857142855
+      "count": 0,
+      "meanProbability": null,
+      "winFraction": null
     },
     {
       "from": 0.3,
       "to": 0.4,
-      "count": 742,
-      "meanProbability": 0.355673870908194,
-      "winFraction": 0.49865229110512127
+      "count": 2,
+      "meanProbability": 0.3946818347158776,
+      "winFraction": 0
     },
     {
       "from": 0.4,
       "to": 0.5,
-      "count": 315,
-      "meanProbability": 0.43014496586136847,
-      "winFraction": 0.5873015873015873
+      "count": 186,
+      "meanProbability": 0.47196421228675806,
+      "winFraction": 0.45161290322580644
     },
     {
       "from": 0.5,
       "to": 0.6,
-      "count": 3,
-      "meanProbability": 0.5164954391644031,
-      "winFraction": 0.6666666666666666
+      "count": 722,
+      "meanProbability": 0.5525706902057846,
+      "winFraction": 0.518005540166205
     },
     {
       "from": 0.6,
       "to": 0.7,
-      "count": 0,
-      "meanProbability": null,
-      "winFraction": null
+      "count": 225,
+      "meanProbability": 0.6280425671786469,
+      "winFraction": 0.5777777777777777
     },
     {
       "from": 0.7,
       "to": 0.8,
-      "count": 0,
-      "meanProbability": null,
-      "winFraction": null
+      "count": 2,
+      "meanProbability": 0.7169650728240544,
+      "winFraction": 1
     },
     {
       "from": 0.8,
