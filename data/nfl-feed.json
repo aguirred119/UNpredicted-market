@@ -4,28 +4,28 @@
   "checks": [
     {
       "league": "NFL",
-      "eventId": "8bd90781e17e6d97df3941063cedae1e",
-      "sourceGameId": "2026_04_ATL_NO",
-      "home": "New Orleans Saints",
-      "away": "Atlanta Falcons",
-      "eventStart": "2026-10-06T00:15:00.000Z",
+      "eventId": "259b5df9aa0d10257f56de78523495e0",
+      "sourceGameId": "2026_05_TB_DAL",
+      "home": "Dallas Cowboys",
+      "away": "Tampa Bay Buccaneers",
+      "eventStart": "2026-10-09T00:15:00.000Z",
       "status": "blocked",
       "reasons": [
         "Each team needs 4 current-season prior games"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-05T18:50:04.507Z"
+      "checkedAt": "2026-10-06T12:42:47.606Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-10-05T18:50:02.269Z",
+  "lastAttemptAt": "2026-10-06T12:42:44.976Z",
   "state": "waiting-for-eligible-games",
   "publishedThisRun": 0,
   "gradedThisRun": 0,
   "skipped": [
     {
-      "event": "Atlanta Falcons at New Orleans Saints",
-      "eventStart": "2026-10-06T00:15:00.000Z",
+      "event": "Tampa Bay Buccaneers at Dallas Cowboys",
+      "eventStart": "2026-10-09T00:15:00.000Z",
       "reasons": [
         "Each team needs 4 current-season prior games"
       ]
@@ -34,6 +34,6 @@
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
   "sourceThrough": "2026-10-02T00:15:00.000Z",
-  "scheduleAsOf": "2026-10-05T18:50:04.492Z",
-  "completedAt": "2026-10-05T18:50:04.509Z"
+  "scheduleAsOf": "2026-10-06T12:42:47.579Z",
+  "completedAt": "2026-10-06T12:42:47.607Z"
 }
