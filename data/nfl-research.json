@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "status": "retrospective-research",
-  "generatedAt": "2026-10-06T12:42:44.976Z",
-  "dataThrough": "2026-10-02T00:15:00.000Z",
+  "generatedAt": "2026-10-08T12:45:47.474Z",
+  "dataThrough": "2026-10-06T00:15:00.000Z",
   "holdoutSeasons": [
     2024,
     2025
@@ -15,13 +15,13 @@
     "sources": [
       {
         "url": "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.csv",
-        "sha256": "a6d4c9949f13d6a4f44a3c0022274acff72f010afeebcf42a9086fcb1ce9d981"
+        "sha256": "f2e3bb39b03b48199026325e64cd57475fa29ffbd6a183a4515f8323206e0bb3"
       }
     ]
   },
   "processing": {
-    "excluded": 5208,
-    "completedGames": 2137,
+    "excluded": 5194,
+    "completedGames": 2151,
     "lagHours": 48,
     "minimumGamesPerTeam": 4,
     "historyWindow": 8,
@@ -147,21 +147,29 @@
     "season": 2026,
     "window": 8,
     "lagHours": 48,
-    "cutoff": "2026-10-04T12:42:44.976Z",
-    "completedGames": 47,
-    "dataThrough": "2026-10-02T00:15:00.000Z",
+    "cutoff": "2026-10-06T12:45:47.474Z",
+    "completedGames": 61,
+    "dataThrough": "2026-10-06T00:15:00.000Z",
     "teams": [
       {
         "team": "Arizona Cardinals",
-        "count": 3,
+        "count": 4,
         "wins": 1,
-        "losses": 2,
+        "losses": 3,
         "ties": 0,
-        "averageMargin": -6,
-        "averageScored": 21,
-        "averageAllowed": 27,
-        "inputAsOf": "2026-09-27T20:05:00.000Z",
+        "averageMargin": -7.5,
+        "averageScored": 21.75,
+        "averageAllowed": 29.25,
+        "inputAsOf": "2026-10-04T17:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T17:00:00.000Z",
+            "opponent": "New York Giants",
+            "venue": "away",
+            "scored": 24,
+            "allowed": 36,
+            "result": "L"
+          },
           {
             "date": "2026-09-27T20:05:00.000Z",
             "opponent": "San Francisco 49ers",
@@ -190,15 +198,23 @@
       },
       {
         "team": "Atlanta Falcons",
-        "count": 3,
-        "wins": 1,
+        "count": 4,
+        "wins": 2,
         "losses": 2,
         "ties": 0,
-        "averageMargin": -5.666666666666667,
-        "averageScored": 17,
-        "averageAllowed": 22.666666666666668,
-        "inputAsOf": "2026-09-25T00:15:00.000Z",
+        "averageMargin": 1,
+        "averageScored": 24,
+        "averageAllowed": 23,
+        "inputAsOf": "2026-10-06T00:15:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-06T00:15:00.000Z",
+            "opponent": "New Orleans Saints",
+            "venue": "away",
+            "scored": 45,
+            "allowed": 24,
+            "result": "W"
+          },
           {
             "date": "2026-09-25T00:15:00.000Z",
             "opponent": "Green Bay Packers",
@@ -227,15 +243,23 @@
       },
       {
         "team": "Baltimore Ravens",
-        "count": 2,
-        "wins": 1,
+        "count": 3,
+        "wins": 2,
         "losses": 1,
         "ties": 0,
-        "averageMargin": 5.5,
-        "averageScored": 29,
-        "averageAllowed": 23.5,
-        "inputAsOf": "2026-09-20T17:00:00.000Z",
+        "averageMargin": 5.666666666666667,
+        "averageScored": 27.333333333333332,
+        "averageAllowed": 21.666666666666668,
+        "inputAsOf": "2026-10-04T17:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T17:00:00.000Z",
+            "opponent": "Tennessee Titans",
+            "venue": "home",
+            "scored": 24,
+            "allowed": 18,
+            "result": "W"
+          },
           {
             "date": "2026-09-20T17:00:00.000Z",
             "opponent": "New Orleans Saints",
@@ -256,15 +280,23 @@
       },
       {
         "team": "Buffalo Bills",
-        "count": 3,
+        "count": 4,
         "wins": 3,
-        "losses": 0,
+        "losses": 1,
         "ties": 0,
-        "averageMargin": 7.666666666666667,
-        "averageScored": 33.666666666666664,
-        "averageAllowed": 26,
-        "inputAsOf": "2026-09-27T17:00:00.000Z",
+        "averageMargin": 5,
+        "averageScored": 31.75,
+        "averageAllowed": 26.75,
+        "inputAsOf": "2026-10-04T17:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T17:00:00.000Z",
+            "opponent": "New England Patriots",
+            "venue": "home",
+            "scored": 26,
+            "allowed": 29,
+            "result": "L"
+          },
           {
             "date": "2026-09-27T17:00:00.000Z",
             "opponent": "Los Angeles Chargers",
@@ -293,15 +325,23 @@
       },
       {
         "team": "Carolina Panthers",
-        "count": 3,
-        "wins": 1,
+        "count": 4,
+        "wins": 2,
         "losses": 2,
         "ties": 0,
-        "averageMargin": 2,
-        "averageScored": 29.666666666666668,
-        "averageAllowed": 27.666666666666668,
-        "inputAsOf": "2026-09-27T17:00:00.000Z",
+        "averageMargin": 3,
+        "averageScored": 30.25,
+        "averageAllowed": 27.25,
+        "inputAsOf": "2026-10-05T00:20:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-05T00:20:00.000Z",
+            "opponent": "Detroit Lions",
+            "venue": "home",
+            "scored": 32,
+            "allowed": 26,
+            "result": "W"
+          },
           {
             "date": "2026-09-27T17:00:00.000Z",
             "opponent": "Cleveland Browns",
@@ -330,15 +370,23 @@
       },
       {
         "team": "Chicago Bears",
-        "count": 3,
-        "wins": 2,
+        "count": 4,
+        "wins": 3,
         "losses": 1,
         "ties": 0,
-        "averageMargin": 12,
-        "averageScored": 29.666666666666668,
-        "averageAllowed": 17.666666666666668,
-        "inputAsOf": "2026-09-29T00:15:00.000Z",
+        "averageMargin": 11.75,
+        "averageScored": 28,
+        "averageAllowed": 16.25,
+        "inputAsOf": "2026-10-04T17:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T17:00:00.000Z",
+            "opponent": "New York Jets",
+            "venue": "home",
+            "scored": 23,
+            "allowed": 12,
+            "result": "W"
+          },
           {
             "date": "2026-09-29T00:15:00.000Z",
             "opponent": "Philadelphia Eagles",
@@ -367,15 +415,23 @@
       },
       {
         "team": "Cincinnati Bengals",
-        "count": 3,
+        "count": 4,
         "wins": 2,
-        "losses": 1,
+        "losses": 2,
         "ties": 0,
-        "averageMargin": 5.666666666666667,
-        "averageScored": 26.666666666666668,
-        "averageAllowed": 21,
-        "inputAsOf": "2026-09-27T17:00:00.000Z",
+        "averageMargin": 3,
+        "averageScored": 24.25,
+        "averageAllowed": 21.25,
+        "inputAsOf": "2026-10-04T17:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T17:00:00.000Z",
+            "opponent": "Jacksonville Jaguars",
+            "venue": "home",
+            "scored": 17,
+            "allowed": 22,
+            "result": "L"
+          },
           {
             "date": "2026-09-27T17:00:00.000Z",
             "opponent": "Pittsburgh Steelers",
@@ -449,15 +505,23 @@
       },
       {
         "team": "Dallas Cowboys",
-        "count": 2,
-        "wins": 1,
+        "count": 3,
+        "wins": 2,
         "losses": 1,
         "ties": 0,
-        "averageMargin": 4.5,
-        "averageScored": 28.5,
-        "averageAllowed": 24,
-        "inputAsOf": "2026-09-20T20:25:00.000Z",
+        "averageMargin": 4.333333333333333,
+        "averageScored": 30.333333333333332,
+        "averageAllowed": 26,
+        "inputAsOf": "2026-10-04T17:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T17:00:00.000Z",
+            "opponent": "Houston Texans",
+            "venue": "away",
+            "scored": 34,
+            "allowed": 30,
+            "result": "W"
+          },
           {
             "date": "2026-09-20T20:25:00.000Z",
             "opponent": "Washington Commanders",
@@ -478,15 +542,23 @@
       },
       {
         "team": "Denver Broncos",
-        "count": 3,
+        "count": 4,
         "wins": 2,
-        "losses": 1,
+        "losses": 2,
         "ties": 0,
-        "averageMargin": -3.3333333333333335,
-        "averageScored": 20,
-        "averageAllowed": 23.333333333333332,
-        "inputAsOf": "2026-09-28T00:20:00.000Z",
+        "averageMargin": -5,
+        "averageScored": 18.5,
+        "averageAllowed": 23.5,
+        "inputAsOf": "2026-10-04T20:25:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T20:25:00.000Z",
+            "opponent": "San Francisco 49ers",
+            "venue": "away",
+            "scored": 14,
+            "allowed": 24,
+            "result": "L"
+          },
           {
             "date": "2026-09-28T00:20:00.000Z",
             "opponent": "Los Angeles Rams",
@@ -515,15 +587,23 @@
       },
       {
         "team": "Detroit Lions",
-        "count": 3,
+        "count": 4,
         "wins": 2,
-        "losses": 1,
+        "losses": 2,
         "ties": 0,
-        "averageMargin": -0.6666666666666666,
-        "averageScored": 31,
-        "averageAllowed": 31.666666666666668,
-        "inputAsOf": "2026-09-27T17:00:00.000Z",
+        "averageMargin": -2,
+        "averageScored": 29.75,
+        "averageAllowed": 31.75,
+        "inputAsOf": "2026-10-05T00:20:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-05T00:20:00.000Z",
+            "opponent": "Carolina Panthers",
+            "venue": "away",
+            "scored": 26,
+            "allowed": 32,
+            "result": "L"
+          },
           {
             "date": "2026-09-27T17:00:00.000Z",
             "opponent": "New York Jets",
@@ -552,15 +632,23 @@
       },
       {
         "team": "Green Bay Packers",
-        "count": 3,
-        "wins": 1,
+        "count": 4,
+        "wins": 2,
         "losses": 2,
         "ties": 0,
-        "averageMargin": -11.666666666666666,
-        "averageScored": 18.666666666666668,
-        "averageAllowed": 30.333333333333332,
-        "inputAsOf": "2026-09-25T00:15:00.000Z",
+        "averageMargin": -8,
+        "averageScored": 18.25,
+        "averageAllowed": 26.25,
+        "inputAsOf": "2026-10-04T17:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T17:00:00.000Z",
+            "opponent": "Tampa Bay Buccaneers",
+            "venue": "away",
+            "scored": 17,
+            "allowed": 14,
+            "result": "W"
+          },
           {
             "date": "2026-09-25T00:15:00.000Z",
             "opponent": "Atlanta Falcons",
@@ -589,15 +677,23 @@
       },
       {
         "team": "Houston Texans",
-        "count": 3,
+        "count": 4,
         "wins": 0,
-        "losses": 3,
+        "losses": 4,
         "ties": 0,
-        "averageMargin": -7,
-        "averageScored": 18,
-        "averageAllowed": 25,
-        "inputAsOf": "2026-09-27T17:00:00.000Z",
+        "averageMargin": -6.25,
+        "averageScored": 21,
+        "averageAllowed": 27.25,
+        "inputAsOf": "2026-10-04T17:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T17:00:00.000Z",
+            "opponent": "Dallas Cowboys",
+            "venue": "home",
+            "scored": 30,
+            "allowed": 34,
+            "result": "L"
+          },
           {
             "date": "2026-09-27T17:00:00.000Z",
             "opponent": "Indianapolis Colts",
@@ -663,15 +759,23 @@
       },
       {
         "team": "Jacksonville Jaguars",
-        "count": 3,
-        "wins": 2,
+        "count": 4,
+        "wins": 3,
         "losses": 1,
         "ties": 0,
-        "averageMargin": 15.333333333333334,
-        "averageScored": 27.333333333333332,
-        "averageAllowed": 12,
-        "inputAsOf": "2026-09-27T17:00:00.000Z",
+        "averageMargin": 12.75,
+        "averageScored": 26,
+        "averageAllowed": 13.25,
+        "inputAsOf": "2026-10-04T17:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T17:00:00.000Z",
+            "opponent": "Cincinnati Bengals",
+            "venue": "away",
+            "scored": 22,
+            "allowed": 17,
+            "result": "W"
+          },
           {
             "date": "2026-09-27T17:00:00.000Z",
             "opponent": "New England Patriots",
@@ -700,15 +804,23 @@
       },
       {
         "team": "Kansas City Chiefs",
-        "count": 3,
-        "wins": 3,
+        "count": 4,
+        "wins": 4,
         "losses": 0,
         "ties": 0,
-        "averageMargin": 12.666666666666666,
-        "averageScored": 29.333333333333332,
-        "averageAllowed": 16.666666666666668,
-        "inputAsOf": "2026-09-27T17:00:00.000Z",
+        "averageMargin": 10.25,
+        "averageScored": 29.5,
+        "averageAllowed": 19.25,
+        "inputAsOf": "2026-10-04T20:25:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T20:25:00.000Z",
+            "opponent": "Las Vegas Raiders",
+            "venue": "away",
+            "scored": 30,
+            "allowed": 27,
+            "result": "W"
+          },
           {
             "date": "2026-09-27T17:00:00.000Z",
             "opponent": "Miami Dolphins",
@@ -737,15 +849,23 @@
       },
       {
         "team": "Las Vegas Raiders",
-        "count": 3,
+        "count": 4,
         "wins": 3,
-        "losses": 0,
+        "losses": 1,
         "ties": 0,
-        "averageMargin": 11.333333333333334,
-        "averageScored": 29.333333333333332,
-        "averageAllowed": 18,
-        "inputAsOf": "2026-09-27T20:25:00.000Z",
+        "averageMargin": 7.75,
+        "averageScored": 28.75,
+        "averageAllowed": 21,
+        "inputAsOf": "2026-10-04T20:25:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T20:25:00.000Z",
+            "opponent": "Kansas City Chiefs",
+            "venue": "home",
+            "scored": 27,
+            "allowed": 30,
+            "result": "L"
+          },
           {
             "date": "2026-09-27T20:25:00.000Z",
             "opponent": "New Orleans Saints",
@@ -774,15 +894,23 @@
       },
       {
         "team": "Los Angeles Chargers",
-        "count": 3,
+        "count": 4,
         "wins": 0,
-        "losses": 3,
+        "losses": 4,
         "ties": 0,
-        "averageMargin": -10.666666666666666,
-        "averageScored": 14.666666666666666,
-        "averageAllowed": 25.333333333333332,
-        "inputAsOf": "2026-09-27T17:00:00.000Z",
+        "averageMargin": -9.75,
+        "averageScored": 16.75,
+        "averageAllowed": 26.5,
+        "inputAsOf": "2026-10-04T20:25:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T20:25:00.000Z",
+            "opponent": "Seattle Seahawks",
+            "venue": "away",
+            "scored": 23,
+            "allowed": 30,
+            "result": "L"
+          },
           {
             "date": "2026-09-27T17:00:00.000Z",
             "opponent": "Buffalo Bills",
@@ -811,15 +939,23 @@
       },
       {
         "team": "Los Angeles Rams",
-        "count": 2,
-        "wins": 1,
+        "count": 3,
+        "wins": 2,
         "losses": 1,
         "ties": 0,
-        "averageMargin": 9,
-        "averageScored": 27,
-        "averageAllowed": 18,
-        "inputAsOf": "2026-09-28T00:20:00.000Z",
+        "averageMargin": 7.333333333333333,
+        "averageScored": 26,
+        "averageAllowed": 18.666666666666668,
+        "inputAsOf": "2026-10-04T17:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T17:00:00.000Z",
+            "opponent": "Philadelphia Eagles",
+            "venue": "away",
+            "scored": 24,
+            "allowed": 20,
+            "result": "W"
+          },
           {
             "date": "2026-09-28T00:20:00.000Z",
             "opponent": "Denver Broncos",
@@ -840,15 +976,23 @@
       },
       {
         "team": "Miami Dolphins",
-        "count": 3,
+        "count": 4,
         "wins": 0,
-        "losses": 3,
+        "losses": 4,
         "ties": 0,
-        "averageMargin": -16.666666666666668,
-        "averageScored": 12,
-        "averageAllowed": 28.666666666666668,
-        "inputAsOf": "2026-09-27T17:00:00.000Z",
+        "averageMargin": -13.75,
+        "averageScored": 11.5,
+        "averageAllowed": 25.25,
+        "inputAsOf": "2026-10-04T20:05:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T20:05:00.000Z",
+            "opponent": "Minnesota Vikings",
+            "venue": "away",
+            "scored": 10,
+            "allowed": 15,
+            "result": "L"
+          },
           {
             "date": "2026-09-27T17:00:00.000Z",
             "opponent": "Kansas City Chiefs",
@@ -877,15 +1021,23 @@
       },
       {
         "team": "Minnesota Vikings",
-        "count": 3,
-        "wins": 3,
+        "count": 4,
+        "wins": 4,
         "losses": 0,
         "ties": 0,
-        "averageMargin": 10,
-        "averageScored": 23.666666666666668,
-        "averageAllowed": 13.666666666666666,
-        "inputAsOf": "2026-09-27T20:05:00.000Z",
+        "averageMargin": 8.75,
+        "averageScored": 21.5,
+        "averageAllowed": 12.75,
+        "inputAsOf": "2026-10-04T20:05:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T20:05:00.000Z",
+            "opponent": "Miami Dolphins",
+            "venue": "home",
+            "scored": 15,
+            "allowed": 10,
+            "result": "W"
+          },
           {
             "date": "2026-09-27T20:05:00.000Z",
             "opponent": "Tampa Bay Buccaneers",
@@ -914,15 +1066,23 @@
       },
       {
         "team": "New England Patriots",
-        "count": 3,
-        "wins": 1,
+        "count": 4,
+        "wins": 2,
         "losses": 2,
         "ties": 0,
-        "averageMargin": -5,
-        "averageScored": 12,
-        "averageAllowed": 17,
-        "inputAsOf": "2026-09-27T17:00:00.000Z",
+        "averageMargin": -3,
+        "averageScored": 16.25,
+        "averageAllowed": 19.25,
+        "inputAsOf": "2026-10-04T17:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T17:00:00.000Z",
+            "opponent": "Buffalo Bills",
+            "venue": "away",
+            "scored": 29,
+            "allowed": 26,
+            "result": "W"
+          },
           {
             "date": "2026-09-27T17:00:00.000Z",
             "opponent": "Jacksonville Jaguars",
@@ -951,15 +1111,23 @@
       },
       {
         "team": "New Orleans Saints",
-        "count": 3,
+        "count": 4,
         "wins": 1,
-        "losses": 2,
+        "losses": 3,
         "ties": 0,
-        "averageMargin": -0.6666666666666666,
-        "averageScored": 27,
-        "averageAllowed": 27.666666666666668,
-        "inputAsOf": "2026-09-27T20:25:00.000Z",
+        "averageMargin": -5.75,
+        "averageScored": 26.25,
+        "averageAllowed": 32,
+        "inputAsOf": "2026-10-06T00:15:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-06T00:15:00.000Z",
+            "opponent": "Atlanta Falcons",
+            "venue": "home",
+            "scored": 24,
+            "allowed": 45,
+            "result": "L"
+          },
           {
             "date": "2026-09-27T20:25:00.000Z",
             "opponent": "Las Vegas Raiders",
@@ -988,15 +1156,23 @@
       },
       {
         "team": "New York Giants",
-        "count": 3,
-        "wins": 2,
+        "count": 4,
+        "wins": 3,
         "losses": 1,
         "ties": 0,
-        "averageMargin": -3,
-        "averageScored": 15.333333333333334,
-        "averageAllowed": 18.333333333333332,
-        "inputAsOf": "2026-09-27T17:00:00.000Z",
+        "averageMargin": 0.75,
+        "averageScored": 20.5,
+        "averageAllowed": 19.75,
+        "inputAsOf": "2026-10-04T17:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T17:00:00.000Z",
+            "opponent": "Arizona Cardinals",
+            "venue": "home",
+            "scored": 36,
+            "allowed": 24,
+            "result": "W"
+          },
           {
             "date": "2026-09-27T17:00:00.000Z",
             "opponent": "Tennessee Titans",
@@ -1025,15 +1201,23 @@
       },
       {
         "team": "New York Jets",
-        "count": 3,
+        "count": 4,
         "wins": 1,
-        "losses": 2,
+        "losses": 3,
         "ties": 0,
-        "averageMargin": 1,
-        "averageScored": 21.333333333333332,
-        "averageAllowed": 20.333333333333332,
-        "inputAsOf": "2026-09-27T17:00:00.000Z",
+        "averageMargin": -2,
+        "averageScored": 19,
+        "averageAllowed": 21,
+        "inputAsOf": "2026-10-04T17:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T17:00:00.000Z",
+            "opponent": "Chicago Bears",
+            "venue": "away",
+            "scored": 12,
+            "allowed": 23,
+            "result": "L"
+          },
           {
             "date": "2026-09-27T17:00:00.000Z",
             "opponent": "Detroit Lions",
@@ -1062,15 +1246,23 @@
       },
       {
         "team": "Philadelphia Eagles",
-        "count": 3,
+        "count": 4,
         "wins": 2,
-        "losses": 1,
+        "losses": 2,
         "ties": 0,
-        "averageMargin": -4.666666666666667,
-        "averageScored": 18.333333333333332,
-        "averageAllowed": 23,
-        "inputAsOf": "2026-09-29T00:15:00.000Z",
+        "averageMargin": -4.5,
+        "averageScored": 18.75,
+        "averageAllowed": 23.25,
+        "inputAsOf": "2026-10-04T17:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T17:00:00.000Z",
+            "opponent": "Los Angeles Rams",
+            "venue": "home",
+            "scored": 20,
+            "allowed": 24,
+            "result": "L"
+          },
           {
             "date": "2026-09-29T00:15:00.000Z",
             "opponent": "Chicago Bears",
@@ -1144,15 +1336,23 @@
       },
       {
         "team": "San Francisco 49ers",
-        "count": 2,
-        "wins": 2,
+        "count": 3,
+        "wins": 3,
         "losses": 0,
         "ties": 0,
-        "averageMargin": 14,
-        "averageScored": 35.5,
-        "averageAllowed": 21.5,
-        "inputAsOf": "2026-09-27T20:05:00.000Z",
+        "averageMargin": 12.666666666666666,
+        "averageScored": 31.666666666666668,
+        "averageAllowed": 19,
+        "inputAsOf": "2026-10-04T20:25:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T20:25:00.000Z",
+            "opponent": "Denver Broncos",
+            "venue": "home",
+            "scored": 24,
+            "allowed": 14,
+            "result": "W"
+          },
           {
             "date": "2026-09-27T20:05:00.000Z",
             "opponent": "Arizona Cardinals",
@@ -1173,15 +1373,23 @@
       },
       {
         "team": "Seattle Seahawks",
-        "count": 3,
-        "wins": 2,
+        "count": 4,
+        "wins": 3,
         "losses": 1,
         "ties": 0,
-        "averageMargin": 8.333333333333334,
-        "averageScored": 25,
-        "averageAllowed": 16.666666666666668,
-        "inputAsOf": "2026-09-27T17:00:00.000Z",
+        "averageMargin": 8,
+        "averageScored": 26.25,
+        "averageAllowed": 18.25,
+        "inputAsOf": "2026-10-04T20:25:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T20:25:00.000Z",
+            "opponent": "Los Angeles Chargers",
+            "venue": "home",
+            "scored": 30,
+            "allowed": 23,
+            "result": "W"
+          },
           {
             "date": "2026-09-27T17:00:00.000Z",
             "opponent": "Washington Commanders",
@@ -1210,15 +1418,23 @@
       },
       {
         "team": "Tampa Bay Buccaneers",
-        "count": 3,
+        "count": 4,
         "wins": 0,
-        "losses": 3,
+        "losses": 4,
         "ties": 0,
-        "averageMargin": -5.666666666666667,
-        "averageScored": 20.666666666666668,
-        "averageAllowed": 26.333333333333332,
-        "inputAsOf": "2026-09-27T20:05:00.000Z",
+        "averageMargin": -5,
+        "averageScored": 19,
+        "averageAllowed": 24,
+        "inputAsOf": "2026-10-04T17:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T17:00:00.000Z",
+            "opponent": "Green Bay Packers",
+            "venue": "home",
+            "scored": 14,
+            "allowed": 17,
+            "result": "L"
+          },
           {
             "date": "2026-09-27T20:05:00.000Z",
             "opponent": "Minnesota Vikings",
@@ -1247,15 +1463,23 @@
       },
       {
         "team": "Tennessee Titans",
-        "count": 3,
+        "count": 4,
         "wins": 0,
-        "losses": 3,
+        "losses": 4,
         "ties": 0,
-        "averageMargin": -7.333333333333333,
-        "averageScored": 12.333333333333334,
-        "averageAllowed": 19.666666666666668,
-        "inputAsOf": "2026-09-27T17:00:00.000Z",
+        "averageMargin": -7,
+        "averageScored": 13.75,
+        "averageAllowed": 20.75,
+        "inputAsOf": "2026-10-04T17:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-04T17:00:00.000Z",
+            "opponent": "Baltimore Ravens",
+            "venue": "away",
+            "scored": 18,
+            "allowed": 24,
+            "result": "L"
+          },
           {
             "date": "2026-09-27T17:00:00.000Z",
             "opponent": "New York Giants",
@@ -1335,15 +1559,23 @@
         "cutoff": "2026-10-07T00:15:00.000Z",
         "home": {
           "team": "Dallas Cowboys",
-          "count": 2,
-          "wins": 1,
+          "count": 3,
+          "wins": 2,
           "losses": 1,
           "ties": 0,
-          "averageMargin": 4.5,
-          "averageScored": 28.5,
-          "averageAllowed": 24,
-          "inputAsOf": "2026-09-20T20:25:00.000Z",
+          "averageMargin": 4.333333333333333,
+          "averageScored": 30.333333333333332,
+          "averageAllowed": 26,
+          "inputAsOf": "2026-10-04T17:00:00.000Z",
           "recent": [
+            {
+              "date": "2026-10-04T17:00:00.000Z",
+              "opponent": "Houston Texans",
+              "venue": "away",
+              "scored": 34,
+              "allowed": 30,
+              "result": "W"
+            },
             {
               "date": "2026-09-20T20:25:00.000Z",
               "opponent": "Washington Commanders",
@@ -1364,15 +1596,23 @@
         },
         "away": {
           "team": "Tampa Bay Buccaneers",
-          "count": 3,
+          "count": 4,
           "wins": 0,
-          "losses": 3,
+          "losses": 4,
           "ties": 0,
-          "averageMargin": -5.666666666666667,
-          "averageScored": 20.666666666666668,
-          "averageAllowed": 26.333333333333332,
-          "inputAsOf": "2026-09-27T20:05:00.000Z",
+          "averageMargin": -5,
+          "averageScored": 19,
+          "averageAllowed": 24,
+          "inputAsOf": "2026-10-04T17:00:00.000Z",
           "recent": [
+            {
+              "date": "2026-10-04T17:00:00.000Z",
+              "opponent": "Green Bay Packers",
+              "venue": "home",
+              "scored": 14,
+              "allowed": 17,
+              "result": "L"
+            },
             {
               "date": "2026-09-27T20:05:00.000Z",
               "opponent": "Minnesota Vikings",

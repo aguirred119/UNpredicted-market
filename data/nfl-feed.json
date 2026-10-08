@@ -1,15 +1,39 @@
 {
   "schemaVersion": 2,
   "league": "NFL",
-  "checks": [],
+  "checks": [
+    {
+      "league": "NFL",
+      "eventId": "259b5df9aa0d10257f56de78523495e0",
+      "sourceGameId": "2026_05_TB_DAL",
+      "home": "Dallas Cowboys",
+      "away": "Tampa Bay Buccaneers",
+      "eventStart": "2026-10-09T00:15:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-08T12:45:49.259Z"
+    }
+  ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-10-07T12:45:48.788Z",
-  "state": "source-or-validation-error",
+  "lastAttemptAt": "2026-10-08T12:45:47.473Z",
+  "state": "waiting-for-eligible-games",
   "publishedThisRun": 0,
   "gradedThisRun": 0,
-  "skipped": [],
+  "skipped": [
+    {
+      "event": "Tampa Bay Buccaneers at Dallas Cowboys",
+      "eventStart": "2026-10-09T00:15:00.000Z",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ]
+    }
+  ],
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
-  "message": "NFL source retrieval or validation failed. Previous research and published records remain available, visibly dated.",
-  "completedAt": "2026-10-07T12:45:49.593Z"
+  "sourceThrough": "2026-10-06T00:15:00.000Z",
+  "scheduleAsOf": "2026-10-08T12:45:49.218Z",
+  "completedAt": "2026-10-08T12:45:49.260Z"
 }
