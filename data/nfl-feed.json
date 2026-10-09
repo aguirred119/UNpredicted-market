@@ -4,28 +4,199 @@
   "checks": [
     {
       "league": "NFL",
-      "eventId": "259b5df9aa0d10257f56de78523495e0",
-      "sourceGameId": "2026_05_TB_DAL",
-      "home": "Dallas Cowboys",
-      "away": "Tampa Bay Buccaneers",
-      "eventStart": "2026-10-09T00:15:00.000Z",
+      "eventId": "21b26266f3d78af02eb672e606275d95",
+      "sourceGameId": "2026_05_PHI_JAX",
+      "home": "Jacksonville Jaguars",
+      "away": "Philadelphia Eagles",
+      "eventStart": "2026-10-11T13:30:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_05_PHI_JAX-form-v1",
+      "checkedAt": "2026-10-09T12:43:32.972Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "2caea57b1e5cfbba1334cfbfd46f6771",
+      "sourceGameId": "2026_05_CHI_GB",
+      "home": "Green Bay Packers",
+      "away": "Chicago Bears",
+      "eventStart": "2026-10-11T17:00:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_05_CHI_GB-form-v1",
+      "checkedAt": "2026-10-09T12:43:32.972Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "c4647ca1201e6768501877267ca8251b",
+      "sourceGameId": "2026_05_CIN_MIA",
+      "home": "Miami Dolphins",
+      "away": "Cincinnati Bengals",
+      "eventStart": "2026-10-11T17:00:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_05_CIN_MIA-form-v1",
+      "checkedAt": "2026-10-09T12:43:32.972Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "9db4ed15fe34fca1fb62f040cd244591",
+      "sourceGameId": "2026_05_CLE_NYJ",
+      "home": "New York Jets",
+      "away": "Cleveland Browns",
+      "eventStart": "2026-10-11T17:00:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_05_CLE_NYJ-form-v1",
+      "checkedAt": "2026-10-09T12:43:32.972Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "cc52bba56e74f5cddbe9011046181c3d",
+      "sourceGameId": "2026_05_HOU_TEN",
+      "home": "Tennessee Titans",
+      "away": "Houston Texans",
+      "eventStart": "2026-10-11T17:00:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_05_HOU_TEN-form-v1",
+      "checkedAt": "2026-10-09T12:43:32.972Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "448d7cf18c6db4c811ed82ded1b72867",
+      "sourceGameId": "2026_05_IND_PIT",
+      "home": "Pittsburgh Steelers",
+      "away": "Indianapolis Colts",
+      "eventStart": "2026-10-11T17:00:00.000Z",
       "status": "blocked",
       "reasons": [
         "Each team needs 4 current-season prior games"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-08T12:45:49.259Z"
+      "checkedAt": "2026-10-09T12:43:32.972Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "6b024bad1abb54f597225e4ab9b39d89",
+      "sourceGameId": "2026_05_LV_NE",
+      "home": "New England Patriots",
+      "away": "Las Vegas Raiders",
+      "eventStart": "2026-10-11T17:00:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_05_LV_NE-form-v1",
+      "checkedAt": "2026-10-09T12:43:32.972Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "2cda9bf0fbe35a2735f0dd8aaafe9eff",
+      "sourceGameId": "2026_05_MIN_NO",
+      "home": "New Orleans Saints",
+      "away": "Minnesota Vikings",
+      "eventStart": "2026-10-11T17:00:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_05_MIN_NO-form-v1",
+      "checkedAt": "2026-10-09T12:43:32.972Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "fbffd0b7722fd81d68d5d62472dc80e8",
+      "sourceGameId": "2026_05_NYG_WAS",
+      "home": "Washington Commanders",
+      "away": "New York Giants",
+      "eventStart": "2026-10-11T17:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-09T12:43:32.972Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "d1d408fdfd272046fb517fe992a1c5a0",
+      "sourceGameId": "2026_05_DEN_LAC",
+      "home": "Los Angeles Chargers",
+      "away": "Denver Broncos",
+      "eventStart": "2026-10-11T20:05:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_05_DEN_LAC-form-v1",
+      "checkedAt": "2026-10-09T12:43:32.972Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "f8e7f43f73aa983c5c99c189587f0118",
+      "sourceGameId": "2026_05_DET_ARI",
+      "home": "Arizona Cardinals",
+      "away": "Detroit Lions",
+      "eventStart": "2026-10-11T20:25:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_05_DET_ARI-form-v1",
+      "checkedAt": "2026-10-09T12:43:32.972Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "8e5d515b10d8a5ffb324640ed60bcc55",
+      "sourceGameId": "2026_05_SF_SEA",
+      "home": "Seattle Seahawks",
+      "away": "San Francisco 49ers",
+      "eventStart": "2026-10-11T20:25:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-09T12:43:32.972Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "86457f91112732f21ad4bb7d37bd291c",
+      "sourceGameId": "2026_05_BAL_ATL",
+      "home": "Atlanta Falcons",
+      "away": "Baltimore Ravens",
+      "eventStart": "2026-10-12T00:20:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-09T12:43:32.972Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-10-08T12:45:47.473Z",
-  "state": "waiting-for-eligible-games",
-  "publishedThisRun": 0,
+  "lastAttemptAt": "2026-10-09T12:43:31.019Z",
+  "state": "published",
+  "publishedThisRun": 9,
   "gradedThisRun": 0,
   "skipped": [
     {
-      "event": "Tampa Bay Buccaneers at Dallas Cowboys",
-      "eventStart": "2026-10-09T00:15:00.000Z",
+      "event": "Indianapolis Colts at Pittsburgh Steelers",
+      "eventStart": "2026-10-11T17:00:00.000Z",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ]
+    },
+    {
+      "event": "New York Giants at Washington Commanders",
+      "eventStart": "2026-10-11T17:00:00.000Z",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ]
+    },
+    {
+      "event": "San Francisco 49ers at Seattle Seahawks",
+      "eventStart": "2026-10-11T20:25:00.000Z",
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ]
+    },
+    {
+      "event": "Baltimore Ravens at Atlanta Falcons",
+      "eventStart": "2026-10-12T00:20:00.000Z",
       "reasons": [
         "Each team needs 4 current-season prior games"
       ]
@@ -34,6 +205,6 @@
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
   "sourceThrough": "2026-10-06T00:15:00.000Z",
-  "scheduleAsOf": "2026-10-08T12:45:49.218Z",
-  "completedAt": "2026-10-08T12:45:49.260Z"
+  "scheduleAsOf": "2026-10-09T12:43:32.936Z",
+  "completedAt": "2026-10-09T12:43:32.983Z"
 }
