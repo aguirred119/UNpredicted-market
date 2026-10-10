@@ -2,26 +2,34 @@
   "schemaVersion": 1,
   "status": "descriptive-statistics",
   "league": "NHL",
-  "generatedAt": "2026-10-09T13:55:08.926Z",
+  "generatedAt": "2026-10-10T13:51:01.493Z",
   "teamStatistics": {
     "season": 2027,
     "window": 10,
     "lagHours": 48,
-    "cutoff": "2026-10-07T13:55:08.926Z",
-    "completedGames": 52,
-    "dataThrough": "2026-10-07T02:00:00.000Z",
+    "cutoff": "2026-10-08T13:51:01.493Z",
+    "completedGames": 55,
+    "dataThrough": "2026-10-08T02:00:00.000Z",
     "teams": [
       {
         "team": "Anaheim Ducks",
-        "count": 2,
+        "count": 3,
         "wins": 2,
-        "losses": 0,
+        "losses": 1,
         "ties": 0,
-        "averageMargin": 1,
-        "averageScored": 3.5,
-        "averageAllowed": 2.5,
-        "inputAsOf": "2026-10-05T00:00:00.000Z",
+        "averageMargin": -0.3333333333333333,
+        "averageScored": 3,
+        "averageAllowed": 3.3333333333333335,
+        "inputAsOf": "2026-10-08T02:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-08T02:00:00.000Z",
+            "opponent": "Edmonton Oilers",
+            "venue": "home",
+            "scored": 2,
+            "allowed": 5,
+            "result": "L"
+          },
           {
             "date": "2026-10-05T00:00:00.000Z",
             "opponent": "Florida Panthers",
@@ -251,15 +259,23 @@
       },
       {
         "team": "Colorado Avalanche",
-        "count": 2,
+        "count": 3,
         "wins": 2,
-        "losses": 0,
+        "losses": 1,
         "ties": 0,
-        "averageMargin": 4.5,
-        "averageScored": 7,
-        "averageAllowed": 2.5,
-        "inputAsOf": "2026-10-04T01:00:00.000Z",
+        "averageMargin": 2.6666666666666665,
+        "averageScored": 5.333333333333333,
+        "averageAllowed": 2.6666666666666665,
+        "inputAsOf": "2026-10-07T23:30:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-07T23:30:00.000Z",
+            "opponent": "Winnipeg Jets",
+            "venue": "away",
+            "scored": 2,
+            "allowed": 3,
+            "result": "L"
+          },
           {
             "date": "2026-10-04T01:00:00.000Z",
             "opponent": "St. Louis Blues",
@@ -383,15 +399,23 @@
       },
       {
         "team": "Edmonton Oilers",
-        "count": 3,
-        "wins": 2,
+        "count": 4,
+        "wins": 3,
         "losses": 1,
         "ties": 0,
-        "averageMargin": 1,
-        "averageScored": 5.666666666666667,
-        "averageAllowed": 4.666666666666667,
-        "inputAsOf": "2026-10-03T23:00:00.000Z",
+        "averageMargin": 1.5,
+        "averageScored": 5.5,
+        "averageAllowed": 4,
+        "inputAsOf": "2026-10-08T02:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-08T02:00:00.000Z",
+            "opponent": "Anaheim Ducks",
+            "venue": "away",
+            "scored": 5,
+            "allowed": 2,
+            "result": "W"
+          },
           {
             "date": "2026-10-03T23:00:00.000Z",
             "opponent": "Seattle Kraken",
@@ -822,15 +846,23 @@
       },
       {
         "team": "Pittsburgh Penguins",
-        "count": 3,
+        "count": 4,
         "wins": 2,
-        "losses": 1,
+        "losses": 2,
         "ties": 0,
-        "averageMargin": 2.3333333333333335,
-        "averageScored": 5,
-        "averageAllowed": 2.6666666666666665,
-        "inputAsOf": "2026-10-05T23:30:00.000Z",
+        "averageMargin": 1.25,
+        "averageScored": 4.5,
+        "averageAllowed": 3.25,
+        "inputAsOf": "2026-10-07T23:30:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-07T23:30:00.000Z",
+            "opponent": "Washington Capitals",
+            "venue": "away",
+            "scored": 3,
+            "allowed": 5,
+            "result": "L"
+          },
           {
             "date": "2026-10-05T23:30:00.000Z",
             "opponent": "Winnipeg Jets",
@@ -1195,15 +1227,23 @@
       },
       {
         "team": "Washington Capitals",
-        "count": 2,
-        "wins": 1,
+        "count": 3,
+        "wins": 2,
         "losses": 1,
         "ties": 0,
-        "averageMargin": 0.5,
-        "averageScored": 3,
-        "averageAllowed": 2.5,
-        "inputAsOf": "2026-10-03T23:00:00.000Z",
+        "averageMargin": 1,
+        "averageScored": 3.6666666666666665,
+        "averageAllowed": 2.6666666666666665,
+        "inputAsOf": "2026-10-07T23:30:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-07T23:30:00.000Z",
+            "opponent": "Pittsburgh Penguins",
+            "venue": "home",
+            "scored": 5,
+            "allowed": 3,
+            "result": "W"
+          },
           {
             "date": "2026-10-03T23:00:00.000Z",
             "opponent": "Tampa Bay Lightning",
@@ -1224,15 +1264,23 @@
       },
       {
         "team": "Winnipeg Jets",
-        "count": 3,
-        "wins": 2,
+        "count": 4,
+        "wins": 3,
         "losses": 1,
         "ties": 0,
-        "averageMargin": 0.3333333333333333,
+        "averageMargin": 0.5,
         "averageScored": 3,
-        "averageAllowed": 2.6666666666666665,
-        "inputAsOf": "2026-10-05T23:30:00.000Z",
+        "averageAllowed": 2.5,
+        "inputAsOf": "2026-10-07T23:30:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-07T23:30:00.000Z",
+            "opponent": "Colorado Avalanche",
+            "venue": "home",
+            "scored": 3,
+            "allowed": 2,
+            "result": "W"
+          },
           {
             "date": "2026-10-05T23:30:00.000Z",
             "opponent": "Pittsburgh Penguins",
@@ -1265,7 +1313,7 @@
     "season": 2026,
     "window": 10,
     "lagHours": 48,
-    "cutoff": "2026-10-07T13:55:08.926Z",
+    "cutoff": "2026-10-08T13:51:01.493Z",
     "completedGames": 1312,
     "dataThrough": "2026-04-17T02:00:00.000Z",
     "teams": [
@@ -2976,7 +3024,7 @@
       {
         "season": 2027,
         "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nhl_schedules/nhl_schedule_2027.csv",
-        "sha256": "58a1a21dab103d60889edbc3d9f175e93f95d3966b5f28fdce7edc554d87c6a9"
+        "sha256": "2f0665db0562ed0f79deca3d7054058d361551e0ca8d2c4b3a51bb1aa1ead9b9"
       },
       {
         "season": 2026,
