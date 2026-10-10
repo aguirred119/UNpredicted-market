@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "retrospective-research",
-  "generatedAt": "2026-10-09T12:43:31.019Z",
+  "generatedAt": "2026-10-10T12:42:02.267Z",
   "dataThrough": "2026-10-06T00:15:00.000Z",
   "holdoutSeasons": [
     2024,
@@ -15,7 +15,7 @@
     "sources": [
       {
         "url": "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.csv",
-        "sha256": "9c925388e875b6e90c4ba21e7029e0a0ff44648d4528dcab080d1c11dbe560e1"
+        "sha256": "b3bb1bb9490d4be2fdb8053cd1f59ca728f87f33c6d1ed1dddb0d6851b74be1b"
       }
     ]
   },
@@ -147,7 +147,7 @@
     "season": 2026,
     "window": 8,
     "lagHours": 48,
-    "cutoff": "2026-10-07T12:43:31.019Z",
+    "cutoff": "2026-10-08T12:42:02.267Z",
     "completedGames": 61,
     "dataThrough": "2026-10-06T00:15:00.000Z",
     "teams": [
@@ -2988,6 +2988,106 @@
               "venue": "away",
               "scored": 41,
               "allowed": 23,
+              "result": "W"
+            }
+          ]
+        }
+      },
+      "eligible": false,
+      "reasons": [
+        "Each team needs 4 current-season prior games"
+      ],
+      "features": null
+    },
+    {
+      "sourceEventId": "2026_05_BUF_LA",
+      "home": "Los Angeles Rams",
+      "away": "Buffalo Bills",
+      "event": "Buffalo Bills at Los Angeles Rams",
+      "eventStart": "2026-10-13T00:15:00.000Z",
+      "form": {
+        "season": 2026,
+        "window": 8,
+        "lagHours": 48,
+        "cutoff": "2026-10-11T00:15:00.000Z",
+        "home": {
+          "team": "Los Angeles Rams",
+          "count": 3,
+          "wins": 2,
+          "losses": 1,
+          "ties": 0,
+          "averageMargin": 7.333333333333333,
+          "averageScored": 26,
+          "averageAllowed": 18.666666666666668,
+          "inputAsOf": "2026-10-04T17:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-04T17:00:00.000Z",
+              "opponent": "Philadelphia Eagles",
+              "venue": "away",
+              "scored": 24,
+              "allowed": 20,
+              "result": "W"
+            },
+            {
+              "date": "2026-09-28T00:20:00.000Z",
+              "opponent": "Denver Broncos",
+              "venue": "away",
+              "scored": 26,
+              "allowed": 30,
+              "result": "L"
+            },
+            {
+              "date": "2026-09-22T00:15:00.000Z",
+              "opponent": "New York Giants",
+              "venue": "home",
+              "scored": 28,
+              "allowed": 6,
+              "result": "W"
+            }
+          ]
+        },
+        "away": {
+          "team": "Buffalo Bills",
+          "count": 4,
+          "wins": 3,
+          "losses": 1,
+          "ties": 0,
+          "averageMargin": 5,
+          "averageScored": 31.75,
+          "averageAllowed": 26.75,
+          "inputAsOf": "2026-10-04T17:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-04T17:00:00.000Z",
+              "opponent": "New England Patriots",
+              "venue": "home",
+              "scored": 26,
+              "allowed": 29,
+              "result": "L"
+            },
+            {
+              "date": "2026-09-27T17:00:00.000Z",
+              "opponent": "Los Angeles Chargers",
+              "venue": "home",
+              "scored": 24,
+              "allowed": 16,
+              "result": "W"
+            },
+            {
+              "date": "2026-09-18T00:15:00.000Z",
+              "opponent": "Detroit Lions",
+              "venue": "home",
+              "scored": 41,
+              "allowed": 31,
+              "result": "W"
+            },
+            {
+              "date": "2026-09-13T17:00:00.000Z",
+              "opponent": "Houston Texans",
+              "venue": "away",
+              "scored": 36,
+              "allowed": 31,
               "result": "W"
             }
           ]
