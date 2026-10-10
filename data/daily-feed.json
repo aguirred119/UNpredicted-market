@@ -3,7 +3,7 @@
   "league": "NBA",
   "checks": [],
   "mode": "experimental",
-  "lastAttemptAt": "2026-10-09T12:34:00.207Z",
+  "lastAttemptAt": "2026-10-10T12:32:45.637Z",
   "state": "waiting-for-eligible-games",
   "publishedThisRun": 0,
   "gradedThisRun": 0,
@@ -11,6 +11,6 @@
   "cadence": "Daily, approximately 05:17 Pacific daylight time / 04:17 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
   "sourceThrough": "2026-04-13T00:30:00.000Z",
-  "scheduleAsOf": "2026-10-09T12:34:04.700Z",
-  "completedAt": "2026-10-09T12:34:04.732Z"
+  "scheduleAsOf": "2026-10-10T12:32:51.429Z",
+  "completedAt": "2026-10-10T12:32:51.470Z"
 }
