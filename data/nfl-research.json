@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "retrospective-research",
-  "generatedAt": "2026-10-12T13:03:44.143Z",
+  "generatedAt": "2026-10-13T12:50:23.928Z",
   "dataThrough": "2026-10-09T00:15:00.000Z",
   "holdoutSeasons": [
     2024,
@@ -15,12 +15,12 @@
     "sources": [
       {
         "url": "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.csv",
-        "sha256": "ce7e52505e37abd5ef48fe1261d83378fcabe62c9de0851aa0d5730a6ccd656c"
+        "sha256": "33b4bacf87aca1b42bd2544dff660214fac77d55af5db6a85c2bfb682d91ea7d"
       }
     ]
   },
   "processing": {
-    "excluded": 5207,
+    "excluded": 5208,
     "completedGames": 2152,
     "lagHours": 48,
     "minimumGamesPerTeam": 4,
@@ -147,7 +147,7 @@
     "season": 2026,
     "window": 8,
     "lagHours": 48,
-    "cutoff": "2026-10-10T13:03:44.143Z",
+    "cutoff": "2026-10-11T12:50:23.928Z",
     "completedGames": 62,
     "dataThrough": "2026-10-09T00:15:00.000Z",
     "teams": [
@@ -1563,104 +1563,121 @@
   },
   "upcoming": [
     {
-      "sourceEventId": "2026_05_BUF_LA",
-      "home": "Los Angeles Rams",
-      "away": "Buffalo Bills",
-      "event": "Buffalo Bills at Los Angeles Rams",
-      "eventStart": "2026-10-13T00:15:00.000Z",
+      "sourceEventId": "2026_06_SEA_DEN",
+      "home": "Denver Broncos",
+      "away": "Seattle Seahawks",
+      "event": "Seattle Seahawks at Denver Broncos",
+      "eventStart": "2026-10-16T00:15:00.000Z",
       "form": {
         "season": 2026,
         "window": 8,
         "lagHours": 48,
-        "cutoff": "2026-10-11T00:15:00.000Z",
+        "cutoff": "2026-10-14T00:15:00.000Z",
         "home": {
-          "team": "Los Angeles Rams",
-          "count": 3,
+          "team": "Denver Broncos",
+          "count": 4,
           "wins": 2,
-          "losses": 1,
+          "losses": 2,
           "ties": 0,
-          "averageMargin": 7.333333333333333,
-          "averageScored": 26,
-          "averageAllowed": 18.666666666666668,
-          "inputAsOf": "2026-10-04T17:00:00.000Z",
+          "averageMargin": -5,
+          "averageScored": 18.5,
+          "averageAllowed": 23.5,
+          "inputAsOf": "2026-10-04T20:25:00.000Z",
           "recent": [
             {
-              "date": "2026-10-04T17:00:00.000Z",
-              "opponent": "Philadelphia Eagles",
+              "date": "2026-10-04T20:25:00.000Z",
+              "opponent": "San Francisco 49ers",
               "venue": "away",
-              "scored": 24,
-              "allowed": 20,
-              "result": "W"
-            },
-            {
-              "date": "2026-09-28T00:20:00.000Z",
-              "opponent": "Denver Broncos",
-              "venue": "away",
-              "scored": 26,
-              "allowed": 30,
+              "scored": 14,
+              "allowed": 24,
               "result": "L"
             },
             {
-              "date": "2026-09-22T00:15:00.000Z",
-              "opponent": "New York Giants",
+              "date": "2026-09-28T00:20:00.000Z",
+              "opponent": "Los Angeles Rams",
               "venue": "home",
-              "scored": 28,
-              "allowed": 6,
+              "scored": 30,
+              "allowed": 26,
               "result": "W"
+            },
+            {
+              "date": "2026-09-20T20:05:00.000Z",
+              "opponent": "Jacksonville Jaguars",
+              "venue": "home",
+              "scored": 20,
+              "allowed": 13,
+              "result": "W"
+            },
+            {
+              "date": "2026-09-15T00:15:00.000Z",
+              "opponent": "Kansas City Chiefs",
+              "venue": "away",
+              "scored": 10,
+              "allowed": 31,
+              "result": "L"
             }
           ]
         },
         "away": {
-          "team": "Buffalo Bills",
+          "team": "Seattle Seahawks",
           "count": 4,
           "wins": 3,
           "losses": 1,
           "ties": 0,
-          "averageMargin": 5,
-          "averageScored": 31.75,
-          "averageAllowed": 26.75,
-          "inputAsOf": "2026-10-04T17:00:00.000Z",
+          "averageMargin": 8,
+          "averageScored": 26.25,
+          "averageAllowed": 18.25,
+          "inputAsOf": "2026-10-04T20:25:00.000Z",
           "recent": [
             {
-              "date": "2026-10-04T17:00:00.000Z",
-              "opponent": "New England Patriots",
+              "date": "2026-10-04T20:25:00.000Z",
+              "opponent": "Los Angeles Chargers",
               "venue": "home",
-              "scored": 26,
-              "allowed": 29,
-              "result": "L"
+              "scored": 30,
+              "allowed": 23,
+              "result": "W"
             },
             {
               "date": "2026-09-27T17:00:00.000Z",
-              "opponent": "Los Angeles Chargers",
-              "venue": "home",
-              "scored": 24,
-              "allowed": 16,
-              "result": "W"
-            },
-            {
-              "date": "2026-09-18T00:15:00.000Z",
-              "opponent": "Detroit Lions",
-              "venue": "home",
-              "scored": 41,
-              "allowed": 31,
-              "result": "W"
-            },
-            {
-              "date": "2026-09-13T17:00:00.000Z",
-              "opponent": "Houston Texans",
+              "opponent": "Washington Commanders",
               "venue": "away",
-              "scored": 36,
-              "allowed": 31,
+              "scored": 31,
+              "allowed": 33,
+              "result": "L"
+            },
+            {
+              "date": "2026-09-20T20:25:00.000Z",
+              "opponent": "Arizona Cardinals",
+              "venue": "away",
+              "scored": 31,
+              "allowed": 7,
+              "result": "W"
+            },
+            {
+              "date": "2026-09-10T00:20:00.000Z",
+              "opponent": "New England Patriots",
+              "venue": "home",
+              "scored": 13,
+              "allowed": 10,
               "result": "W"
             }
           ]
         }
       },
-      "eligible": false,
-      "reasons": [
-        "Each team needs 4 current-season prior games"
-      ],
-      "features": null
+      "eligible": true,
+      "reasons": [],
+      "features": {
+        "x": [
+          -13,
+          -0.25
+        ],
+        "inputAsOf": "2026-10-04T20:25:00.000Z",
+        "oldestLatest": "2026-10-04T20:25:00.000Z",
+        "sampleSizes": [
+          4,
+          4
+        ]
+      }
     }
   ],
   "publishing": "Experimental forecasts run daily only when evaluation, history, freshness and exact event identity checks pass. No historical backfill into the live record."

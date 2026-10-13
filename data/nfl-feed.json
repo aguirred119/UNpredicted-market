@@ -4,36 +4,26 @@
   "checks": [
     {
       "league": "NFL",
-      "eventId": "e6d00eedd87d367e510314bd8cab8f6f",
-      "sourceGameId": "2026_05_BUF_LA",
-      "home": "Los Angeles Rams",
-      "away": "Buffalo Bills",
-      "eventStart": "2026-10-13T00:15:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "Each team needs 4 current-season prior games"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-10-12T13:03:46.191Z"
+      "eventId": "855f58fad5f0f14b239f4f63df27998b",
+      "sourceGameId": "2026_06_SEA_DEN",
+      "home": "Denver Broncos",
+      "away": "Seattle Seahawks",
+      "eventStart": "2026-10-16T00:15:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_06_SEA_DEN-form-v1",
+      "checkedAt": "2026-10-13T12:50:26.267Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-10-12T13:03:44.142Z",
-  "state": "waiting-for-eligible-games",
-  "publishedThisRun": 0,
+  "lastAttemptAt": "2026-10-13T12:50:23.927Z",
+  "state": "published",
+  "publishedThisRun": 1,
   "gradedThisRun": 0,
-  "skipped": [
-    {
-      "event": "Buffalo Bills at Los Angeles Rams",
-      "eventStart": "2026-10-13T00:15:00.000Z",
-      "reasons": [
-        "Each team needs 4 current-season prior games"
-      ]
-    }
-  ],
+  "skipped": [],
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
   "sourceThrough": "2026-10-09T00:15:00.000Z",
-  "scheduleAsOf": "2026-10-12T13:03:46.175Z",
-  "completedAt": "2026-10-12T13:03:46.203Z"
+  "scheduleAsOf": "2026-10-13T12:50:26.212Z",
+  "completedAt": "2026-10-13T12:50:26.281Z"
 }
