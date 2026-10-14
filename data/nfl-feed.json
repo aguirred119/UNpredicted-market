@@ -9,21 +9,21 @@
       "home": "Denver Broncos",
       "away": "Seattle Seahawks",
       "eventStart": "2026-10-16T00:15:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_06_SEA_DEN-form-v1",
-      "checkedAt": "2026-10-13T12:50:26.267Z"
+      "checkedAt": "2026-10-14T13:04:17.906Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-10-13T12:50:23.927Z",
-  "state": "published",
-  "publishedThisRun": 1,
-  "gradedThisRun": 0,
+  "lastAttemptAt": "2026-10-14T13:04:15.527Z",
+  "state": "waiting-for-eligible-games",
+  "publishedThisRun": 0,
+  "gradedThisRun": 8,
   "skipped": [],
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
-  "sourceThrough": "2026-10-09T00:15:00.000Z",
-  "scheduleAsOf": "2026-10-13T12:50:26.212Z",
-  "completedAt": "2026-10-13T12:50:26.281Z"
+  "sourceThrough": "2026-10-12T00:20:00.000Z",
+  "scheduleAsOf": "2026-10-14T13:04:17.862Z",
+  "completedAt": "2026-10-14T13:04:17.929Z"
 }
