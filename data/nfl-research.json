@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "status": "retrospective-research",
-  "generatedAt": "2026-10-14T13:04:15.527Z",
-  "dataThrough": "2026-10-12T00:20:00.000Z",
+  "generatedAt": "2026-10-15T13:08:09.295Z",
+  "dataThrough": "2026-10-13T00:15:00.000Z",
   "holdoutSeasons": [
     2024,
     2025
@@ -15,13 +15,13 @@
     "sources": [
       {
         "url": "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.csv",
-        "sha256": "1bde6d7d1bd0c872f51edacbae1f1c36019f50a1bd85a8b6b35499ef2b08065f"
+        "sha256": "aac850c839b6aca8e9d106100b29d3401fde78a656519d13038596d80e089a80"
       }
     ]
   },
   "processing": {
-    "excluded": 5196,
-    "completedGames": 2164,
+    "excluded": 5195,
+    "completedGames": 2165,
     "lagHours": 48,
     "minimumGamesPerTeam": 4,
     "historyWindow": 8,
@@ -147,9 +147,9 @@
     "season": 2026,
     "window": 8,
     "lagHours": 48,
-    "cutoff": "2026-10-12T13:04:15.527Z",
-    "completedGames": 74,
-    "dataThrough": "2026-10-12T00:20:00.000Z",
+    "cutoff": "2026-10-13T13:08:09.295Z",
+    "completedGames": 75,
+    "dataThrough": "2026-10-13T00:15:00.000Z",
     "teams": [
       {
         "team": "Arizona Cardinals",
@@ -304,15 +304,23 @@
       },
       {
         "team": "Buffalo Bills",
-        "count": 4,
-        "wins": 3,
+        "count": 5,
+        "wins": 4,
         "losses": 1,
         "ties": 0,
-        "averageMargin": 5,
-        "averageScored": 31.75,
-        "averageAllowed": 26.75,
-        "inputAsOf": "2026-10-04T17:00:00.000Z",
+        "averageMargin": 4.6,
+        "averageScored": 32.8,
+        "averageAllowed": 28.2,
+        "inputAsOf": "2026-10-13T00:15:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-13T00:15:00.000Z",
+            "opponent": "Los Angeles Rams",
+            "venue": "away",
+            "scored": 37,
+            "allowed": 34,
+            "result": "W"
+          },
           {
             "date": "2026-10-04T17:00:00.000Z",
             "opponent": "New England Patriots",
@@ -1051,15 +1059,23 @@
       },
       {
         "team": "Los Angeles Rams",
-        "count": 3,
+        "count": 4,
         "wins": 2,
-        "losses": 1,
+        "losses": 2,
         "ties": 0,
-        "averageMargin": 7.333333333333333,
-        "averageScored": 26,
-        "averageAllowed": 18.666666666666668,
-        "inputAsOf": "2026-10-04T17:00:00.000Z",
+        "averageMargin": 4.75,
+        "averageScored": 28,
+        "averageAllowed": 23.25,
+        "inputAsOf": "2026-10-13T00:15:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-13T00:15:00.000Z",
+            "opponent": "Buffalo Bills",
+            "venue": "home",
+            "scored": 34,
+            "allowed": 37,
+            "result": "L"
+          },
           {
             "date": "2026-10-04T17:00:00.000Z",
             "opponent": "Philadelphia Eagles",
