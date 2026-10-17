@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "retrospective-research",
-  "generatedAt": "2026-10-16T13:06:31.329Z",
+  "generatedAt": "2026-10-17T12:56:19.950Z",
   "dataThrough": "2026-10-13T00:15:00.000Z",
   "holdoutSeasons": [
     2024,
@@ -15,7 +15,7 @@
     "sources": [
       {
         "url": "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.csv",
-        "sha256": "9f5eabcbb7371937da2b2af6ef3a4c4f6052b06b2ef96974d77dd8a83609b3cc"
+        "sha256": "4fb136669674a25ba1d1fe285eb18c588d3d23b99531146cb988c23048bf5f5d"
       }
     ]
   },
@@ -147,7 +147,7 @@
     "season": 2026,
     "window": 8,
     "lagHours": 48,
-    "cutoff": "2026-10-14T13:06:31.329Z",
+    "cutoff": "2026-10-15T12:56:19.950Z",
     "completedGames": 75,
     "dataThrough": "2026-10-13T00:15:00.000Z",
     "teams": [
@@ -3175,6 +3175,123 @@
         "oldestLatest": "2026-10-09T00:15:00.000Z",
         "sampleSizes": [
           5,
+          4
+        ]
+      }
+    },
+    {
+      "sourceEventId": "2026_06_WAS_SF",
+      "home": "San Francisco 49ers",
+      "away": "Washington Commanders",
+      "event": "Washington Commanders at San Francisco 49ers",
+      "eventStart": "2026-10-20T00:15:00.000Z",
+      "form": {
+        "season": 2026,
+        "window": 8,
+        "lagHours": 48,
+        "cutoff": "2026-10-18T00:15:00.000Z",
+        "home": {
+          "team": "San Francisco 49ers",
+          "count": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "averageMargin": 10.25,
+          "averageScored": 31.75,
+          "averageAllowed": 21.5,
+          "inputAsOf": "2026-10-11T20:25:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-11T20:25:00.000Z",
+              "opponent": "Seattle Seahawks",
+              "venue": "away",
+              "scored": 32,
+              "allowed": 29,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-04T20:25:00.000Z",
+              "opponent": "Denver Broncos",
+              "venue": "home",
+              "scored": 24,
+              "allowed": 14,
+              "result": "W"
+            },
+            {
+              "date": "2026-09-27T20:05:00.000Z",
+              "opponent": "Arizona Cardinals",
+              "venue": "home",
+              "scored": 36,
+              "allowed": 30,
+              "result": "W"
+            },
+            {
+              "date": "2026-09-20T20:25:00.000Z",
+              "opponent": "Miami Dolphins",
+              "venue": "home",
+              "scored": 35,
+              "allowed": 13,
+              "result": "W"
+            }
+          ]
+        },
+        "away": {
+          "team": "Washington Commanders",
+          "count": 4,
+          "wins": 1,
+          "losses": 2,
+          "ties": 1,
+          "averageMargin": -4.25,
+          "averageScored": 25.5,
+          "averageAllowed": 29.75,
+          "inputAsOf": "2026-10-11T17:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-11T17:00:00.000Z",
+              "opponent": "New York Giants",
+              "venue": "home",
+              "scored": 27,
+              "allowed": 27,
+              "result": "T"
+            },
+            {
+              "date": "2026-09-27T17:00:00.000Z",
+              "opponent": "Seattle Seahawks",
+              "venue": "home",
+              "scored": 33,
+              "allowed": 31,
+              "result": "W"
+            },
+            {
+              "date": "2026-09-20T20:25:00.000Z",
+              "opponent": "Dallas Cowboys",
+              "venue": "away",
+              "scored": 20,
+              "allowed": 37,
+              "result": "L"
+            },
+            {
+              "date": "2026-09-13T20:25:00.000Z",
+              "opponent": "Philadelphia Eagles",
+              "venue": "away",
+              "scored": 22,
+              "allowed": 24,
+              "result": "L"
+            }
+          ]
+        }
+      },
+      "eligible": true,
+      "reasons": [],
+      "features": {
+        "x": [
+          14.5,
+          0.75
+        ],
+        "inputAsOf": "2026-10-11T20:25:00.000Z",
+        "oldestLatest": "2026-10-11T17:00:00.000Z",
+        "sampleSizes": [
+          4,
           4
         ]
       }
