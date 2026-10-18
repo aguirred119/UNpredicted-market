@@ -1,16 +1,81 @@
 {
   "schemaVersion": 2,
   "league": "NBA",
-  "checks": [],
+  "checks": [
+    {
+      "league": "NBA",
+      "eventId": "26b036ff107f3c658258eaf4a6f26228",
+      "sourceGameId": "401909088",
+      "home": "Detroit Pistons",
+      "away": "Boston Celtics",
+      "eventStart": "2026-10-20T19:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Each team needs 10 current-season prior games"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-18T12:44:40.641Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": "2b042ddad3d3c6c6fe5b7005dc26c775",
+      "sourceGameId": "401909089",
+      "home": "New York Knicks",
+      "away": "Philadelphia 76ers",
+      "eventStart": "2026-10-20T23:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Each team needs 10 current-season prior games"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-18T12:44:40.641Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": "bccd283de56915e29af1788beb0abfc9",
+      "sourceGameId": "401909090",
+      "home": "San Antonio Spurs",
+      "away": "Oklahoma City Thunder",
+      "eventStart": "2026-10-21T01:30:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Each team needs 10 current-season prior games"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-18T12:44:40.641Z"
+    }
+  ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-10-17T12:44:19.870Z",
+  "lastAttemptAt": "2026-10-18T12:44:33.813Z",
   "state": "waiting-for-eligible-games",
   "publishedThisRun": 0,
   "gradedThisRun": 0,
-  "skipped": [],
+  "skipped": [
+    {
+      "event": "Boston Celtics at Detroit Pistons",
+      "eventStart": "2026-10-20T19:00:00.000Z",
+      "reasons": [
+        "Each team needs 10 current-season prior games"
+      ]
+    },
+    {
+      "event": "Philadelphia 76ers at New York Knicks",
+      "eventStart": "2026-10-20T23:00:00.000Z",
+      "reasons": [
+        "Each team needs 10 current-season prior games"
+      ]
+    },
+    {
+      "event": "Oklahoma City Thunder at San Antonio Spurs",
+      "eventStart": "2026-10-21T01:30:00.000Z",
+      "reasons": [
+        "Each team needs 10 current-season prior games"
+      ]
+    }
+  ],
   "cadence": "Daily, approximately 05:17 Pacific daylight time / 04:17 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
   "sourceThrough": "2026-04-13T00:30:00.000Z",
-  "scheduleAsOf": "2026-10-17T12:44:24.881Z",
-  "completedAt": "2026-10-17T12:44:24.915Z"
+  "scheduleAsOf": "2026-10-18T12:44:40.584Z",
+  "completedAt": "2026-10-18T12:44:40.651Z"
 }

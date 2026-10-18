@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "retrospective-research",
-  "generatedAt": "2026-10-17T12:44:19.870Z",
+  "generatedAt": "2026-10-18T12:44:33.814Z",
   "dataThrough": "2026-04-13T00:30:00.000Z",
   "holdoutSeason": 2026,
   "source": {
@@ -165,7 +165,7 @@
     "season": 2027,
     "window": 20,
     "lagHours": 48,
-    "cutoff": "2026-10-15T12:44:19.870Z",
+    "cutoff": "2026-10-16T12:44:33.814Z",
     "completedGames": 0,
     "dataThrough": null,
     "teams": [
@@ -531,6 +531,133 @@
       }
     ]
   },
-  "upcoming": [],
+  "upcoming": [
+    {
+      "sourceEventId": "401909088",
+      "home": "Detroit Pistons",
+      "away": "Boston Celtics",
+      "event": "Boston Celtics at Detroit Pistons",
+      "eventStart": "2026-10-20T19:00:00.000Z",
+      "form": {
+        "season": 2027,
+        "window": 20,
+        "lagHours": 48,
+        "cutoff": "2026-10-18T19:00:00.000Z",
+        "home": {
+          "team": "Detroit Pistons",
+          "count": 0,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "averageMargin": null,
+          "averageScored": null,
+          "averageAllowed": null,
+          "inputAsOf": null,
+          "recent": []
+        },
+        "away": {
+          "team": "Boston Celtics",
+          "count": 0,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "averageMargin": null,
+          "averageScored": null,
+          "averageAllowed": null,
+          "inputAsOf": null,
+          "recent": []
+        }
+      },
+      "eligible": false,
+      "reasons": [
+        "Each team needs 10 current-season prior games"
+      ],
+      "features": null
+    },
+    {
+      "sourceEventId": "401909089",
+      "home": "New York Knicks",
+      "away": "Philadelphia 76ers",
+      "event": "Philadelphia 76ers at New York Knicks",
+      "eventStart": "2026-10-20T23:00:00.000Z",
+      "form": {
+        "season": 2027,
+        "window": 20,
+        "lagHours": 48,
+        "cutoff": "2026-10-18T23:00:00.000Z",
+        "home": {
+          "team": "New York Knicks",
+          "count": 0,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "averageMargin": null,
+          "averageScored": null,
+          "averageAllowed": null,
+          "inputAsOf": null,
+          "recent": []
+        },
+        "away": {
+          "team": "Philadelphia 76ers",
+          "count": 0,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "averageMargin": null,
+          "averageScored": null,
+          "averageAllowed": null,
+          "inputAsOf": null,
+          "recent": []
+        }
+      },
+      "eligible": false,
+      "reasons": [
+        "Each team needs 10 current-season prior games"
+      ],
+      "features": null
+    },
+    {
+      "sourceEventId": "401909090",
+      "home": "San Antonio Spurs",
+      "away": "Oklahoma City Thunder",
+      "event": "Oklahoma City Thunder at San Antonio Spurs",
+      "eventStart": "2026-10-21T01:30:00.000Z",
+      "form": {
+        "season": 2027,
+        "window": 20,
+        "lagHours": 48,
+        "cutoff": "2026-10-19T01:30:00.000Z",
+        "home": {
+          "team": "San Antonio Spurs",
+          "count": 0,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "averageMargin": null,
+          "averageScored": null,
+          "averageAllowed": null,
+          "inputAsOf": null,
+          "recent": []
+        },
+        "away": {
+          "team": "Oklahoma City Thunder",
+          "count": 0,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "averageMargin": null,
+          "averageScored": null,
+          "averageAllowed": null,
+          "inputAsOf": null,
+          "recent": []
+        }
+      },
+      "eligible": false,
+      "reasons": [
+        "Each team needs 10 current-season prior games"
+      ],
+      "features": null
+    }
+  ],
   "publishing": "Experimental prospective publication is scheduled daily, subject to data, freshness and evaluation gates. Historical backtests are never inserted into the public prediction ledger."
 }
