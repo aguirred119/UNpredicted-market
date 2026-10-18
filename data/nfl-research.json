@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "status": "retrospective-research",
-  "generatedAt": "2026-10-17T12:56:19.950Z",
-  "dataThrough": "2026-10-13T00:15:00.000Z",
+  "generatedAt": "2026-10-18T12:56:24.858Z",
+  "dataThrough": "2026-10-16T00:15:00.000Z",
   "holdoutSeasons": [
     2024,
     2025
@@ -15,13 +15,13 @@
     "sources": [
       {
         "url": "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.csv",
-        "sha256": "4fb136669674a25ba1d1fe285eb18c588d3d23b99531146cb988c23048bf5f5d"
+        "sha256": "f6b9c82c09a06d768b09d81446fdb5ca47dde3b025ee24ca9975f90bc00df9ad"
       }
     ]
   },
   "processing": {
-    "excluded": 5196,
-    "completedGames": 2165,
+    "excluded": 5195,
+    "completedGames": 2166,
     "lagHours": 48,
     "minimumGamesPerTeam": 4,
     "historyWindow": 8,
@@ -147,9 +147,9 @@
     "season": 2026,
     "window": 8,
     "lagHours": 48,
-    "cutoff": "2026-10-15T12:56:19.950Z",
-    "completedGames": 75,
-    "dataThrough": "2026-10-13T00:15:00.000Z",
+    "cutoff": "2026-10-16T12:56:24.858Z",
+    "completedGames": 76,
+    "dataThrough": "2026-10-16T00:15:00.000Z",
     "teams": [
       {
         "team": "Arizona Cardinals",
@@ -606,15 +606,23 @@
       },
       {
         "team": "Denver Broncos",
-        "count": 5,
-        "wins": 3,
+        "count": 6,
+        "wins": 4,
         "losses": 2,
         "ties": 0,
-        "averageMargin": -2.8,
-        "averageScored": 19.4,
-        "averageAllowed": 22.2,
-        "inputAsOf": "2026-10-11T20:05:00.000Z",
+        "averageMargin": -1.8333333333333333,
+        "averageScored": 19,
+        "averageAllowed": 20.833333333333332,
+        "inputAsOf": "2026-10-16T00:15:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-16T00:15:00.000Z",
+            "opponent": "Seattle Seahawks",
+            "venue": "home",
+            "scored": 17,
+            "allowed": 14,
+            "result": "W"
+          },
           {
             "date": "2026-10-11T20:05:00.000Z",
             "opponent": "Los Angeles Chargers",
@@ -646,14 +654,6 @@
             "scored": 20,
             "allowed": 13,
             "result": "W"
-          },
-          {
-            "date": "2026-09-15T00:15:00.000Z",
-            "opponent": "Kansas City Chiefs",
-            "venue": "away",
-            "scored": 10,
-            "allowed": 31,
-            "result": "L"
           }
         ]
       },
@@ -1565,15 +1565,23 @@
       },
       {
         "team": "Seattle Seahawks",
-        "count": 5,
+        "count": 6,
         "wins": 3,
-        "losses": 2,
+        "losses": 3,
         "ties": 0,
-        "averageMargin": 5.8,
-        "averageScored": 26.8,
-        "averageAllowed": 21,
-        "inputAsOf": "2026-10-11T20:25:00.000Z",
+        "averageMargin": 4.333333333333333,
+        "averageScored": 24.666666666666668,
+        "averageAllowed": 20.333333333333332,
+        "inputAsOf": "2026-10-16T00:15:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-16T00:15:00.000Z",
+            "opponent": "Denver Broncos",
+            "venue": "away",
+            "scored": 14,
+            "allowed": 17,
+            "result": "L"
+          },
           {
             "date": "2026-10-11T20:25:00.000Z",
             "opponent": "San Francisco 49ers",
@@ -1604,14 +1612,6 @@
             "venue": "away",
             "scored": 31,
             "allowed": 7,
-            "result": "W"
-          },
-          {
-            "date": "2026-09-10T00:20:00.000Z",
-            "opponent": "New England Patriots",
-            "venue": "home",
-            "scored": 13,
-            "allowed": 10,
             "result": "W"
           }
         ]
