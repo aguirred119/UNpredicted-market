@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "retrospective-research",
-  "generatedAt": "2026-10-19T12:52:08.992Z",
+  "generatedAt": "2026-10-20T12:52:04.145Z",
   "dataThrough": "2026-04-13T00:30:00.000Z",
   "holdoutSeason": 2026,
   "source": {
@@ -33,7 +33,7 @@
       {
         "season": 2027,
         "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_schedules/nba_schedule_2027.csv",
-        "sha256": "bead2e771406d81150ac3ab60e8bc124e9f4e1b90e4c090cdec1db6955544612"
+        "sha256": "44835f1019bde9fa7500a140c1cca22a625506f4b91d78448fdc409483fd04ac"
       }
     ]
   },
@@ -165,7 +165,7 @@
     "season": 2027,
     "window": 20,
     "lagHours": 48,
-    "cutoff": "2026-10-17T12:52:08.992Z",
+    "cutoff": "2026-10-18T12:52:04.145Z",
     "completedGames": 0,
     "dataThrough": null,
     "teams": [
@@ -1103,6 +1103,90 @@
         },
         "away": {
           "team": "Sacramento Kings",
+          "count": 0,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "averageMargin": null,
+          "averageScored": null,
+          "averageAllowed": null,
+          "inputAsOf": null,
+          "recent": []
+        }
+      },
+      "eligible": false,
+      "reasons": [
+        "Each team needs 10 current-season prior games"
+      ],
+      "features": null
+    },
+    {
+      "sourceEventId": "401909093",
+      "home": "Philadelphia 76ers",
+      "away": "Cleveland Cavaliers",
+      "event": "Cleveland Cavaliers at Philadelphia 76ers",
+      "eventStart": "2026-10-22T23:00:00.000Z",
+      "form": {
+        "season": 2027,
+        "window": 20,
+        "lagHours": 48,
+        "cutoff": "2026-10-20T23:00:00.000Z",
+        "home": {
+          "team": "Philadelphia 76ers",
+          "count": 0,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "averageMargin": null,
+          "averageScored": null,
+          "averageAllowed": null,
+          "inputAsOf": null,
+          "recent": []
+        },
+        "away": {
+          "team": "Cleveland Cavaliers",
+          "count": 0,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "averageMargin": null,
+          "averageScored": null,
+          "averageAllowed": null,
+          "inputAsOf": null,
+          "recent": []
+        }
+      },
+      "eligible": false,
+      "reasons": [
+        "Each team needs 10 current-season prior games"
+      ],
+      "features": null
+    },
+    {
+      "sourceEventId": "401909094",
+      "home": "Oklahoma City Thunder",
+      "away": "Denver Nuggets",
+      "event": "Denver Nuggets at Oklahoma City Thunder",
+      "eventStart": "2026-10-23T01:30:00.000Z",
+      "form": {
+        "season": 2027,
+        "window": 20,
+        "lagHours": 48,
+        "cutoff": "2026-10-21T01:30:00.000Z",
+        "home": {
+          "team": "Oklahoma City Thunder",
+          "count": 0,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "averageMargin": null,
+          "averageScored": null,
+          "averageAllowed": null,
+          "inputAsOf": null,
+          "recent": []
+        },
+        "away": {
+          "team": "Denver Nuggets",
           "count": 0,
           "wins": 0,
           "losses": 0,

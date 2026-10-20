@@ -14,7 +14,7 @@
         "Each team needs 10 current-season prior games"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-19T12:52:13.746Z"
+      "checkedAt": "2026-10-20T12:52:10.121Z"
     },
     {
       "league": "NBA",
@@ -28,7 +28,7 @@
         "Each team needs 10 current-season prior games"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-19T12:52:13.746Z"
+      "checkedAt": "2026-10-20T12:52:10.121Z"
     },
     {
       "league": "NBA",
@@ -42,7 +42,7 @@
         "Each team needs 10 current-season prior games"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-19T12:52:13.746Z"
+      "checkedAt": "2026-10-20T12:52:10.121Z"
     },
     {
       "league": "NBA",
@@ -57,7 +57,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-19T12:52:13.746Z"
+      "checkedAt": "2026-10-20T12:52:10.121Z"
     },
     {
       "league": "NBA",
@@ -71,7 +71,7 @@
         "Each team needs 10 current-season prior games"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-19T12:52:13.746Z"
+      "checkedAt": "2026-10-20T12:52:10.121Z"
     },
     {
       "league": "NBA",
@@ -86,7 +86,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-19T12:52:13.746Z"
+      "checkedAt": "2026-10-20T12:52:10.121Z"
     },
     {
       "league": "NBA",
@@ -100,7 +100,7 @@
         "Each team needs 10 current-season prior games"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-19T12:52:13.746Z"
+      "checkedAt": "2026-10-20T12:52:10.121Z"
     },
     {
       "league": "NBA",
@@ -115,7 +115,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-19T12:52:13.746Z"
+      "checkedAt": "2026-10-20T12:52:10.121Z"
     },
     {
       "league": "NBA",
@@ -130,7 +130,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-19T12:52:13.746Z"
+      "checkedAt": "2026-10-20T12:52:10.121Z"
     },
     {
       "league": "NBA",
@@ -145,7 +145,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-19T12:52:13.746Z"
+      "checkedAt": "2026-10-20T12:52:10.121Z"
     },
     {
       "league": "NBA",
@@ -160,7 +160,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-19T12:52:13.746Z"
+      "checkedAt": "2026-10-20T12:52:10.121Z"
     },
     {
       "league": "NBA",
@@ -174,7 +174,7 @@
         "Each team needs 10 current-season prior games"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-19T12:52:13.746Z"
+      "checkedAt": "2026-10-20T12:52:10.121Z"
     },
     {
       "league": "NBA",
@@ -189,7 +189,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-19T12:52:13.746Z"
+      "checkedAt": "2026-10-20T12:52:10.121Z"
     },
     {
       "league": "NBA",
@@ -204,7 +204,37 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-19T12:52:13.746Z"
+      "checkedAt": "2026-10-20T12:52:10.121Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": null,
+      "sourceGameId": "401909093",
+      "home": "Philadelphia 76ers",
+      "away": "Cleveland Cavaliers",
+      "eventStart": "2026-10-22T23:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Each team needs 10 current-season prior games",
+        "Provider teams/start time do not match"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-20T12:52:10.121Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": null,
+      "sourceGameId": "401909094",
+      "home": "Oklahoma City Thunder",
+      "away": "Denver Nuggets",
+      "eventStart": "2026-10-23T01:30:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Each team needs 10 current-season prior games",
+        "Provider teams/start time do not match"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-20T12:52:10.121Z"
     },
     {
       "league": "NBA",
@@ -218,7 +248,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-19T12:52:13.746Z"
+      "checkedAt": "2026-10-20T12:52:10.121Z"
     },
     {
       "league": "NBA",
@@ -232,7 +262,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-19T12:52:13.746Z"
+      "checkedAt": "2026-10-20T12:52:10.121Z"
     },
     {
       "league": "NBA",
@@ -246,7 +276,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-19T12:52:13.746Z"
+      "checkedAt": "2026-10-20T12:52:10.121Z"
     },
     {
       "league": "NBA",
@@ -260,7 +290,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-19T12:52:13.746Z"
+      "checkedAt": "2026-10-20T12:52:10.121Z"
     },
     {
       "league": "NBA",
@@ -274,7 +304,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-19T12:52:13.746Z"
+      "checkedAt": "2026-10-20T12:52:10.121Z"
     },
     {
       "league": "NBA",
@@ -288,7 +318,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-19T12:52:13.746Z"
+      "checkedAt": "2026-10-20T12:52:10.121Z"
     },
     {
       "league": "NBA",
@@ -302,7 +332,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-19T12:52:13.746Z"
+      "checkedAt": "2026-10-20T12:52:10.121Z"
     },
     {
       "league": "NBA",
@@ -316,11 +346,39 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-19T12:52:13.746Z"
+      "checkedAt": "2026-10-20T12:52:10.121Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": "110e33c79c5ec8c0377702aff685f83b",
+      "sourceGameId": null,
+      "home": "Philadelphia 76ers",
+      "away": "Cleveland Cavaliers",
+      "eventStart": "2026-10-22T23:10:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-20T12:52:10.121Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": "223b2883b9b05a67329ef246384b85f1",
+      "sourceGameId": null,
+      "home": "Oklahoma City Thunder",
+      "away": "Denver Nuggets",
+      "eventStart": "2026-10-23T01:40:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-20T12:52:10.121Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-10-19T12:52:08.992Z",
+  "lastAttemptAt": "2026-10-20T12:52:04.145Z",
   "state": "waiting-for-eligible-games",
   "publishedThisRun": 0,
   "gradedThisRun": 0,
@@ -432,6 +490,22 @@
       ]
     },
     {
+      "event": "Cleveland Cavaliers at Philadelphia 76ers",
+      "eventStart": "2026-10-22T23:00:00.000Z",
+      "reasons": [
+        "Each team needs 10 current-season prior games",
+        "Provider teams/start time do not match"
+      ]
+    },
+    {
+      "event": "Denver Nuggets at Oklahoma City Thunder",
+      "eventStart": "2026-10-23T01:30:00.000Z",
+      "reasons": [
+        "Each team needs 10 current-season prior games",
+        "Provider teams/start time do not match"
+      ]
+    },
+    {
       "event": "Atlanta Hawks at Orlando Magic",
       "eventStart": "2026-10-21T23:10:00.000Z",
       "reasons": [
@@ -486,11 +560,25 @@
       "reasons": [
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ]
+    },
+    {
+      "event": "Cleveland Cavaliers at Philadelphia 76ers",
+      "eventStart": "2026-10-22T23:10:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
+    },
+    {
+      "event": "Denver Nuggets at Oklahoma City Thunder",
+      "eventStart": "2026-10-23T01:40:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
     }
   ],
   "cadence": "Daily, approximately 05:17 Pacific daylight time / 04:17 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
   "sourceThrough": "2026-04-13T00:30:00.000Z",
-  "scheduleAsOf": "2026-10-19T12:52:13.719Z",
-  "completedAt": "2026-10-19T12:52:13.755Z"
+  "scheduleAsOf": "2026-10-20T12:52:10.093Z",
+  "completedAt": "2026-10-20T12:52:10.140Z"
 }
