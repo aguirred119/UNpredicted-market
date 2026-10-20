@@ -4,26 +4,26 @@
   "checks": [
     {
       "league": "NFL",
-      "eventId": "f122527f003276d3bca19efa48c902c1",
-      "sourceGameId": "2026_06_WAS_SF",
-      "home": "San Francisco 49ers",
-      "away": "Washington Commanders",
-      "eventStart": "2026-10-20T00:15:00.000Z",
-      "status": "already-published",
+      "eventId": "ffebea881c1d7b2dfb85b3e590c35985",
+      "sourceGameId": "2026_07_NE_CHI",
+      "home": "Chicago Bears",
+      "away": "New England Patriots",
+      "eventStart": "2026-10-23T00:15:00.000Z",
+      "status": "published",
       "reasons": [],
-      "forecastId": "nfl-2026_06_WAS_SF-form-v1",
-      "checkedAt": "2026-10-19T13:08:10.681Z"
+      "forecastId": "nfl-2026_07_NE_CHI-form-v1",
+      "checkedAt": "2026-10-20T13:07:28.328Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-10-19T13:08:08.667Z",
-  "state": "waiting-for-eligible-games",
-  "publishedThisRun": 0,
+  "lastAttemptAt": "2026-10-20T13:07:25.904Z",
+  "state": "published",
+  "publishedThisRun": 1,
   "gradedThisRun": 0,
   "skipped": [],
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
   "sourceThrough": "2026-10-16T00:15:00.000Z",
-  "scheduleAsOf": "2026-10-19T13:08:10.658Z",
-  "completedAt": "2026-10-19T13:08:10.697Z"
+  "scheduleAsOf": "2026-10-20T13:07:28.272Z",
+  "completedAt": "2026-10-20T13:07:28.347Z"
 }
