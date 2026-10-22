@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "status": "retrospective-research",
-  "generatedAt": "2026-10-21T13:09:14.721Z",
-  "dataThrough": "2026-10-19T00:20:00.000Z",
+  "generatedAt": "2026-10-22T13:09:32.794Z",
+  "dataThrough": "2026-10-20T00:15:00.000Z",
   "holdoutSeasons": [
     2024,
     2025
@@ -15,13 +15,13 @@
     "sources": [
       {
         "url": "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.csv",
-        "sha256": "38cc47b172ed60e87855b3eba7c7c7301c24ddf58187ad3841f8d7b8a300aeed"
+        "sha256": "1af26c214b62d1542ca547864be07f8efe5ee6c9556f8f84eae0695c88a56aa6"
       }
     ]
   },
   "processing": {
-    "excluded": 5196,
-    "completedGames": 2177,
+    "excluded": 5195,
+    "completedGames": 2178,
     "lagHours": 48,
     "minimumGamesPerTeam": 4,
     "historyWindow": 8,
@@ -147,9 +147,9 @@
     "season": 2026,
     "window": 8,
     "lagHours": 48,
-    "cutoff": "2026-10-19T13:09:14.721Z",
-    "completedGames": 87,
-    "dataThrough": "2026-10-19T00:20:00.000Z",
+    "cutoff": "2026-10-20T13:09:32.794Z",
+    "completedGames": 88,
+    "dataThrough": "2026-10-20T00:15:00.000Z",
     "teams": [
       {
         "team": "Arizona Cardinals",
@@ -1576,15 +1576,23 @@
       },
       {
         "team": "San Francisco 49ers",
-        "count": 4,
-        "wins": 4,
+        "count": 5,
+        "wins": 5,
         "losses": 0,
         "ties": 0,
-        "averageMargin": 10.25,
-        "averageScored": 31.75,
-        "averageAllowed": 21.5,
-        "inputAsOf": "2026-10-11T20:25:00.000Z",
+        "averageMargin": 9.4,
+        "averageScored": 30,
+        "averageAllowed": 20.6,
+        "inputAsOf": "2026-10-20T00:15:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-20T00:15:00.000Z",
+            "opponent": "Washington Commanders",
+            "venue": "home",
+            "scored": 23,
+            "allowed": 17,
+            "result": "W"
+          },
           {
             "date": "2026-10-11T20:25:00.000Z",
             "opponent": "Seattle Seahawks",
@@ -1780,15 +1788,23 @@
       },
       {
         "team": "Washington Commanders",
-        "count": 4,
+        "count": 5,
         "wins": 1,
-        "losses": 2,
+        "losses": 3,
         "ties": 1,
-        "averageMargin": -4.25,
-        "averageScored": 25.5,
-        "averageAllowed": 29.75,
-        "inputAsOf": "2026-10-11T17:00:00.000Z",
+        "averageMargin": -4.6,
+        "averageScored": 23.8,
+        "averageAllowed": 28.4,
+        "inputAsOf": "2026-10-20T00:15:00.000Z",
         "recent": [
+          {
+            "date": "2026-10-20T00:15:00.000Z",
+            "opponent": "San Francisco 49ers",
+            "venue": "away",
+            "scored": 17,
+            "allowed": 23,
+            "result": "L"
+          },
           {
             "date": "2026-10-11T17:00:00.000Z",
             "opponent": "New York Giants",

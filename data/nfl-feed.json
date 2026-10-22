@@ -12,18 +12,18 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_07_NE_CHI-form-v1",
-      "checkedAt": "2026-10-21T13:09:17.452Z"
+      "checkedAt": "2026-10-22T13:09:34.683Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-10-21T13:09:14.721Z",
+  "lastAttemptAt": "2026-10-22T13:09:32.794Z",
   "state": "waiting-for-eligible-games",
   "publishedThisRun": 0,
-  "gradedThisRun": 10,
+  "gradedThisRun": 1,
   "skipped": [],
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
-  "sourceThrough": "2026-10-19T00:20:00.000Z",
-  "scheduleAsOf": "2026-10-21T13:09:17.393Z",
-  "completedAt": "2026-10-21T13:09:17.494Z"
+  "sourceThrough": "2026-10-20T00:15:00.000Z",
+  "scheduleAsOf": "2026-10-22T13:09:34.652Z",
+  "completedAt": "2026-10-22T13:09:34.692Z"
 }
