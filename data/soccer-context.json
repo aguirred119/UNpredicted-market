@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastAttemptAt": "2026-10-21T13:19:13.826Z",
+  "lastAttemptAt": "2026-10-22T13:21:29.289Z",
   "cadence": "Daily retrieval; upstream community results are not guaranteed to update daily.",
   "leagues": {
     "Premier League": {
@@ -8,7 +8,7 @@
       "league": "Premier League",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-10-21T13:19:13.826Z",
+      "generatedAt": "2026-10-22T13:21:29.289Z",
       "dataThrough": "2026-09-20",
       "completedGames": 50,
       "source": {
@@ -26,7 +26,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-10-21T13:19:14.513Z",
+      "scheduleAsOf": "2026-10-22T13:21:30.209Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -1419,7 +1419,7 @@
       "league": "La Liga",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-10-21T13:19:13.826Z",
+      "generatedAt": "2026-10-22T13:21:29.289Z",
       "dataThrough": "2026-09-20",
       "completedGames": 69,
       "source": {
@@ -1437,7 +1437,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-10-21T13:19:15.217Z",
+      "scheduleAsOf": "2026-10-22T13:21:30.397Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -2643,15 +2643,6 @@
       ],
       "upcoming": [
         {
-          "eventId": "a362cccad837f1ffae61ff43a3536688",
-          "home": "Levante",
-          "away": "Athletic Bilbao",
-          "eventStart": "2026-10-21T18:00:00.000Z",
-          "sourceEventId": "soccer-b64ca123b4e76961cbb22098",
-          "sourceDate": "2026-10-21",
-          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
-        },
-        {
           "eventId": "9c4254cba9944a839b421db27260504d",
           "home": "Athletic Bilbao",
           "away": "Getafe",
@@ -2780,7 +2771,7 @@
       "league": "Serie A",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-10-21T13:19:13.826Z",
+      "generatedAt": "2026-10-22T13:21:29.289Z",
       "dataThrough": "2026-09-20",
       "completedGames": 50,
       "source": {
@@ -2798,7 +2789,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-10-21T13:19:15.429Z",
+      "scheduleAsOf": "2026-10-22T13:21:30.626Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -4191,7 +4182,7 @@
       "league": "Bundesliga",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-10-21T13:19:13.826Z",
+      "generatedAt": "2026-10-22T13:21:29.289Z",
       "dataThrough": "2026-09-20",
       "completedGames": 36,
       "source": {
@@ -4209,7 +4200,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-10-21T13:19:15.599Z",
+      "scheduleAsOf": "2026-10-22T13:21:30.849Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -5302,7 +5293,7 @@
       "league": "Ligue 1",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-10-21T13:19:13.826Z",
+      "generatedAt": "2026-10-22T13:21:29.289Z",
       "dataThrough": "2026-09-20",
       "completedGames": 45,
       "source": {
@@ -5320,7 +5311,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-10-21T13:19:15.745Z",
+      "scheduleAsOf": "2026-10-22T13:21:31.008Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -6579,31 +6570,31 @@
   "refresh": {
     "Premier League": {
       "state": "updated",
-      "attemptedAt": "2026-10-21T13:19:13.826Z",
+      "attemptedAt": "2026-10-22T13:21:29.289Z",
       "resultsChanged": false,
       "sourceFileChanged": false
     },
     "La Liga": {
       "state": "updated",
-      "attemptedAt": "2026-10-21T13:19:13.826Z",
+      "attemptedAt": "2026-10-22T13:21:29.289Z",
       "resultsChanged": false,
       "sourceFileChanged": false
     },
     "Serie A": {
       "state": "updated",
-      "attemptedAt": "2026-10-21T13:19:13.826Z",
+      "attemptedAt": "2026-10-22T13:21:29.289Z",
       "resultsChanged": false,
       "sourceFileChanged": false
     },
     "Bundesliga": {
       "state": "updated",
-      "attemptedAt": "2026-10-21T13:19:13.826Z",
+      "attemptedAt": "2026-10-22T13:21:29.289Z",
       "resultsChanged": false,
       "sourceFileChanged": false
     },
     "Ligue 1": {
       "state": "updated",
-      "attemptedAt": "2026-10-21T13:19:13.826Z",
+      "attemptedAt": "2026-10-22T13:21:29.289Z",
       "resultsChanged": false,
       "sourceFileChanged": false
     }
