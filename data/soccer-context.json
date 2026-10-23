@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastAttemptAt": "2026-10-22T13:21:29.289Z",
+  "lastAttemptAt": "2026-10-23T13:16:09.951Z",
   "cadence": "Daily retrieval; upstream community results are not guaranteed to update daily.",
   "leagues": {
     "Premier League": {
@@ -8,7 +8,7 @@
       "league": "Premier League",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-10-22T13:21:29.289Z",
+      "generatedAt": "2026-10-23T13:16:09.951Z",
       "dataThrough": "2026-09-20",
       "completedGames": 50,
       "source": {
@@ -26,7 +26,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-10-22T13:21:30.209Z",
+      "scheduleAsOf": "2026-10-23T13:16:11.041Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -1419,7 +1419,7 @@
       "league": "La Liga",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-10-22T13:21:29.289Z",
+      "generatedAt": "2026-10-23T13:16:09.951Z",
       "dataThrough": "2026-09-20",
       "completedGames": 69,
       "source": {
@@ -1437,7 +1437,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-10-22T13:21:30.397Z",
+      "scheduleAsOf": "2026-10-23T13:16:11.381Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -2771,7 +2771,7 @@
       "league": "Serie A",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-10-22T13:21:29.289Z",
+      "generatedAt": "2026-10-23T13:16:09.951Z",
       "dataThrough": "2026-09-20",
       "completedGames": 50,
       "source": {
@@ -2789,7 +2789,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-10-22T13:21:30.626Z",
+      "scheduleAsOf": "2026-10-23T13:16:11.630Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -4182,7 +4182,7 @@
       "league": "Bundesliga",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-10-22T13:21:29.289Z",
+      "generatedAt": "2026-10-23T13:16:09.951Z",
       "dataThrough": "2026-09-20",
       "completedGames": 36,
       "source": {
@@ -4200,7 +4200,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-10-22T13:21:30.849Z",
+      "scheduleAsOf": "2026-10-23T13:16:11.893Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -5293,7 +5293,7 @@
       "league": "Ligue 1",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-10-22T13:21:29.289Z",
+      "generatedAt": "2026-10-23T13:16:09.951Z",
       "dataThrough": "2026-09-20",
       "completedGames": 45,
       "source": {
@@ -5311,7 +5311,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-10-22T13:21:31.008Z",
+      "scheduleAsOf": "2026-10-23T13:16:12.169Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -6406,15 +6406,6 @@
           "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
         },
         {
-          "eventId": "0bbce95e5764e706e6c428bb52dc5536",
-          "home": "Toulouse",
-          "away": "Troyes",
-          "eventStart": "2026-10-24T15:15:00.000Z",
-          "sourceEventId": "soccer-4c1223618ffa5cdd3342378a",
-          "sourceDate": "2026-10-24",
-          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
-        },
-        {
           "eventId": "fc6c50376190b578cfeb38c029db8487",
           "home": "RC Lens",
           "away": "Paris FC",
@@ -6570,31 +6561,31 @@
   "refresh": {
     "Premier League": {
       "state": "updated",
-      "attemptedAt": "2026-10-22T13:21:29.289Z",
+      "attemptedAt": "2026-10-23T13:16:09.951Z",
       "resultsChanged": false,
       "sourceFileChanged": false
     },
     "La Liga": {
       "state": "updated",
-      "attemptedAt": "2026-10-22T13:21:29.289Z",
+      "attemptedAt": "2026-10-23T13:16:09.951Z",
       "resultsChanged": false,
       "sourceFileChanged": false
     },
     "Serie A": {
       "state": "updated",
-      "attemptedAt": "2026-10-22T13:21:29.289Z",
+      "attemptedAt": "2026-10-23T13:16:09.951Z",
       "resultsChanged": false,
       "sourceFileChanged": false
     },
     "Bundesliga": {
       "state": "updated",
-      "attemptedAt": "2026-10-22T13:21:29.289Z",
+      "attemptedAt": "2026-10-23T13:16:09.951Z",
       "resultsChanged": false,
       "sourceFileChanged": false
     },
     "Ligue 1": {
       "state": "updated",
-      "attemptedAt": "2026-10-22T13:21:29.289Z",
+      "attemptedAt": "2026-10-23T13:16:09.951Z",
       "resultsChanged": false,
       "sourceFileChanged": false
     }
