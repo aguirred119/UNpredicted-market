@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "status": "retrospective-research",
   "league": "NHL",
-  "generatedAt": "2026-10-24T14:11:26.543Z",
-  "dataThrough": "2026-10-21T23:30:00.000Z",
+  "generatedAt": "2026-10-25T14:12:26.615Z",
+  "dataThrough": "2026-10-23T02:00:00.000Z",
   "holdoutSeason": 2026,
   "revision": {
     "id": "nhl-valid-seasons-v2",
@@ -37,7 +37,7 @@
       {
         "season": 2027,
         "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nhl_schedules/nhl_schedule_2027.csv",
-        "sha256": "c1dd065e4297061e80ab8bff331b512314678acbde623f8e346c7f582b6f6aa2"
+        "sha256": "be30e791a7c7c33ee461f8a977491f8b9eea6e7f6d60a0a023de233dfa08ca8f"
       }
     ]
   },
@@ -171,1524 +171,6 @@
   ],
   "upcoming": [
     {
-      "sourceEventId": "2026020168",
-      "home": "Philadelphia Flyers",
-      "away": "Anaheim Ducks",
-      "eventStart": "2026-10-24T17:00:00.000Z",
-      "form": {
-        "season": 2027,
-        "window": 10,
-        "lagHours": 48,
-        "cutoff": "2026-10-22T17:00:00.000Z",
-        "home": {
-          "team": "Philadelphia Flyers",
-          "count": 10,
-          "wins": 3,
-          "losses": 7,
-          "ties": 0,
-          "averageMargin": -0.9,
-          "averageScored": 1.8,
-          "averageAllowed": 2.7,
-          "inputAsOf": "2026-10-21T23:30:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-21T23:30:00.000Z",
-              "opponent": "Buffalo Sabres",
-              "venue": "away",
-              "scored": 3,
-              "allowed": 1,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-19T23:00:00.000Z",
-              "opponent": "Colorado Avalanche",
-              "venue": "home",
-              "scored": 3,
-              "allowed": 2,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-17T23:00:00.000Z",
-              "opponent": "Ottawa Senators",
-              "venue": "home",
-              "scored": 3,
-              "allowed": 1,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-15T23:30:00.000Z",
-              "opponent": "Detroit Red Wings",
-              "venue": "away",
-              "scored": 1,
-              "allowed": 2,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-13T23:00:00.000Z",
-              "opponent": "Seattle Kraken",
-              "venue": "home",
-              "scored": 2,
-              "allowed": 3,
-              "result": "L"
-            }
-          ]
-        },
-        "away": {
-          "team": "Anaheim Ducks",
-          "count": 9,
-          "wins": 4,
-          "losses": 5,
-          "ties": 0,
-          "averageMargin": -0.3333333333333333,
-          "averageScored": 2.888888888888889,
-          "averageAllowed": 3.2222222222222223,
-          "inputAsOf": "2026-10-20T23:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-20T23:00:00.000Z",
-              "opponent": "New York Islanders",
-              "venue": "away",
-              "scored": 2,
-              "allowed": 3,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-19T23:00:00.000Z",
-              "opponent": "New York Rangers",
-              "venue": "away",
-              "scored": 2,
-              "allowed": 5,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-17T02:00:00.000Z",
-              "opponent": "Boston Bruins",
-              "venue": "home",
-              "scored": 2,
-              "allowed": 4,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-14T01:45:00.000Z",
-              "opponent": "Calgary Flames",
-              "venue": "home",
-              "scored": 2,
-              "allowed": 4,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-11T02:00:00.000Z",
-              "opponent": "Calgary Flames",
-              "venue": "away",
-              "scored": 4,
-              "allowed": 2,
-              "result": "W"
-            }
-          ]
-        }
-      },
-      "eligible": false,
-      "reasons": [
-        "Each team needs 10 current-season prior games",
-        "NHL research quality threshold not met"
-      ],
-      "features": null
-    },
-    {
-      "sourceEventId": "2026020169",
-      "home": "New Jersey Devils",
-      "away": "Los Angeles Kings",
-      "eventStart": "2026-10-24T19:30:00.000Z",
-      "form": {
-        "season": 2027,
-        "window": 10,
-        "lagHours": 48,
-        "cutoff": "2026-10-22T19:30:00.000Z",
-        "home": {
-          "team": "New Jersey Devils",
-          "count": 9,
-          "wins": 5,
-          "losses": 4,
-          "ties": 0,
-          "averageMargin": -0.1111111111111111,
-          "averageScored": 3.2222222222222223,
-          "averageAllowed": 3.3333333333333335,
-          "inputAsOf": "2026-10-20T23:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-20T23:00:00.000Z",
-              "opponent": "Colorado Avalanche",
-              "venue": "home",
-              "scored": 4,
-              "allowed": 3,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-17T17:00:00.000Z",
-              "opponent": "Washington Capitals",
-              "venue": "away",
-              "scored": 2,
-              "allowed": 4,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-15T23:00:00.000Z",
-              "opponent": "New York Rangers",
-              "venue": "home",
-              "scored": 7,
-              "allowed": 1,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-13T22:00:00.000Z",
-              "opponent": "Detroit Red Wings",
-              "venue": "away",
-              "scored": 5,
-              "allowed": 4,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-12T23:00:00.000Z",
-              "opponent": "Ottawa Senators",
-              "venue": "home",
-              "scored": 1,
-              "allowed": 4,
-              "result": "L"
-            }
-          ]
-        },
-        "away": {
-          "team": "Los Angeles Kings",
-          "count": 7,
-          "wins": 1,
-          "losses": 6,
-          "ties": 0,
-          "averageMargin": -1.4285714285714286,
-          "averageScored": 2.4285714285714284,
-          "averageAllowed": 3.857142857142857,
-          "inputAsOf": "2026-10-20T23:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-20T23:00:00.000Z",
-              "opponent": "Washington Capitals",
-              "venue": "away",
-              "scored": 5,
-              "allowed": 2,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-18T01:00:00.000Z",
-              "opponent": "Boston Bruins",
-              "venue": "home",
-              "scored": 1,
-              "allowed": 4,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-14T02:30:00.000Z",
-              "opponent": "Edmonton Oilers",
-              "venue": "home",
-              "scored": 1,
-              "allowed": 4,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-11T02:00:00.000Z",
-              "opponent": "Vegas Golden Knights",
-              "venue": "away",
-              "scored": 1,
-              "allowed": 2,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-07T02:00:00.000Z",
-              "opponent": "Florida Panthers",
-              "venue": "home",
-              "scored": 1,
-              "allowed": 2,
-              "result": "L"
-            }
-          ]
-        }
-      },
-      "eligible": false,
-      "reasons": [
-        "Each team needs 10 current-season prior games",
-        "NHL research quality threshold not met"
-      ],
-      "features": null
-    },
-    {
-      "sourceEventId": "2026020170",
-      "home": "Boston Bruins",
-      "away": "San Jose Sharks",
-      "eventStart": "2026-10-24T23:00:00.000Z",
-      "form": {
-        "season": 2027,
-        "window": 10,
-        "lagHours": 48,
-        "cutoff": "2026-10-22T23:00:00.000Z",
-        "home": {
-          "team": "Boston Bruins",
-          "count": 10,
-          "wins": 7,
-          "losses": 3,
-          "ties": 0,
-          "averageMargin": 1.4,
-          "averageScored": 3.6,
-          "averageAllowed": 2.2,
-          "inputAsOf": "2026-10-21T00:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-21T00:00:00.000Z",
-              "opponent": "Dallas Stars",
-              "venue": "away",
-              "scored": 2,
-              "allowed": 3,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-18T01:00:00.000Z",
-              "opponent": "Los Angeles Kings",
-              "venue": "away",
-              "scored": 4,
-              "allowed": 1,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-17T02:00:00.000Z",
-              "opponent": "Anaheim Ducks",
-              "venue": "away",
-              "scored": 4,
-              "allowed": 2,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-14T03:00:00.000Z",
-              "opponent": "San Jose Sharks",
-              "venue": "away",
-              "scored": 6,
-              "allowed": 3,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-10T17:00:00.000Z",
-              "opponent": "Philadelphia Flyers",
-              "venue": "home",
-              "scored": 5,
-              "allowed": 1,
-              "result": "W"
-            }
-          ]
-        },
-        "away": {
-          "team": "San Jose Sharks",
-          "count": 10,
-          "wins": 5,
-          "losses": 5,
-          "ties": 0,
-          "averageMargin": -0.8,
-          "averageScored": 2.7,
-          "averageAllowed": 3.5,
-          "inputAsOf": "2026-10-20T23:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-20T23:00:00.000Z",
-              "opponent": "Montreal Canadiens",
-              "venue": "away",
-              "scored": 4,
-              "allowed": 3,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-19T23:30:00.000Z",
-              "opponent": "Toronto Maple Leafs",
-              "venue": "away",
-              "scored": 1,
-              "allowed": 3,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-17T23:00:00.000Z",
-              "opponent": "Detroit Red Wings",
-              "venue": "away",
-              "scored": 3,
-              "allowed": 4,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-16T00:00:00.000Z",
-              "opponent": "Nashville Predators",
-              "venue": "away",
-              "scored": 3,
-              "allowed": 2,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-14T03:00:00.000Z",
-              "opponent": "Boston Bruins",
-              "venue": "home",
-              "scored": 3,
-              "allowed": 6,
-              "result": "L"
-            }
-          ]
-        }
-      },
-      "eligible": false,
-      "reasons": [
-        "NHL research quality threshold not met"
-      ],
-      "features": {
-        "x": [
-          2.2,
-          0.19999999999999996
-        ],
-        "inputAsOf": "2026-10-21T00:00:00.000Z",
-        "oldestLatest": "2026-10-20T23:00:00.000Z",
-        "sampleSizes": [
-          10,
-          10
-        ]
-      }
-    },
-    {
-      "sourceEventId": "2026020171",
-      "home": "Ottawa Senators",
-      "away": "New York Rangers",
-      "eventStart": "2026-10-24T23:00:00.000Z",
-      "form": {
-        "season": 2027,
-        "window": 10,
-        "lagHours": 48,
-        "cutoff": "2026-10-22T23:00:00.000Z",
-        "home": {
-          "team": "Ottawa Senators",
-          "count": 10,
-          "wins": 7,
-          "losses": 3,
-          "ties": 0,
-          "averageMargin": 0.5,
-          "averageScored": 2.9,
-          "averageAllowed": 2.4,
-          "inputAsOf": "2026-10-21T23:30:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-21T23:30:00.000Z",
-              "opponent": "Florida Panthers",
-              "venue": "home",
-              "scored": 5,
-              "allowed": 1,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-17T23:00:00.000Z",
-              "opponent": "Philadelphia Flyers",
-              "venue": "away",
-              "scored": 1,
-              "allowed": 3,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-15T23:00:00.000Z",
-              "opponent": "New York Islanders",
-              "venue": "home",
-              "scored": 2,
-              "allowed": 1,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-13T23:30:00.000Z",
-              "opponent": "St. Louis Blues",
-              "venue": "home",
-              "scored": 2,
-              "allowed": 7,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-12T23:00:00.000Z",
-              "opponent": "New Jersey Devils",
-              "venue": "away",
-              "scored": 4,
-              "allowed": 1,
-              "result": "W"
-            }
-          ]
-        },
-        "away": {
-          "team": "New York Rangers",
-          "count": 10,
-          "wins": 7,
-          "losses": 3,
-          "ties": 0,
-          "averageMargin": 1.2,
-          "averageScored": 3.3,
-          "averageAllowed": 2.1,
-          "inputAsOf": "2026-10-19T23:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-19T23:00:00.000Z",
-              "opponent": "Anaheim Ducks",
-              "venue": "home",
-              "scored": 5,
-              "allowed": 2,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-17T23:00:00.000Z",
-              "opponent": "Columbus Blue Jackets",
-              "venue": "away",
-              "scored": 0,
-              "allowed": 1,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-15T23:00:00.000Z",
-              "opponent": "New Jersey Devils",
-              "venue": "away",
-              "scored": 1,
-              "allowed": 7,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-13T23:15:00.000Z",
-              "opponent": "Tampa Bay Lightning",
-              "venue": "home",
-              "scored": 4,
-              "allowed": 1,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-11T22:00:00.000Z",
-              "opponent": "Vancouver Canucks",
-              "venue": "home",
-              "scored": 6,
-              "allowed": 2,
-              "result": "W"
-            }
-          ]
-        }
-      },
-      "eligible": false,
-      "reasons": [
-        "NHL research quality threshold not met"
-      ],
-      "features": {
-        "x": [
-          -0.7,
-          0
-        ],
-        "inputAsOf": "2026-10-21T23:30:00.000Z",
-        "oldestLatest": "2026-10-19T23:00:00.000Z",
-        "sampleSizes": [
-          10,
-          10
-        ]
-      }
-    },
-    {
-      "sourceEventId": "2026020172",
-      "home": "Pittsburgh Penguins",
-      "away": "Nashville Predators",
-      "eventStart": "2026-10-24T23:00:00.000Z",
-      "form": {
-        "season": 2027,
-        "window": 10,
-        "lagHours": 48,
-        "cutoff": "2026-10-22T23:00:00.000Z",
-        "home": {
-          "team": "Pittsburgh Penguins",
-          "count": 10,
-          "wins": 3,
-          "losses": 7,
-          "ties": 0,
-          "averageMargin": -0.5,
-          "averageScored": 3.3,
-          "averageAllowed": 3.8,
-          "inputAsOf": "2026-10-20T01:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-20T01:00:00.000Z",
-              "opponent": "Utah Mammoth",
-              "venue": "away",
-              "scored": 4,
-              "allowed": 5,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-18T02:00:00.000Z",
-              "opponent": "Vegas Golden Knights",
-              "venue": "away",
-              "scored": 2,
-              "allowed": 6,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-17T01:00:00.000Z",
-              "opponent": "Colorado Avalanche",
-              "venue": "away",
-              "scored": 2,
-              "allowed": 5,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-14T00:00:00.000Z",
-              "opponent": "Chicago Blackhawks",
-              "venue": "away",
-              "scored": 3,
-              "allowed": 5,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-10T23:00:00.000Z",
-              "opponent": "Dallas Stars",
-              "venue": "home",
-              "scored": 2,
-              "allowed": 1,
-              "result": "W"
-            }
-          ]
-        },
-        "away": {
-          "team": "Nashville Predators",
-          "count": 8,
-          "wins": 3,
-          "losses": 5,
-          "ties": 0,
-          "averageMargin": -0.125,
-          "averageScored": 2.875,
-          "averageAllowed": 3,
-          "inputAsOf": "2026-10-18T00:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-18T00:00:00.000Z",
-              "opponent": "St. Louis Blues",
-              "venue": "home",
-              "scored": 5,
-              "allowed": 2,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-16T00:00:00.000Z",
-              "opponent": "San Jose Sharks",
-              "venue": "home",
-              "scored": 2,
-              "allowed": 3,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-14T00:45:00.000Z",
-              "opponent": "Vegas Golden Knights",
-              "venue": "home",
-              "scored": 2,
-              "allowed": 5,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-10T23:00:00.000Z",
-              "opponent": "Ottawa Senators",
-              "venue": "away",
-              "scored": 2,
-              "allowed": 3,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-08T23:00:00.000Z",
-              "opponent": "Montreal Canadiens",
-              "venue": "away",
-              "scored": 5,
-              "allowed": 2,
-              "result": "W"
-            }
-          ]
-        }
-      },
-      "eligible": false,
-      "reasons": [
-        "Each team needs 10 current-season prior games",
-        "NHL research quality threshold not met"
-      ],
-      "features": null
-    },
-    {
-      "sourceEventId": "2026020173",
-      "home": "Washington Capitals",
-      "away": "Buffalo Sabres",
-      "eventStart": "2026-10-24T23:00:00.000Z",
-      "form": {
-        "season": 2027,
-        "window": 10,
-        "lagHours": 48,
-        "cutoff": "2026-10-22T23:00:00.000Z",
-        "home": {
-          "team": "Washington Capitals",
-          "count": 9,
-          "wins": 5,
-          "losses": 4,
-          "ties": 0,
-          "averageMargin": 0.1111111111111111,
-          "averageScored": 3.3333333333333335,
-          "averageAllowed": 3.2222222222222223,
-          "inputAsOf": "2026-10-20T23:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-20T23:00:00.000Z",
-              "opponent": "Los Angeles Kings",
-              "venue": "home",
-              "scored": 2,
-              "allowed": 5,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-17T17:00:00.000Z",
-              "opponent": "New Jersey Devils",
-              "venue": "home",
-              "scored": 4,
-              "allowed": 2,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-14T23:30:00.000Z",
-              "opponent": "Montreal Canadiens",
-              "venue": "home",
-              "scored": 5,
-              "allowed": 4,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-13T22:45:00.000Z",
-              "opponent": "Carolina Hurricanes",
-              "venue": "away",
-              "scored": 2,
-              "allowed": 4,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-11T21:00:00.000Z",
-              "opponent": "Seattle Kraken",
-              "venue": "home",
-              "scored": 3,
-              "allowed": 5,
-              "result": "L"
-            }
-          ]
-        },
-        "away": {
-          "team": "Buffalo Sabres",
-          "count": 10,
-          "wins": 4,
-          "losses": 6,
-          "ties": 0,
-          "averageMargin": -0.9,
-          "averageScored": 2.8,
-          "averageAllowed": 3.7,
-          "inputAsOf": "2026-10-21T23:30:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-21T23:30:00.000Z",
-              "opponent": "Philadelphia Flyers",
-              "venue": "home",
-              "scored": 1,
-              "allowed": 3,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-17T23:00:00.000Z",
-              "opponent": "Montreal Canadiens",
-              "venue": "away",
-              "scored": 3,
-              "allowed": 4,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-15T23:00:00.000Z",
-              "opponent": "Toronto Maple Leafs",
-              "venue": "away",
-              "scored": 5,
-              "allowed": 4,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-13T22:30:00.000Z",
-              "opponent": "Montreal Canadiens",
-              "venue": "away",
-              "scored": 3,
-              "allowed": 4,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-12T17:00:00.000Z",
-              "opponent": "Florida Panthers",
-              "venue": "home",
-              "scored": 5,
-              "allowed": 3,
-              "result": "W"
-            }
-          ]
-        }
-      },
-      "eligible": false,
-      "reasons": [
-        "Each team needs 10 current-season prior games",
-        "NHL research quality threshold not met"
-      ],
-      "features": null
-    },
-    {
-      "sourceEventId": "2026020174",
-      "home": "Columbus Blue Jackets",
-      "away": "Vegas Golden Knights",
-      "eventStart": "2026-10-24T23:00:00.000Z",
-      "form": {
-        "season": 2027,
-        "window": 10,
-        "lagHours": 48,
-        "cutoff": "2026-10-22T23:00:00.000Z",
-        "home": {
-          "team": "Columbus Blue Jackets",
-          "count": 8,
-          "wins": 3,
-          "losses": 5,
-          "ties": 0,
-          "averageMargin": -1.125,
-          "averageScored": 2.5,
-          "averageAllowed": 3.625,
-          "inputAsOf": "2026-10-20T23:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-20T23:00:00.000Z",
-              "opponent": "Toronto Maple Leafs",
-              "venue": "home",
-              "scored": 2,
-              "allowed": 6,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-18T22:00:00.000Z",
-              "opponent": "Minnesota Wild",
-              "venue": "away",
-              "scored": 1,
-              "allowed": 2,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-17T23:00:00.000Z",
-              "opponent": "New York Rangers",
-              "venue": "home",
-              "scored": 1,
-              "allowed": 0,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-13T22:15:00.000Z",
-              "opponent": "Florida Panthers",
-              "venue": "home",
-              "scored": 3,
-              "allowed": 7,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-10T23:00:00.000Z",
-              "opponent": "St. Louis Blues",
-              "venue": "away",
-              "scored": 3,
-              "allowed": 5,
-              "result": "L"
-            }
-          ]
-        },
-        "away": {
-          "team": "Vegas Golden Knights",
-          "count": 10,
-          "wins": 7,
-          "losses": 3,
-          "ties": 0,
-          "averageMargin": 1.1,
-          "averageScored": 3.9,
-          "averageAllowed": 2.8,
-          "inputAsOf": "2026-10-21T02:30:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-21T02:30:00.000Z",
-              "opponent": "Tampa Bay Lightning",
-              "venue": "home",
-              "scored": 2,
-              "allowed": 6,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-18T02:00:00.000Z",
-              "opponent": "Pittsburgh Penguins",
-              "venue": "home",
-              "scored": 6,
-              "allowed": 2,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-16T02:00:00.000Z",
-              "opponent": "Calgary Flames",
-              "venue": "home",
-              "scored": 6,
-              "allowed": 2,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-14T00:45:00.000Z",
-              "opponent": "Nashville Predators",
-              "venue": "away",
-              "scored": 5,
-              "allowed": 2,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-13T00:00:00.000Z",
-              "opponent": "Minnesota Wild",
-              "venue": "away",
-              "scored": 2,
-              "allowed": 4,
-              "result": "L"
-            }
-          ]
-        }
-      },
-      "eligible": false,
-      "reasons": [
-        "Each team needs 10 current-season prior games",
-        "NHL research quality threshold not met"
-      ],
-      "features": null
-    },
-    {
-      "sourceEventId": "2026020175",
-      "home": "St. Louis Blues",
-      "away": "Carolina Hurricanes",
-      "eventStart": "2026-10-24T23:00:00.000Z",
-      "form": {
-        "season": 2027,
-        "window": 10,
-        "lagHours": 48,
-        "cutoff": "2026-10-22T23:00:00.000Z",
-        "home": {
-          "team": "St. Louis Blues",
-          "count": 9,
-          "wins": 4,
-          "losses": 5,
-          "ties": 0,
-          "averageMargin": 0,
-          "averageScored": 3.2222222222222223,
-          "averageAllowed": 3.2222222222222223,
-          "inputAsOf": "2026-10-21T00:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-21T00:00:00.000Z",
-              "opponent": "Winnipeg Jets",
-              "venue": "home",
-              "scored": 2,
-              "allowed": 1,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-18T00:00:00.000Z",
-              "opponent": "Nashville Predators",
-              "venue": "away",
-              "scored": 2,
-              "allowed": 5,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-16T00:00:00.000Z",
-              "opponent": "Minnesota Wild",
-              "venue": "away",
-              "scored": 4,
-              "allowed": 5,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-13T23:30:00.000Z",
-              "opponent": "Ottawa Senators",
-              "venue": "away",
-              "scored": 7,
-              "allowed": 2,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-10T23:00:00.000Z",
-              "opponent": "Columbus Blue Jackets",
-              "venue": "home",
-              "scored": 5,
-              "allowed": 3,
-              "result": "W"
-            }
-          ]
-        },
-        "away": {
-          "team": "Carolina Hurricanes",
-          "count": 10,
-          "wins": 8,
-          "losses": 2,
-          "ties": 0,
-          "averageMargin": 1.6,
-          "averageScored": 4.2,
-          "averageAllowed": 2.6,
-          "inputAsOf": "2026-10-21T02:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-21T02:00:00.000Z",
-              "opponent": "Vancouver Canucks",
-              "venue": "away",
-              "scored": 6,
-              "allowed": 3,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-19T00:00:00.000Z",
-              "opponent": "Calgary Flames",
-              "venue": "away",
-              "scored": 2,
-              "allowed": 3,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-17T19:30:00.000Z",
-              "opponent": "Winnipeg Jets",
-              "venue": "away",
-              "scored": 3,
-              "allowed": 2,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-13T22:45:00.000Z",
-              "opponent": "Washington Capitals",
-              "venue": "home",
-              "scored": 4,
-              "allowed": 2,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-11T23:00:00.000Z",
-              "opponent": "Philadelphia Flyers",
-              "venue": "away",
-              "scored": 4,
-              "allowed": 1,
-              "result": "W"
-            }
-          ]
-        }
-      },
-      "eligible": false,
-      "reasons": [
-        "Each team needs 10 current-season prior games",
-        "NHL research quality threshold not met"
-      ],
-      "features": null
-    },
-    {
-      "sourceEventId": "2026020176",
-      "home": "Edmonton Oilers",
-      "away": "Toronto Maple Leafs",
-      "eventStart": "2026-10-24T23:00:00.000Z",
-      "form": {
-        "season": 2027,
-        "window": 10,
-        "lagHours": 48,
-        "cutoff": "2026-10-22T23:00:00.000Z",
-        "home": {
-          "team": "Edmonton Oilers",
-          "count": 9,
-          "wins": 7,
-          "losses": 2,
-          "ties": 0,
-          "averageMargin": 1.5555555555555556,
-          "averageScored": 4.555555555555555,
-          "averageAllowed": 3,
-          "inputAsOf": "2026-10-21T01:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-21T01:00:00.000Z",
-              "opponent": "Minnesota Wild",
-              "venue": "home",
-              "scored": 4,
-              "allowed": 3,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-18T02:00:00.000Z",
-              "opponent": "Utah Mammoth",
-              "venue": "away",
-              "scored": 6,
-              "allowed": 2,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-16T01:00:00.000Z",
-              "opponent": "Utah Mammoth",
-              "venue": "home",
-              "scored": 2,
-              "allowed": 4,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-14T02:30:00.000Z",
-              "opponent": "Los Angeles Kings",
-              "venue": "away",
-              "scored": 4,
-              "allowed": 1,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-10T20:00:00.000Z",
-              "opponent": "San Jose Sharks",
-              "venue": "away",
-              "scored": 3,
-              "allowed": 1,
-              "result": "W"
-            }
-          ]
-        },
-        "away": {
-          "team": "Toronto Maple Leafs",
-          "count": 10,
-          "wins": 5,
-          "losses": 5,
-          "ties": 0,
-          "averageMargin": 0.4,
-          "averageScored": 3.6,
-          "averageAllowed": 3.2,
-          "inputAsOf": "2026-10-20T23:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-20T23:00:00.000Z",
-              "opponent": "Columbus Blue Jackets",
-              "venue": "away",
-              "scored": 6,
-              "allowed": 2,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-19T23:30:00.000Z",
-              "opponent": "San Jose Sharks",
-              "venue": "home",
-              "scored": 3,
-              "allowed": 1,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-17T23:00:00.000Z",
-              "opponent": "New York Islanders",
-              "venue": "home",
-              "scored": 1,
-              "allowed": 4,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-15T23:00:00.000Z",
-              "opponent": "Buffalo Sabres",
-              "venue": "home",
-              "scored": 4,
-              "allowed": 5,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-14T01:00:00.000Z",
-              "opponent": "Utah Mammoth",
-              "venue": "away",
-              "scored": 4,
-              "allowed": 5,
-              "result": "L"
-            }
-          ]
-        }
-      },
-      "eligible": false,
-      "reasons": [
-        "Each team needs 10 current-season prior games",
-        "NHL research quality threshold not met"
-      ],
-      "features": null
-    },
-    {
-      "sourceEventId": "2026020177",
-      "home": "Utah Mammoth",
-      "away": "Tampa Bay Lightning",
-      "eventStart": "2026-10-25T01:00:00.000Z",
-      "form": {
-        "season": 2027,
-        "window": 10,
-        "lagHours": 48,
-        "cutoff": "2026-10-23T01:00:00.000Z",
-        "home": {
-          "team": "Utah Mammoth",
-          "count": 10,
-          "wins": 7,
-          "losses": 3,
-          "ties": 0,
-          "averageMargin": 0.7,
-          "averageScored": 3.8,
-          "averageAllowed": 3.1,
-          "inputAsOf": "2026-10-20T01:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-20T01:00:00.000Z",
-              "opponent": "Pittsburgh Penguins",
-              "venue": "home",
-              "scored": 5,
-              "allowed": 4,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-18T02:00:00.000Z",
-              "opponent": "Edmonton Oilers",
-              "venue": "home",
-              "scored": 2,
-              "allowed": 6,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-16T01:00:00.000Z",
-              "opponent": "Edmonton Oilers",
-              "venue": "away",
-              "scored": 4,
-              "allowed": 2,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-14T01:00:00.000Z",
-              "opponent": "Toronto Maple Leafs",
-              "venue": "home",
-              "scored": 5,
-              "allowed": 4,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-10T23:00:00.000Z",
-              "opponent": "Buffalo Sabres",
-              "venue": "away",
-              "scored": 4,
-              "allowed": 1,
-              "result": "W"
-            }
-          ]
-        },
-        "away": {
-          "team": "Tampa Bay Lightning",
-          "count": 9,
-          "wins": 7,
-          "losses": 2,
-          "ties": 0,
-          "averageMargin": 0.8888888888888888,
-          "averageScored": 3.4444444444444446,
-          "averageAllowed": 2.5555555555555554,
-          "inputAsOf": "2026-10-21T02:30:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-21T02:30:00.000Z",
-              "opponent": "Vegas Golden Knights",
-              "venue": "away",
-              "scored": 6,
-              "allowed": 2,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-17T20:00:00.000Z",
-              "opponent": "Vancouver Canucks",
-              "venue": "home",
-              "scored": 4,
-              "allowed": 2,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-15T23:00:00.000Z",
-              "opponent": "Seattle Kraken",
-              "venue": "home",
-              "scored": 4,
-              "allowed": 3,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-13T23:15:00.000Z",
-              "opponent": "New York Rangers",
-              "venue": "away",
-              "scored": 1,
-              "allowed": 4,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-10T23:30:00.000Z",
-              "opponent": "New York Islanders",
-              "venue": "away",
-              "scored": 5,
-              "allowed": 3,
-              "result": "W"
-            }
-          ]
-        }
-      },
-      "eligible": false,
-      "reasons": [
-        "Each team needs 10 current-season prior games",
-        "NHL research quality threshold not met"
-      ],
-      "features": null
-    },
-    {
-      "sourceEventId": "2026020178",
-      "home": "Calgary Flames",
-      "away": "Detroit Red Wings",
-      "eventStart": "2026-10-25T02:00:00.000Z",
-      "form": {
-        "season": 2027,
-        "window": 10,
-        "lagHours": 48,
-        "cutoff": "2026-10-23T02:00:00.000Z",
-        "home": {
-          "team": "Calgary Flames",
-          "count": 8,
-          "wins": 2,
-          "losses": 6,
-          "ties": 0,
-          "averageMargin": -2.5,
-          "averageScored": 2.125,
-          "averageAllowed": 4.625,
-          "inputAsOf": "2026-10-19T00:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-19T00:00:00.000Z",
-              "opponent": "Carolina Hurricanes",
-              "venue": "home",
-              "scored": 3,
-              "allowed": 2,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-16T02:00:00.000Z",
-              "opponent": "Vegas Golden Knights",
-              "venue": "away",
-              "scored": 2,
-              "allowed": 6,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-14T01:45:00.000Z",
-              "opponent": "Anaheim Ducks",
-              "venue": "away",
-              "scored": 4,
-              "allowed": 2,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-11T02:00:00.000Z",
-              "opponent": "Anaheim Ducks",
-              "venue": "home",
-              "scored": 2,
-              "allowed": 4,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-09T01:00:00.000Z",
-              "opponent": "Colorado Avalanche",
-              "venue": "home",
-              "scored": 3,
-              "allowed": 7,
-              "result": "L"
-            }
-          ]
-        },
-        "away": {
-          "team": "Detroit Red Wings",
-          "count": 9,
-          "wins": 3,
-          "losses": 6,
-          "ties": 0,
-          "averageMargin": -0.5555555555555556,
-          "averageScored": 2.5555555555555554,
-          "averageAllowed": 3.111111111111111,
-          "inputAsOf": "2026-10-21T01:40:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-21T01:40:00.000Z",
-              "opponent": "Seattle Kraken",
-              "venue": "away",
-              "scored": 3,
-              "allowed": 4,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-17T23:00:00.000Z",
-              "opponent": "San Jose Sharks",
-              "venue": "home",
-              "scored": 4,
-              "allowed": 3,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-15T23:30:00.000Z",
-              "opponent": "Philadelphia Flyers",
-              "venue": "home",
-              "scored": 2,
-              "allowed": 1,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-13T22:00:00.000Z",
-              "opponent": "New Jersey Devils",
-              "venue": "home",
-              "scored": 4,
-              "allowed": 5,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-10T23:00:00.000Z",
-              "opponent": "Montreal Canadiens",
-              "venue": "away",
-              "scored": 0,
-              "allowed": 1,
-              "result": "L"
-            }
-          ]
-        }
-      },
-      "eligible": false,
-      "reasons": [
-        "Each team needs 10 current-season prior games",
-        "NHL research quality threshold not met"
-      ],
-      "features": null
-    },
-    {
-      "sourceEventId": "2026020179",
-      "home": "Seattle Kraken",
-      "away": "Minnesota Wild",
-      "eventStart": "2026-10-25T02:00:00.000Z",
-      "form": {
-        "season": 2027,
-        "window": 10,
-        "lagHours": 48,
-        "cutoff": "2026-10-23T02:00:00.000Z",
-        "home": {
-          "team": "Seattle Kraken",
-          "count": 10,
-          "wins": 6,
-          "losses": 4,
-          "ties": 0,
-          "averageMargin": 0.5,
-          "averageScored": 3.9,
-          "averageAllowed": 3.4,
-          "inputAsOf": "2026-10-21T01:40:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-21T01:40:00.000Z",
-              "opponent": "Detroit Red Wings",
-              "venue": "home",
-              "scored": 4,
-              "allowed": 3,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-17T22:00:00.000Z",
-              "opponent": "Florida Panthers",
-              "venue": "away",
-              "scored": 3,
-              "allowed": 8,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-15T23:00:00.000Z",
-              "opponent": "Tampa Bay Lightning",
-              "venue": "away",
-              "scored": 3,
-              "allowed": 4,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-13T23:00:00.000Z",
-              "opponent": "Philadelphia Flyers",
-              "venue": "away",
-              "scored": 3,
-              "allowed": 2,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-11T21:00:00.000Z",
-              "opponent": "Washington Capitals",
-              "venue": "away",
-              "scored": 5,
-              "allowed": 3,
-              "result": "W"
-            }
-          ]
-        },
-        "away": {
-          "team": "Minnesota Wild",
-          "count": 10,
-          "wins": 6,
-          "losses": 4,
-          "ties": 0,
-          "averageMargin": 0.6,
-          "averageScored": 3.1,
-          "averageAllowed": 2.5,
-          "inputAsOf": "2026-10-21T01:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-10-21T01:00:00.000Z",
-              "opponent": "Edmonton Oilers",
-              "venue": "away",
-              "scored": 3,
-              "allowed": 4,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-18T22:00:00.000Z",
-              "opponent": "Columbus Blue Jackets",
-              "venue": "home",
-              "scored": 2,
-              "allowed": 1,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-16T00:00:00.000Z",
-              "opponent": "St. Louis Blues",
-              "venue": "home",
-              "scored": 5,
-              "allowed": 4,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-14T00:15:00.000Z",
-              "opponent": "Winnipeg Jets",
-              "venue": "away",
-              "scored": 2,
-              "allowed": 5,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-13T00:00:00.000Z",
-              "opponent": "Vegas Golden Knights",
-              "venue": "home",
-              "scored": 4,
-              "allowed": 2,
-              "result": "W"
-            }
-          ]
-        }
-      },
-      "eligible": false,
-      "reasons": [
-        "NHL research quality threshold not met"
-      ],
-      "features": {
-        "x": [
-          -0.09999999999999998,
-          0
-        ],
-        "inputAsOf": "2026-10-21T01:40:00.000Z",
-        "oldestLatest": "2026-10-21T01:00:00.000Z",
-        "sampleSizes": [
-          10,
-          10
-        ]
-      }
-    },
-    {
       "sourceEventId": "2026020180",
       "home": "Chicago Blackhawks",
       "away": "Florida Panthers",
@@ -1754,14 +236,22 @@
         "away": {
           "team": "Florida Panthers",
           "count": 10,
-          "wins": 5,
-          "losses": 5,
+          "wins": 4,
+          "losses": 6,
           "ties": 0,
-          "averageMargin": 0.1,
-          "averageScored": 3.1,
-          "averageAllowed": 3,
-          "inputAsOf": "2026-10-21T23:30:00.000Z",
+          "averageMargin": -0.4,
+          "averageScored": 3,
+          "averageAllowed": 3.4,
+          "inputAsOf": "2026-10-22T23:00:00.000Z",
           "recent": [
+            {
+              "date": "2026-10-22T23:00:00.000Z",
+              "opponent": "Pittsburgh Penguins",
+              "venue": "away",
+              "scored": 0,
+              "allowed": 4,
+              "result": "L"
+            },
             {
               "date": "2026-10-21T23:30:00.000Z",
               "opponent": "Ottawa Senators",
@@ -1793,14 +283,6 @@
               "scored": 7,
               "allowed": 3,
               "result": "W"
-            },
-            {
-              "date": "2026-10-12T17:00:00.000Z",
-              "opponent": "Buffalo Sabres",
-              "venue": "away",
-              "scored": 3,
-              "allowed": 5,
-              "result": "L"
             }
           ]
         }
@@ -1824,15 +306,23 @@
         "cutoff": "2026-10-23T22:00:00.000Z",
         "home": {
           "team": "Dallas Stars",
-          "count": 9,
-          "wins": 5,
+          "count": 10,
+          "wins": 6,
           "losses": 4,
           "ties": 0,
-          "averageMargin": 0.8888888888888888,
-          "averageScored": 2.5555555555555554,
-          "averageAllowed": 1.6666666666666667,
-          "inputAsOf": "2026-10-21T00:00:00.000Z",
+          "averageMargin": 0.9,
+          "averageScored": 2.6,
+          "averageAllowed": 1.7,
+          "inputAsOf": "2026-10-23T00:00:00.000Z",
           "recent": [
+            {
+              "date": "2026-10-23T00:00:00.000Z",
+              "opponent": "Winnipeg Jets",
+              "venue": "home",
+              "scored": 3,
+              "allowed": 2,
+              "result": "W"
+            },
             {
               "date": "2026-10-21T00:00:00.000Z",
               "opponent": "Boston Bruins",
@@ -1864,28 +354,28 @@
               "scored": 2,
               "allowed": 3,
               "result": "L"
-            },
-            {
-              "date": "2026-10-10T23:00:00.000Z",
-              "opponent": "Pittsburgh Penguins",
-              "venue": "away",
-              "scored": 1,
-              "allowed": 2,
-              "result": "L"
             }
           ]
         },
         "away": {
           "team": "New York Islanders",
-          "count": 9,
+          "count": 10,
           "wins": 5,
-          "losses": 4,
+          "losses": 5,
           "ties": 0,
-          "averageMargin": 0.7777777777777778,
-          "averageScored": 3,
-          "averageAllowed": 2.2222222222222223,
-          "inputAsOf": "2026-10-20T23:00:00.000Z",
+          "averageMargin": 0.6,
+          "averageScored": 2.9,
+          "averageAllowed": 2.3,
+          "inputAsOf": "2026-10-22T23:30:00.000Z",
           "recent": [
+            {
+              "date": "2026-10-22T23:30:00.000Z",
+              "opponent": "Los Angeles Kings",
+              "venue": "home",
+              "scored": 2,
+              "allowed": 3,
+              "result": "L"
+            },
             {
               "date": "2026-10-20T23:00:00.000Z",
               "opponent": "Anaheim Ducks",
@@ -1917,24 +407,26 @@
               "scored": 3,
               "allowed": 2,
               "result": "W"
-            },
-            {
-              "date": "2026-10-10T23:30:00.000Z",
-              "opponent": "Tampa Bay Lightning",
-              "venue": "home",
-              "scored": 3,
-              "allowed": 5,
-              "result": "L"
             }
           ]
         }
       },
       "eligible": false,
       "reasons": [
-        "Each team needs 10 current-season prior games",
         "NHL research quality threshold not met"
       ],
-      "features": null
+      "features": {
+        "x": [
+          0.30000000000000004,
+          0.09999999999999998
+        ],
+        "inputAsOf": "2026-10-23T00:00:00.000Z",
+        "oldestLatest": "2026-10-22T23:30:00.000Z",
+        "sampleSizes": [
+          10,
+          10
+        ]
+      }
     },
     {
       "sourceEventId": "2026020182",
@@ -1948,15 +440,23 @@
         "cutoff": "2026-10-23T23:00:00.000Z",
         "home": {
           "team": "Winnipeg Jets",
-          "count": 9,
+          "count": 10,
           "wins": 4,
-          "losses": 5,
+          "losses": 6,
           "ties": 0,
-          "averageMargin": -0.2222222222222222,
-          "averageScored": 2.6666666666666665,
-          "averageAllowed": 2.888888888888889,
-          "inputAsOf": "2026-10-21T00:00:00.000Z",
+          "averageMargin": -0.3,
+          "averageScored": 2.6,
+          "averageAllowed": 2.9,
+          "inputAsOf": "2026-10-23T00:00:00.000Z",
           "recent": [
+            {
+              "date": "2026-10-23T00:00:00.000Z",
+              "opponent": "Dallas Stars",
+              "venue": "away",
+              "scored": 2,
+              "allowed": 3,
+              "result": "L"
+            },
             {
               "date": "2026-10-21T00:00:00.000Z",
               "opponent": "St. Louis Blues",
@@ -1988,14 +488,6 @@
               "scored": 5,
               "allowed": 2,
               "result": "W"
-            },
-            {
-              "date": "2026-10-10T00:00:00.000Z",
-              "opponent": "Anaheim Ducks",
-              "venue": "home",
-              "scored": 1,
-              "allowed": 5,
-              "result": "L"
             }
           ]
         },
@@ -2072,15 +564,23 @@
         "cutoff": "2026-10-24T00:00:00.000Z",
         "home": {
           "team": "Nashville Predators",
-          "count": 8,
+          "count": 9,
           "wins": 3,
-          "losses": 5,
+          "losses": 6,
           "ties": 0,
-          "averageMargin": -0.125,
-          "averageScored": 2.875,
-          "averageAllowed": 3,
-          "inputAsOf": "2026-10-18T00:00:00.000Z",
+          "averageMargin": -0.7777777777777778,
+          "averageScored": 2.5555555555555554,
+          "averageAllowed": 3.3333333333333335,
+          "inputAsOf": "2026-10-22T23:00:00.000Z",
           "recent": [
+            {
+              "date": "2026-10-22T23:00:00.000Z",
+              "opponent": "Boston Bruins",
+              "venue": "away",
+              "scored": 0,
+              "allowed": 6,
+              "result": "L"
+            },
             {
               "date": "2026-10-18T00:00:00.000Z",
               "opponent": "St. Louis Blues",
@@ -2112,14 +612,6 @@
               "scored": 2,
               "allowed": 3,
               "result": "L"
-            },
-            {
-              "date": "2026-10-08T23:00:00.000Z",
-              "opponent": "Montreal Canadiens",
-              "venue": "away",
-              "scored": 5,
-              "allowed": 2,
-              "result": "W"
             }
           ]
         },
@@ -2200,11 +692,19 @@
           "wins": 1,
           "losses": 9,
           "ties": 0,
-          "averageMargin": -1.9,
-          "averageScored": 2.7,
-          "averageAllowed": 4.6,
-          "inputAsOf": "2026-10-21T02:00:00.000Z",
+          "averageMargin": -2,
+          "averageScored": 2.2,
+          "averageAllowed": 4.2,
+          "inputAsOf": "2026-10-23T02:00:00.000Z",
           "recent": [
+            {
+              "date": "2026-10-23T02:00:00.000Z",
+              "opponent": "Detroit Red Wings",
+              "venue": "home",
+              "scored": 2,
+              "allowed": 5,
+              "result": "L"
+            },
             {
               "date": "2026-10-21T02:00:00.000Z",
               "opponent": "Carolina Hurricanes",
@@ -2236,28 +736,28 @@
               "scored": 2,
               "allowed": 3,
               "result": "L"
-            },
-            {
-              "date": "2026-10-11T22:00:00.000Z",
-              "opponent": "New York Rangers",
-              "venue": "away",
-              "scored": 2,
-              "allowed": 6,
-              "result": "L"
             }
           ]
         },
         "away": {
           "team": "Minnesota Wild",
           "count": 10,
-          "wins": 6,
-          "losses": 4,
+          "wins": 5,
+          "losses": 5,
           "ties": 0,
-          "averageMargin": 0.6,
-          "averageScored": 3.1,
-          "averageAllowed": 2.5,
-          "inputAsOf": "2026-10-21T01:00:00.000Z",
+          "averageMargin": 0.3,
+          "averageScored": 2.9,
+          "averageAllowed": 2.6,
+          "inputAsOf": "2026-10-23T01:00:00.000Z",
           "recent": [
+            {
+              "date": "2026-10-23T01:00:00.000Z",
+              "opponent": "Calgary Flames",
+              "venue": "away",
+              "scored": 1,
+              "allowed": 2,
+              "result": "L"
+            },
             {
               "date": "2026-10-21T01:00:00.000Z",
               "opponent": "Edmonton Oilers",
@@ -2289,14 +789,6 @@
               "scored": 2,
               "allowed": 5,
               "result": "L"
-            },
-            {
-              "date": "2026-10-13T00:00:00.000Z",
-              "opponent": "Vegas Golden Knights",
-              "venue": "home",
-              "scored": 4,
-              "allowed": 2,
-              "result": "W"
             }
           ]
         }
@@ -2307,11 +799,11 @@
       ],
       "features": {
         "x": [
-          -2.5,
-          -0.5
+          -2.3,
+          -0.4
         ],
-        "inputAsOf": "2026-10-21T02:00:00.000Z",
-        "oldestLatest": "2026-10-21T01:00:00.000Z",
+        "inputAsOf": "2026-10-23T02:00:00.000Z",
+        "oldestLatest": "2026-10-23T01:00:00.000Z",
         "sampleSizes": [
           10,
           10
@@ -2331,14 +823,22 @@
         "home": {
           "team": "New York Rangers",
           "count": 10,
-          "wins": 7,
-          "losses": 3,
+          "wins": 6,
+          "losses": 4,
           "ties": 0,
-          "averageMargin": 1.2,
-          "averageScored": 3.3,
-          "averageAllowed": 2.1,
-          "inputAsOf": "2026-10-19T23:00:00.000Z",
+          "averageMargin": 0.7,
+          "averageScored": 3.2,
+          "averageAllowed": 2.5,
+          "inputAsOf": "2026-10-22T23:00:00.000Z",
           "recent": [
+            {
+              "date": "2026-10-22T23:00:00.000Z",
+              "opponent": "Toronto Maple Leafs",
+              "venue": "away",
+              "scored": 4,
+              "allowed": 5,
+              "result": "L"
+            },
             {
               "date": "2026-10-19T23:00:00.000Z",
               "opponent": "Anaheim Ducks",
@@ -2370,28 +870,28 @@
               "scored": 4,
               "allowed": 1,
               "result": "W"
-            },
-            {
-              "date": "2026-10-11T22:00:00.000Z",
-              "opponent": "Vancouver Canucks",
-              "venue": "home",
-              "scored": 6,
-              "allowed": 2,
-              "result": "W"
             }
           ]
         },
         "away": {
           "team": "Los Angeles Kings",
-          "count": 7,
-          "wins": 1,
+          "count": 8,
+          "wins": 2,
           "losses": 6,
           "ties": 0,
-          "averageMargin": -1.4285714285714286,
-          "averageScored": 2.4285714285714284,
-          "averageAllowed": 3.857142857142857,
-          "inputAsOf": "2026-10-20T23:00:00.000Z",
+          "averageMargin": -1.125,
+          "averageScored": 2.5,
+          "averageAllowed": 3.625,
+          "inputAsOf": "2026-10-22T23:30:00.000Z",
           "recent": [
+            {
+              "date": "2026-10-22T23:30:00.000Z",
+              "opponent": "New York Islanders",
+              "venue": "away",
+              "scored": 3,
+              "allowed": 2,
+              "result": "W"
+            },
             {
               "date": "2026-10-20T23:00:00.000Z",
               "opponent": "Washington Capitals",
@@ -2423,14 +923,6 @@
               "scored": 1,
               "allowed": 2,
               "result": "L"
-            },
-            {
-              "date": "2026-10-07T02:00:00.000Z",
-              "opponent": "Florida Panthers",
-              "venue": "home",
-              "scored": 1,
-              "allowed": 2,
-              "result": "L"
             }
           ]
         }
@@ -2454,15 +946,23 @@
         "cutoff": "2026-10-25T00:30:00.000Z",
         "home": {
           "team": "Calgary Flames",
-          "count": 8,
-          "wins": 2,
+          "count": 9,
+          "wins": 3,
           "losses": 6,
           "ties": 0,
-          "averageMargin": -2.5,
-          "averageScored": 2.125,
-          "averageAllowed": 4.625,
-          "inputAsOf": "2026-10-19T00:00:00.000Z",
+          "averageMargin": -2.111111111111111,
+          "averageScored": 2.111111111111111,
+          "averageAllowed": 4.222222222222222,
+          "inputAsOf": "2026-10-23T01:00:00.000Z",
           "recent": [
+            {
+              "date": "2026-10-23T01:00:00.000Z",
+              "opponent": "Minnesota Wild",
+              "venue": "home",
+              "scored": 2,
+              "allowed": 1,
+              "result": "W"
+            },
             {
               "date": "2026-10-19T00:00:00.000Z",
               "opponent": "Carolina Hurricanes",
@@ -2494,14 +994,6 @@
               "scored": 2,
               "allowed": 4,
               "result": "L"
-            },
-            {
-              "date": "2026-10-09T01:00:00.000Z",
-              "opponent": "Colorado Avalanche",
-              "venue": "home",
-              "scored": 3,
-              "allowed": 7,
-              "result": "L"
             }
           ]
         },
@@ -2512,10 +1004,18 @@
           "losses": 5,
           "ties": 0,
           "averageMargin": 0.4,
-          "averageScored": 3.6,
-          "averageAllowed": 3.2,
-          "inputAsOf": "2026-10-20T23:00:00.000Z",
+          "averageScored": 3.9,
+          "averageAllowed": 3.5,
+          "inputAsOf": "2026-10-22T23:00:00.000Z",
           "recent": [
+            {
+              "date": "2026-10-22T23:00:00.000Z",
+              "opponent": "New York Rangers",
+              "venue": "home",
+              "scored": 5,
+              "allowed": 4,
+              "result": "W"
+            },
             {
               "date": "2026-10-20T23:00:00.000Z",
               "opponent": "Columbus Blue Jackets",
@@ -2547,14 +1047,6 @@
               "scored": 4,
               "allowed": 5,
               "result": "L"
-            },
-            {
-              "date": "2026-10-14T01:00:00.000Z",
-              "opponent": "Utah Mammoth",
-              "venue": "away",
-              "scored": 4,
-              "allowed": 5,
-              "result": "L"
             }
           ]
         }
@@ -2578,15 +1070,23 @@
         "cutoff": "2026-10-25T01:30:00.000Z",
         "home": {
           "team": "Edmonton Oilers",
-          "count": 9,
-          "wins": 7,
+          "count": 10,
+          "wins": 8,
           "losses": 2,
           "ties": 0,
-          "averageMargin": 1.5555555555555556,
-          "averageScored": 4.555555555555555,
-          "averageAllowed": 3,
-          "inputAsOf": "2026-10-21T01:00:00.000Z",
+          "averageMargin": 1.5,
+          "averageScored": 4.7,
+          "averageAllowed": 3.2,
+          "inputAsOf": "2026-10-23T01:00:00.000Z",
           "recent": [
+            {
+              "date": "2026-10-23T01:00:00.000Z",
+              "opponent": "Carolina Hurricanes",
+              "venue": "home",
+              "scored": 6,
+              "allowed": 5,
+              "result": "W"
+            },
             {
               "date": "2026-10-21T01:00:00.000Z",
               "opponent": "Minnesota Wild",
@@ -2618,28 +1118,28 @@
               "scored": 4,
               "allowed": 1,
               "result": "W"
-            },
-            {
-              "date": "2026-10-10T20:00:00.000Z",
-              "opponent": "San Jose Sharks",
-              "venue": "away",
-              "scored": 3,
-              "allowed": 1,
-              "result": "W"
             }
           ]
         },
         "away": {
           "team": "Detroit Red Wings",
-          "count": 9,
-          "wins": 3,
+          "count": 10,
+          "wins": 4,
           "losses": 6,
           "ties": 0,
-          "averageMargin": -0.5555555555555556,
-          "averageScored": 2.5555555555555554,
-          "averageAllowed": 3.111111111111111,
-          "inputAsOf": "2026-10-21T01:40:00.000Z",
+          "averageMargin": -0.2,
+          "averageScored": 2.8,
+          "averageAllowed": 3,
+          "inputAsOf": "2026-10-23T02:00:00.000Z",
           "recent": [
+            {
+              "date": "2026-10-23T02:00:00.000Z",
+              "opponent": "Vancouver Canucks",
+              "venue": "away",
+              "scored": 5,
+              "allowed": 2,
+              "result": "W"
+            },
             {
               "date": "2026-10-21T01:40:00.000Z",
               "opponent": "Seattle Kraken",
@@ -2671,13 +1171,139 @@
               "scored": 4,
               "allowed": 5,
               "result": "L"
+            }
+          ]
+        }
+      },
+      "eligible": false,
+      "reasons": [
+        "NHL research quality threshold not met"
+      ],
+      "features": {
+        "x": [
+          1.7,
+          0.4
+        ],
+        "inputAsOf": "2026-10-23T02:00:00.000Z",
+        "oldestLatest": "2026-10-23T01:00:00.000Z",
+        "sampleSizes": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "sourceEventId": "2026020188",
+      "home": "Philadelphia Flyers",
+      "away": "Columbus Blue Jackets",
+      "eventStart": "2026-10-27T23:00:00.000Z",
+      "form": {
+        "season": 2027,
+        "window": 10,
+        "lagHours": 48,
+        "cutoff": "2026-10-25T23:00:00.000Z",
+        "home": {
+          "team": "Philadelphia Flyers",
+          "count": 10,
+          "wins": 3,
+          "losses": 7,
+          "ties": 0,
+          "averageMargin": -0.9,
+          "averageScored": 1.8,
+          "averageAllowed": 2.7,
+          "inputAsOf": "2026-10-21T23:30:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-21T23:30:00.000Z",
+              "opponent": "Buffalo Sabres",
+              "venue": "away",
+              "scored": 3,
+              "allowed": 1,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-19T23:00:00.000Z",
+              "opponent": "Colorado Avalanche",
+              "venue": "home",
+              "scored": 3,
+              "allowed": 2,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-17T23:00:00.000Z",
+              "opponent": "Ottawa Senators",
+              "venue": "home",
+              "scored": 3,
+              "allowed": 1,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-15T23:30:00.000Z",
+              "opponent": "Detroit Red Wings",
+              "venue": "away",
+              "scored": 1,
+              "allowed": 2,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-13T23:00:00.000Z",
+              "opponent": "Seattle Kraken",
+              "venue": "home",
+              "scored": 2,
+              "allowed": 3,
+              "result": "L"
+            }
+          ]
+        },
+        "away": {
+          "team": "Columbus Blue Jackets",
+          "count": 8,
+          "wins": 3,
+          "losses": 5,
+          "ties": 0,
+          "averageMargin": -1.125,
+          "averageScored": 2.5,
+          "averageAllowed": 3.625,
+          "inputAsOf": "2026-10-20T23:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-20T23:00:00.000Z",
+              "opponent": "Toronto Maple Leafs",
+              "venue": "home",
+              "scored": 2,
+              "allowed": 6,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-18T22:00:00.000Z",
+              "opponent": "Minnesota Wild",
+              "venue": "away",
+              "scored": 1,
+              "allowed": 2,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-17T23:00:00.000Z",
+              "opponent": "New York Rangers",
+              "venue": "home",
+              "scored": 1,
+              "allowed": 0,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-13T22:15:00.000Z",
+              "opponent": "Florida Panthers",
+              "venue": "home",
+              "scored": 3,
+              "allowed": 7,
+              "result": "L"
             },
             {
               "date": "2026-10-10T23:00:00.000Z",
-              "opponent": "Montreal Canadiens",
+              "opponent": "St. Louis Blues",
               "venue": "away",
-              "scored": 0,
-              "allowed": 1,
+              "scored": 3,
+              "allowed": 5,
               "result": "L"
             }
           ]
@@ -2689,6 +1315,1316 @@
         "NHL research quality threshold not met"
       ],
       "features": null
+    },
+    {
+      "sourceEventId": "2026020189",
+      "home": "Carolina Hurricanes",
+      "away": "Boston Bruins",
+      "eventStart": "2026-10-28T00:00:00.000Z",
+      "form": {
+        "season": 2027,
+        "window": 10,
+        "lagHours": 48,
+        "cutoff": "2026-10-26T00:00:00.000Z",
+        "home": {
+          "team": "Carolina Hurricanes",
+          "count": 10,
+          "wins": 8,
+          "losses": 2,
+          "ties": 0,
+          "averageMargin": 1.8,
+          "averageScored": 4.5,
+          "averageAllowed": 2.7,
+          "inputAsOf": "2026-10-23T01:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-23T01:00:00.000Z",
+              "opponent": "Edmonton Oilers",
+              "venue": "away",
+              "scored": 5,
+              "allowed": 6,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-21T02:00:00.000Z",
+              "opponent": "Vancouver Canucks",
+              "venue": "away",
+              "scored": 6,
+              "allowed": 3,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-19T00:00:00.000Z",
+              "opponent": "Calgary Flames",
+              "venue": "away",
+              "scored": 2,
+              "allowed": 3,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-17T19:30:00.000Z",
+              "opponent": "Winnipeg Jets",
+              "venue": "away",
+              "scored": 3,
+              "allowed": 2,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-13T22:45:00.000Z",
+              "opponent": "Washington Capitals",
+              "venue": "home",
+              "scored": 4,
+              "allowed": 2,
+              "result": "W"
+            }
+          ]
+        },
+        "away": {
+          "team": "Boston Bruins",
+          "count": 10,
+          "wins": 7,
+          "losses": 3,
+          "ties": 0,
+          "averageMargin": 1.7,
+          "averageScored": 3.9,
+          "averageAllowed": 2.2,
+          "inputAsOf": "2026-10-22T23:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-22T23:00:00.000Z",
+              "opponent": "Nashville Predators",
+              "venue": "home",
+              "scored": 6,
+              "allowed": 0,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-21T00:00:00.000Z",
+              "opponent": "Dallas Stars",
+              "venue": "away",
+              "scored": 2,
+              "allowed": 3,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-18T01:00:00.000Z",
+              "opponent": "Los Angeles Kings",
+              "venue": "away",
+              "scored": 4,
+              "allowed": 1,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-17T02:00:00.000Z",
+              "opponent": "Anaheim Ducks",
+              "venue": "away",
+              "scored": 4,
+              "allowed": 2,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-14T03:00:00.000Z",
+              "opponent": "San Jose Sharks",
+              "venue": "away",
+              "scored": 6,
+              "allowed": 3,
+              "result": "W"
+            }
+          ]
+        }
+      },
+      "eligible": false,
+      "reasons": [
+        "NHL research quality threshold not met"
+      ],
+      "features": {
+        "x": [
+          0.10000000000000009,
+          0.10000000000000009
+        ],
+        "inputAsOf": "2026-10-23T01:00:00.000Z",
+        "oldestLatest": "2026-10-22T23:00:00.000Z",
+        "sampleSizes": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "sourceEventId": "2026020190",
+      "home": "Chicago Blackhawks",
+      "away": "Los Angeles Kings",
+      "eventStart": "2026-10-28T00:00:00.000Z",
+      "form": {
+        "season": 2027,
+        "window": 10,
+        "lagHours": 48,
+        "cutoff": "2026-10-26T00:00:00.000Z",
+        "home": {
+          "team": "Chicago Blackhawks",
+          "count": 9,
+          "wins": 3,
+          "losses": 6,
+          "ties": 0,
+          "averageMargin": -1.6666666666666667,
+          "averageScored": 2.3333333333333335,
+          "averageAllowed": 4,
+          "inputAsOf": "2026-10-17T23:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-17T23:00:00.000Z",
+              "opponent": "Dallas Stars",
+              "venue": "home",
+              "scored": 0,
+              "allowed": 4,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-16T00:00:00.000Z",
+              "opponent": "Winnipeg Jets",
+              "venue": "home",
+              "scored": 4,
+              "allowed": 3,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-14T00:00:00.000Z",
+              "opponent": "Pittsburgh Penguins",
+              "venue": "home",
+              "scored": 5,
+              "allowed": 3,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-10T23:00:00.000Z",
+              "opponent": "Carolina Hurricanes",
+              "venue": "home",
+              "scored": 2,
+              "allowed": 5,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-08T23:30:00.000Z",
+              "opponent": "New York Islanders",
+              "venue": "away",
+              "scored": 1,
+              "allowed": 4,
+              "result": "L"
+            }
+          ]
+        },
+        "away": {
+          "team": "Los Angeles Kings",
+          "count": 8,
+          "wins": 2,
+          "losses": 6,
+          "ties": 0,
+          "averageMargin": -1.125,
+          "averageScored": 2.5,
+          "averageAllowed": 3.625,
+          "inputAsOf": "2026-10-22T23:30:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-22T23:30:00.000Z",
+              "opponent": "New York Islanders",
+              "venue": "away",
+              "scored": 3,
+              "allowed": 2,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-20T23:00:00.000Z",
+              "opponent": "Washington Capitals",
+              "venue": "away",
+              "scored": 5,
+              "allowed": 2,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-18T01:00:00.000Z",
+              "opponent": "Boston Bruins",
+              "venue": "home",
+              "scored": 1,
+              "allowed": 4,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-14T02:30:00.000Z",
+              "opponent": "Edmonton Oilers",
+              "venue": "home",
+              "scored": 1,
+              "allowed": 4,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-11T02:00:00.000Z",
+              "opponent": "Vegas Golden Knights",
+              "venue": "away",
+              "scored": 1,
+              "allowed": 2,
+              "result": "L"
+            }
+          ]
+        }
+      },
+      "eligible": false,
+      "reasons": [
+        "Each team needs 10 current-season prior games",
+        "NHL research quality threshold not met"
+      ],
+      "features": null
+    },
+    {
+      "sourceEventId": "2026020191",
+      "home": "St. Louis Blues",
+      "away": "Montreal Canadiens",
+      "eventStart": "2026-10-28T00:00:00.000Z",
+      "form": {
+        "season": 2027,
+        "window": 10,
+        "lagHours": 48,
+        "cutoff": "2026-10-26T00:00:00.000Z",
+        "home": {
+          "team": "St. Louis Blues",
+          "count": 10,
+          "wins": 5,
+          "losses": 5,
+          "ties": 0,
+          "averageMargin": 0.4,
+          "averageScored": 3.5,
+          "averageAllowed": 3.1,
+          "inputAsOf": "2026-10-23T00:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-23T00:00:00.000Z",
+              "opponent": "Vegas Golden Knights",
+              "venue": "home",
+              "scored": 6,
+              "allowed": 2,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-21T00:00:00.000Z",
+              "opponent": "Winnipeg Jets",
+              "venue": "home",
+              "scored": 2,
+              "allowed": 1,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-18T00:00:00.000Z",
+              "opponent": "Nashville Predators",
+              "venue": "away",
+              "scored": 2,
+              "allowed": 5,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-16T00:00:00.000Z",
+              "opponent": "Minnesota Wild",
+              "venue": "away",
+              "scored": 4,
+              "allowed": 5,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-13T23:30:00.000Z",
+              "opponent": "Ottawa Senators",
+              "venue": "away",
+              "scored": 7,
+              "allowed": 2,
+              "result": "W"
+            }
+          ]
+        },
+        "away": {
+          "team": "Montreal Canadiens",
+          "count": 9,
+          "wins": 4,
+          "losses": 5,
+          "ties": 0,
+          "averageMargin": -0.4444444444444444,
+          "averageScored": 3.3333333333333335,
+          "averageAllowed": 3.7777777777777777,
+          "inputAsOf": "2026-10-20T23:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-20T23:00:00.000Z",
+              "opponent": "San Jose Sharks",
+              "venue": "home",
+              "scored": 3,
+              "allowed": 4,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-17T23:00:00.000Z",
+              "opponent": "Buffalo Sabres",
+              "venue": "home",
+              "scored": 4,
+              "allowed": 3,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-14T23:30:00.000Z",
+              "opponent": "Washington Capitals",
+              "venue": "away",
+              "scored": 4,
+              "allowed": 5,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-13T22:30:00.000Z",
+              "opponent": "Buffalo Sabres",
+              "venue": "home",
+              "scored": 4,
+              "allowed": 3,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-10T23:00:00.000Z",
+              "opponent": "Detroit Red Wings",
+              "venue": "home",
+              "scored": 1,
+              "allowed": 0,
+              "result": "W"
+            }
+          ]
+        }
+      },
+      "eligible": false,
+      "reasons": [
+        "Each team needs 10 current-season prior games",
+        "NHL research quality threshold not met"
+      ],
+      "features": null
+    },
+    {
+      "sourceEventId": "2026020192",
+      "home": "Nashville Predators",
+      "away": "New York Islanders",
+      "eventStart": "2026-10-28T00:00:00.000Z",
+      "form": {
+        "season": 2027,
+        "window": 10,
+        "lagHours": 48,
+        "cutoff": "2026-10-26T00:00:00.000Z",
+        "home": {
+          "team": "Nashville Predators",
+          "count": 9,
+          "wins": 3,
+          "losses": 6,
+          "ties": 0,
+          "averageMargin": -0.7777777777777778,
+          "averageScored": 2.5555555555555554,
+          "averageAllowed": 3.3333333333333335,
+          "inputAsOf": "2026-10-22T23:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-22T23:00:00.000Z",
+              "opponent": "Boston Bruins",
+              "venue": "away",
+              "scored": 0,
+              "allowed": 6,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-18T00:00:00.000Z",
+              "opponent": "St. Louis Blues",
+              "venue": "home",
+              "scored": 5,
+              "allowed": 2,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-16T00:00:00.000Z",
+              "opponent": "San Jose Sharks",
+              "venue": "home",
+              "scored": 2,
+              "allowed": 3,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-14T00:45:00.000Z",
+              "opponent": "Vegas Golden Knights",
+              "venue": "home",
+              "scored": 2,
+              "allowed": 5,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-10T23:00:00.000Z",
+              "opponent": "Ottawa Senators",
+              "venue": "away",
+              "scored": 2,
+              "allowed": 3,
+              "result": "L"
+            }
+          ]
+        },
+        "away": {
+          "team": "New York Islanders",
+          "count": 10,
+          "wins": 5,
+          "losses": 5,
+          "ties": 0,
+          "averageMargin": 0.6,
+          "averageScored": 2.9,
+          "averageAllowed": 2.3,
+          "inputAsOf": "2026-10-22T23:30:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-22T23:30:00.000Z",
+              "opponent": "Los Angeles Kings",
+              "venue": "home",
+              "scored": 2,
+              "allowed": 3,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-20T23:00:00.000Z",
+              "opponent": "Anaheim Ducks",
+              "venue": "home",
+              "scored": 3,
+              "allowed": 2,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-17T23:00:00.000Z",
+              "opponent": "Toronto Maple Leafs",
+              "venue": "away",
+              "scored": 4,
+              "allowed": 1,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-15T23:00:00.000Z",
+              "opponent": "Ottawa Senators",
+              "venue": "away",
+              "scored": 1,
+              "allowed": 2,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-13T23:45:00.000Z",
+              "opponent": "Vancouver Canucks",
+              "venue": "home",
+              "scored": 3,
+              "allowed": 2,
+              "result": "W"
+            }
+          ]
+        }
+      },
+      "eligible": false,
+      "reasons": [
+        "Each team needs 10 current-season prior games",
+        "NHL research quality threshold not met"
+      ],
+      "features": null
+    },
+    {
+      "sourceEventId": "2026020193",
+      "home": "Dallas Stars",
+      "away": "New Jersey Devils",
+      "eventStart": "2026-10-28T00:00:00.000Z",
+      "form": {
+        "season": 2027,
+        "window": 10,
+        "lagHours": 48,
+        "cutoff": "2026-10-26T00:00:00.000Z",
+        "home": {
+          "team": "Dallas Stars",
+          "count": 10,
+          "wins": 6,
+          "losses": 4,
+          "ties": 0,
+          "averageMargin": 0.9,
+          "averageScored": 2.6,
+          "averageAllowed": 1.7,
+          "inputAsOf": "2026-10-23T00:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-23T00:00:00.000Z",
+              "opponent": "Winnipeg Jets",
+              "venue": "home",
+              "scored": 3,
+              "allowed": 2,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-21T00:00:00.000Z",
+              "opponent": "Boston Bruins",
+              "venue": "home",
+              "scored": 3,
+              "allowed": 2,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-17T23:00:00.000Z",
+              "opponent": "Chicago Blackhawks",
+              "venue": "away",
+              "scored": 4,
+              "allowed": 0,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-15T00:30:00.000Z",
+              "opponent": "Colorado Avalanche",
+              "venue": "away",
+              "scored": 3,
+              "allowed": 2,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-14T00:30:00.000Z",
+              "opponent": "Colorado Avalanche",
+              "venue": "home",
+              "scored": 2,
+              "allowed": 3,
+              "result": "L"
+            }
+          ]
+        },
+        "away": {
+          "team": "New Jersey Devils",
+          "count": 10,
+          "wins": 6,
+          "losses": 4,
+          "ties": 0,
+          "averageMargin": 0.2,
+          "averageScored": 3.3,
+          "averageAllowed": 3.1,
+          "inputAsOf": "2026-10-22T23:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-22T23:00:00.000Z",
+              "opponent": "Anaheim Ducks",
+              "venue": "home",
+              "scored": 4,
+              "allowed": 1,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-20T23:00:00.000Z",
+              "opponent": "Colorado Avalanche",
+              "venue": "home",
+              "scored": 4,
+              "allowed": 3,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-17T17:00:00.000Z",
+              "opponent": "Washington Capitals",
+              "venue": "away",
+              "scored": 2,
+              "allowed": 4,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-15T23:00:00.000Z",
+              "opponent": "New York Rangers",
+              "venue": "home",
+              "scored": 7,
+              "allowed": 1,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-13T22:00:00.000Z",
+              "opponent": "Detroit Red Wings",
+              "venue": "away",
+              "scored": 5,
+              "allowed": 4,
+              "result": "W"
+            }
+          ]
+        }
+      },
+      "eligible": false,
+      "reasons": [
+        "NHL research quality threshold not met"
+      ],
+      "features": {
+        "x": [
+          0.7,
+          0
+        ],
+        "inputAsOf": "2026-10-23T00:00:00.000Z",
+        "oldestLatest": "2026-10-22T23:00:00.000Z",
+        "sampleSizes": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "sourceEventId": "2026020194",
+      "home": "Winnipeg Jets",
+      "away": "Florida Panthers",
+      "eventStart": "2026-10-28T00:00:00.000Z",
+      "form": {
+        "season": 2027,
+        "window": 10,
+        "lagHours": 48,
+        "cutoff": "2026-10-26T00:00:00.000Z",
+        "home": {
+          "team": "Winnipeg Jets",
+          "count": 10,
+          "wins": 4,
+          "losses": 6,
+          "ties": 0,
+          "averageMargin": -0.3,
+          "averageScored": 2.6,
+          "averageAllowed": 2.9,
+          "inputAsOf": "2026-10-23T00:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-23T00:00:00.000Z",
+              "opponent": "Dallas Stars",
+              "venue": "away",
+              "scored": 2,
+              "allowed": 3,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-21T00:00:00.000Z",
+              "opponent": "St. Louis Blues",
+              "venue": "away",
+              "scored": 1,
+              "allowed": 2,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-17T19:30:00.000Z",
+              "opponent": "Carolina Hurricanes",
+              "venue": "home",
+              "scored": 2,
+              "allowed": 3,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-16T00:00:00.000Z",
+              "opponent": "Chicago Blackhawks",
+              "venue": "away",
+              "scored": 3,
+              "allowed": 4,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-14T00:15:00.000Z",
+              "opponent": "Minnesota Wild",
+              "venue": "home",
+              "scored": 5,
+              "allowed": 2,
+              "result": "W"
+            }
+          ]
+        },
+        "away": {
+          "team": "Florida Panthers",
+          "count": 10,
+          "wins": 4,
+          "losses": 6,
+          "ties": 0,
+          "averageMargin": -0.4,
+          "averageScored": 3,
+          "averageAllowed": 3.4,
+          "inputAsOf": "2026-10-22T23:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-22T23:00:00.000Z",
+              "opponent": "Pittsburgh Penguins",
+              "venue": "away",
+              "scored": 0,
+              "allowed": 4,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-21T23:30:00.000Z",
+              "opponent": "Ottawa Senators",
+              "venue": "away",
+              "scored": 1,
+              "allowed": 5,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-17T22:00:00.000Z",
+              "opponent": "Seattle Kraken",
+              "venue": "home",
+              "scored": 8,
+              "allowed": 3,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-15T23:00:00.000Z",
+              "opponent": "Vancouver Canucks",
+              "venue": "home",
+              "scored": 3,
+              "allowed": 2,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-13T22:15:00.000Z",
+              "opponent": "Columbus Blue Jackets",
+              "venue": "away",
+              "scored": 7,
+              "allowed": 3,
+              "result": "W"
+            }
+          ]
+        }
+      },
+      "eligible": false,
+      "reasons": [
+        "NHL research quality threshold not met"
+      ],
+      "features": {
+        "x": [
+          0.10000000000000003,
+          0
+        ],
+        "inputAsOf": "2026-10-23T00:00:00.000Z",
+        "oldestLatest": "2026-10-22T23:00:00.000Z",
+        "sampleSizes": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "sourceEventId": "2026020195",
+      "home": "Utah Mammoth",
+      "away": "Minnesota Wild",
+      "eventStart": "2026-10-28T01:00:00.000Z",
+      "form": {
+        "season": 2027,
+        "window": 10,
+        "lagHours": 48,
+        "cutoff": "2026-10-26T01:00:00.000Z",
+        "home": {
+          "team": "Utah Mammoth",
+          "count": 10,
+          "wins": 6,
+          "losses": 4,
+          "ties": 0,
+          "averageMargin": -0.1,
+          "averageScored": 3.5,
+          "averageAllowed": 3.6,
+          "inputAsOf": "2026-10-23T02:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-23T02:00:00.000Z",
+              "opponent": "Seattle Kraken",
+              "venue": "away",
+              "scored": 3,
+              "allowed": 5,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-20T01:00:00.000Z",
+              "opponent": "Pittsburgh Penguins",
+              "venue": "home",
+              "scored": 5,
+              "allowed": 4,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-18T02:00:00.000Z",
+              "opponent": "Edmonton Oilers",
+              "venue": "home",
+              "scored": 2,
+              "allowed": 6,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-16T01:00:00.000Z",
+              "opponent": "Edmonton Oilers",
+              "venue": "away",
+              "scored": 4,
+              "allowed": 2,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-14T01:00:00.000Z",
+              "opponent": "Toronto Maple Leafs",
+              "venue": "home",
+              "scored": 5,
+              "allowed": 4,
+              "result": "W"
+            }
+          ]
+        },
+        "away": {
+          "team": "Minnesota Wild",
+          "count": 10,
+          "wins": 5,
+          "losses": 5,
+          "ties": 0,
+          "averageMargin": 0.3,
+          "averageScored": 2.9,
+          "averageAllowed": 2.6,
+          "inputAsOf": "2026-10-23T01:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-23T01:00:00.000Z",
+              "opponent": "Calgary Flames",
+              "venue": "away",
+              "scored": 1,
+              "allowed": 2,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-21T01:00:00.000Z",
+              "opponent": "Edmonton Oilers",
+              "venue": "away",
+              "scored": 3,
+              "allowed": 4,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-18T22:00:00.000Z",
+              "opponent": "Columbus Blue Jackets",
+              "venue": "home",
+              "scored": 2,
+              "allowed": 1,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-16T00:00:00.000Z",
+              "opponent": "St. Louis Blues",
+              "venue": "home",
+              "scored": 5,
+              "allowed": 4,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-14T00:15:00.000Z",
+              "opponent": "Winnipeg Jets",
+              "venue": "away",
+              "scored": 2,
+              "allowed": 5,
+              "result": "L"
+            }
+          ]
+        }
+      },
+      "eligible": false,
+      "reasons": [
+        "NHL research quality threshold not met"
+      ],
+      "features": {
+        "x": [
+          -0.4,
+          0.09999999999999998
+        ],
+        "inputAsOf": "2026-10-23T02:00:00.000Z",
+        "oldestLatest": "2026-10-23T01:00:00.000Z",
+        "sampleSizes": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "sourceEventId": "2026020196",
+      "home": "Vegas Golden Knights",
+      "away": "Ottawa Senators",
+      "eventStart": "2026-10-28T02:00:00.000Z",
+      "form": {
+        "season": 2027,
+        "window": 10,
+        "lagHours": 48,
+        "cutoff": "2026-10-26T02:00:00.000Z",
+        "home": {
+          "team": "Vegas Golden Knights",
+          "count": 10,
+          "wins": 7,
+          "losses": 3,
+          "ties": 0,
+          "averageMargin": 0.8,
+          "averageScored": 3.8,
+          "averageAllowed": 3,
+          "inputAsOf": "2026-10-23T00:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-23T00:00:00.000Z",
+              "opponent": "St. Louis Blues",
+              "venue": "away",
+              "scored": 2,
+              "allowed": 6,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-21T02:30:00.000Z",
+              "opponent": "Tampa Bay Lightning",
+              "venue": "home",
+              "scored": 2,
+              "allowed": 6,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-18T02:00:00.000Z",
+              "opponent": "Pittsburgh Penguins",
+              "venue": "home",
+              "scored": 6,
+              "allowed": 2,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-16T02:00:00.000Z",
+              "opponent": "Calgary Flames",
+              "venue": "home",
+              "scored": 6,
+              "allowed": 2,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-14T00:45:00.000Z",
+              "opponent": "Nashville Predators",
+              "venue": "away",
+              "scored": 5,
+              "allowed": 2,
+              "result": "W"
+            }
+          ]
+        },
+        "away": {
+          "team": "Ottawa Senators",
+          "count": 10,
+          "wins": 6,
+          "losses": 4,
+          "ties": 0,
+          "averageMargin": 0,
+          "averageScored": 2.8,
+          "averageAllowed": 2.8,
+          "inputAsOf": "2026-10-22T23:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-22T23:00:00.000Z",
+              "opponent": "San Jose Sharks",
+              "venue": "home",
+              "scored": 2,
+              "allowed": 6,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-21T23:30:00.000Z",
+              "opponent": "Florida Panthers",
+              "venue": "home",
+              "scored": 5,
+              "allowed": 1,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-17T23:00:00.000Z",
+              "opponent": "Philadelphia Flyers",
+              "venue": "away",
+              "scored": 1,
+              "allowed": 3,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-15T23:00:00.000Z",
+              "opponent": "New York Islanders",
+              "venue": "home",
+              "scored": 2,
+              "allowed": 1,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-13T23:30:00.000Z",
+              "opponent": "St. Louis Blues",
+              "venue": "home",
+              "scored": 2,
+              "allowed": 7,
+              "result": "L"
+            }
+          ]
+        }
+      },
+      "eligible": false,
+      "reasons": [
+        "NHL research quality threshold not met"
+      ],
+      "features": {
+        "x": [
+          0.8,
+          0.09999999999999998
+        ],
+        "inputAsOf": "2026-10-23T00:00:00.000Z",
+        "oldestLatest": "2026-10-22T23:00:00.000Z",
+        "sampleSizes": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "sourceEventId": "2026020197",
+      "home": "Anaheim Ducks",
+      "away": "Vancouver Canucks",
+      "eventStart": "2026-10-28T02:00:00.000Z",
+      "form": {
+        "season": 2027,
+        "window": 10,
+        "lagHours": 48,
+        "cutoff": "2026-10-26T02:00:00.000Z",
+        "home": {
+          "team": "Anaheim Ducks",
+          "count": 10,
+          "wins": 4,
+          "losses": 6,
+          "ties": 0,
+          "averageMargin": -0.6,
+          "averageScored": 2.7,
+          "averageAllowed": 3.3,
+          "inputAsOf": "2026-10-22T23:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-22T23:00:00.000Z",
+              "opponent": "New Jersey Devils",
+              "venue": "away",
+              "scored": 1,
+              "allowed": 4,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-20T23:00:00.000Z",
+              "opponent": "New York Islanders",
+              "venue": "away",
+              "scored": 2,
+              "allowed": 3,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-19T23:00:00.000Z",
+              "opponent": "New York Rangers",
+              "venue": "away",
+              "scored": 2,
+              "allowed": 5,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-17T02:00:00.000Z",
+              "opponent": "Boston Bruins",
+              "venue": "home",
+              "scored": 2,
+              "allowed": 4,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-14T01:45:00.000Z",
+              "opponent": "Calgary Flames",
+              "venue": "home",
+              "scored": 2,
+              "allowed": 4,
+              "result": "L"
+            }
+          ]
+        },
+        "away": {
+          "team": "Vancouver Canucks",
+          "count": 10,
+          "wins": 1,
+          "losses": 9,
+          "ties": 0,
+          "averageMargin": -2,
+          "averageScored": 2.2,
+          "averageAllowed": 4.2,
+          "inputAsOf": "2026-10-23T02:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-23T02:00:00.000Z",
+              "opponent": "Detroit Red Wings",
+              "venue": "home",
+              "scored": 2,
+              "allowed": 5,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-21T02:00:00.000Z",
+              "opponent": "Carolina Hurricanes",
+              "venue": "home",
+              "scored": 3,
+              "allowed": 6,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-17T20:00:00.000Z",
+              "opponent": "Tampa Bay Lightning",
+              "venue": "away",
+              "scored": 2,
+              "allowed": 4,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-15T23:00:00.000Z",
+              "opponent": "Florida Panthers",
+              "venue": "away",
+              "scored": 2,
+              "allowed": 3,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-13T23:45:00.000Z",
+              "opponent": "New York Islanders",
+              "venue": "away",
+              "scored": 2,
+              "allowed": 3,
+              "result": "L"
+            }
+          ]
+        }
+      },
+      "eligible": false,
+      "reasons": [
+        "NHL research quality threshold not met"
+      ],
+      "features": {
+        "x": [
+          1.4,
+          0.30000000000000004
+        ],
+        "inputAsOf": "2026-10-23T02:00:00.000Z",
+        "oldestLatest": "2026-10-22T23:00:00.000Z",
+        "sampleSizes": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "sourceEventId": "2026020198",
+      "home": "San Jose Sharks",
+      "away": "Buffalo Sabres",
+      "eventStart": "2026-10-28T02:30:00.000Z",
+      "form": {
+        "season": 2027,
+        "window": 10,
+        "lagHours": 48,
+        "cutoff": "2026-10-26T02:30:00.000Z",
+        "home": {
+          "team": "San Jose Sharks",
+          "count": 10,
+          "wins": 5,
+          "losses": 5,
+          "ties": 0,
+          "averageMargin": -0.5,
+          "averageScored": 2.9,
+          "averageAllowed": 3.4,
+          "inputAsOf": "2026-10-22T23:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-22T23:00:00.000Z",
+              "opponent": "Ottawa Senators",
+              "venue": "away",
+              "scored": 6,
+              "allowed": 2,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-20T23:00:00.000Z",
+              "opponent": "Montreal Canadiens",
+              "venue": "away",
+              "scored": 4,
+              "allowed": 3,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-19T23:30:00.000Z",
+              "opponent": "Toronto Maple Leafs",
+              "venue": "away",
+              "scored": 1,
+              "allowed": 3,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-17T23:00:00.000Z",
+              "opponent": "Detroit Red Wings",
+              "venue": "away",
+              "scored": 3,
+              "allowed": 4,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-16T00:00:00.000Z",
+              "opponent": "Nashville Predators",
+              "venue": "away",
+              "scored": 3,
+              "allowed": 2,
+              "result": "W"
+            }
+          ]
+        },
+        "away": {
+          "team": "Buffalo Sabres",
+          "count": 10,
+          "wins": 4,
+          "losses": 6,
+          "ties": 0,
+          "averageMargin": -0.9,
+          "averageScored": 2.8,
+          "averageAllowed": 3.7,
+          "inputAsOf": "2026-10-21T23:30:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-21T23:30:00.000Z",
+              "opponent": "Philadelphia Flyers",
+              "venue": "home",
+              "scored": 1,
+              "allowed": 3,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-17T23:00:00.000Z",
+              "opponent": "Montreal Canadiens",
+              "venue": "away",
+              "scored": 3,
+              "allowed": 4,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-15T23:00:00.000Z",
+              "opponent": "Toronto Maple Leafs",
+              "venue": "away",
+              "scored": 5,
+              "allowed": 4,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-13T22:30:00.000Z",
+              "opponent": "Montreal Canadiens",
+              "venue": "away",
+              "scored": 3,
+              "allowed": 4,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-12T17:00:00.000Z",
+              "opponent": "Florida Panthers",
+              "venue": "home",
+              "scored": 5,
+              "allowed": 3,
+              "result": "W"
+            }
+          ]
+        }
+      },
+      "eligible": false,
+      "reasons": [
+        "NHL research quality threshold not met"
+      ],
+      "features": {
+        "x": [
+          0.4,
+          0.09999999999999998
+        ],
+        "inputAsOf": "2026-10-22T23:00:00.000Z",
+        "oldestLatest": "2026-10-21T23:30:00.000Z",
+        "sampleSizes": [
+          10,
+          10
+        ]
+      }
     }
   ]
 }
