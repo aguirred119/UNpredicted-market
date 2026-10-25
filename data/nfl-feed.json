@@ -12,7 +12,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_07_CIN_BAL-form-v1",
-      "checkedAt": "2026-10-24T13:00:20.315Z"
+      "checkedAt": "2026-10-25T13:00:56.457Z"
     },
     {
       "league": "NFL",
@@ -24,7 +24,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_07_CLE_TEN-form-v1",
-      "checkedAt": "2026-10-24T13:00:20.315Z"
+      "checkedAt": "2026-10-25T13:00:56.457Z"
     },
     {
       "league": "NFL",
@@ -36,7 +36,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_07_IND_MIN-form-v1",
-      "checkedAt": "2026-10-24T13:00:20.315Z"
+      "checkedAt": "2026-10-25T13:00:56.457Z"
     },
     {
       "league": "NFL",
@@ -48,7 +48,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_07_MIA_NYJ-form-v1",
-      "checkedAt": "2026-10-24T13:00:20.315Z"
+      "checkedAt": "2026-10-25T13:00:56.457Z"
     },
     {
       "league": "NFL",
@@ -60,7 +60,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_07_NYG_HOU-form-v1",
-      "checkedAt": "2026-10-24T13:00:20.315Z"
+      "checkedAt": "2026-10-25T13:00:56.457Z"
     },
     {
       "league": "NFL",
@@ -72,7 +72,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_07_SF_ATL-form-v1",
-      "checkedAt": "2026-10-24T13:00:20.315Z"
+      "checkedAt": "2026-10-25T13:00:56.457Z"
     },
     {
       "league": "NFL",
@@ -84,7 +84,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_07_TB_CAR-form-v1",
-      "checkedAt": "2026-10-24T13:00:20.315Z"
+      "checkedAt": "2026-10-25T13:00:56.457Z"
     },
     {
       "league": "NFL",
@@ -96,7 +96,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_07_DEN_ARI-form-v1",
-      "checkedAt": "2026-10-24T13:00:20.315Z"
+      "checkedAt": "2026-10-25T13:00:56.457Z"
     },
     {
       "league": "NFL",
@@ -108,7 +108,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_07_GB_DET-form-v1",
-      "checkedAt": "2026-10-24T13:00:20.315Z"
+      "checkedAt": "2026-10-25T13:00:56.457Z"
     },
     {
       "league": "NFL",
@@ -120,7 +120,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_07_LA_LV-form-v1",
-      "checkedAt": "2026-10-24T13:00:20.315Z"
+      "checkedAt": "2026-10-25T13:00:56.457Z"
     },
     {
       "league": "NFL",
@@ -132,7 +132,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_07_KC_SEA-form-v1",
-      "checkedAt": "2026-10-24T13:00:20.315Z"
+      "checkedAt": "2026-10-25T13:00:56.457Z"
     },
     {
       "league": "NFL",
@@ -141,10 +141,10 @@
       "home": "Philadelphia Eagles",
       "away": "Dallas Cowboys",
       "eventStart": "2026-10-27T00:15:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_07_DAL_PHI-form-v1",
-      "checkedAt": "2026-10-24T13:00:20.315Z"
+      "checkedAt": "2026-10-25T13:00:56.457Z"
     },
     {
       "league": "NFL",
@@ -158,14 +158,14 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-24T13:00:20.315Z"
+      "checkedAt": "2026-10-25T13:00:56.457Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-10-24T13:00:18.201Z",
-  "state": "published",
-  "publishedThisRun": 1,
-  "gradedThisRun": 0,
+  "lastAttemptAt": "2026-10-25T13:00:53.085Z",
+  "state": "waiting-for-eligible-games",
+  "publishedThisRun": 0,
+  "gradedThisRun": 1,
   "skipped": [
     {
       "event": "Pittsburgh Steelers at New Orleans Saints",
@@ -177,7 +177,7 @@
   ],
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
-  "sourceThrough": "2026-10-20T00:15:00.000Z",
-  "scheduleAsOf": "2026-10-24T13:00:20.273Z",
-  "completedAt": "2026-10-24T13:00:20.338Z"
+  "sourceThrough": "2026-10-23T00:15:00.000Z",
+  "scheduleAsOf": "2026-10-25T13:00:56.420Z",
+  "completedAt": "2026-10-25T13:00:56.480Z"
 }
