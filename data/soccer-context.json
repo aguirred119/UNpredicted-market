@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastAttemptAt": "2026-10-25T13:10:32.267Z",
+  "lastAttemptAt": "2026-10-26T15:03:04.012Z",
   "cadence": "Daily retrieval; upstream community results are not guaranteed to update daily.",
   "leagues": {
     "Premier League": {
@@ -8,7 +8,7 @@
       "league": "Premier League",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-10-25T13:10:32.267Z",
+      "generatedAt": "2026-10-26T15:03:04.012Z",
       "dataThrough": "2026-09-20",
       "completedGames": 50,
       "source": {
@@ -26,7 +26,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-10-25T13:10:33.142Z",
+      "scheduleAsOf": "2026-10-26T15:03:04.584Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -1232,51 +1232,6 @@
       ],
       "upcoming": [
         {
-          "eventId": "33fb7467b23c91d57dc976d9ab05ea97",
-          "home": "Manchester United",
-          "away": "Bournemouth",
-          "eventStart": "2026-10-25T14:00:00.000Z",
-          "sourceEventId": "soccer-e81954a25a640c376cfb92cb",
-          "sourceDate": "2026-10-25",
-          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
-        },
-        {
-          "eventId": "69493b5ebb84f24ab1d6023a30ee89f0",
-          "home": "Hull City",
-          "away": "Brentford",
-          "eventStart": "2026-10-25T14:00:00.000Z",
-          "sourceEventId": "soccer-20fcdc4449f9be03b6bac435",
-          "sourceDate": "2026-10-25",
-          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
-        },
-        {
-          "eventId": "290ba8cd3f3a2e9252effca673bf5549",
-          "home": "Liverpool",
-          "away": "Brighton and Hove Albion",
-          "eventStart": "2026-10-25T14:00:00.000Z",
-          "sourceEventId": "soccer-2e4302b2c69e9358fc8c1dfa",
-          "sourceDate": "2026-10-25",
-          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
-        },
-        {
-          "eventId": "fe235b26408c477368c40672a4488694",
-          "home": "Crystal Palace",
-          "away": "Newcastle United",
-          "eventStart": "2026-10-25T14:00:00.000Z",
-          "sourceEventId": "soccer-8133ce07d57bb23a7ad5a544",
-          "sourceDate": "2026-10-25",
-          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
-        },
-        {
-          "eventId": "e82f6b60fa41b82c8510f5b67ce61849",
-          "home": "Sunderland",
-          "away": "Leeds United",
-          "eventStart": "2026-10-25T16:30:00.000Z",
-          "sourceEventId": "soccer-ca302b2b95638d09f9d5e114",
-          "sourceDate": "2026-10-25",
-          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
-        },
-        {
           "eventId": "6601f69175a02f03fb7065aacb538e01",
           "home": "Chelsea",
           "away": "Manchester United",
@@ -1407,6 +1362,26 @@
         {
           "event": "Coventry City at Everton",
           "reason": "No unique uncompleted source fixture for these teams and competition-local date"
+        },
+        {
+          "event": "Bournemouth at Ipswich Town",
+          "reason": "No unique uncompleted source fixture for these teams and competition-local date"
+        },
+        {
+          "event": "Brentford at Brighton and Hove Albion",
+          "reason": "No unique uncompleted source fixture for these teams and competition-local date"
+        },
+        {
+          "event": "Chelsea at Sunderland",
+          "reason": "No unique uncompleted source fixture for these teams and competition-local date"
+        },
+        {
+          "event": "Liverpool at Crystal Palace",
+          "reason": "No unique uncompleted source fixture for these teams and competition-local date"
+        },
+        {
+          "event": "Aston Villa at Manchester United",
+          "reason": "No unique uncompleted source fixture for these teams and competition-local date"
         }
       ]
     },
@@ -1415,7 +1390,7 @@
       "league": "La Liga",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-10-25T13:10:32.267Z",
+      "generatedAt": "2026-10-26T15:03:04.012Z",
       "dataThrough": "2026-09-20",
       "completedGames": 69,
       "source": {
@@ -1433,7 +1408,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-10-25T13:10:33.379Z",
+      "scheduleAsOf": "2026-10-26T15:03:04.896Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -2639,33 +2614,6 @@
       ],
       "upcoming": [
         {
-          "eventId": "2013e3955186ebe5258e85eb741a7553",
-          "home": "Celta Vigo",
-          "away": "Real Betis",
-          "eventStart": "2026-10-25T15:15:00.000Z",
-          "sourceEventId": "soccer-7cea4f4b5526feb806f1f669",
-          "sourceDate": "2026-10-25",
-          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
-        },
-        {
-          "eventId": "3cb8660cd2375b60e81144a7572cfb89",
-          "home": "Real Sociedad",
-          "away": "Levante",
-          "eventStart": "2026-10-25T17:30:00.000Z",
-          "sourceEventId": "soccer-60b1bc28897df1e96dc375c0",
-          "sourceDate": "2026-10-25",
-          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
-        },
-        {
-          "eventId": "72089d103a5fe6a922c35e17efba6ffc",
-          "home": "Barcelona",
-          "away": "Real Madrid",
-          "eventStart": "2026-10-25T20:00:00.000Z",
-          "sourceEventId": "soccer-45b7d65050b543984237961c",
-          "sourceDate": "2026-10-25",
-          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
-        },
-        {
           "eventId": "ddcc9a51a2d7368e055d1abefacdb74e",
           "home": "Getafe",
           "away": "Sevilla",
@@ -2700,6 +2648,51 @@
           "sourceEventId": "soccer-bd53be8e5dbd73bcae3c61fb",
           "sourceDate": "2026-11-01",
           "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "c35673eb1e889309d6985c091a43a3f5",
+          "home": "Elche CF",
+          "away": "Real Betis",
+          "eventStart": "2026-11-08T13:00:00.000Z",
+          "sourceEventId": "soccer-5846fcb376b611661f0e8bed",
+          "sourceDate": "2026-11-08",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "339a6465fa5153fd8f31e487cf557cf0",
+          "home": "Real Sociedad",
+          "away": "Rayo Vallecano",
+          "eventStart": "2026-11-08T15:15:00.000Z",
+          "sourceEventId": "soccer-773060cd04a8194f0af051c4",
+          "sourceDate": "2026-11-08",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "0d2e199bfba0db42871696c10037bad3",
+          "home": "Celta Vigo",
+          "away": "Levante",
+          "eventStart": "2026-11-08T17:30:00.000Z",
+          "sourceEventId": "soccer-8489ecd6862daed565b51757",
+          "sourceDate": "2026-11-08",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "81ad04996f63fb60b494d243b13ac586",
+          "home": "Villarreal",
+          "away": "Getafe",
+          "eventStart": "2026-11-08T17:30:00.000Z",
+          "sourceEventId": "soccer-e2fd2c775efe09fd38051d35",
+          "sourceDate": "2026-11-08",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "dd247b356d8fc53e4b4f9bfcfe09c924",
+          "home": "Atlético Madrid",
+          "away": "Barcelona",
+          "eventStart": "2026-11-08T20:00:00.000Z",
+          "sourceEventId": "soccer-6566ec5d7a8882294013ee35",
+          "sourceDate": "2026-11-08",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
         }
       ],
       "skipped": [
@@ -2730,6 +2723,26 @@
         {
           "event": "CA Osasuna at Deportivo La Coruña",
           "reason": "No unique uncompleted source fixture for these teams and competition-local date"
+        },
+        {
+          "event": "Alavés at Sevilla",
+          "reason": "No unique uncompleted source fixture for these teams and competition-local date"
+        },
+        {
+          "event": "Real Racing Club de Santander at Málaga",
+          "reason": "No unique uncompleted source fixture for these teams and competition-local date"
+        },
+        {
+          "event": "Deportivo La Coruña at Espanyol",
+          "reason": "No unique uncompleted source fixture for these teams and competition-local date"
+        },
+        {
+          "event": "Athletic Bilbao at CA Osasuna",
+          "reason": "No unique uncompleted source fixture for these teams and competition-local date"
+        },
+        {
+          "event": "Real Madrid at Valencia",
+          "reason": "No unique uncompleted source fixture for these teams and competition-local date"
         }
       ]
     },
@@ -2738,7 +2751,7 @@
       "league": "Serie A",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-10-25T13:10:32.267Z",
+      "generatedAt": "2026-10-26T15:03:04.012Z",
       "dataThrough": "2026-09-20",
       "completedGames": 50,
       "source": {
@@ -2756,7 +2769,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-10-25T13:10:33.525Z",
+      "scheduleAsOf": "2026-10-26T15:03:05.152Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -3962,42 +3975,6 @@
       ],
       "upcoming": [
         {
-          "eventId": "63aa6e3f679ee4c68de5b4bd8d3361bb",
-          "home": "Atalanta BC",
-          "away": "Frosinone",
-          "eventStart": "2026-10-25T14:00:00.000Z",
-          "sourceEventId": "soccer-fcb31d2ac834d9b7dd5b1450",
-          "sourceDate": "2026-10-25",
-          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
-        },
-        {
-          "eventId": "95cfaecfe96bb7ced1fb6af974a4110b",
-          "home": "Genoa",
-          "away": "Venezia",
-          "eventStart": "2026-10-25T14:00:00.000Z",
-          "sourceEventId": "soccer-0faa9a913dacc7ea720d5a79",
-          "sourceDate": "2026-10-25",
-          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
-        },
-        {
-          "eventId": "63af660d4d0d52f8ac7685172ef939c4",
-          "home": "Lecce",
-          "away": "Juventus",
-          "eventStart": "2026-10-25T17:00:00.000Z",
-          "sourceEventId": "soccer-b67a9378ddca7465a92f369b",
-          "sourceDate": "2026-10-25",
-          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
-        },
-        {
-          "eventId": "3564688383b255192409c9deb8e526ed",
-          "home": "Udinese",
-          "away": "AC Milan",
-          "eventStart": "2026-10-25T19:45:00.000Z",
-          "sourceEventId": "soccer-13c30dcc448223d4fc3d9689",
-          "sourceDate": "2026-10-25",
-          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
-        },
-        {
           "eventId": "c7445242bf16a8f37afef7863af45a78",
           "home": "Sassuolo",
           "away": "Lazio",
@@ -4086,6 +4063,96 @@
           "sourceEventId": "soccer-4c7bff29cd2b498ad03beb33",
           "sourceDate": "2026-10-29",
           "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "04aa939b89001eedf55668e66c74836e",
+          "home": "Bologna",
+          "away": "Monza",
+          "eventStart": "2026-10-31T14:00:00.000Z",
+          "sourceEventId": "soccer-cbdf6f9c83e2b90f03c4bada",
+          "sourceDate": "2026-10-31",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "34cd26b96f78bd7aa3dbff3d1daca7a7",
+          "home": "Udinese",
+          "away": "AS Roma",
+          "eventStart": "2026-10-31T17:00:00.000Z",
+          "sourceEventId": "soccer-09bce741a3835538df5527a4",
+          "sourceDate": "2026-10-31",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "e82f25e981f2ebc731cfaf5716231af5",
+          "home": "AC Milan",
+          "away": "Inter Milan",
+          "eventStart": "2026-10-31T19:45:00.000Z",
+          "sourceEventId": "soccer-6fd023a8d4d4e8ff0e515b93",
+          "sourceDate": "2026-10-31",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "9507f4bcbcfd4e4953720628a2b86a17",
+          "home": "Como",
+          "away": "Venezia",
+          "eventStart": "2026-11-01T11:30:00.000Z",
+          "sourceEventId": "soccer-cabd326751fa1d0e1d6de2fc",
+          "sourceDate": "2026-11-01",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "3f9f4bc9a19bf36dcb74be2f29610d55",
+          "home": "Lazio",
+          "away": "Cagliari",
+          "eventStart": "2026-11-01T14:00:00.000Z",
+          "sourceEventId": "soccer-00b2907c7f15569b2c127aed",
+          "sourceDate": "2026-11-01",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "b7b781db85506536dce5e7ce59a59863",
+          "home": "Frosinone",
+          "away": "Torino",
+          "eventStart": "2026-11-01T14:00:00.000Z",
+          "sourceEventId": "soccer-7f2e6618e90e231bdeb83071",
+          "sourceDate": "2026-11-01",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "940b9e69539033539039f9af694e2925",
+          "home": "Lecce",
+          "away": "Genoa",
+          "eventStart": "2026-11-01T17:00:00.000Z",
+          "sourceEventId": "soccer-7323853e54f3eb38be30f9bb",
+          "sourceDate": "2026-11-01",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "aeadf1388a1075328536501576b3d550",
+          "home": "Juventus",
+          "away": "Napoli",
+          "eventStart": "2026-11-01T19:45:00.000Z",
+          "sourceEventId": "soccer-9c67907bee8299ae878de013",
+          "sourceDate": "2026-11-01",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "66608b64d462d1d3deabe573c8456d86",
+          "home": "Sassuolo",
+          "away": "Fiorentina",
+          "eventStart": "2026-11-02T17:30:00.000Z",
+          "sourceEventId": "soccer-89d5fbc5ac2cbdbd16c5af9d",
+          "sourceDate": "2026-11-02",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "2e488800d615a94e5377c195810303c0",
+          "home": "Atalanta BC",
+          "away": "Parma",
+          "eventStart": "2026-11-02T19:45:00.000Z",
+          "sourceEventId": "soccer-06fe8c176b9f815212fbd211",
+          "sourceDate": "2026-11-02",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
         }
       ],
       "skipped": []
@@ -4095,7 +4162,7 @@
       "league": "Bundesliga",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-10-25T13:10:32.267Z",
+      "generatedAt": "2026-10-26T15:03:04.012Z",
       "dataThrough": "2026-09-20",
       "completedGames": 36,
       "source": {
@@ -4113,7 +4180,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-10-25T13:10:33.666Z",
+      "scheduleAsOf": "2026-10-26T15:03:05.314Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -5037,24 +5104,6 @@
       ],
       "upcoming": [
         {
-          "eventId": "2fd479cbb110c8f057e363bb06195f2b",
-          "home": "TSG Hoffenheim",
-          "away": "Bayer Leverkusen",
-          "eventStart": "2026-10-25T14:30:00.000Z",
-          "sourceEventId": "soccer-16b40f0ce66fc18eb8aea7e5",
-          "sourceDate": "2026-10-25",
-          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
-        },
-        {
-          "eventId": "f2bd909f25eea6b4ce42d2f52275e5c4",
-          "home": "SC Freiburg",
-          "away": "Bayern Munich",
-          "eventStart": "2026-10-25T16:30:00.000Z",
-          "sourceEventId": "soccer-278be6a41496372b528c28d3",
-          "sourceDate": "2026-10-25",
-          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
-        },
-        {
           "eventId": "b275fe870ec88a9f0054c9220beb2673",
           "home": "Elversberg",
           "away": "FSV Mainz 05",
@@ -5134,6 +5183,87 @@
           "sourceEventId": "soccer-97056af65a87f5371eaff873",
           "sourceDate": "2026-11-01",
           "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "295076c39e49863cb54db085ac3cd340",
+          "home": "Hamburger SV",
+          "away": "Borussia Monchengladbach",
+          "eventStart": "2026-11-06T19:30:00.000Z",
+          "sourceEventId": "soccer-fed3e46f0b16983255e67013",
+          "sourceDate": "2026-11-06",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "cdb5f9dd39e79db69659c76cd96d0bbe",
+          "home": "RB Leipzig",
+          "away": "Augsburg",
+          "eventStart": "2026-11-07T14:30:00.000Z",
+          "sourceEventId": "soccer-3be8d38dae8f0f12f995eed3",
+          "sourceDate": "2026-11-07",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "fe97f5adf397dd6b0a8a9e0a5272f307",
+          "home": "FSV Mainz 05",
+          "away": "Bayern Munich",
+          "eventStart": "2026-11-07T14:30:00.000Z",
+          "sourceEventId": "soccer-e94e2e05853a8f5ec891f1f4",
+          "sourceDate": "2026-11-07",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "3ef62ef56758041178c5280225fe5db7",
+          "home": "Borussia Dortmund",
+          "away": "Elversberg",
+          "eventStart": "2026-11-07T14:30:00.000Z",
+          "sourceEventId": "soccer-feae3ab6cf0f30b432744dd8",
+          "sourceDate": "2026-11-07",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "4ca4c7a2a1c15e9121f9a7eaa7f42ddb",
+          "home": "SC Paderborn",
+          "away": "Eintracht Frankfurt",
+          "eventStart": "2026-11-07T14:30:00.000Z",
+          "sourceEventId": "soccer-5fd9d8d6baad6461c016d443",
+          "sourceDate": "2026-11-07",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "716d6e3f3e91c47a6efaa2e93d570533",
+          "home": "VfB Stuttgart",
+          "away": "Werder Bremen",
+          "eventStart": "2026-11-07T17:30:00.000Z",
+          "sourceEventId": "soccer-ee01f11a2cd02f3bf8d1b785",
+          "sourceDate": "2026-11-07",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "c70f9f21f48464daa93973147502e183",
+          "home": "1. FC Köln",
+          "away": "Bayer Leverkusen",
+          "eventStart": "2026-11-08T14:30:00.000Z",
+          "sourceEventId": "soccer-447171c02b84fe7ff1e8186c",
+          "sourceDate": "2026-11-08",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "c1b9696d88719cb8832d794b986cdd68",
+          "home": "SC Freiburg",
+          "away": "Union Berlin",
+          "eventStart": "2026-11-08T16:30:00.000Z",
+          "sourceEventId": "soccer-d3a5b7a2292262e2ab5735ae",
+          "sourceDate": "2026-11-08",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "8963081c3457212ee238b498bbc33a03",
+          "home": "TSG Hoffenheim",
+          "away": "FC Schalke 04",
+          "eventStart": "2026-11-08T18:30:00.000Z",
+          "sourceEventId": "soccer-46257f2fcdb705b17b3378cc",
+          "sourceDate": "2026-11-08",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
         }
       ],
       "skipped": []
@@ -5143,7 +5273,7 @@
       "league": "Ligue 1",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-10-25T13:10:32.267Z",
+      "generatedAt": "2026-10-26T15:03:04.012Z",
       "dataThrough": "2026-09-20",
       "completedGames": 45,
       "source": {
@@ -5161,7 +5291,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-10-25T13:10:33.805Z",
+      "scheduleAsOf": "2026-10-26T15:03:05.724Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -6247,51 +6377,6 @@
       ],
       "upcoming": [
         {
-          "eventId": "c177a3c900d7febf9870ca8de90a9e35",
-          "home": "AS Monaco",
-          "away": "Lille",
-          "eventStart": "2026-10-25T14:00:00.000Z",
-          "sourceEventId": "soccer-99ff868ace490db629432a3a",
-          "sourceDate": "2026-10-25",
-          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
-        },
-        {
-          "eventId": "1a83b5ebabe7cb572ae6e029b3149c42",
-          "home": "Angers",
-          "away": "Lorient",
-          "eventStart": "2026-10-25T16:15:00.000Z",
-          "sourceEventId": "soccer-d584cead569ea3a3151ba497",
-          "sourceDate": "2026-10-25",
-          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
-        },
-        {
-          "eventId": "8eab078a37a63df32ffa443302a2a7ba",
-          "home": "Auxerre",
-          "away": "Le Mans FC",
-          "eventStart": "2026-10-25T16:15:00.000Z",
-          "sourceEventId": "soccer-da9f376879ae9f2526064a98",
-          "sourceDate": "2026-10-25",
-          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
-        },
-        {
-          "eventId": "fcc34b753fc61a0cc0e11d7cb0a0c36b",
-          "home": "Marseille",
-          "away": "Le Havre",
-          "eventStart": "2026-10-25T16:15:00.000Z",
-          "sourceEventId": "soccer-4e737c6615c86ef2d79ef24d",
-          "sourceDate": "2026-10-25",
-          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
-        },
-        {
-          "eventId": "31dcb6d13ed240fc4a5c7a696149967e",
-          "home": "Rennes",
-          "away": "Strasbourg",
-          "eventStart": "2026-10-25T16:15:00.000Z",
-          "sourceEventId": "soccer-9d06e03a40ddcd31eb81c908",
-          "sourceDate": "2026-10-25",
-          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
-        },
-        {
           "eventId": "9a9f6c78276f74f15f42b013b033aa5d",
           "home": "Le Havre",
           "away": "Paris Saint Germain",
@@ -6371,13 +6456,90 @@
           "sourceEventId": "soccer-c3d49aa51ce7c1029e91b754",
           "sourceDate": "2026-11-01",
           "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "5e7d141f719835de18877ed95bedcb32",
+          "home": "Toulouse",
+          "away": "Strasbourg",
+          "eventStart": "2026-11-06T19:45:00.000Z",
+          "sourceEventId": "soccer-d698db7efa682811ce94d09f",
+          "sourceDate": "2026-11-06",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "8553a80cf1ae5cbe3e7a69b76ce8167f",
+          "home": "Auxerre",
+          "away": "Paris FC",
+          "eventStart": "2026-11-07T16:15:00.000Z",
+          "sourceEventId": "soccer-63a8b13c03f7d4e289711879",
+          "sourceDate": "2026-11-07",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "f7b240389fa5ec055c58a48ab153dcdd",
+          "home": "Paris Saint Germain",
+          "away": "Troyes",
+          "eventStart": "2026-11-07T19:45:00.000Z",
+          "sourceEventId": "soccer-9f0102059c762be8695e20ed",
+          "sourceDate": "2026-11-07",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "4288fbe018e6e6fb223e389bcf3e57dd",
+          "home": "Rennes",
+          "away": "Lille",
+          "eventStart": "2026-11-08T14:00:00.000Z",
+          "sourceEventId": "soccer-5482ebbb7a5b4952a0f6bc9c",
+          "sourceDate": "2026-11-08",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "a529e5762f18d97981194ec3668dc3d3",
+          "home": "Le Mans FC",
+          "away": "AS Monaco",
+          "eventStart": "2026-11-08T16:15:00.000Z",
+          "sourceEventId": "soccer-5af456df0fd4d75c434df413",
+          "sourceDate": "2026-11-08",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "54fae64b1421d836e07a17cad0536c73",
+          "home": "Angers",
+          "away": "Nice",
+          "eventStart": "2026-11-08T16:15:00.000Z",
+          "sourceEventId": "soccer-53b90ff952ac4f8e74c5cf86",
+          "sourceDate": "2026-11-08",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "cc9731ee7796fe0d532f11ca2aa522c9",
+          "home": "Brest",
+          "away": "Lyon",
+          "eventStart": "2026-11-08T16:15:00.000Z",
+          "sourceEventId": "soccer-68dde837ca20df2b0ff6ee7b",
+          "sourceDate": "2026-11-08",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "3e9954446f26494c04c4967db523d375",
+          "home": "Le Havre",
+          "away": "Lorient",
+          "eventStart": "2026-11-08T16:15:00.000Z",
+          "sourceEventId": "soccer-0fd1e9c704363a8a9013d580",
+          "sourceDate": "2026-11-08",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
+        },
+        {
+          "eventId": "4e917e19b59093a02a0e12bcf9a5ecc4",
+          "home": "RC Lens",
+          "away": "Marseille",
+          "eventStart": "2026-11-08T19:45:00.000Z",
+          "sourceEventId": "soccer-a212d4e27b2c4227de43f710",
+          "sourceDate": "2026-11-08",
+          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
         }
       ],
       "skipped": [
-        {
-          "event": "Troyes at Toulouse",
-          "reason": "No unique uncompleted source fixture for these teams and competition-local date"
-        },
         {
           "event": "Lyon at Paris Saint Germain",
           "reason": "No unique uncompleted source fixture for these teams and competition-local date"
@@ -6388,31 +6550,31 @@
   "refresh": {
     "Premier League": {
       "state": "updated",
-      "attemptedAt": "2026-10-25T13:10:32.267Z",
+      "attemptedAt": "2026-10-26T15:03:04.012Z",
       "resultsChanged": false,
       "sourceFileChanged": false
     },
     "La Liga": {
       "state": "updated",
-      "attemptedAt": "2026-10-25T13:10:32.267Z",
+      "attemptedAt": "2026-10-26T15:03:04.012Z",
       "resultsChanged": false,
       "sourceFileChanged": false
     },
     "Serie A": {
       "state": "updated",
-      "attemptedAt": "2026-10-25T13:10:32.267Z",
+      "attemptedAt": "2026-10-26T15:03:04.012Z",
       "resultsChanged": false,
       "sourceFileChanged": false
     },
     "Bundesliga": {
       "state": "updated",
-      "attemptedAt": "2026-10-25T13:10:32.267Z",
+      "attemptedAt": "2026-10-26T15:03:04.012Z",
       "resultsChanged": false,
       "sourceFileChanged": false
     },
     "Ligue 1": {
       "state": "updated",
-      "attemptedAt": "2026-10-25T13:10:32.267Z",
+      "attemptedAt": "2026-10-26T15:03:04.012Z",
       "resultsChanged": false,
       "sourceFileChanged": false
     }
