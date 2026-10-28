@@ -9,21 +9,21 @@
       "home": "Green Bay Packers",
       "away": "Carolina Panthers",
       "eventStart": "2026-10-30T00:15:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_08_CAR_GB-form-v1",
-      "checkedAt": "2026-10-27T13:11:26.905Z"
+      "checkedAt": "2026-10-28T13:21:42.608Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-10-27T13:11:24.846Z",
-  "state": "published",
-  "publishedThisRun": 1,
-  "gradedThisRun": 0,
+  "lastAttemptAt": "2026-10-28T13:21:40.425Z",
+  "state": "waiting-for-eligible-games",
+  "publishedThisRun": 0,
+  "gradedThisRun": 11,
   "skipped": [],
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
-  "sourceThrough": "2026-10-23T00:15:00.000Z",
-  "scheduleAsOf": "2026-10-27T13:11:26.872Z",
-  "completedAt": "2026-10-27T13:11:26.922Z"
+  "sourceThrough": "2026-10-26T00:20:00.000Z",
+  "scheduleAsOf": "2026-10-28T13:21:42.554Z",
+  "completedAt": "2026-10-28T13:21:42.654Z"
 }
