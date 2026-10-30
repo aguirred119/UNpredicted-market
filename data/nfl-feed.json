@@ -4,26 +4,168 @@
   "checks": [
     {
       "league": "NFL",
-      "eventId": "ab2865e9f2d4b012de8bc6fb6de11a7c",
-      "sourceGameId": "2026_08_CAR_GB",
-      "home": "Green Bay Packers",
-      "away": "Carolina Panthers",
-      "eventStart": "2026-10-30T00:15:00.000Z",
-      "status": "already-published",
+      "eventId": "9255ca8f32aea590d00aa57de79f6bb6",
+      "sourceGameId": "2026_08_ARI_DAL",
+      "home": "Dallas Cowboys",
+      "away": "Arizona Cardinals",
+      "eventStart": "2026-11-01T18:00:00.000Z",
+      "status": "published",
       "reasons": [],
-      "forecastId": "nfl-2026_08_CAR_GB-form-v1",
-      "checkedAt": "2026-10-29T13:23:45.587Z"
+      "forecastId": "nfl-2026_08_ARI_DAL-form-v1",
+      "checkedAt": "2026-10-30T13:19:55.611Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "921859689f5f8b3b8b1caf4248bdb1ec",
+      "sourceGameId": "2026_08_ATL_TB",
+      "home": "Tampa Bay Buccaneers",
+      "away": "Atlanta Falcons",
+      "eventStart": "2026-11-01T18:00:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_08_ATL_TB-form-v1",
+      "checkedAt": "2026-10-30T13:19:55.611Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "c93c421e5fa46031a43162d111d981d0",
+      "sourceGameId": "2026_08_BAL_BUF",
+      "home": "Buffalo Bills",
+      "away": "Baltimore Ravens",
+      "eventStart": "2026-11-01T18:00:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_08_BAL_BUF-form-v1",
+      "checkedAt": "2026-10-30T13:19:55.611Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "ab5ab731ab655bd6308bc7a922275518",
+      "sourceGameId": "2026_08_CLE_PIT",
+      "home": "Pittsburgh Steelers",
+      "away": "Cleveland Browns",
+      "eventStart": "2026-11-01T18:00:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_08_CLE_PIT-form-v1",
+      "checkedAt": "2026-10-30T13:19:55.611Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "159dbf0253dd2038eda2212f84387f0c",
+      "sourceGameId": "2026_08_IND_JAX",
+      "home": "Jacksonville Jaguars",
+      "away": "Indianapolis Colts",
+      "eventStart": "2026-11-01T18:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Team history is older than 21 days"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-30T13:19:55.611Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "98f1b121b793977434c046e76c707145",
+      "sourceGameId": "2026_08_LV_NYJ",
+      "home": "New York Jets",
+      "away": "Las Vegas Raiders",
+      "eventStart": "2026-11-01T18:00:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_08_LV_NYJ-form-v1",
+      "checkedAt": "2026-10-30T13:19:55.611Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "52e7ee9c42525e6deec02da32dc2fad8",
+      "sourceGameId": "2026_08_MIN_DET",
+      "home": "Detroit Lions",
+      "away": "Minnesota Vikings",
+      "eventStart": "2026-11-01T18:00:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_08_MIN_DET-form-v1",
+      "checkedAt": "2026-10-30T13:19:55.611Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
+      "sourceGameId": "2026_08_TEN_CIN",
+      "home": "Cincinnati Bengals",
+      "away": "Tennessee Titans",
+      "eventStart": "2026-11-01T18:00:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_08_TEN_CIN-form-v1",
+      "checkedAt": "2026-10-30T13:19:55.611Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "2ff84d3f6053d083c8c0a5bebf7cdd4c",
+      "sourceGameId": "2026_08_LAC_LA",
+      "home": "Los Angeles Rams",
+      "away": "Los Angeles Chargers",
+      "eventStart": "2026-11-01T21:05:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_08_LAC_LA-form-v1",
+      "checkedAt": "2026-10-30T13:19:55.611Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "f2a036d5edf483a277880014861e78ad",
+      "sourceGameId": "2026_08_KC_DEN",
+      "home": "Denver Broncos",
+      "away": "Kansas City Chiefs",
+      "eventStart": "2026-11-01T21:25:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_08_KC_DEN-form-v1",
+      "checkedAt": "2026-10-30T13:19:55.611Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "05405af79752f5e742cdf50b61f6745e",
+      "sourceGameId": "2026_08_NE_MIA",
+      "home": "Miami Dolphins",
+      "away": "New England Patriots",
+      "eventStart": "2026-11-01T21:25:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_08_NE_MIA-form-v1",
+      "checkedAt": "2026-10-30T13:19:55.611Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "b9c60db63b1a19ad319f24b33c0defe8",
+      "sourceGameId": "2026_08_PHI_WAS",
+      "home": "Washington Commanders",
+      "away": "Philadelphia Eagles",
+      "eventStart": "2026-11-02T01:20:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_08_PHI_WAS-form-v1",
+      "checkedAt": "2026-10-30T13:19:55.611Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-10-29T13:23:43.403Z",
-  "state": "waiting-for-eligible-games",
-  "publishedThisRun": 0,
-  "gradedThisRun": 1,
-  "skipped": [],
+  "lastAttemptAt": "2026-10-30T13:19:53.495Z",
+  "state": "published",
+  "publishedThisRun": 11,
+  "gradedThisRun": 0,
+  "skipped": [
+    {
+      "event": "Indianapolis Colts at Jacksonville Jaguars",
+      "eventStart": "2026-11-01T18:00:00.000Z",
+      "reasons": [
+        "Team history is older than 21 days"
+      ]
+    }
+  ],
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
   "sourceThrough": "2026-10-27T00:15:00.000Z",
-  "scheduleAsOf": "2026-10-29T13:23:45.544Z",
-  "completedAt": "2026-10-29T13:23:45.605Z"
+  "scheduleAsOf": "2026-10-30T13:19:55.558Z",
+  "completedAt": "2026-10-30T13:19:55.675Z"
 }
