@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "retrospective-research",
-  "generatedAt": "2026-10-30T13:19:53.495Z",
+  "generatedAt": "2026-10-31T13:13:26.021Z",
   "dataThrough": "2026-10-27T00:15:00.000Z",
   "holdoutSeasons": [
     2024,
@@ -15,7 +15,7 @@
     "sources": [
       {
         "url": "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.csv",
-        "sha256": "d3f2a6e365adba93b50bdb89210d3deab6d2538f65dc0b08c6376c8b6d6d2dc8"
+        "sha256": "f9f82d85895a6cf6eff1008a162659df8b9290bd87da6a57f83a0fc81d73d021"
       }
     ]
   },
@@ -147,7 +147,7 @@
     "season": 2026,
     "window": 8,
     "lagHours": 48,
-    "cutoff": "2026-10-28T13:19:53.495Z",
+    "cutoff": "2026-10-29T13:13:26.021Z",
     "completedGames": 101,
     "dataThrough": "2026-10-27T00:15:00.000Z",
     "teams": [
@@ -3429,6 +3429,139 @@
         "sampleSizes": [
           5,
           6
+        ]
+      }
+    },
+    {
+      "sourceEventId": "2026_08_CHI_SEA",
+      "home": "Seattle Seahawks",
+      "away": "Chicago Bears",
+      "event": "Chicago Bears at Seattle Seahawks",
+      "eventStart": "2026-11-03T01:15:00.000Z",
+      "form": {
+        "season": 2026,
+        "window": 8,
+        "lagHours": 48,
+        "cutoff": "2026-11-01T01:15:00.000Z",
+        "home": {
+          "team": "Seattle Seahawks",
+          "count": 7,
+          "wins": 4,
+          "losses": 3,
+          "ties": 0,
+          "averageMargin": 6.142857142857143,
+          "averageScored": 24,
+          "averageAllowed": 17.857142857142858,
+          "inputAsOf": "2026-10-26T00:20:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-26T00:20:00.000Z",
+              "opponent": "Kansas City Chiefs",
+              "venue": "home",
+              "scored": 20,
+              "allowed": 3,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-16T00:15:00.000Z",
+              "opponent": "Denver Broncos",
+              "venue": "away",
+              "scored": 14,
+              "allowed": 17,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-11T20:25:00.000Z",
+              "opponent": "San Francisco 49ers",
+              "venue": "home",
+              "scored": 29,
+              "allowed": 32,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-04T20:25:00.000Z",
+              "opponent": "Los Angeles Chargers",
+              "venue": "home",
+              "scored": 30,
+              "allowed": 23,
+              "result": "W"
+            },
+            {
+              "date": "2026-09-27T17:00:00.000Z",
+              "opponent": "Washington Commanders",
+              "venue": "away",
+              "scored": 31,
+              "allowed": 33,
+              "result": "L"
+            }
+          ]
+        },
+        "away": {
+          "team": "Chicago Bears",
+          "count": 7,
+          "wins": 5,
+          "losses": 2,
+          "ties": 0,
+          "averageMargin": 5.285714285714286,
+          "averageScored": 25.714285714285715,
+          "averageAllowed": 20.428571428571427,
+          "inputAsOf": "2026-10-23T00:15:00.000Z",
+          "recent": [
+            {
+              "date": "2026-10-23T00:15:00.000Z",
+              "opponent": "New England Patriots",
+              "venue": "home",
+              "scored": 30,
+              "allowed": 24,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-18T17:00:00.000Z",
+              "opponent": "Atlanta Falcons",
+              "venue": "away",
+              "scored": 31,
+              "allowed": 23,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-11T17:00:00.000Z",
+              "opponent": "Green Bay Packers",
+              "venue": "away",
+              "scored": 7,
+              "allowed": 31,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-04T17:00:00.000Z",
+              "opponent": "New York Jets",
+              "venue": "home",
+              "scored": 23,
+              "allowed": 12,
+              "result": "W"
+            },
+            {
+              "date": "2026-09-29T00:15:00.000Z",
+              "opponent": "Philadelphia Eagles",
+              "venue": "home",
+              "scored": 27,
+              "allowed": 7,
+              "result": "W"
+            }
+          ]
+        }
+      },
+      "eligible": true,
+      "reasons": [],
+      "features": {
+        "x": [
+          0.8571428571428577,
+          -0.1428571428571429
+        ],
+        "inputAsOf": "2026-10-26T00:20:00.000Z",
+        "oldestLatest": "2026-10-23T00:15:00.000Z",
+        "sampleSizes": [
+          7,
+          7
         ]
       }
     }

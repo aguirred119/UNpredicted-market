@@ -9,10 +9,10 @@
       "home": "Dallas Cowboys",
       "away": "Arizona Cardinals",
       "eventStart": "2026-11-01T18:00:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_08_ARI_DAL-form-v1",
-      "checkedAt": "2026-10-30T13:19:55.611Z"
+      "checkedAt": "2026-10-31T13:13:28.017Z"
     },
     {
       "league": "NFL",
@@ -21,10 +21,10 @@
       "home": "Tampa Bay Buccaneers",
       "away": "Atlanta Falcons",
       "eventStart": "2026-11-01T18:00:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_08_ATL_TB-form-v1",
-      "checkedAt": "2026-10-30T13:19:55.611Z"
+      "checkedAt": "2026-10-31T13:13:28.017Z"
     },
     {
       "league": "NFL",
@@ -33,10 +33,10 @@
       "home": "Buffalo Bills",
       "away": "Baltimore Ravens",
       "eventStart": "2026-11-01T18:00:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_08_BAL_BUF-form-v1",
-      "checkedAt": "2026-10-30T13:19:55.611Z"
+      "checkedAt": "2026-10-31T13:13:28.017Z"
     },
     {
       "league": "NFL",
@@ -45,10 +45,10 @@
       "home": "Pittsburgh Steelers",
       "away": "Cleveland Browns",
       "eventStart": "2026-11-01T18:00:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_08_CLE_PIT-form-v1",
-      "checkedAt": "2026-10-30T13:19:55.611Z"
+      "checkedAt": "2026-10-31T13:13:28.017Z"
     },
     {
       "league": "NFL",
@@ -62,7 +62,7 @@
         "Team history is older than 21 days"
       ],
       "forecastId": null,
-      "checkedAt": "2026-10-30T13:19:55.611Z"
+      "checkedAt": "2026-10-31T13:13:28.017Z"
     },
     {
       "league": "NFL",
@@ -71,10 +71,10 @@
       "home": "New York Jets",
       "away": "Las Vegas Raiders",
       "eventStart": "2026-11-01T18:00:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_08_LV_NYJ-form-v1",
-      "checkedAt": "2026-10-30T13:19:55.611Z"
+      "checkedAt": "2026-10-31T13:13:28.017Z"
     },
     {
       "league": "NFL",
@@ -83,10 +83,10 @@
       "home": "Detroit Lions",
       "away": "Minnesota Vikings",
       "eventStart": "2026-11-01T18:00:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_08_MIN_DET-form-v1",
-      "checkedAt": "2026-10-30T13:19:55.611Z"
+      "checkedAt": "2026-10-31T13:13:28.017Z"
     },
     {
       "league": "NFL",
@@ -95,10 +95,10 @@
       "home": "Cincinnati Bengals",
       "away": "Tennessee Titans",
       "eventStart": "2026-11-01T18:00:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_08_TEN_CIN-form-v1",
-      "checkedAt": "2026-10-30T13:19:55.611Z"
+      "checkedAt": "2026-10-31T13:13:28.017Z"
     },
     {
       "league": "NFL",
@@ -107,10 +107,10 @@
       "home": "Los Angeles Rams",
       "away": "Los Angeles Chargers",
       "eventStart": "2026-11-01T21:05:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_08_LAC_LA-form-v1",
-      "checkedAt": "2026-10-30T13:19:55.611Z"
+      "checkedAt": "2026-10-31T13:13:28.017Z"
     },
     {
       "league": "NFL",
@@ -119,10 +119,10 @@
       "home": "Denver Broncos",
       "away": "Kansas City Chiefs",
       "eventStart": "2026-11-01T21:25:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_08_KC_DEN-form-v1",
-      "checkedAt": "2026-10-30T13:19:55.611Z"
+      "checkedAt": "2026-10-31T13:13:28.017Z"
     },
     {
       "league": "NFL",
@@ -131,10 +131,10 @@
       "home": "Miami Dolphins",
       "away": "New England Patriots",
       "eventStart": "2026-11-01T21:25:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_08_NE_MIA-form-v1",
-      "checkedAt": "2026-10-30T13:19:55.611Z"
+      "checkedAt": "2026-10-31T13:13:28.017Z"
     },
     {
       "league": "NFL",
@@ -143,16 +143,44 @@
       "home": "Washington Commanders",
       "away": "Philadelphia Eagles",
       "eventStart": "2026-11-02T01:20:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_08_PHI_WAS-form-v1",
-      "checkedAt": "2026-10-30T13:19:55.611Z"
+      "checkedAt": "2026-10-31T13:13:28.017Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": null,
+      "sourceGameId": "2026_08_CHI_SEA",
+      "home": "Seattle Seahawks",
+      "away": "Chicago Bears",
+      "eventStart": "2026-11-03T01:15:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-31T13:13:28.017Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "7d664fbcd39350e559d83c0068ba7169",
+      "sourceGameId": null,
+      "home": "Seattle Seahawks",
+      "away": "Chicago Bears",
+      "eventStart": "2026-11-03T01:20:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-10-31T13:13:28.017Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-10-30T13:19:53.495Z",
-  "state": "published",
-  "publishedThisRun": 11,
+  "lastAttemptAt": "2026-10-31T13:13:26.021Z",
+  "state": "waiting-for-eligible-games",
+  "publishedThisRun": 0,
   "gradedThisRun": 0,
   "skipped": [
     {
@@ -161,11 +189,25 @@
       "reasons": [
         "Team history is older than 21 days"
       ]
+    },
+    {
+      "event": "Chicago Bears at Seattle Seahawks",
+      "eventStart": "2026-11-03T01:15:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ]
+    },
+    {
+      "event": "Chicago Bears at Seattle Seahawks",
+      "eventStart": "2026-11-03T01:20:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
     }
   ],
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
   "sourceThrough": "2026-10-27T00:15:00.000Z",
-  "scheduleAsOf": "2026-10-30T13:19:55.558Z",
-  "completedAt": "2026-10-30T13:19:55.675Z"
+  "scheduleAsOf": "2026-10-31T13:13:28.003Z",
+  "completedAt": "2026-10-31T13:13:28.038Z"
 }
