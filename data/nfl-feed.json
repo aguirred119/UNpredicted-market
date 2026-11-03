@@ -4,57 +4,26 @@
   "checks": [
     {
       "league": "NFL",
-      "eventId": null,
-      "sourceGameId": "2026_08_CHI_SEA",
-      "home": "Seattle Seahawks",
-      "away": "Chicago Bears",
-      "eventStart": "2026-11-03T01:15:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "Provider teams/start time do not match"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-02T21:48:19.387Z"
-    },
-    {
-      "league": "NFL",
-      "eventId": "7d664fbcd39350e559d83c0068ba7169",
-      "sourceGameId": null,
-      "home": "Seattle Seahawks",
-      "away": "Chicago Bears",
-      "eventStart": "2026-11-03T01:20:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-02T21:48:19.387Z"
+      "eventId": "c75744790b7acf6260c78ba5e739c0e5",
+      "sourceGameId": "2026_09_JAX_BAL",
+      "home": "Baltimore Ravens",
+      "away": "Jacksonville Jaguars",
+      "eventStart": "2026-11-06T01:15:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_09_JAX_BAL-form-v1",
+      "checkedAt": "2026-11-03T19:37:33.829Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-11-02T21:48:17.782Z",
-  "state": "waiting-for-eligible-games",
-  "publishedThisRun": 0,
-  "gradedThisRun": 0,
-  "skipped": [
-    {
-      "event": "Chicago Bears at Seattle Seahawks",
-      "eventStart": "2026-11-03T01:15:00.000Z",
-      "reasons": [
-        "Provider teams/start time do not match"
-      ]
-    },
-    {
-      "event": "Chicago Bears at Seattle Seahawks",
-      "eventStart": "2026-11-03T01:20:00.000Z",
-      "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
-      ]
-    }
-  ],
+  "lastAttemptAt": "2026-11-03T19:37:32.177Z",
+  "state": "published",
+  "publishedThisRun": 1,
+  "gradedThisRun": 7,
+  "skipped": [],
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
-  "sourceThrough": "2026-10-30T00:15:00.000Z",
-  "scheduleAsOf": "2026-11-02T21:48:19.343Z",
-  "completedAt": "2026-11-02T21:48:19.406Z"
+  "sourceThrough": "2026-11-01T18:00:00.000Z",
+  "scheduleAsOf": "2026-11-03T19:37:33.802Z",
+  "completedAt": "2026-11-03T19:37:33.893Z"
 }
