@@ -9,21 +9,21 @@
       "home": "Baltimore Ravens",
       "away": "Jacksonville Jaguars",
       "eventStart": "2026-11-06T01:15:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_09_JAX_BAL-form-v1",
-      "checkedAt": "2026-11-03T19:37:33.829Z"
+      "checkedAt": "2026-11-04T19:53:31.321Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-11-03T19:37:32.177Z",
-  "state": "published",
-  "publishedThisRun": 1,
-  "gradedThisRun": 7,
+  "lastAttemptAt": "2026-11-04T19:53:29.842Z",
+  "state": "waiting-for-eligible-games",
+  "publishedThisRun": 0,
+  "gradedThisRun": 4,
   "skipped": [],
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
-  "sourceThrough": "2026-11-01T18:00:00.000Z",
-  "scheduleAsOf": "2026-11-03T19:37:33.802Z",
-  "completedAt": "2026-11-03T19:37:33.893Z"
+  "sourceThrough": "2026-11-02T01:20:00.000Z",
+  "scheduleAsOf": "2026-11-04T19:53:31.281Z",
+  "completedAt": "2026-11-04T19:53:31.361Z"
 }
