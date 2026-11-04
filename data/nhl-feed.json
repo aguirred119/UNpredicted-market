@@ -5,171 +5,6 @@
     {
       "league": "NHL",
       "eventId": null,
-      "sourceGameId": "2026020236",
-      "home": "Toronto Maple Leafs",
-      "away": "Utah Mammoth",
-      "eventStart": "2026-11-04T00:00:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
-    },
-    {
-      "league": "NHL",
-      "eventId": null,
-      "sourceGameId": "2026020237",
-      "home": "Montreal Canadiens",
-      "away": "Winnipeg Jets",
-      "eventStart": "2026-11-04T00:00:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
-    },
-    {
-      "league": "NHL",
-      "eventId": null,
-      "sourceGameId": "2026020238",
-      "home": "Tampa Bay Lightning",
-      "away": "Detroit Red Wings",
-      "eventStart": "2026-11-04T00:00:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
-    },
-    {
-      "league": "NHL",
-      "eventId": null,
-      "sourceGameId": "2026020240",
-      "home": "New York Rangers",
-      "away": "St. Louis Blues",
-      "eventStart": "2026-11-04T00:00:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
-    },
-    {
-      "league": "NHL",
-      "eventId": null,
-      "sourceGameId": "2026020241",
-      "home": "Philadelphia Flyers",
-      "away": "Minnesota Wild",
-      "eventStart": "2026-11-04T00:00:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
-    },
-    {
-      "league": "NHL",
-      "eventId": null,
-      "sourceGameId": "2026020242",
-      "home": "Pittsburgh Penguins",
-      "away": "Vegas Golden Knights",
-      "eventStart": "2026-11-04T00:00:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
-    },
-    {
-      "league": "NHL",
-      "eventId": null,
-      "sourceGameId": "2026020243",
-      "home": "Washington Capitals",
-      "away": "Dallas Stars",
-      "eventStart": "2026-11-04T00:00:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
-    },
-    {
-      "league": "NHL",
-      "eventId": null,
-      "sourceGameId": "2026020244",
-      "home": "Columbus Blue Jackets",
-      "away": "Colorado Avalanche",
-      "eventStart": "2026-11-04T00:00:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
-    },
-    {
-      "league": "NHL",
-      "eventId": null,
-      "sourceGameId": "2026020239",
-      "home": "New Jersey Devils",
-      "away": "Edmonton Oilers",
-      "eventStart": "2026-11-04T00:30:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
-    },
-    {
-      "league": "NHL",
-      "eventId": null,
-      "sourceGameId": "2026020245",
-      "home": "Nashville Predators",
-      "away": "Carolina Hurricanes",
-      "eventStart": "2026-11-04T01:00:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
-    },
-    {
-      "league": "NHL",
-      "eventId": null,
-      "sourceGameId": "2026020246",
-      "home": "Vancouver Canucks",
-      "away": "Anaheim Ducks",
-      "eventStart": "2026-11-04T02:00:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
-    },
-    {
-      "league": "NHL",
-      "eventId": null,
       "sourceGameId": "2026020247",
       "home": "Buffalo Sabres",
       "away": "Ottawa Senators",
@@ -180,7 +15,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
+      "checkedAt": "2026-11-04T20:35:02.840Z"
     },
     {
       "league": "NHL",
@@ -195,7 +30,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
+      "checkedAt": "2026-11-04T20:35:02.840Z"
     },
     {
       "league": "NHL",
@@ -210,7 +45,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
+      "checkedAt": "2026-11-04T20:35:02.840Z"
     },
     {
       "league": "NHL",
@@ -225,7 +60,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
+      "checkedAt": "2026-11-04T20:35:02.840Z"
     },
     {
       "league": "NHL",
@@ -240,7 +75,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
+      "checkedAt": "2026-11-04T20:35:02.840Z"
     },
     {
       "league": "NHL",
@@ -255,7 +90,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
+      "checkedAt": "2026-11-04T20:35:02.840Z"
     },
     {
       "league": "NHL",
@@ -270,7 +105,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
+      "checkedAt": "2026-11-04T20:35:02.840Z"
     },
     {
       "league": "NHL",
@@ -285,7 +120,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
+      "checkedAt": "2026-11-04T20:35:02.840Z"
     },
     {
       "league": "NHL",
@@ -300,7 +135,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
+      "checkedAt": "2026-11-04T20:35:02.840Z"
     },
     {
       "league": "NHL",
@@ -315,7 +150,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
+      "checkedAt": "2026-11-04T20:35:02.840Z"
     },
     {
       "league": "NHL",
@@ -330,7 +165,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
+      "checkedAt": "2026-11-04T20:35:02.840Z"
     },
     {
       "league": "NHL",
@@ -345,7 +180,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
+      "checkedAt": "2026-11-04T20:35:02.840Z"
     },
     {
       "league": "NHL",
@@ -360,7 +195,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
+      "checkedAt": "2026-11-04T20:35:02.840Z"
     },
     {
       "league": "NHL",
@@ -375,7 +210,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
+      "checkedAt": "2026-11-04T20:35:02.840Z"
     },
     {
       "league": "NHL",
@@ -390,161 +225,82 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
+      "checkedAt": "2026-11-04T20:35:02.840Z"
     },
     {
       "league": "NHL",
-      "eventId": "13ced29ffb36afa9ac1436ef60bda139",
-      "sourceGameId": null,
-      "home": "Columbus Blue Jackets",
-      "away": "Colorado Avalanche",
-      "eventStart": "2026-11-04T00:10:00.000Z",
+      "eventId": null,
+      "sourceGameId": "2026020262",
+      "home": "Buffalo Sabres",
+      "away": "Columbus Blue Jackets",
+      "eventStart": "2026-11-07T00:00:00.000Z",
       "status": "blocked",
       "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
+        "NHL research quality threshold not met",
+        "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
+      "checkedAt": "2026-11-04T20:35:02.840Z"
     },
     {
       "league": "NHL",
-      "eventId": "b84cb3612b5d88f48e5ce81a79b84b96",
-      "sourceGameId": null,
-      "home": "Washington Capitals",
-      "away": "Dallas Stars",
-      "eventStart": "2026-11-04T00:10:00.000Z",
+      "eventId": null,
+      "sourceGameId": "2026020263",
+      "home": "Minnesota Wild",
+      "away": "San Jose Sharks",
+      "eventStart": "2026-11-07T01:00:00.000Z",
       "status": "blocked",
       "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
+        "NHL research quality threshold not met",
+        "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
+      "checkedAt": "2026-11-04T20:35:02.840Z"
     },
     {
       "league": "NHL",
-      "eventId": "f84f85e8c5fdd0a70594563b0041d706",
-      "sourceGameId": null,
-      "home": "Tampa Bay Lightning",
-      "away": "Detroit Red Wings",
-      "eventStart": "2026-11-04T00:10:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
-    },
-    {
-      "league": "NHL",
-      "eventId": "6b7950389856112c2b25d0aa1c7cc072",
-      "sourceGameId": null,
-      "home": "Philadelphia Flyers",
-      "away": "Minnesota Wild",
-      "eventStart": "2026-11-04T00:10:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
-    },
-    {
-      "league": "NHL",
-      "eventId": "371ac1fb21cf79abfd94499c6ee92b90",
-      "sourceGameId": null,
-      "home": "Montréal Canadiens",
-      "away": "Winnipeg Jets",
-      "eventStart": "2026-11-04T00:10:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
-    },
-    {
-      "league": "NHL",
-      "eventId": "b21dae70cc11cc09837d7f99f1933197",
-      "sourceGameId": null,
-      "home": "New York Rangers",
-      "away": "St Louis Blues",
-      "eventStart": "2026-11-04T00:10:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
-    },
-    {
-      "league": "NHL",
-      "eventId": "ed17e925b2de887dcf682915348560d5",
-      "sourceGameId": null,
-      "home": "Pittsburgh Penguins",
-      "away": "Vegas Golden Knights",
-      "eventStart": "2026-11-04T00:10:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
-    },
-    {
-      "league": "NHL",
-      "eventId": "ec0cd2ebb977023698a5f16ca4de0e6c",
-      "sourceGameId": null,
-      "home": "Toronto Maple Leafs",
-      "away": "Utah Mammoth",
-      "eventStart": "2026-11-04T00:10:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
-    },
-    {
-      "league": "NHL",
-      "eventId": "71d674d1a6ac60893018bd115d42d624",
-      "sourceGameId": null,
-      "home": "New Jersey Devils",
-      "away": "Edmonton Oilers",
-      "eventStart": "2026-11-04T00:40:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
-    },
-    {
-      "league": "NHL",
-      "eventId": "f5dd1d8198a0f9c5cc65fe744ef3b1c8",
-      "sourceGameId": null,
-      "home": "Nashville Predators",
-      "away": "Carolina Hurricanes",
-      "eventStart": "2026-11-04T01:10:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
-    },
-    {
-      "league": "NHL",
-      "eventId": "8fe6b339f282707173f0bcff36f112e8",
-      "sourceGameId": null,
-      "home": "Vancouver Canucks",
+      "eventId": null,
+      "sourceGameId": "2026020264",
+      "home": "Calgary Flames",
       "away": "Anaheim Ducks",
-      "eventStart": "2026-11-04T02:10:00.000Z",
+      "eventStart": "2026-11-07T01:00:00.000Z",
       "status": "blocked",
       "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
+        "NHL research quality threshold not met",
+        "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
+      "checkedAt": "2026-11-04T20:35:02.840Z"
+    },
+    {
+      "league": "NHL",
+      "eventId": null,
+      "sourceGameId": "2026020265",
+      "home": "Washington Capitals",
+      "away": "Florida Panthers",
+      "eventStart": "2026-11-07T17:30:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "NHL research quality threshold not met",
+        "Provider teams/start time do not match"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-04T20:35:02.840Z"
+    },
+    {
+      "league": "NHL",
+      "eventId": null,
+      "sourceGameId": "2026020266",
+      "home": "Nashville Predators",
+      "away": "St. Louis Blues",
+      "eventStart": "2026-11-07T18:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "NHL research quality threshold not met",
+        "Provider teams/start time do not match"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-04T20:35:02.840Z"
     },
     {
       "league": "NHL",
@@ -558,7 +314,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
+      "checkedAt": "2026-11-04T20:35:02.840Z"
     },
     {
       "league": "NHL",
@@ -572,7 +328,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
+      "checkedAt": "2026-11-04T20:35:02.840Z"
     },
     {
       "league": "NHL",
@@ -586,7 +342,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
+      "checkedAt": "2026-11-04T20:35:02.840Z"
     },
     {
       "league": "NHL",
@@ -600,103 +356,169 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-03T20:19:19.660Z"
+      "checkedAt": "2026-11-04T20:35:02.840Z"
+    },
+    {
+      "league": "NHL",
+      "eventId": "9e57c39752bfbc587ce341650fcd5a19",
+      "sourceGameId": null,
+      "home": "Pittsburgh Penguins",
+      "away": "Boston Bruins",
+      "eventStart": "2026-11-06T00:10:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-04T20:35:02.840Z"
+    },
+    {
+      "league": "NHL",
+      "eventId": "18dd8ea86db020028f8d1c130b99d616",
+      "sourceGameId": null,
+      "home": "New York Islanders",
+      "away": "Carolina Hurricanes",
+      "eventStart": "2026-11-06T00:10:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-04T20:35:02.840Z"
+    },
+    {
+      "league": "NHL",
+      "eventId": "fc2cccfb47dffb4677b85d247c768ae9",
+      "sourceGameId": null,
+      "home": "Tampa Bay Lightning",
+      "away": "Chicago Blackhawks",
+      "eventStart": "2026-11-06T00:10:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-04T20:35:02.840Z"
+    },
+    {
+      "league": "NHL",
+      "eventId": "f05e184ffd9a6192d19ceee27d51a9de",
+      "sourceGameId": null,
+      "home": "Columbus Blue Jackets",
+      "away": "Dallas Stars",
+      "eventStart": "2026-11-06T00:10:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-04T20:35:02.840Z"
+    },
+    {
+      "league": "NHL",
+      "eventId": "6828fb175fa928f75d7978128372c817",
+      "sourceGameId": null,
+      "home": "Detroit Red Wings",
+      "away": "Vegas Golden Knights",
+      "eventStart": "2026-11-06T00:10:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-04T20:35:02.840Z"
+    },
+    {
+      "league": "NHL",
+      "eventId": "cb757b1c9cf684423578700bb6aef492",
+      "sourceGameId": null,
+      "home": "Montréal Canadiens",
+      "away": "Utah Mammoth",
+      "eventStart": "2026-11-06T00:10:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-04T20:35:02.840Z"
+    },
+    {
+      "league": "NHL",
+      "eventId": "eefdb55d84dd6a95ef53b76d3935f3c9",
+      "sourceGameId": null,
+      "home": "New Jersey Devils",
+      "away": "St Louis Blues",
+      "eventStart": "2026-11-06T00:10:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-04T20:35:02.840Z"
+    },
+    {
+      "league": "NHL",
+      "eventId": "b945b7133224c704b734e04becd109f0",
+      "sourceGameId": null,
+      "home": "New York Rangers",
+      "away": "Philadelphia Flyers",
+      "eventStart": "2026-11-06T00:10:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-04T20:35:02.840Z"
+    },
+    {
+      "league": "NHL",
+      "eventId": "5d5b6a0f376a8d9bd4f5e46891e6c6d8",
+      "sourceGameId": null,
+      "home": "Winnipeg Jets",
+      "away": "Vancouver Canucks",
+      "eventStart": "2026-11-06T00:10:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-04T20:35:02.840Z"
+    },
+    {
+      "league": "NHL",
+      "eventId": "c672f144ecbb937d3b15b483847129d2",
+      "sourceGameId": null,
+      "home": "Edmonton Oilers",
+      "away": "Anaheim Ducks",
+      "eventStart": "2026-11-06T01:10:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-04T20:35:02.840Z"
+    },
+    {
+      "league": "NHL",
+      "eventId": "446de9651d2d2948326d970e9f858a33",
+      "sourceGameId": null,
+      "home": "Colorado Avalanche",
+      "away": "Nashville Predators",
+      "eventStart": "2026-11-06T02:40:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-04T20:35:02.840Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-11-03T20:19:16.760Z",
+  "lastAttemptAt": "2026-11-04T20:34:59.732Z",
   "state": "waiting-for-eligible-games",
   "publishedThisRun": 0,
   "gradedThisRun": 0,
   "skipped": [
-    {
-      "event": "Utah Mammoth at Toronto Maple Leafs",
-      "eventStart": "2026-11-04T00:00:00.000Z",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ]
-    },
-    {
-      "event": "Winnipeg Jets at Montreal Canadiens",
-      "eventStart": "2026-11-04T00:00:00.000Z",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ]
-    },
-    {
-      "event": "Detroit Red Wings at Tampa Bay Lightning",
-      "eventStart": "2026-11-04T00:00:00.000Z",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ]
-    },
-    {
-      "event": "St. Louis Blues at New York Rangers",
-      "eventStart": "2026-11-04T00:00:00.000Z",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ]
-    },
-    {
-      "event": "Minnesota Wild at Philadelphia Flyers",
-      "eventStart": "2026-11-04T00:00:00.000Z",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ]
-    },
-    {
-      "event": "Vegas Golden Knights at Pittsburgh Penguins",
-      "eventStart": "2026-11-04T00:00:00.000Z",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ]
-    },
-    {
-      "event": "Dallas Stars at Washington Capitals",
-      "eventStart": "2026-11-04T00:00:00.000Z",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ]
-    },
-    {
-      "event": "Colorado Avalanche at Columbus Blue Jackets",
-      "eventStart": "2026-11-04T00:00:00.000Z",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ]
-    },
-    {
-      "event": "Edmonton Oilers at New Jersey Devils",
-      "eventStart": "2026-11-04T00:30:00.000Z",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ]
-    },
-    {
-      "event": "Carolina Hurricanes at Nashville Predators",
-      "eventStart": "2026-11-04T01:00:00.000Z",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ]
-    },
-    {
-      "event": "Anaheim Ducks at Vancouver Canucks",
-      "eventStart": "2026-11-04T02:00:00.000Z",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ]
-    },
     {
       "event": "Ottawa Senators at Buffalo Sabres",
       "eventStart": "2026-11-05T00:30:00.000Z",
@@ -818,80 +640,43 @@
       ]
     },
     {
-      "event": "Colorado Avalanche at Columbus Blue Jackets",
-      "eventStart": "2026-11-04T00:10:00.000Z",
+      "event": "Columbus Blue Jackets at Buffalo Sabres",
+      "eventStart": "2026-11-07T00:00:00.000Z",
       "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
+        "NHL research quality threshold not met",
+        "Provider teams/start time do not match"
       ]
     },
     {
-      "event": "Dallas Stars at Washington Capitals",
-      "eventStart": "2026-11-04T00:10:00.000Z",
+      "event": "San Jose Sharks at Minnesota Wild",
+      "eventStart": "2026-11-07T01:00:00.000Z",
       "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
+        "NHL research quality threshold not met",
+        "Provider teams/start time do not match"
       ]
     },
     {
-      "event": "Detroit Red Wings at Tampa Bay Lightning",
-      "eventStart": "2026-11-04T00:10:00.000Z",
+      "event": "Anaheim Ducks at Calgary Flames",
+      "eventStart": "2026-11-07T01:00:00.000Z",
       "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
+        "NHL research quality threshold not met",
+        "Provider teams/start time do not match"
       ]
     },
     {
-      "event": "Minnesota Wild at Philadelphia Flyers",
-      "eventStart": "2026-11-04T00:10:00.000Z",
+      "event": "Florida Panthers at Washington Capitals",
+      "eventStart": "2026-11-07T17:30:00.000Z",
       "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
+        "NHL research quality threshold not met",
+        "Provider teams/start time do not match"
       ]
     },
     {
-      "event": "Winnipeg Jets at Montréal Canadiens",
-      "eventStart": "2026-11-04T00:10:00.000Z",
+      "event": "St. Louis Blues at Nashville Predators",
+      "eventStart": "2026-11-07T18:00:00.000Z",
       "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
-      ]
-    },
-    {
-      "event": "St Louis Blues at New York Rangers",
-      "eventStart": "2026-11-04T00:10:00.000Z",
-      "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
-      ]
-    },
-    {
-      "event": "Vegas Golden Knights at Pittsburgh Penguins",
-      "eventStart": "2026-11-04T00:10:00.000Z",
-      "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
-      ]
-    },
-    {
-      "event": "Utah Mammoth at Toronto Maple Leafs",
-      "eventStart": "2026-11-04T00:10:00.000Z",
-      "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
-      ]
-    },
-    {
-      "event": "Edmonton Oilers at New Jersey Devils",
-      "eventStart": "2026-11-04T00:40:00.000Z",
-      "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
-      ]
-    },
-    {
-      "event": "Carolina Hurricanes at Nashville Predators",
-      "eventStart": "2026-11-04T01:10:00.000Z",
-      "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
-      ]
-    },
-    {
-      "event": "Anaheim Ducks at Vancouver Canucks",
-      "eventStart": "2026-11-04T02:10:00.000Z",
-      "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
+        "NHL research quality threshold not met",
+        "Provider teams/start time do not match"
       ]
     },
     {
@@ -921,11 +706,88 @@
       "reasons": [
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ]
+    },
+    {
+      "event": "Boston Bruins at Pittsburgh Penguins",
+      "eventStart": "2026-11-06T00:10:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
+    },
+    {
+      "event": "Carolina Hurricanes at New York Islanders",
+      "eventStart": "2026-11-06T00:10:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
+    },
+    {
+      "event": "Chicago Blackhawks at Tampa Bay Lightning",
+      "eventStart": "2026-11-06T00:10:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
+    },
+    {
+      "event": "Dallas Stars at Columbus Blue Jackets",
+      "eventStart": "2026-11-06T00:10:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
+    },
+    {
+      "event": "Vegas Golden Knights at Detroit Red Wings",
+      "eventStart": "2026-11-06T00:10:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
+    },
+    {
+      "event": "Utah Mammoth at Montréal Canadiens",
+      "eventStart": "2026-11-06T00:10:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
+    },
+    {
+      "event": "St Louis Blues at New Jersey Devils",
+      "eventStart": "2026-11-06T00:10:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
+    },
+    {
+      "event": "Philadelphia Flyers at New York Rangers",
+      "eventStart": "2026-11-06T00:10:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
+    },
+    {
+      "event": "Vancouver Canucks at Winnipeg Jets",
+      "eventStart": "2026-11-06T00:10:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
+    },
+    {
+      "event": "Anaheim Ducks at Edmonton Oilers",
+      "eventStart": "2026-11-06T01:10:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
+    },
+    {
+      "event": "Nashville Predators at Colorado Avalanche",
+      "eventStart": "2026-11-06T02:40:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
     }
   ],
   "cadence": "Daily around 13:57 UTC. Scheduled jobs can be delayed.",
   "grading": "Official final game result including overtime and shootouts from the dated community source, at least 48 hours after scheduled start. Ambiguous or changed identities remain pending.",
-  "sourceThrough": "2026-11-01T18:00:00.000Z",
-  "scheduleAsOf": "2026-11-03T20:19:19.631Z",
-  "completedAt": "2026-11-03T20:19:19.671Z"
+  "sourceThrough": "2026-11-02T01:00:00.000Z",
+  "scheduleAsOf": "2026-11-04T20:35:02.814Z",
+  "completedAt": "2026-11-04T20:35:02.850Z"
 }
