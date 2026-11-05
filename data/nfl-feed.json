@@ -12,18 +12,124 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_09_JAX_BAL-form-v1",
-      "checkedAt": "2026-11-04T19:53:31.321Z"
+      "checkedAt": "2026-11-05T20:06:16.389Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "e571bab6736f9338130a78a4f75c3231",
+      "sourceGameId": "2026_09_CLE_NO",
+      "home": "New Orleans Saints",
+      "away": "Cleveland Browns",
+      "eventStart": "2026-11-08T18:00:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_09_CLE_NO-form-v1",
+      "checkedAt": "2026-11-05T20:06:16.389Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "415fc42e72888c63e82f7bce24c65391",
+      "sourceGameId": "2026_09_DAL_IND",
+      "home": "Indianapolis Colts",
+      "away": "Dallas Cowboys",
+      "eventStart": "2026-11-08T18:00:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_09_DAL_IND-form-v1",
+      "checkedAt": "2026-11-05T20:06:16.389Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "014282b888c741b7d70c857c09f40aa7",
+      "sourceGameId": "2026_09_DEN_CAR",
+      "home": "Carolina Panthers",
+      "away": "Denver Broncos",
+      "eventStart": "2026-11-08T18:00:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_09_DEN_CAR-form-v1",
+      "checkedAt": "2026-11-05T20:06:16.389Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "44d8c37868b700e90f816db7c5df5cdd",
+      "sourceGameId": "2026_09_DET_MIA",
+      "home": "Miami Dolphins",
+      "away": "Detroit Lions",
+      "eventStart": "2026-11-08T18:00:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_09_DET_MIA-form-v1",
+      "checkedAt": "2026-11-05T20:06:16.389Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "89de07377e0aa8ffaa2ae6a7dc0855cc",
+      "sourceGameId": "2026_09_LA_WAS",
+      "home": "Washington Commanders",
+      "away": "Los Angeles Rams",
+      "eventStart": "2026-11-08T18:00:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_09_LA_WAS-form-v1",
+      "checkedAt": "2026-11-05T20:06:16.389Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "fe93e6ab1e553c0169936a0a983c324f",
+      "sourceGameId": "2026_09_NYG_PHI",
+      "home": "Philadelphia Eagles",
+      "away": "New York Giants",
+      "eventStart": "2026-11-08T18:00:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_09_NYG_PHI-form-v1",
+      "checkedAt": "2026-11-05T20:06:16.389Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "e354e6a04b1cb9c96e549b863debb92e",
+      "sourceGameId": "2026_09_NYJ_KC",
+      "home": "Kansas City Chiefs",
+      "away": "New York Jets",
+      "eventStart": "2026-11-08T18:00:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_09_NYJ_KC-form-v1",
+      "checkedAt": "2026-11-05T20:06:16.389Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "dc56d980f527ffeef89940133b211b13",
+      "sourceGameId": null,
+      "home": "Atlanta Falcons",
+      "away": "Cincinnati Bengals",
+      "eventStart": "2026-11-08T14:30:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-05T20:06:16.389Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-11-04T19:53:29.842Z",
-  "state": "waiting-for-eligible-games",
-  "publishedThisRun": 0,
-  "gradedThisRun": 4,
-  "skipped": [],
+  "lastAttemptAt": "2026-11-05T20:06:14.263Z",
+  "state": "published",
+  "publishedThisRun": 7,
+  "gradedThisRun": 0,
+  "skipped": [
+    {
+      "event": "Cincinnati Bengals at Atlanta Falcons",
+      "eventStart": "2026-11-08T14:30:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
+    }
+  ],
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
-  "sourceThrough": "2026-11-02T01:20:00.000Z",
-  "scheduleAsOf": "2026-11-04T19:53:31.281Z",
-  "completedAt": "2026-11-04T19:53:31.361Z"
+  "sourceThrough": "2026-11-03T01:15:00.000Z",
+  "scheduleAsOf": "2026-11-05T20:06:16.366Z",
+  "completedAt": "2026-11-05T20:06:16.447Z"
 }
