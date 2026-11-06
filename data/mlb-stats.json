@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "status": "descriptive-statistics",
   "league": "MLB",
-  "generatedAt": "2026-11-05T20:48:32.927Z",
+  "generatedAt": "2026-11-06T20:04:16.785Z",
   "teamStatistics": null,
   "currentSeasonStatus": "source-not-connected",
   "historicalStatistics": {
     "season": 2025,
     "window": 20,
     "lagHours": 48,
-    "cutoff": "2026-11-03T20:48:32.927Z",
+    "cutoff": "2026-11-04T20:04:16.785Z",
     "completedGames": 2426,
     "dataThrough": "2025-09-28T23:59:59.999Z",
     "teams": [
