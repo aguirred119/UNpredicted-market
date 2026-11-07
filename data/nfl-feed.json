@@ -12,7 +12,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_09_CLE_NO-form-v1",
-      "checkedAt": "2026-11-06T19:32:30.879Z"
+      "checkedAt": "2026-11-07T17:46:53.974Z"
     },
     {
       "league": "NFL",
@@ -24,7 +24,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_09_DAL_IND-form-v1",
-      "checkedAt": "2026-11-06T19:32:30.879Z"
+      "checkedAt": "2026-11-07T17:46:53.974Z"
     },
     {
       "league": "NFL",
@@ -36,7 +36,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_09_DEN_CAR-form-v1",
-      "checkedAt": "2026-11-06T19:32:30.879Z"
+      "checkedAt": "2026-11-07T17:46:53.974Z"
     },
     {
       "league": "NFL",
@@ -48,7 +48,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_09_DET_MIA-form-v1",
-      "checkedAt": "2026-11-06T19:32:30.879Z"
+      "checkedAt": "2026-11-07T17:46:53.974Z"
     },
     {
       "league": "NFL",
@@ -60,7 +60,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_09_LA_WAS-form-v1",
-      "checkedAt": "2026-11-06T19:32:30.879Z"
+      "checkedAt": "2026-11-07T17:46:53.974Z"
     },
     {
       "league": "NFL",
@@ -72,7 +72,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_09_NYG_PHI-form-v1",
-      "checkedAt": "2026-11-06T19:32:30.879Z"
+      "checkedAt": "2026-11-07T17:46:53.974Z"
     },
     {
       "league": "NFL",
@@ -84,7 +84,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_09_NYJ_KC-form-v1",
-      "checkedAt": "2026-11-06T19:32:30.879Z"
+      "checkedAt": "2026-11-07T17:46:53.974Z"
     },
     {
       "league": "NFL",
@@ -93,10 +93,10 @@
       "home": "Los Angeles Chargers",
       "away": "Houston Texans",
       "eventStart": "2026-11-08T21:05:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_09_HOU_LAC-form-v1",
-      "checkedAt": "2026-11-06T19:32:30.879Z"
+      "checkedAt": "2026-11-07T17:46:53.974Z"
     },
     {
       "league": "NFL",
@@ -105,10 +105,10 @@
       "home": "San Francisco 49ers",
       "away": "Las Vegas Raiders",
       "eventStart": "2026-11-08T21:05:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_09_LV_SF-form-v1",
-      "checkedAt": "2026-11-06T19:32:30.879Z"
+      "checkedAt": "2026-11-07T17:46:53.974Z"
     },
     {
       "league": "NFL",
@@ -117,10 +117,10 @@
       "home": "Seattle Seahawks",
       "away": "Arizona Cardinals",
       "eventStart": "2026-11-08T21:25:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_09_ARI_SEA-form-v1",
-      "checkedAt": "2026-11-06T19:32:30.879Z"
+      "checkedAt": "2026-11-07T17:46:53.974Z"
     },
     {
       "league": "NFL",
@@ -129,10 +129,10 @@
       "home": "New England Patriots",
       "away": "Green Bay Packers",
       "eventStart": "2026-11-08T21:25:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_09_GB_NE-form-v1",
-      "checkedAt": "2026-11-06T19:32:30.879Z"
+      "checkedAt": "2026-11-07T17:46:53.974Z"
     },
     {
       "league": "NFL",
@@ -141,10 +141,22 @@
       "home": "Chicago Bears",
       "away": "Tampa Bay Buccaneers",
       "eventStart": "2026-11-09T01:20:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_09_TB_CHI-form-v1",
-      "checkedAt": "2026-11-06T19:32:30.879Z"
+      "checkedAt": "2026-11-07T17:46:53.974Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "17ad7eff2f7875e20a8109abe40470e3",
+      "sourceGameId": "2026_09_BUF_MIN",
+      "home": "Minnesota Vikings",
+      "away": "Buffalo Bills",
+      "eventStart": "2026-11-10T01:15:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_09_BUF_MIN-form-v1",
+      "checkedAt": "2026-11-07T17:46:53.974Z"
     },
     {
       "league": "NFL",
@@ -158,13 +170,13 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-06T19:32:30.879Z"
+      "checkedAt": "2026-11-07T17:46:53.974Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-11-06T19:32:29.248Z",
+  "lastAttemptAt": "2026-11-07T17:46:52.469Z",
   "state": "published",
-  "publishedThisRun": 5,
+  "publishedThisRun": 1,
   "gradedThisRun": 0,
   "skipped": [
     {
@@ -178,6 +190,6 @@
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
   "sourceThrough": "2026-11-03T01:15:00.000Z",
-  "scheduleAsOf": "2026-11-06T19:32:30.839Z",
-  "completedAt": "2026-11-06T19:32:30.934Z"
+  "scheduleAsOf": "2026-11-07T17:46:53.927Z",
+  "completedAt": "2026-11-07T17:46:53.997Z"
 }
