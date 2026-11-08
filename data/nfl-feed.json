@@ -9,82 +9,103 @@
       "home": "New Orleans Saints",
       "away": "Cleveland Browns",
       "eventStart": "2026-11-08T18:00:00.000Z",
-      "status": "already-published",
-      "reasons": [],
-      "forecastId": "nfl-2026_09_CLE_NO-form-v1",
-      "checkedAt": "2026-11-07T17:46:53.974Z"
+      "status": "blocked",
+      "reasons": [
+        "Team history is older than 21 days",
+        "Less than 30 minutes before start"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-08T17:58:23.516Z"
     },
     {
       "league": "NFL",
-      "eventId": "415fc42e72888c63e82f7bce24c65391",
+      "eventId": null,
       "sourceGameId": "2026_09_DAL_IND",
       "home": "Indianapolis Colts",
       "away": "Dallas Cowboys",
       "eventStart": "2026-11-08T18:00:00.000Z",
-      "status": "already-published",
-      "reasons": [],
-      "forecastId": "nfl-2026_09_DAL_IND-form-v1",
-      "checkedAt": "2026-11-07T17:46:53.974Z"
+      "status": "blocked",
+      "reasons": [
+        "Provider teams/start time do not match",
+        "Less than 30 minutes before start"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-08T17:58:23.516Z"
     },
     {
       "league": "NFL",
-      "eventId": "014282b888c741b7d70c857c09f40aa7",
+      "eventId": null,
       "sourceGameId": "2026_09_DEN_CAR",
       "home": "Carolina Panthers",
       "away": "Denver Broncos",
       "eventStart": "2026-11-08T18:00:00.000Z",
-      "status": "already-published",
-      "reasons": [],
-      "forecastId": "nfl-2026_09_DEN_CAR-form-v1",
-      "checkedAt": "2026-11-07T17:46:53.974Z"
+      "status": "blocked",
+      "reasons": [
+        "Provider teams/start time do not match",
+        "Less than 30 minutes before start"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-08T17:58:23.516Z"
     },
     {
       "league": "NFL",
-      "eventId": "44d8c37868b700e90f816db7c5df5cdd",
+      "eventId": null,
       "sourceGameId": "2026_09_DET_MIA",
       "home": "Miami Dolphins",
       "away": "Detroit Lions",
       "eventStart": "2026-11-08T18:00:00.000Z",
-      "status": "already-published",
-      "reasons": [],
-      "forecastId": "nfl-2026_09_DET_MIA-form-v1",
-      "checkedAt": "2026-11-07T17:46:53.974Z"
+      "status": "blocked",
+      "reasons": [
+        "Provider teams/start time do not match",
+        "Less than 30 minutes before start"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-08T17:58:23.516Z"
     },
     {
       "league": "NFL",
-      "eventId": "89de07377e0aa8ffaa2ae6a7dc0855cc",
+      "eventId": null,
       "sourceGameId": "2026_09_LA_WAS",
       "home": "Washington Commanders",
       "away": "Los Angeles Rams",
       "eventStart": "2026-11-08T18:00:00.000Z",
-      "status": "already-published",
-      "reasons": [],
-      "forecastId": "nfl-2026_09_LA_WAS-form-v1",
-      "checkedAt": "2026-11-07T17:46:53.974Z"
+      "status": "blocked",
+      "reasons": [
+        "Provider teams/start time do not match",
+        "Less than 30 minutes before start"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-08T17:58:23.516Z"
     },
     {
       "league": "NFL",
-      "eventId": "fe93e6ab1e553c0169936a0a983c324f",
+      "eventId": null,
       "sourceGameId": "2026_09_NYG_PHI",
       "home": "Philadelphia Eagles",
       "away": "New York Giants",
       "eventStart": "2026-11-08T18:00:00.000Z",
-      "status": "already-published",
-      "reasons": [],
-      "forecastId": "nfl-2026_09_NYG_PHI-form-v1",
-      "checkedAt": "2026-11-07T17:46:53.974Z"
+      "status": "blocked",
+      "reasons": [
+        "Provider teams/start time do not match",
+        "Less than 30 minutes before start"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-08T17:58:23.516Z"
     },
     {
       "league": "NFL",
-      "eventId": "e354e6a04b1cb9c96e549b863debb92e",
+      "eventId": null,
       "sourceGameId": "2026_09_NYJ_KC",
       "home": "Kansas City Chiefs",
       "away": "New York Jets",
       "eventStart": "2026-11-08T18:00:00.000Z",
-      "status": "already-published",
-      "reasons": [],
-      "forecastId": "nfl-2026_09_NYJ_KC-form-v1",
-      "checkedAt": "2026-11-07T17:46:53.974Z"
+      "status": "blocked",
+      "reasons": [
+        "Provider teams/start time do not match",
+        "Less than 30 minutes before start"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-08T17:58:23.516Z"
     },
     {
       "league": "NFL",
@@ -96,19 +117,21 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_09_HOU_LAC-form-v1",
-      "checkedAt": "2026-11-07T17:46:53.974Z"
+      "checkedAt": "2026-11-08T17:58:23.516Z"
     },
     {
       "league": "NFL",
-      "eventId": "ac9d38a18d5c92814233a31aa9a48d78",
+      "eventId": null,
       "sourceGameId": "2026_09_LV_SF",
       "home": "San Francisco 49ers",
       "away": "Las Vegas Raiders",
       "eventStart": "2026-11-08T21:05:00.000Z",
-      "status": "already-published",
-      "reasons": [],
-      "forecastId": "nfl-2026_09_LV_SF-form-v1",
-      "checkedAt": "2026-11-07T17:46:53.974Z"
+      "status": "blocked",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-08T17:58:23.516Z"
     },
     {
       "league": "NFL",
@@ -120,7 +143,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_09_ARI_SEA-form-v1",
-      "checkedAt": "2026-11-07T17:46:53.974Z"
+      "checkedAt": "2026-11-08T17:58:23.516Z"
     },
     {
       "league": "NFL",
@@ -132,7 +155,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_09_GB_NE-form-v1",
-      "checkedAt": "2026-11-07T17:46:53.974Z"
+      "checkedAt": "2026-11-08T17:58:23.516Z"
     },
     {
       "league": "NFL",
@@ -144,7 +167,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_09_TB_CHI-form-v1",
-      "checkedAt": "2026-11-07T17:46:53.974Z"
+      "checkedAt": "2026-11-08T17:58:23.516Z"
     },
     {
       "league": "NFL",
@@ -153,35 +176,224 @@
       "home": "Minnesota Vikings",
       "away": "Buffalo Bills",
       "eventStart": "2026-11-10T01:15:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_09_BUF_MIN-form-v1",
-      "checkedAt": "2026-11-07T17:46:53.974Z"
+      "checkedAt": "2026-11-08T17:58:23.516Z"
     },
     {
       "league": "NFL",
-      "eventId": "dc56d980f527ffeef89940133b211b13",
+      "eventId": "014282b888c741b7d70c857c09f40aa7",
       "sourceGameId": null,
-      "home": "Atlanta Falcons",
-      "away": "Cincinnati Bengals",
-      "eventStart": "2026-11-08T14:30:00.000Z",
+      "home": "Carolina Panthers",
+      "away": "Denver Broncos",
+      "eventStart": "2026-11-08T18:05:00.000Z",
       "status": "blocked",
       "reasons": [
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-07T17:46:53.974Z"
+      "checkedAt": "2026-11-08T17:58:23.516Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "415fc42e72888c63e82f7bce24c65391",
+      "sourceGameId": null,
+      "home": "Indianapolis Colts",
+      "away": "Dallas Cowboys",
+      "eventStart": "2026-11-08T18:05:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-08T17:58:23.516Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "44d8c37868b700e90f816db7c5df5cdd",
+      "sourceGameId": null,
+      "home": "Miami Dolphins",
+      "away": "Detroit Lions",
+      "eventStart": "2026-11-08T18:05:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-08T17:58:23.516Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "e354e6a04b1cb9c96e549b863debb92e",
+      "sourceGameId": null,
+      "home": "Kansas City Chiefs",
+      "away": "New York Jets",
+      "eventStart": "2026-11-08T18:05:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-08T17:58:23.516Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "89de07377e0aa8ffaa2ae6a7dc0855cc",
+      "sourceGameId": null,
+      "home": "Washington Commanders",
+      "away": "Los Angeles Rams",
+      "eventStart": "2026-11-08T18:05:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-08T17:58:23.516Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "fe93e6ab1e553c0169936a0a983c324f",
+      "sourceGameId": null,
+      "home": "Philadelphia Eagles",
+      "away": "New York Giants",
+      "eventStart": "2026-11-08T18:05:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-08T17:58:23.516Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "ac9d38a18d5c92814233a31aa9a48d78",
+      "sourceGameId": null,
+      "home": "San Francisco 49ers",
+      "away": "Las Vegas Raiders",
+      "eventStart": "2026-11-08T21:25:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-08T17:58:23.516Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-11-07T17:46:52.469Z",
-  "state": "published",
-  "publishedThisRun": 1,
-  "gradedThisRun": 0,
+  "lastAttemptAt": "2026-11-08T17:58:22.236Z",
+  "state": "waiting-for-eligible-games",
+  "publishedThisRun": 0,
+  "gradedThisRun": 1,
   "skipped": [
     {
-      "event": "Cincinnati Bengals at Atlanta Falcons",
-      "eventStart": "2026-11-08T14:30:00.000Z",
+      "event": "Cleveland Browns at New Orleans Saints",
+      "eventStart": "2026-11-08T18:00:00.000Z",
+      "reasons": [
+        "Team history is older than 21 days",
+        "Less than 30 minutes before start"
+      ]
+    },
+    {
+      "event": "Dallas Cowboys at Indianapolis Colts",
+      "eventStart": "2026-11-08T18:00:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match",
+        "Less than 30 minutes before start"
+      ]
+    },
+    {
+      "event": "Denver Broncos at Carolina Panthers",
+      "eventStart": "2026-11-08T18:00:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match",
+        "Less than 30 minutes before start"
+      ]
+    },
+    {
+      "event": "Detroit Lions at Miami Dolphins",
+      "eventStart": "2026-11-08T18:00:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match",
+        "Less than 30 minutes before start"
+      ]
+    },
+    {
+      "event": "Los Angeles Rams at Washington Commanders",
+      "eventStart": "2026-11-08T18:00:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match",
+        "Less than 30 minutes before start"
+      ]
+    },
+    {
+      "event": "New York Giants at Philadelphia Eagles",
+      "eventStart": "2026-11-08T18:00:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match",
+        "Less than 30 minutes before start"
+      ]
+    },
+    {
+      "event": "New York Jets at Kansas City Chiefs",
+      "eventStart": "2026-11-08T18:00:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match",
+        "Less than 30 minutes before start"
+      ]
+    },
+    {
+      "event": "Las Vegas Raiders at San Francisco 49ers",
+      "eventStart": "2026-11-08T21:05:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ]
+    },
+    {
+      "event": "Denver Broncos at Carolina Panthers",
+      "eventStart": "2026-11-08T18:05:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
+    },
+    {
+      "event": "Dallas Cowboys at Indianapolis Colts",
+      "eventStart": "2026-11-08T18:05:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
+    },
+    {
+      "event": "Detroit Lions at Miami Dolphins",
+      "eventStart": "2026-11-08T18:05:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
+    },
+    {
+      "event": "New York Jets at Kansas City Chiefs",
+      "eventStart": "2026-11-08T18:05:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
+    },
+    {
+      "event": "Los Angeles Rams at Washington Commanders",
+      "eventStart": "2026-11-08T18:05:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
+    },
+    {
+      "event": "New York Giants at Philadelphia Eagles",
+      "eventStart": "2026-11-08T18:05:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
+    },
+    {
+      "event": "Las Vegas Raiders at San Francisco 49ers",
+      "eventStart": "2026-11-08T21:25:00.000Z",
       "reasons": [
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ]
@@ -189,7 +401,7 @@
   ],
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
-  "sourceThrough": "2026-11-03T01:15:00.000Z",
-  "scheduleAsOf": "2026-11-07T17:46:53.927Z",
-  "completedAt": "2026-11-07T17:46:53.997Z"
+  "sourceThrough": "2026-11-06T01:15:00.000Z",
+  "scheduleAsOf": "2026-11-08T17:58:23.504Z",
+  "completedAt": "2026-11-08T17:58:23.540Z"
 }

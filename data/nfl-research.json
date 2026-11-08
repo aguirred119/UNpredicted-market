@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "status": "retrospective-research",
-  "generatedAt": "2026-11-07T17:46:52.469Z",
-  "dataThrough": "2026-11-03T01:15:00.000Z",
+  "generatedAt": "2026-11-08T17:58:22.237Z",
+  "dataThrough": "2026-11-06T01:15:00.000Z",
   "holdoutSeasons": [
     2024,
     2025
@@ -15,13 +15,13 @@
     "sources": [
       {
         "url": "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.csv",
-        "sha256": "132a84995a93ebda0b33e5ec8dacc1ec09ff6a0da8dc447e85da3d1064ba57d5"
+        "sha256": "556dcae6ff80d890f0f67c3d486e0045e9a3d0af0d58ebf5d869a96547823448"
       }
     ]
   },
   "processing": {
-    "excluded": 5196,
-    "completedGames": 2205,
+    "excluded": 5195,
+    "completedGames": 2206,
     "lagHours": 48,
     "minimumGamesPerTeam": 4,
     "historyWindow": 8,
@@ -147,9 +147,9 @@
     "season": 2026,
     "window": 8,
     "lagHours": 48,
-    "cutoff": "2026-11-05T17:46:52.469Z",
-    "completedGames": 115,
-    "dataThrough": "2026-11-03T01:15:00.000Z",
+    "cutoff": "2026-11-06T17:58:22.237Z",
+    "completedGames": 116,
+    "dataThrough": "2026-11-06T01:15:00.000Z",
     "teams": [
       {
         "team": "Arizona Cardinals",
@@ -259,15 +259,23 @@
       },
       {
         "team": "Baltimore Ravens",
-        "count": 7,
+        "count": 8,
         "wins": 3,
-        "losses": 4,
+        "losses": 5,
         "ties": 0,
-        "averageMargin": -3.857142857142857,
-        "averageScored": 20.714285714285715,
-        "averageAllowed": 24.571428571428573,
-        "inputAsOf": "2026-11-01T18:00:00.000Z",
+        "averageMargin": -6.25,
+        "averageScored": 19.375,
+        "averageAllowed": 25.625,
+        "inputAsOf": "2026-11-06T01:15:00.000Z",
         "recent": [
+          {
+            "date": "2026-11-06T01:15:00.000Z",
+            "opponent": "Jacksonville Jaguars",
+            "venue": "home",
+            "scored": 10,
+            "allowed": 33,
+            "result": "L"
+          },
           {
             "date": "2026-11-01T18:00:00.000Z",
             "opponent": "Buffalo Bills",
@@ -298,14 +306,6 @@
             "venue": "away",
             "scored": 30,
             "allowed": 23,
-            "result": "W"
-          },
-          {
-            "date": "2026-10-04T17:00:00.000Z",
-            "opponent": "Tennessee Titans",
-            "venue": "home",
-            "scored": 24,
-            "allowed": 18,
             "result": "W"
           }
         ]
@@ -895,15 +895,23 @@
       },
       {
         "team": "Jacksonville Jaguars",
-        "count": 5,
-        "wins": 4,
+        "count": 6,
+        "wins": 5,
         "losses": 1,
         "ties": 0,
-        "averageMargin": 17.2,
-        "averageScored": 29.2,
-        "averageAllowed": 12,
-        "inputAsOf": "2026-11-01T18:00:00.000Z",
+        "averageMargin": 18.166666666666668,
+        "averageScored": 29.833333333333332,
+        "averageAllowed": 11.666666666666666,
+        "inputAsOf": "2026-11-06T01:15:00.000Z",
         "recent": [
+          {
+            "date": "2026-11-06T01:15:00.000Z",
+            "opponent": "Baltimore Ravens",
+            "venue": "away",
+            "scored": 33,
+            "allowed": 10,
+            "result": "W"
+          },
           {
             "date": "2026-11-01T18:00:00.000Z",
             "opponent": "Indianapolis Colts",
@@ -935,14 +943,6 @@
             "scored": 13,
             "allowed": 20,
             "result": "L"
-          },
-          {
-            "date": "2026-09-13T17:00:00.000Z",
-            "opponent": "Cleveland Browns",
-            "venue": "home",
-            "scored": 34,
-            "allowed": 10,
-            "result": "W"
           }
         ]
       },
@@ -1968,8 +1968,10 @@
           ]
         }
       },
-      "eligible": true,
-      "reasons": [],
+      "eligible": false,
+      "reasons": [
+        "Team history is older than 21 days"
+      ],
       "features": {
         "x": [
           -0.08333333333333304,
