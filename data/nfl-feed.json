@@ -9,21 +9,21 @@
       "home": "New York Giants",
       "away": "Washington Commanders",
       "eventStart": "2026-11-13T01:15:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_10_WAS_NYG-form-v1",
-      "checkedAt": "2026-11-10T19:51:37.521Z"
+      "checkedAt": "2026-11-11T19:43:49.707Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-11-10T19:51:35.889Z",
-  "state": "published",
-  "publishedThisRun": 1,
-  "gradedThisRun": 7,
+  "lastAttemptAt": "2026-11-11T19:43:48.269Z",
+  "state": "waiting-for-eligible-games",
+  "publishedThisRun": 0,
+  "gradedThisRun": 4,
   "skipped": [],
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
-  "sourceThrough": "2026-11-08T18:00:00.000Z",
-  "scheduleAsOf": "2026-11-10T19:51:37.470Z",
-  "completedAt": "2026-11-10T19:51:37.603Z"
+  "sourceThrough": "2026-11-09T01:20:00.000Z",
+  "scheduleAsOf": "2026-11-11T19:43:49.680Z",
+  "completedAt": "2026-11-11T19:43:49.748Z"
 }
