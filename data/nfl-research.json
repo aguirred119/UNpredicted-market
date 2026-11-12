@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "status": "retrospective-research",
-  "generatedAt": "2026-11-11T19:43:48.269Z",
-  "dataThrough": "2026-11-09T01:20:00.000Z",
+  "generatedAt": "2026-11-12T20:07:39.642Z",
+  "dataThrough": "2026-11-10T01:15:00.000Z",
   "holdoutSeasons": [
     2024,
     2025
@@ -15,13 +15,13 @@
     "sources": [
       {
         "url": "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.csv",
-        "sha256": "1f691508bf768c17489716ec3117d226f96447f9a0f33bd8b9da88d404a78190"
+        "sha256": "7b6db9362136b0846e4e55730cdb5ec7fcab107b7c55b6fa2f6802d555fceb9e"
       }
     ]
   },
   "processing": {
-    "excluded": 5196,
-    "completedGames": 2218,
+    "excluded": 5195,
+    "completedGames": 2219,
     "lagHours": 48,
     "minimumGamesPerTeam": 4,
     "historyWindow": 8,
@@ -147,9 +147,9 @@
     "season": 2026,
     "window": 8,
     "lagHours": 48,
-    "cutoff": "2026-11-09T19:43:48.269Z",
-    "completedGames": 128,
-    "dataThrough": "2026-11-09T01:20:00.000Z",
+    "cutoff": "2026-11-10T20:07:39.642Z",
+    "completedGames": 129,
+    "dataThrough": "2026-11-10T01:15:00.000Z",
     "teams": [
       {
         "team": "Arizona Cardinals",
@@ -312,15 +312,23 @@
       },
       {
         "team": "Buffalo Bills",
-        "count": 7,
-        "wins": 6,
+        "count": 8,
+        "wins": 7,
         "losses": 1,
         "ties": 0,
-        "averageMargin": 7.428571428571429,
-        "averageScored": 33.285714285714285,
-        "averageAllowed": 25.857142857142858,
-        "inputAsOf": "2026-11-01T18:00:00.000Z",
+        "averageMargin": 8.625,
+        "averageScored": 32,
+        "averageAllowed": 23.375,
+        "inputAsOf": "2026-11-10T01:15:00.000Z",
         "recent": [
+          {
+            "date": "2026-11-10T01:15:00.000Z",
+            "opponent": "Minnesota Vikings",
+            "venue": "away",
+            "scored": 23,
+            "allowed": 6,
+            "result": "W"
+          },
           {
             "date": "2026-11-01T18:00:00.000Z",
             "opponent": "Baltimore Ravens",
@@ -352,14 +360,6 @@
             "scored": 26,
             "allowed": 29,
             "result": "L"
-          },
-          {
-            "date": "2026-09-27T17:00:00.000Z",
-            "opponent": "Los Angeles Chargers",
-            "venue": "home",
-            "scored": 24,
-            "allowed": 16,
-            "result": "W"
           }
         ]
       },
@@ -1213,15 +1213,23 @@
       },
       {
         "team": "Minnesota Vikings",
-        "count": 7,
+        "count": 8,
         "wins": 6,
-        "losses": 1,
+        "losses": 2,
         "ties": 0,
-        "averageMargin": 6.714285714285714,
-        "averageScored": 20,
-        "averageAllowed": 13.285714285714286,
-        "inputAsOf": "2026-11-01T18:00:00.000Z",
+        "averageMargin": 3.75,
+        "averageScored": 18.25,
+        "averageAllowed": 14.5,
+        "inputAsOf": "2026-11-10T01:15:00.000Z",
         "recent": [
+          {
+            "date": "2026-11-10T01:15:00.000Z",
+            "opponent": "Buffalo Bills",
+            "venue": "home",
+            "scored": 6,
+            "allowed": 23,
+            "result": "L"
+          },
           {
             "date": "2026-11-01T18:00:00.000Z",
             "opponent": "Detroit Lions",
@@ -1252,14 +1260,6 @@
             "venue": "home",
             "scored": 15,
             "allowed": 10,
-            "result": "W"
-          },
-          {
-            "date": "2026-09-27T20:05:00.000Z",
-            "opponent": "Tampa Bay Buccaneers",
-            "venue": "away",
-            "scored": 23,
-            "allowed": 16,
             "result": "W"
           }
         ]
@@ -1980,6 +1980,937 @@
         "sampleSizes": [
           8,
           7
+        ]
+      }
+    },
+    {
+      "sourceEventId": "2026_10_BUF_NYJ",
+      "home": "New York Jets",
+      "away": "Buffalo Bills",
+      "event": "Buffalo Bills at New York Jets",
+      "eventStart": "2026-11-15T18:00:00.000Z",
+      "form": {
+        "season": 2026,
+        "window": 8,
+        "lagHours": 48,
+        "cutoff": "2026-11-13T18:00:00.000Z",
+        "home": {
+          "team": "New York Jets",
+          "count": 8,
+          "wins": 1,
+          "losses": 7,
+          "ties": 0,
+          "averageMargin": -6.75,
+          "averageScored": 19.875,
+          "averageAllowed": 26.625,
+          "inputAsOf": "2026-11-08T18:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-08T18:00:00.000Z",
+              "opponent": "Kansas City Chiefs",
+              "venue": "away",
+              "scored": 12,
+              "allowed": 35,
+              "result": "L"
+            },
+            {
+              "date": "2026-11-01T18:00:00.000Z",
+              "opponent": "Las Vegas Raiders",
+              "venue": "home",
+              "scored": 33,
+              "allowed": 38,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-25T17:00:00.000Z",
+              "opponent": "Miami Dolphins",
+              "venue": "home",
+              "scored": 25,
+              "allowed": 28,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-18T17:00:00.000Z",
+              "opponent": "New England Patriots",
+              "venue": "away",
+              "scored": 19,
+              "allowed": 26,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-11T17:00:00.000Z",
+              "opponent": "Cleveland Browns",
+              "venue": "home",
+              "scored": 17,
+              "allowed": 12,
+              "result": "W"
+            }
+          ]
+        },
+        "away": {
+          "team": "Buffalo Bills",
+          "count": 8,
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "averageMargin": 8.625,
+          "averageScored": 32,
+          "averageAllowed": 23.375,
+          "inputAsOf": "2026-11-10T01:15:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-10T01:15:00.000Z",
+              "opponent": "Minnesota Vikings",
+              "venue": "away",
+              "scored": 23,
+              "allowed": 6,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-01T18:00:00.000Z",
+              "opponent": "Baltimore Ravens",
+              "venue": "home",
+              "scored": 36,
+              "allowed": 10,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-18T20:25:00.000Z",
+              "opponent": "Las Vegas Raiders",
+              "venue": "away",
+              "scored": 33,
+              "allowed": 30,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-13T00:15:00.000Z",
+              "opponent": "Los Angeles Rams",
+              "venue": "away",
+              "scored": 37,
+              "allowed": 34,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-04T17:00:00.000Z",
+              "opponent": "New England Patriots",
+              "venue": "home",
+              "scored": 26,
+              "allowed": 29,
+              "result": "L"
+            }
+          ]
+        }
+      },
+      "eligible": true,
+      "reasons": [],
+      "features": {
+        "x": [
+          -15.375,
+          -0.75
+        ],
+        "inputAsOf": "2026-11-10T01:15:00.000Z",
+        "oldestLatest": "2026-11-08T18:00:00.000Z",
+        "sampleSizes": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "sourceEventId": "2026_10_CAR_NO",
+      "home": "New Orleans Saints",
+      "away": "Carolina Panthers",
+      "event": "Carolina Panthers at New Orleans Saints",
+      "eventStart": "2026-11-15T18:00:00.000Z",
+      "form": {
+        "season": 2026,
+        "window": 8,
+        "lagHours": 48,
+        "cutoff": "2026-11-13T18:00:00.000Z",
+        "home": {
+          "team": "New Orleans Saints",
+          "count": 7,
+          "wins": 3,
+          "losses": 4,
+          "ties": 0,
+          "averageMargin": -3.5714285714285716,
+          "averageScored": 25,
+          "averageAllowed": 28.571428571428573,
+          "inputAsOf": "2026-11-08T18:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-08T18:00:00.000Z",
+              "opponent": "Cleveland Browns",
+              "venue": "home",
+              "scored": 23,
+              "allowed": 22,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-18T17:00:00.000Z",
+              "opponent": "New York Giants",
+              "venue": "away",
+              "scored": 34,
+              "allowed": 27,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-11T17:00:00.000Z",
+              "opponent": "Minnesota Vikings",
+              "venue": "home",
+              "scored": 13,
+              "allowed": 23,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-06T00:15:00.000Z",
+              "opponent": "Atlanta Falcons",
+              "venue": "home",
+              "scored": 24,
+              "allowed": 45,
+              "result": "L"
+            },
+            {
+              "date": "2026-09-27T20:25:00.000Z",
+              "opponent": "Las Vegas Raiders",
+              "venue": "home",
+              "scored": 27,
+              "allowed": 35,
+              "result": "L"
+            }
+          ]
+        },
+        "away": {
+          "team": "Carolina Panthers",
+          "count": 8,
+          "wins": 3,
+          "losses": 5,
+          "ties": 0,
+          "averageMargin": -2.5,
+          "averageScored": 24.875,
+          "averageAllowed": 27.375,
+          "inputAsOf": "2026-11-08T18:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-08T18:00:00.000Z",
+              "opponent": "Denver Broncos",
+              "venue": "home",
+              "scored": 21,
+              "allowed": 26,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-30T00:15:00.000Z",
+              "opponent": "Green Bay Packers",
+              "venue": "away",
+              "scored": 19,
+              "allowed": 27,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-25T17:00:00.000Z",
+              "opponent": "Tampa Bay Buccaneers",
+              "venue": "home",
+              "scored": 13,
+              "allowed": 43,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-18T17:00:00.000Z",
+              "opponent": "Philadelphia Eagles",
+              "venue": "away",
+              "scored": 25,
+              "allowed": 14,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-05T00:20:00.000Z",
+              "opponent": "Detroit Lions",
+              "venue": "home",
+              "scored": 32,
+              "allowed": 26,
+              "result": "W"
+            }
+          ]
+        }
+      },
+      "eligible": true,
+      "reasons": [],
+      "features": {
+        "x": [
+          -1.0714285714285716,
+          0.05357142857142855
+        ],
+        "inputAsOf": "2026-11-08T18:00:00.000Z",
+        "oldestLatest": "2026-11-08T18:00:00.000Z",
+        "sampleSizes": [
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "sourceEventId": "2026_10_HOU_CLE",
+      "home": "Cleveland Browns",
+      "away": "Houston Texans",
+      "event": "Houston Texans at Cleveland Browns",
+      "eventStart": "2026-11-15T18:00:00.000Z",
+      "form": {
+        "season": 2026,
+        "window": 8,
+        "lagHours": 48,
+        "cutoff": "2026-11-13T18:00:00.000Z",
+        "home": {
+          "team": "Cleveland Browns",
+          "count": 8,
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "averageMargin": -1.375,
+          "averageScored": 18.875,
+          "averageAllowed": 20.25,
+          "inputAsOf": "2026-11-08T18:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-08T18:00:00.000Z",
+              "opponent": "New Orleans Saints",
+              "venue": "away",
+              "scored": 22,
+              "allowed": 23,
+              "result": "L"
+            },
+            {
+              "date": "2026-11-01T18:00:00.000Z",
+              "opponent": "Pittsburgh Steelers",
+              "venue": "away",
+              "scored": 6,
+              "allowed": 27,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-25T17:00:00.000Z",
+              "opponent": "Tennessee Titans",
+              "venue": "away",
+              "scored": 27,
+              "allowed": 24,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-18T17:00:00.000Z",
+              "opponent": "Baltimore Ravens",
+              "venue": "home",
+              "scored": 13,
+              "allowed": 10,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-11T17:00:00.000Z",
+              "opponent": "New York Jets",
+              "venue": "away",
+              "scored": 12,
+              "allowed": 17,
+              "result": "L"
+            }
+          ]
+        },
+        "away": {
+          "team": "Houston Texans",
+          "count": 7,
+          "wins": 2,
+          "losses": 5,
+          "ties": 0,
+          "averageMargin": 2,
+          "averageScored": 25,
+          "averageAllowed": 23,
+          "inputAsOf": "2026-11-08T21:05:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-08T21:05:00.000Z",
+              "opponent": "Los Angeles Chargers",
+              "venue": "away",
+              "scored": 44,
+              "allowed": 22,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-25T17:00:00.000Z",
+              "opponent": "New York Giants",
+              "venue": "home",
+              "scored": 21,
+              "allowed": 27,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-11T17:00:00.000Z",
+              "opponent": "Tennessee Titans",
+              "venue": "away",
+              "scored": 26,
+              "allowed": 3,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-04T17:00:00.000Z",
+              "opponent": "Dallas Cowboys",
+              "venue": "home",
+              "scored": 30,
+              "allowed": 34,
+              "result": "L"
+            },
+            {
+              "date": "2026-09-27T17:00:00.000Z",
+              "opponent": "Indianapolis Colts",
+              "venue": "away",
+              "scored": 17,
+              "allowed": 19,
+              "result": "L"
+            }
+          ]
+        }
+      },
+      "eligible": true,
+      "reasons": [],
+      "features": {
+        "x": [
+          -3.375,
+          0.3392857142857143
+        ],
+        "inputAsOf": "2026-11-08T21:05:00.000Z",
+        "oldestLatest": "2026-11-08T18:00:00.000Z",
+        "sampleSizes": [
+          8,
+          7
+        ]
+      }
+    },
+    {
+      "sourceEventId": "2026_10_JAX_TEN",
+      "home": "Tennessee Titans",
+      "away": "Jacksonville Jaguars",
+      "event": "Jacksonville Jaguars at Tennessee Titans",
+      "eventStart": "2026-11-15T18:00:00.000Z",
+      "form": {
+        "season": 2026,
+        "window": 8,
+        "lagHours": 48,
+        "cutoff": "2026-11-13T18:00:00.000Z",
+        "home": {
+          "team": "Tennessee Titans",
+          "count": 8,
+          "wins": 1,
+          "losses": 7,
+          "ties": 0,
+          "averageMargin": -6.875,
+          "averageScored": 18,
+          "averageAllowed": 24.875,
+          "inputAsOf": "2026-11-01T18:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-01T18:00:00.000Z",
+              "opponent": "Cincinnati Bengals",
+              "venue": "away",
+              "scored": 36,
+              "allowed": 43,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-25T17:00:00.000Z",
+              "opponent": "Cleveland Browns",
+              "venue": "home",
+              "scored": 24,
+              "allowed": 27,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-18T17:00:00.000Z",
+              "opponent": "Indianapolis Colts",
+              "venue": "away",
+              "scored": 26,
+              "allowed": 20,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-11T17:00:00.000Z",
+              "opponent": "Houston Texans",
+              "venue": "home",
+              "scored": 3,
+              "allowed": 26,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-04T17:00:00.000Z",
+              "opponent": "Baltimore Ravens",
+              "venue": "away",
+              "scored": 18,
+              "allowed": 24,
+              "result": "L"
+            }
+          ]
+        },
+        "away": {
+          "team": "Jacksonville Jaguars",
+          "count": 6,
+          "wins": 5,
+          "losses": 1,
+          "ties": 0,
+          "averageMargin": 18.166666666666668,
+          "averageScored": 29.833333333333332,
+          "averageAllowed": 11.666666666666666,
+          "inputAsOf": "2026-11-06T01:15:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-06T01:15:00.000Z",
+              "opponent": "Baltimore Ravens",
+              "venue": "away",
+              "scored": 33,
+              "allowed": 10,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-01T18:00:00.000Z",
+              "opponent": "Indianapolis Colts",
+              "venue": "home",
+              "scored": 42,
+              "allowed": 7,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-04T17:00:00.000Z",
+              "opponent": "Cincinnati Bengals",
+              "venue": "away",
+              "scored": 22,
+              "allowed": 17,
+              "result": "W"
+            },
+            {
+              "date": "2026-09-27T17:00:00.000Z",
+              "opponent": "New England Patriots",
+              "venue": "home",
+              "scored": 35,
+              "allowed": 6,
+              "result": "W"
+            },
+            {
+              "date": "2026-09-20T20:05:00.000Z",
+              "opponent": "Denver Broncos",
+              "venue": "away",
+              "scored": 13,
+              "allowed": 20,
+              "result": "L"
+            }
+          ]
+        }
+      },
+      "eligible": true,
+      "reasons": [],
+      "features": {
+        "x": [
+          -25.041666666666668,
+          -0.7083333333333334
+        ],
+        "inputAsOf": "2026-11-06T01:15:00.000Z",
+        "oldestLatest": "2026-11-01T18:00:00.000Z",
+        "sampleSizes": [
+          8,
+          6
+        ]
+      }
+    },
+    {
+      "sourceEventId": "2026_10_KC_ATL",
+      "home": "Atlanta Falcons",
+      "away": "Kansas City Chiefs",
+      "event": "Kansas City Chiefs at Atlanta Falcons",
+      "eventStart": "2026-11-15T18:00:00.000Z",
+      "form": {
+        "season": 2026,
+        "window": 8,
+        "lagHours": 48,
+        "cutoff": "2026-11-13T18:00:00.000Z",
+        "home": {
+          "team": "Atlanta Falcons",
+          "count": 8,
+          "wins": 3,
+          "losses": 5,
+          "ties": 0,
+          "averageMargin": -2.25,
+          "averageScored": 21.375,
+          "averageAllowed": 23.625,
+          "inputAsOf": "2026-11-01T18:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-01T18:00:00.000Z",
+              "opponent": "Tampa Bay Buccaneers",
+              "venue": "away",
+              "scored": 0,
+              "allowed": 16,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-25T17:00:00.000Z",
+              "opponent": "San Francisco 49ers",
+              "venue": "home",
+              "scored": 29,
+              "allowed": 20,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-18T17:00:00.000Z",
+              "opponent": "Chicago Bears",
+              "venue": "home",
+              "scored": 23,
+              "allowed": 31,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-12T00:20:00.000Z",
+              "opponent": "Baltimore Ravens",
+              "venue": "home",
+              "scored": 23,
+              "allowed": 30,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-06T00:15:00.000Z",
+              "opponent": "New Orleans Saints",
+              "venue": "away",
+              "scored": 45,
+              "allowed": 24,
+              "result": "W"
+            }
+          ]
+        },
+        "away": {
+          "team": "Kansas City Chiefs",
+          "count": 8,
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "averageMargin": 7.375,
+          "averageScored": 25.25,
+          "averageAllowed": 17.875,
+          "inputAsOf": "2026-11-08T18:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-08T18:00:00.000Z",
+              "opponent": "New York Jets",
+              "venue": "home",
+              "scored": 35,
+              "allowed": 12,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-01T21:25:00.000Z",
+              "opponent": "Denver Broncos",
+              "venue": "away",
+              "scored": 24,
+              "allowed": 28,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-26T00:20:00.000Z",
+              "opponent": "Seattle Seahawks",
+              "venue": "away",
+              "scored": 3,
+              "allowed": 20,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-18T20:25:00.000Z",
+              "opponent": "Los Angeles Chargers",
+              "venue": "home",
+              "scored": 22,
+              "allowed": 6,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-04T20:25:00.000Z",
+              "opponent": "Las Vegas Raiders",
+              "venue": "away",
+              "scored": 30,
+              "allowed": 27,
+              "result": "W"
+            }
+          ]
+        }
+      },
+      "eligible": true,
+      "reasons": [],
+      "features": {
+        "x": [
+          -9.625,
+          -0.375
+        ],
+        "inputAsOf": "2026-11-08T18:00:00.000Z",
+        "oldestLatest": "2026-11-01T18:00:00.000Z",
+        "sampleSizes": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "sourceEventId": "2026_10_MIA_IND",
+      "home": "Indianapolis Colts",
+      "away": "Miami Dolphins",
+      "event": "Miami Dolphins at Indianapolis Colts",
+      "eventStart": "2026-11-15T18:00:00.000Z",
+      "form": {
+        "season": 2026,
+        "window": 8,
+        "lagHours": 48,
+        "cutoff": "2026-11-13T18:00:00.000Z",
+        "home": {
+          "team": "Indianapolis Colts",
+          "count": 8,
+          "wins": 1,
+          "losses": 7,
+          "ties": 0,
+          "averageMargin": -10.25,
+          "averageScored": 19.25,
+          "averageAllowed": 29.5,
+          "inputAsOf": "2026-11-08T18:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-08T18:00:00.000Z",
+              "opponent": "Dallas Cowboys",
+              "venue": "home",
+              "scored": 23,
+              "allowed": 27,
+              "result": "L"
+            },
+            {
+              "date": "2026-11-01T18:00:00.000Z",
+              "opponent": "Jacksonville Jaguars",
+              "venue": "away",
+              "scored": 7,
+              "allowed": 42,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-25T17:00:00.000Z",
+              "opponent": "Minnesota Vikings",
+              "venue": "away",
+              "scored": 10,
+              "allowed": 16,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-18T17:00:00.000Z",
+              "opponent": "Tennessee Titans",
+              "venue": "home",
+              "scored": 20,
+              "allowed": 26,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-11T17:00:00.000Z",
+              "opponent": "Pittsburgh Steelers",
+              "venue": "away",
+              "scored": 22,
+              "allowed": 34,
+              "result": "L"
+            }
+          ]
+        },
+        "away": {
+          "team": "Miami Dolphins",
+          "count": 8,
+          "wins": 1,
+          "losses": 7,
+          "ties": 0,
+          "averageMargin": -9.25,
+          "averageScored": 15.75,
+          "averageAllowed": 25,
+          "inputAsOf": "2026-11-08T18:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-08T18:00:00.000Z",
+              "opponent": "Detroit Lions",
+              "venue": "home",
+              "scored": 9,
+              "allowed": 19,
+              "result": "L"
+            },
+            {
+              "date": "2026-11-01T21:25:00.000Z",
+              "opponent": "New England Patriots",
+              "venue": "home",
+              "scored": 19,
+              "allowed": 24,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-25T17:00:00.000Z",
+              "opponent": "New York Jets",
+              "venue": "away",
+              "scored": 28,
+              "allowed": 25,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-11T17:00:00.000Z",
+              "opponent": "Cincinnati Bengals",
+              "venue": "home",
+              "scored": 24,
+              "allowed": 31,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-04T20:05:00.000Z",
+              "opponent": "Minnesota Vikings",
+              "venue": "away",
+              "scored": 10,
+              "allowed": 15,
+              "result": "L"
+            }
+          ]
+        }
+      },
+      "eligible": true,
+      "reasons": [],
+      "features": {
+        "x": [
+          -1,
+          0
+        ],
+        "inputAsOf": "2026-11-08T18:00:00.000Z",
+        "oldestLatest": "2026-11-08T18:00:00.000Z",
+        "sampleSizes": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "sourceEventId": "2026_10_MIN_GB",
+      "home": "Green Bay Packers",
+      "away": "Minnesota Vikings",
+      "event": "Minnesota Vikings at Green Bay Packers",
+      "eventStart": "2026-11-15T18:00:00.000Z",
+      "form": {
+        "season": 2026,
+        "window": 8,
+        "lagHours": 48,
+        "cutoff": "2026-11-13T18:00:00.000Z",
+        "home": {
+          "team": "Green Bay Packers",
+          "count": 8,
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "averageMargin": 5.25,
+          "averageScored": 24.25,
+          "averageAllowed": 19,
+          "inputAsOf": "2026-11-08T21:25:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-08T21:25:00.000Z",
+              "opponent": "New England Patriots",
+              "venue": "away",
+              "scored": 45,
+              "allowed": 27,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-30T00:15:00.000Z",
+              "opponent": "Carolina Panthers",
+              "venue": "home",
+              "scored": 27,
+              "allowed": 19,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-25T20:25:00.000Z",
+              "opponent": "Detroit Lions",
+              "venue": "away",
+              "scored": 17,
+              "allowed": 20,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-19T00:20:00.000Z",
+              "opponent": "Dallas Cowboys",
+              "venue": "home",
+              "scored": 23,
+              "allowed": 13,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-11T17:00:00.000Z",
+              "opponent": "Chicago Bears",
+              "venue": "home",
+              "scored": 31,
+              "allowed": 7,
+              "result": "W"
+            }
+          ]
+        },
+        "away": {
+          "team": "Minnesota Vikings",
+          "count": 8,
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "averageMargin": 3.75,
+          "averageScored": 18.25,
+          "averageAllowed": 14.5,
+          "inputAsOf": "2026-11-10T01:15:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-10T01:15:00.000Z",
+              "opponent": "Buffalo Bills",
+              "venue": "home",
+              "scored": 6,
+              "allowed": 23,
+              "result": "L"
+            },
+            {
+              "date": "2026-11-01T18:00:00.000Z",
+              "opponent": "Detroit Lions",
+              "venue": "away",
+              "scored": 15,
+              "allowed": 19,
+              "result": "L"
+            },
+            {
+              "date": "2026-10-25T17:00:00.000Z",
+              "opponent": "Indianapolis Colts",
+              "venue": "home",
+              "scored": 16,
+              "allowed": 10,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-11T17:00:00.000Z",
+              "opponent": "New Orleans Saints",
+              "venue": "away",
+              "scored": 23,
+              "allowed": 13,
+              "result": "W"
+            },
+            {
+              "date": "2026-10-04T20:05:00.000Z",
+              "opponent": "Miami Dolphins",
+              "venue": "home",
+              "scored": 15,
+              "allowed": 10,
+              "result": "W"
+            }
+          ]
+        }
+      },
+      "eligible": true,
+      "reasons": [],
+      "features": {
+        "x": [
+          1.5,
+          0
+        ],
+        "inputAsOf": "2026-11-10T01:15:00.000Z",
+        "oldestLatest": "2026-11-08T21:25:00.000Z",
+        "sampleSizes": [
+          8,
+          8
         ]
       }
     }
