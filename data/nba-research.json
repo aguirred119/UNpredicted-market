@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "status": "retrospective-research",
-  "generatedAt": "2026-11-14T17:59:09.230Z",
-  "dataThrough": "2026-11-12T03:00:00.000Z",
+  "generatedAt": "2026-11-15T18:49:36.641Z",
+  "dataThrough": "2026-11-13T02:00:00.000Z",
   "holdoutSeason": 2026,
   "source": {
     "name": "SportsDataverse / hoopR NBA schedules (ESPN upstream)",
@@ -33,13 +33,13 @@
       {
         "season": 2027,
         "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_nba_schedules/nba_schedule_2027.csv",
-        "sha256": "b4bc0b6a0a13718a02f61903719b6ef669d47b30a06f82edd063ca1d79459422"
+        "sha256": "66265505948bc48c967b9d55528ba854c85c45756298535b05deb241bcb3dc98"
       }
     ]
   },
   "processing": {
-    "excluded": 406,
-    "completedGames": 5076,
+    "excluded": 407,
+    "completedGames": 5080,
     "lagHours": 48,
     "minimumGamesPerTeam": 10,
     "historyWindow": 20,
@@ -165,9 +165,9 @@
     "season": 2027,
     "window": 20,
     "lagHours": 48,
-    "cutoff": "2026-11-12T17:59:09.230Z",
-    "completedGames": 169,
-    "dataThrough": "2026-11-12T03:00:00.000Z",
+    "cutoff": "2026-11-13T18:49:36.641Z",
+    "completedGames": 173,
+    "dataThrough": "2026-11-13T02:00:00.000Z",
     "teams": [
       {
         "team": "Atlanta Hawks",
@@ -330,15 +330,23 @@
       },
       {
         "team": "Charlotte Hornets",
-        "count": 11,
+        "count": 12,
         "wins": 4,
-        "losses": 7,
+        "losses": 8,
         "ties": 0,
-        "averageMargin": -11.545454545454545,
-        "averageScored": 98.81818181818181,
-        "averageAllowed": 110.36363636363636,
-        "inputAsOf": "2026-11-10T00:00:00.000Z",
+        "averageMargin": -11,
+        "averageScored": 98.58333333333333,
+        "averageAllowed": 109.58333333333333,
+        "inputAsOf": "2026-11-13T02:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-11-13T02:00:00.000Z",
+            "opponent": "Phoenix Suns",
+            "venue": "away",
+            "scored": 96,
+            "allowed": 101,
+            "result": "L"
+          },
           {
             "date": "2026-11-10T00:00:00.000Z",
             "opponent": "Cleveland Cavaliers",
@@ -369,14 +377,6 @@
             "venue": "home",
             "scored": 91,
             "allowed": 124,
-            "result": "L"
-          },
-          {
-            "date": "2026-10-31T22:00:00.000Z",
-            "opponent": "Philadelphia 76ers",
-            "venue": "home",
-            "scored": 104,
-            "allowed": 109,
             "result": "L"
           }
         ]
@@ -489,15 +489,23 @@
       },
       {
         "team": "Dallas Mavericks",
-        "count": 11,
+        "count": 12,
         "wins": 7,
-        "losses": 4,
+        "losses": 5,
         "ties": 0,
-        "averageMargin": 4.636363636363637,
-        "averageScored": 114.9090909090909,
-        "averageAllowed": 110.27272727272727,
-        "inputAsOf": "2026-11-10T01:00:00.000Z",
+        "averageMargin": 1,
+        "averageScored": 113.16666666666667,
+        "averageAllowed": 112.16666666666667,
+        "inputAsOf": "2026-11-13T01:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-11-13T01:00:00.000Z",
+            "opponent": "Minnesota Timberwolves",
+            "venue": "away",
+            "scored": 94,
+            "allowed": 133,
+            "result": "L"
+          },
           {
             "date": "2026-11-10T01:00:00.000Z",
             "opponent": "Indiana Pacers",
@@ -528,14 +536,6 @@
             "venue": "away",
             "scored": 111,
             "allowed": 112,
-            "result": "L"
-          },
-          {
-            "date": "2026-11-03T01:00:00.000Z",
-            "opponent": "Sacramento Kings",
-            "venue": "home",
-            "scored": 100,
-            "allowed": 115,
             "result": "L"
           }
         ]
@@ -595,15 +595,23 @@
       },
       {
         "team": "Detroit Pistons",
-        "count": 10,
-        "wins": 7,
+        "count": 11,
+        "wins": 8,
         "losses": 3,
         "ties": 0,
-        "averageMargin": 8.1,
-        "averageScored": 112.7,
-        "averageAllowed": 104.6,
-        "inputAsOf": "2026-11-10T00:00:00.000Z",
+        "averageMargin": 7.7272727272727275,
+        "averageScored": 115.54545454545455,
+        "averageAllowed": 107.81818181818181,
+        "inputAsOf": "2026-11-13T00:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-11-13T00:00:00.000Z",
+            "opponent": "Washington Wizards",
+            "venue": "away",
+            "scored": 144,
+            "allowed": 140,
+            "result": "W"
+          },
           {
             "date": "2026-11-10T00:00:00.000Z",
             "opponent": "Washington Wizards",
@@ -634,14 +642,6 @@
             "venue": "away",
             "scored": 124,
             "allowed": 91,
-            "result": "W"
-          },
-          {
-            "date": "2026-10-30T23:30:00.000Z",
-            "opponent": "Brooklyn Nets",
-            "venue": "away",
-            "scored": 110,
-            "allowed": 94,
             "result": "W"
           }
         ]
@@ -1072,15 +1072,23 @@
       },
       {
         "team": "Minnesota Timberwolves",
-        "count": 11,
-        "wins": 8,
+        "count": 12,
+        "wins": 9,
         "losses": 3,
         "ties": 0,
-        "averageMargin": 11.090909090909092,
-        "averageScored": 118.0909090909091,
-        "averageAllowed": 107,
-        "inputAsOf": "2026-11-09T00:00:00.000Z",
+        "averageMargin": 13.416666666666666,
+        "averageScored": 119.33333333333333,
+        "averageAllowed": 105.91666666666667,
+        "inputAsOf": "2026-11-13T01:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-11-13T01:00:00.000Z",
+            "opponent": "Dallas Mavericks",
+            "venue": "home",
+            "scored": 133,
+            "allowed": 94,
+            "result": "W"
+          },
           {
             "date": "2026-11-09T00:00:00.000Z",
             "opponent": "Utah Jazz",
@@ -1112,14 +1120,6 @@
             "scored": 112,
             "allowed": 100,
             "result": "W"
-          },
-          {
-            "date": "2026-11-01T00:00:00.000Z",
-            "opponent": "San Antonio Spurs",
-            "venue": "away",
-            "scored": 111,
-            "allowed": 121,
-            "result": "L"
           }
         ]
       },
@@ -1337,15 +1337,23 @@
       },
       {
         "team": "Philadelphia 76ers",
-        "count": 12,
-        "wins": 9,
+        "count": 13,
+        "wins": 10,
         "losses": 3,
         "ties": 0,
-        "averageMargin": 1,
-        "averageScored": 110.16666666666667,
-        "averageAllowed": 109.16666666666667,
-        "inputAsOf": "2026-11-11T01:00:00.000Z",
+        "averageMargin": 1.7692307692307692,
+        "averageScored": 111.15384615384616,
+        "averageAllowed": 109.38461538461539,
+        "inputAsOf": "2026-11-13T00:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-11-13T00:00:00.000Z",
+            "opponent": "Toronto Raptors",
+            "venue": "home",
+            "scored": 123,
+            "allowed": 112,
+            "result": "W"
+          },
           {
             "date": "2026-11-11T01:00:00.000Z",
             "opponent": "Boston Celtics",
@@ -1377,28 +1385,28 @@
             "scored": 112,
             "allowed": 106,
             "result": "W"
-          },
-          {
-            "date": "2026-11-03T00:30:00.000Z",
-            "opponent": "Chicago Bulls",
-            "venue": "home",
-            "scored": 126,
-            "allowed": 107,
-            "result": "W"
           }
         ]
       },
       {
         "team": "Phoenix Suns",
-        "count": 10,
-        "wins": 4,
+        "count": 11,
+        "wins": 5,
         "losses": 6,
         "ties": 0,
-        "averageMargin": -5.3,
-        "averageScored": 112.8,
-        "averageAllowed": 118.1,
-        "inputAsOf": "2026-11-11T02:00:00.000Z",
+        "averageMargin": -4.363636363636363,
+        "averageScored": 111.72727272727273,
+        "averageAllowed": 116.0909090909091,
+        "inputAsOf": "2026-11-13T02:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-11-13T02:00:00.000Z",
+            "opponent": "Charlotte Hornets",
+            "venue": "home",
+            "scored": 101,
+            "allowed": 96,
+            "result": "W"
+          },
           {
             "date": "2026-11-11T02:00:00.000Z",
             "opponent": "LA Clippers",
@@ -1430,14 +1438,6 @@
             "scored": 117,
             "allowed": 104,
             "result": "W"
-          },
-          {
-            "date": "2026-11-05T02:00:00.000Z",
-            "opponent": "Portland Trail Blazers",
-            "venue": "home",
-            "scored": 119,
-            "allowed": 132,
-            "result": "L"
           }
         ]
       },
@@ -1602,15 +1602,23 @@
       },
       {
         "team": "Toronto Raptors",
-        "count": 11,
+        "count": 12,
         "wins": 5,
-        "losses": 6,
+        "losses": 7,
         "ties": 0,
-        "averageMargin": 2.5454545454545454,
-        "averageScored": 114.45454545454545,
-        "averageAllowed": 111.9090909090909,
-        "inputAsOf": "2026-11-12T00:00:00.000Z",
+        "averageMargin": 1.4166666666666667,
+        "averageScored": 114.25,
+        "averageAllowed": 112.83333333333333,
+        "inputAsOf": "2026-11-13T00:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-11-13T00:00:00.000Z",
+            "opponent": "Philadelphia 76ers",
+            "venue": "away",
+            "scored": 112,
+            "allowed": 123,
+            "result": "L"
+          },
           {
             "date": "2026-11-12T00:00:00.000Z",
             "opponent": "Boston Celtics",
@@ -1642,14 +1650,6 @@
             "scored": 109,
             "allowed": 128,
             "result": "L"
-          },
-          {
-            "date": "2026-11-03T03:00:00.000Z",
-            "opponent": "LA Clippers",
-            "venue": "away",
-            "scored": 125,
-            "allowed": 118,
-            "result": "W"
           }
         ]
       },
@@ -1708,15 +1708,23 @@
       },
       {
         "team": "Washington Wizards",
-        "count": 12,
+        "count": 13,
         "wins": 4,
-        "losses": 8,
+        "losses": 9,
         "ties": 0,
-        "averageMargin": -5.916666666666667,
-        "averageScored": 107.5,
-        "averageAllowed": 113.41666666666667,
-        "inputAsOf": "2026-11-12T00:00:00.000Z",
+        "averageMargin": -5.769230769230769,
+        "averageScored": 110,
+        "averageAllowed": 115.76923076923077,
+        "inputAsOf": "2026-11-13T00:00:00.000Z",
         "recent": [
+          {
+            "date": "2026-11-13T00:00:00.000Z",
+            "opponent": "Detroit Pistons",
+            "venue": "home",
+            "scored": 140,
+            "allowed": 144,
+            "result": "L"
+          },
           {
             "date": "2026-11-12T00:00:00.000Z",
             "opponent": "Indiana Pacers",
@@ -1748,809 +1756,12 @@
             "scored": 132,
             "allowed": 139,
             "result": "L"
-          },
-          {
-            "date": "2026-11-05T00:00:00.000Z",
-            "opponent": "Atlanta Hawks",
-            "venue": "home",
-            "scored": 105,
-            "allowed": 120,
-            "result": "L"
           }
         ]
       }
     ]
   },
   "upcoming": [
-    {
-      "sourceEventId": "401909980",
-      "home": "New Orleans Pelicans",
-      "away": "Denver Nuggets",
-      "event": "Denver Nuggets at New Orleans Pelicans",
-      "eventStart": "2026-11-15T00:00:00.000Z",
-      "form": {
-        "season": 2027,
-        "window": 20,
-        "lagHours": 48,
-        "cutoff": "2026-11-13T00:00:00.000Z",
-        "home": {
-          "team": "New Orleans Pelicans",
-          "count": 12,
-          "wins": 4,
-          "losses": 8,
-          "ties": 0,
-          "averageMargin": -7.333333333333333,
-          "averageScored": 116.91666666666667,
-          "averageAllowed": 124.25,
-          "inputAsOf": "2026-11-12T01:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-11-12T01:00:00.000Z",
-              "opponent": "Brooklyn Nets",
-              "venue": "home",
-              "scored": 111,
-              "allowed": 145,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-10T03:00:00.000Z",
-              "opponent": "Golden State Warriors",
-              "venue": "away",
-              "scored": 87,
-              "allowed": 138,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-09T02:00:00.000Z",
-              "opponent": "LA Clippers",
-              "venue": "away",
-              "scored": 123,
-              "allowed": 139,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-07T01:00:00.000Z",
-              "opponent": "Minnesota Timberwolves",
-              "venue": "home",
-              "scored": 109,
-              "allowed": 115,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-05T01:00:00.000Z",
-              "opponent": "Utah Jazz",
-              "venue": "home",
-              "scored": 120,
-              "allowed": 113,
-              "result": "W"
-            }
-          ]
-        },
-        "away": {
-          "team": "Denver Nuggets",
-          "count": 9,
-          "wins": 5,
-          "losses": 4,
-          "ties": 0,
-          "averageMargin": 0,
-          "averageScored": 114.55555555555556,
-          "averageAllowed": 114.55555555555556,
-          "inputAsOf": "2026-11-12T01:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-11-12T01:00:00.000Z",
-              "opponent": "Memphis Grizzlies",
-              "venue": "away",
-              "scored": 123,
-              "allowed": 118,
-              "result": "W"
-            },
-            {
-              "date": "2026-11-10T01:30:00.000Z",
-              "opponent": "Houston Rockets",
-              "venue": "away",
-              "scored": 100,
-              "allowed": 110,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-05T02:00:00.000Z",
-              "opponent": "Toronto Raptors",
-              "venue": "home",
-              "scored": 128,
-              "allowed": 109,
-              "result": "W"
-            },
-            {
-              "date": "2026-11-03T02:00:00.000Z",
-              "opponent": "Portland Trail Blazers",
-              "venue": "home",
-              "scored": 110,
-              "allowed": 118,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-31T02:00:00.000Z",
-              "opponent": "Phoenix Suns",
-              "venue": "away",
-              "scored": 127,
-              "allowed": 120,
-              "result": "W"
-            }
-          ]
-        }
-      },
-      "eligible": false,
-      "reasons": [
-        "Each team needs 10 current-season prior games"
-      ],
-      "features": null
-    },
-    {
-      "sourceEventId": "401909981",
-      "home": "Cleveland Cavaliers",
-      "away": "Dallas Mavericks",
-      "event": "Dallas Mavericks at Cleveland Cavaliers",
-      "eventStart": "2026-11-15T00:30:00.000Z",
-      "form": {
-        "season": 2027,
-        "window": 20,
-        "lagHours": 48,
-        "cutoff": "2026-11-13T00:30:00.000Z",
-        "home": {
-          "team": "Cleveland Cavaliers",
-          "count": 12,
-          "wins": 6,
-          "losses": 6,
-          "ties": 0,
-          "averageMargin": 2.0833333333333335,
-          "averageScored": 116.41666666666667,
-          "averageAllowed": 114.33333333333333,
-          "inputAsOf": "2026-11-12T00:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-11-12T00:00:00.000Z",
-              "opponent": "New York Knicks",
-              "venue": "away",
-              "scored": 115,
-              "allowed": 107,
-              "result": "W"
-            },
-            {
-              "date": "2026-11-10T00:00:00.000Z",
-              "opponent": "Charlotte Hornets",
-              "venue": "away",
-              "scored": 112,
-              "allowed": 124,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-08T01:00:00.000Z",
-              "opponent": "New York Knicks",
-              "venue": "home",
-              "scored": 97,
-              "allowed": 109,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-07T00:30:00.000Z",
-              "opponent": "Philadelphia 76ers",
-              "venue": "home",
-              "scored": 119,
-              "allowed": 95,
-              "result": "W"
-            },
-            {
-              "date": "2026-11-05T01:00:00.000Z",
-              "opponent": "Oklahoma City Thunder",
-              "venue": "away",
-              "scored": 116,
-              "allowed": 124,
-              "result": "L"
-            }
-          ]
-        },
-        "away": {
-          "team": "Dallas Mavericks",
-          "count": 11,
-          "wins": 7,
-          "losses": 4,
-          "ties": 0,
-          "averageMargin": 4.636363636363637,
-          "averageScored": 114.9090909090909,
-          "averageAllowed": 110.27272727272727,
-          "inputAsOf": "2026-11-10T01:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-11-10T01:00:00.000Z",
-              "opponent": "Indiana Pacers",
-              "venue": "home",
-              "scored": 125,
-              "allowed": 122,
-              "result": "W"
-            },
-            {
-              "date": "2026-11-09T00:30:00.000Z",
-              "opponent": "Brooklyn Nets",
-              "venue": "home",
-              "scored": 130,
-              "allowed": 93,
-              "result": "W"
-            },
-            {
-              "date": "2026-11-07T01:00:00.000Z",
-              "opponent": "Utah Jazz",
-              "venue": "home",
-              "scored": 112,
-              "allowed": 100,
-              "result": "W"
-            },
-            {
-              "date": "2026-11-05T02:30:00.000Z",
-              "opponent": "San Antonio Spurs",
-              "venue": "away",
-              "scored": 111,
-              "allowed": 112,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-03T01:00:00.000Z",
-              "opponent": "Sacramento Kings",
-              "venue": "home",
-              "scored": 100,
-              "allowed": 115,
-              "result": "L"
-            }
-          ]
-        }
-      },
-      "eligible": true,
-      "reasons": [],
-      "features": {
-        "x": [
-          -2.553030303030303,
-          -0.13636363636363635
-        ],
-        "inputAsOf": "2026-11-12T00:00:00.000Z",
-        "oldestLatest": "2026-11-10T01:00:00.000Z",
-        "sampleSizes": [
-          12,
-          11
-        ]
-      }
-    },
-    {
-      "sourceEventId": "401909982",
-      "home": "Miami Heat",
-      "away": "Detroit Pistons",
-      "event": "Detroit Pistons at Miami Heat",
-      "eventStart": "2026-11-15T01:00:00.000Z",
-      "form": {
-        "season": 2027,
-        "window": 20,
-        "lagHours": 48,
-        "cutoff": "2026-11-13T01:00:00.000Z",
-        "home": {
-          "team": "Miami Heat",
-          "count": 11,
-          "wins": 5,
-          "losses": 6,
-          "ties": 0,
-          "averageMargin": -4.2727272727272725,
-          "averageScored": 115.72727272727273,
-          "averageAllowed": 120,
-          "inputAsOf": "2026-11-11T02:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-11-11T02:00:00.000Z",
-              "opponent": "Utah Jazz",
-              "venue": "away",
-              "scored": 115,
-              "allowed": 109,
-              "result": "W"
-            },
-            {
-              "date": "2026-11-09T02:00:00.000Z",
-              "opponent": "Sacramento Kings",
-              "venue": "away",
-              "scored": 114,
-              "allowed": 108,
-              "result": "W"
-            },
-            {
-              "date": "2026-11-06T03:00:00.000Z",
-              "opponent": "Golden State Warriors",
-              "venue": "away",
-              "scored": 100,
-              "allowed": 120,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-05T03:30:00.000Z",
-              "opponent": "LA Clippers",
-              "venue": "away",
-              "scored": 117,
-              "allowed": 116,
-              "result": "W"
-            },
-            {
-              "date": "2026-11-03T03:00:00.000Z",
-              "opponent": "Los Angeles Lakers",
-              "venue": "away",
-              "scored": 117,
-              "allowed": 138,
-              "result": "L"
-            }
-          ]
-        },
-        "away": {
-          "team": "Detroit Pistons",
-          "count": 10,
-          "wins": 7,
-          "losses": 3,
-          "ties": 0,
-          "averageMargin": 8.1,
-          "averageScored": 112.7,
-          "averageAllowed": 104.6,
-          "inputAsOf": "2026-11-10T00:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-11-10T00:00:00.000Z",
-              "opponent": "Washington Wizards",
-              "venue": "home",
-              "scored": 122,
-              "allowed": 111,
-              "result": "W"
-            },
-            {
-              "date": "2026-11-08T23:00:00.000Z",
-              "opponent": "Los Angeles Lakers",
-              "venue": "home",
-              "scored": 116,
-              "allowed": 121,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-05T00:00:00.000Z",
-              "opponent": "Philadelphia 76ers",
-              "venue": "home",
-              "scored": 106,
-              "allowed": 112,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-03T00:30:00.000Z",
-              "opponent": "Charlotte Hornets",
-              "venue": "away",
-              "scored": 124,
-              "allowed": 91,
-              "result": "W"
-            },
-            {
-              "date": "2026-10-30T23:30:00.000Z",
-              "opponent": "Brooklyn Nets",
-              "venue": "away",
-              "scored": 110,
-              "allowed": 94,
-              "result": "W"
-            }
-          ]
-        }
-      },
-      "eligible": true,
-      "reasons": [],
-      "features": {
-        "x": [
-          -12.372727272727271,
-          -0.24545454545454543
-        ],
-        "inputAsOf": "2026-11-11T02:00:00.000Z",
-        "oldestLatest": "2026-11-10T00:00:00.000Z",
-        "sampleSizes": [
-          11,
-          10
-        ]
-      }
-    },
-    {
-      "sourceEventId": "401909983",
-      "home": "Memphis Grizzlies",
-      "away": "Brooklyn Nets",
-      "event": "Brooklyn Nets at Memphis Grizzlies",
-      "eventStart": "2026-11-15T01:00:00.000Z",
-      "form": {
-        "season": 2027,
-        "window": 20,
-        "lagHours": 48,
-        "cutoff": "2026-11-13T01:00:00.000Z",
-        "home": {
-          "team": "Memphis Grizzlies",
-          "count": 11,
-          "wins": 7,
-          "losses": 4,
-          "ties": 0,
-          "averageMargin": 6,
-          "averageScored": 117.9090909090909,
-          "averageAllowed": 111.9090909090909,
-          "inputAsOf": "2026-11-12T01:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-11-12T01:00:00.000Z",
-              "opponent": "Denver Nuggets",
-              "venue": "home",
-              "scored": 118,
-              "allowed": 123,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-10T00:30:00.000Z",
-              "opponent": "Toronto Raptors",
-              "venue": "away",
-              "scored": 118,
-              "allowed": 102,
-              "result": "W"
-            },
-            {
-              "date": "2026-11-07T01:00:00.000Z",
-              "opponent": "Oklahoma City Thunder",
-              "venue": "home",
-              "scored": 97,
-              "allowed": 128,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-05T01:00:00.000Z",
-              "opponent": "Indiana Pacers",
-              "venue": "home",
-              "scored": 103,
-              "allowed": 107,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-03T01:00:00.000Z",
-              "opponent": "New Orleans Pelicans",
-              "venue": "home",
-              "scored": 134,
-              "allowed": 135,
-              "result": "L"
-            }
-          ]
-        },
-        "away": {
-          "team": "Brooklyn Nets",
-          "count": 11,
-          "wins": 3,
-          "losses": 8,
-          "ties": 0,
-          "averageMargin": -5.090909090909091,
-          "averageScored": 110.18181818181819,
-          "averageAllowed": 115.27272727272727,
-          "inputAsOf": "2026-11-12T01:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-11-12T01:00:00.000Z",
-              "opponent": "New Orleans Pelicans",
-              "venue": "away",
-              "scored": 145,
-              "allowed": 111,
-              "result": "W"
-            },
-            {
-              "date": "2026-11-09T00:30:00.000Z",
-              "opponent": "Dallas Mavericks",
-              "venue": "away",
-              "scored": 93,
-              "allowed": 130,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-08T00:30:00.000Z",
-              "opponent": "Atlanta Hawks",
-              "venue": "away",
-              "scored": 121,
-              "allowed": 124,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-05T00:30:00.000Z",
-              "opponent": "Charlotte Hornets",
-              "venue": "home",
-              "scored": 114,
-              "allowed": 104,
-              "result": "W"
-            },
-            {
-              "date": "2026-11-03T00:30:00.000Z",
-              "opponent": "New York Knicks",
-              "venue": "away",
-              "scored": 90,
-              "allowed": 103,
-              "result": "L"
-            }
-          ]
-        }
-      },
-      "eligible": true,
-      "reasons": [],
-      "features": {
-        "x": [
-          11.09090909090909,
-          0.36363636363636365
-        ],
-        "inputAsOf": "2026-11-12T01:00:00.000Z",
-        "oldestLatest": "2026-11-12T01:00:00.000Z",
-        "sampleSizes": [
-          11,
-          11
-        ]
-      }
-    },
-    {
-      "sourceEventId": "401909984",
-      "home": "Minnesota Timberwolves",
-      "away": "Chicago Bulls",
-      "event": "Chicago Bulls at Minnesota Timberwolves",
-      "eventStart": "2026-11-15T01:00:00.000Z",
-      "form": {
-        "season": 2027,
-        "window": 20,
-        "lagHours": 48,
-        "cutoff": "2026-11-13T01:00:00.000Z",
-        "home": {
-          "team": "Minnesota Timberwolves",
-          "count": 11,
-          "wins": 8,
-          "losses": 3,
-          "ties": 0,
-          "averageMargin": 11.090909090909092,
-          "averageScored": 118.0909090909091,
-          "averageAllowed": 107,
-          "inputAsOf": "2026-11-09T00:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-11-09T00:00:00.000Z",
-              "opponent": "Utah Jazz",
-              "venue": "home",
-              "scored": 115,
-              "allowed": 100,
-              "result": "W"
-            },
-            {
-              "date": "2026-11-07T01:00:00.000Z",
-              "opponent": "New Orleans Pelicans",
-              "venue": "away",
-              "scored": 115,
-              "allowed": 109,
-              "result": "W"
-            },
-            {
-              "date": "2026-11-05T01:30:00.000Z",
-              "opponent": "Houston Rockets",
-              "venue": "away",
-              "scored": 117,
-              "allowed": 107,
-              "result": "W"
-            },
-            {
-              "date": "2026-11-03T01:00:00.000Z",
-              "opponent": "Milwaukee Bucks",
-              "venue": "home",
-              "scored": 112,
-              "allowed": 100,
-              "result": "W"
-            },
-            {
-              "date": "2026-11-01T00:00:00.000Z",
-              "opponent": "San Antonio Spurs",
-              "venue": "away",
-              "scored": 111,
-              "allowed": 121,
-              "result": "L"
-            }
-          ]
-        },
-        "away": {
-          "team": "Chicago Bulls",
-          "count": 10,
-          "wins": 1,
-          "losses": 9,
-          "ties": 0,
-          "averageMargin": -15.5,
-          "averageScored": 113.3,
-          "averageAllowed": 128.8,
-          "inputAsOf": "2026-11-12T01:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-11-12T01:00:00.000Z",
-              "opponent": "San Antonio Spurs",
-              "venue": "home",
-              "scored": 119,
-              "allowed": 124,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-08T20:30:00.000Z",
-              "opponent": "Philadelphia 76ers",
-              "venue": "home",
-              "scored": 121,
-              "allowed": 127,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-05T00:30:00.000Z",
-              "opponent": "New York Knicks",
-              "venue": "away",
-              "scored": 105,
-              "allowed": 135,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-03T00:30:00.000Z",
-              "opponent": "Philadelphia 76ers",
-              "venue": "away",
-              "scored": 107,
-              "allowed": 126,
-              "result": "L"
-            },
-            {
-              "date": "2026-10-30T23:30:00.000Z",
-              "opponent": "Boston Celtics",
-              "venue": "away",
-              "scored": 111,
-              "allowed": 125,
-              "result": "L"
-            }
-          ]
-        }
-      },
-      "eligible": true,
-      "reasons": [],
-      "features": {
-        "x": [
-          26.590909090909093,
-          0.6272727272727273
-        ],
-        "inputAsOf": "2026-11-12T01:00:00.000Z",
-        "oldestLatest": "2026-11-09T00:00:00.000Z",
-        "sampleSizes": [
-          11,
-          10
-        ]
-      }
-    },
-    {
-      "sourceEventId": "401909985",
-      "home": "Philadelphia 76ers",
-      "away": "Indiana Pacers",
-      "event": "Indiana Pacers at Philadelphia 76ers",
-      "eventStart": "2026-11-15T18:00:00.000Z",
-      "form": {
-        "season": 2027,
-        "window": 20,
-        "lagHours": 48,
-        "cutoff": "2026-11-13T18:00:00.000Z",
-        "home": {
-          "team": "Philadelphia 76ers",
-          "count": 12,
-          "wins": 9,
-          "losses": 3,
-          "ties": 0,
-          "averageMargin": 1,
-          "averageScored": 110.16666666666667,
-          "averageAllowed": 109.16666666666667,
-          "inputAsOf": "2026-11-11T01:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-11-11T01:00:00.000Z",
-              "opponent": "Boston Celtics",
-              "venue": "home",
-              "scored": 101,
-              "allowed": 123,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-08T20:30:00.000Z",
-              "opponent": "Chicago Bulls",
-              "venue": "away",
-              "scored": 127,
-              "allowed": 121,
-              "result": "W"
-            },
-            {
-              "date": "2026-11-07T00:30:00.000Z",
-              "opponent": "Cleveland Cavaliers",
-              "venue": "away",
-              "scored": 95,
-              "allowed": 119,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-05T00:00:00.000Z",
-              "opponent": "Detroit Pistons",
-              "venue": "away",
-              "scored": 112,
-              "allowed": 106,
-              "result": "W"
-            },
-            {
-              "date": "2026-11-03T00:30:00.000Z",
-              "opponent": "Chicago Bulls",
-              "venue": "home",
-              "scored": 126,
-              "allowed": 107,
-              "result": "W"
-            }
-          ]
-        },
-        "away": {
-          "team": "Indiana Pacers",
-          "count": 11,
-          "wins": 4,
-          "losses": 7,
-          "ties": 0,
-          "averageMargin": -1.5454545454545454,
-          "averageScored": 112.45454545454545,
-          "averageAllowed": 114,
-          "inputAsOf": "2026-11-12T00:00:00.000Z",
-          "recent": [
-            {
-              "date": "2026-11-12T00:00:00.000Z",
-              "opponent": "Washington Wizards",
-              "venue": "home",
-              "scored": 114,
-              "allowed": 101,
-              "result": "W"
-            },
-            {
-              "date": "2026-11-10T01:00:00.000Z",
-              "opponent": "Dallas Mavericks",
-              "venue": "away",
-              "scored": 122,
-              "allowed": 125,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-05T01:00:00.000Z",
-              "opponent": "Memphis Grizzlies",
-              "venue": "away",
-              "scored": 107,
-              "allowed": 103,
-              "result": "W"
-            },
-            {
-              "date": "2026-11-03T00:30:00.000Z",
-              "opponent": "Atlanta Hawks",
-              "venue": "home",
-              "scored": 104,
-              "allowed": 108,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-01T22:00:00.000Z",
-              "opponent": "Brooklyn Nets",
-              "venue": "home",
-              "scored": 90,
-              "allowed": 98,
-              "result": "L"
-            }
-          ]
-        }
-      },
-      "eligible": true,
-      "reasons": [],
-      "features": {
-        "x": [
-          2.5454545454545454,
-          0.38636363636363635
-        ],
-        "inputAsOf": "2026-11-12T00:00:00.000Z",
-        "oldestLatest": "2026-11-11T01:00:00.000Z",
-        "sampleSizes": [
-          12,
-          11
-        ]
-      }
-    },
     {
       "sourceEventId": "401909986",
       "home": "Phoenix Suns",
@@ -2564,15 +1775,23 @@
         "cutoff": "2026-11-13T21:00:00.000Z",
         "home": {
           "team": "Phoenix Suns",
-          "count": 10,
-          "wins": 4,
+          "count": 11,
+          "wins": 5,
           "losses": 6,
           "ties": 0,
-          "averageMargin": -5.3,
-          "averageScored": 112.8,
-          "averageAllowed": 118.1,
-          "inputAsOf": "2026-11-11T02:00:00.000Z",
+          "averageMargin": -4.363636363636363,
+          "averageScored": 111.72727272727273,
+          "averageAllowed": 116.0909090909091,
+          "inputAsOf": "2026-11-13T02:00:00.000Z",
           "recent": [
+            {
+              "date": "2026-11-13T02:00:00.000Z",
+              "opponent": "Charlotte Hornets",
+              "venue": "home",
+              "scored": 101,
+              "allowed": 96,
+              "result": "W"
+            },
             {
               "date": "2026-11-11T02:00:00.000Z",
               "opponent": "LA Clippers",
@@ -2604,14 +1823,6 @@
               "scored": 117,
               "allowed": 104,
               "result": "W"
-            },
-            {
-              "date": "2026-11-05T02:00:00.000Z",
-              "opponent": "Portland Trail Blazers",
-              "venue": "home",
-              "scored": 119,
-              "allowed": 132,
-              "result": "L"
             }
           ]
         },
@@ -2673,13 +1884,13 @@
       "reasons": [],
       "features": {
         "x": [
-          -13.223076923076924,
-          -0.4461538461538461
+          -12.286713286713287,
+          -0.3916083916083916
         ],
-        "inputAsOf": "2026-11-12T01:00:00.000Z",
-        "oldestLatest": "2026-11-11T02:00:00.000Z",
+        "inputAsOf": "2026-11-13T02:00:00.000Z",
+        "oldestLatest": "2026-11-12T01:00:00.000Z",
         "sampleSizes": [
-          10,
+          11,
           13
         ]
       }
@@ -2750,15 +1961,23 @@
         },
         "away": {
           "team": "Charlotte Hornets",
-          "count": 11,
+          "count": 12,
           "wins": 4,
-          "losses": 7,
+          "losses": 8,
           "ties": 0,
-          "averageMargin": -11.545454545454545,
-          "averageScored": 98.81818181818181,
-          "averageAllowed": 110.36363636363636,
-          "inputAsOf": "2026-11-10T00:00:00.000Z",
+          "averageMargin": -11,
+          "averageScored": 98.58333333333333,
+          "averageAllowed": 109.58333333333333,
+          "inputAsOf": "2026-11-13T02:00:00.000Z",
           "recent": [
+            {
+              "date": "2026-11-13T02:00:00.000Z",
+              "opponent": "Phoenix Suns",
+              "venue": "away",
+              "scored": 96,
+              "allowed": 101,
+              "result": "L"
+            },
             {
               "date": "2026-11-10T00:00:00.000Z",
               "opponent": "Cleveland Cavaliers",
@@ -2790,14 +2009,6 @@
               "scored": 91,
               "allowed": 124,
               "result": "L"
-            },
-            {
-              "date": "2026-10-31T22:00:00.000Z",
-              "opponent": "Philadelphia 76ers",
-              "venue": "home",
-              "scored": 104,
-              "allowed": 109,
-              "result": "L"
             }
           ]
         }
@@ -2806,14 +2017,14 @@
       "reasons": [],
       "features": {
         "x": [
-          5.645454545454545,
-          -0.16363636363636364
+          5.1,
+          -0.1333333333333333
         ],
-        "inputAsOf": "2026-11-11T02:00:00.000Z",
-        "oldestLatest": "2026-11-10T00:00:00.000Z",
+        "inputAsOf": "2026-11-13T02:00:00.000Z",
+        "oldestLatest": "2026-11-11T02:00:00.000Z",
         "sampleSizes": [
           10,
-          11
+          12
         ]
       }
     },
@@ -3016,15 +2227,23 @@
         },
         "away": {
           "team": "Dallas Mavericks",
-          "count": 11,
+          "count": 12,
           "wins": 7,
-          "losses": 4,
+          "losses": 5,
           "ties": 0,
-          "averageMargin": 4.636363636363637,
-          "averageScored": 114.9090909090909,
-          "averageAllowed": 110.27272727272727,
-          "inputAsOf": "2026-11-10T01:00:00.000Z",
+          "averageMargin": 1,
+          "averageScored": 113.16666666666667,
+          "averageAllowed": 112.16666666666667,
+          "inputAsOf": "2026-11-13T01:00:00.000Z",
           "recent": [
+            {
+              "date": "2026-11-13T01:00:00.000Z",
+              "opponent": "Minnesota Timberwolves",
+              "venue": "away",
+              "scored": 94,
+              "allowed": 133,
+              "result": "L"
+            },
             {
               "date": "2026-11-10T01:00:00.000Z",
               "opponent": "Indiana Pacers",
@@ -3056,14 +2275,6 @@
               "scored": 111,
               "allowed": 112,
               "result": "L"
-            },
-            {
-              "date": "2026-11-03T01:00:00.000Z",
-              "opponent": "Sacramento Kings",
-              "venue": "home",
-              "scored": 100,
-              "allowed": 115,
-              "result": "L"
             }
           ]
         }
@@ -3072,14 +2283,14 @@
       "reasons": [],
       "features": {
         "x": [
-          6.530303030303029,
-          0.19696969696969702
+          10.166666666666666,
+          0.25
         ],
-        "inputAsOf": "2026-11-12T00:00:00.000Z",
-        "oldestLatest": "2026-11-10T01:00:00.000Z",
+        "inputAsOf": "2026-11-13T01:00:00.000Z",
+        "oldestLatest": "2026-11-12T00:00:00.000Z",
         "sampleSizes": [
           12,
-          11
+          12
         ]
       }
     },
@@ -3096,15 +2307,23 @@
         "cutoff": "2026-11-13T23:00:00.000Z",
         "home": {
           "team": "Toronto Raptors",
-          "count": 11,
+          "count": 12,
           "wins": 5,
-          "losses": 6,
+          "losses": 7,
           "ties": 0,
-          "averageMargin": 2.5454545454545454,
-          "averageScored": 114.45454545454545,
-          "averageAllowed": 111.9090909090909,
-          "inputAsOf": "2026-11-12T00:00:00.000Z",
+          "averageMargin": 1.4166666666666667,
+          "averageScored": 114.25,
+          "averageAllowed": 112.83333333333333,
+          "inputAsOf": "2026-11-13T00:00:00.000Z",
           "recent": [
+            {
+              "date": "2026-11-13T00:00:00.000Z",
+              "opponent": "Philadelphia 76ers",
+              "venue": "away",
+              "scored": 112,
+              "allowed": 123,
+              "result": "L"
+            },
             {
               "date": "2026-11-12T00:00:00.000Z",
               "opponent": "Boston Celtics",
@@ -3136,14 +2355,6 @@
               "scored": 109,
               "allowed": 128,
               "result": "L"
-            },
-            {
-              "date": "2026-11-03T03:00:00.000Z",
-              "opponent": "LA Clippers",
-              "venue": "away",
-              "scored": 125,
-              "allowed": 118,
-              "result": "W"
             }
           ]
         },
@@ -3205,13 +2416,13 @@
       "reasons": [],
       "features": {
         "x": [
-          -4.272727272727273,
-          -0.09090909090909088
+          -5.401515151515151,
+          -0.12878787878787873
         ],
-        "inputAsOf": "2026-11-12T00:00:00.000Z",
+        "inputAsOf": "2026-11-13T00:00:00.000Z",
         "oldestLatest": "2026-11-12T00:00:00.000Z",
         "sampleSizes": [
-          11,
+          12,
           11
         ]
       }
@@ -3229,15 +2440,23 @@
         "cutoff": "2026-11-14T00:00:00.000Z",
         "home": {
           "team": "Washington Wizards",
-          "count": 12,
+          "count": 13,
           "wins": 4,
-          "losses": 8,
+          "losses": 9,
           "ties": 0,
-          "averageMargin": -5.916666666666667,
-          "averageScored": 107.5,
-          "averageAllowed": 113.41666666666667,
-          "inputAsOf": "2026-11-12T00:00:00.000Z",
+          "averageMargin": -5.769230769230769,
+          "averageScored": 110,
+          "averageAllowed": 115.76923076923077,
+          "inputAsOf": "2026-11-13T00:00:00.000Z",
           "recent": [
+            {
+              "date": "2026-11-13T00:00:00.000Z",
+              "opponent": "Detroit Pistons",
+              "venue": "home",
+              "scored": 140,
+              "allowed": 144,
+              "result": "L"
+            },
             {
               "date": "2026-11-12T00:00:00.000Z",
               "opponent": "Indiana Pacers",
@@ -3268,14 +2487,6 @@
               "venue": "away",
               "scored": 132,
               "allowed": 139,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-05T00:00:00.000Z",
-              "opponent": "Atlanta Hawks",
-              "venue": "home",
-              "scored": 105,
-              "allowed": 120,
               "result": "L"
             }
           ]
@@ -3338,13 +2549,13 @@
       "reasons": [],
       "features": {
         "x": [
-          -14.833333333333332,
-          -0.4166666666666667
+          -14.685897435897434,
+          -0.4423076923076923
         ],
-        "inputAsOf": "2026-11-12T02:30:00.000Z",
-        "oldestLatest": "2026-11-12T00:00:00.000Z",
+        "inputAsOf": "2026-11-13T00:00:00.000Z",
+        "oldestLatest": "2026-11-12T02:30:00.000Z",
         "sampleSizes": [
-          12,
+          13,
           12
         ]
       }
@@ -3894,15 +3105,23 @@
         "cutoff": "2026-11-15T00:00:00.000Z",
         "home": {
           "team": "Washington Wizards",
-          "count": 12,
+          "count": 13,
           "wins": 4,
-          "losses": 8,
+          "losses": 9,
           "ties": 0,
-          "averageMargin": -5.916666666666667,
-          "averageScored": 107.5,
-          "averageAllowed": 113.41666666666667,
-          "inputAsOf": "2026-11-12T00:00:00.000Z",
+          "averageMargin": -5.769230769230769,
+          "averageScored": 110,
+          "averageAllowed": 115.76923076923077,
+          "inputAsOf": "2026-11-13T00:00:00.000Z",
           "recent": [
+            {
+              "date": "2026-11-13T00:00:00.000Z",
+              "opponent": "Detroit Pistons",
+              "venue": "home",
+              "scored": 140,
+              "allowed": 144,
+              "result": "L"
+            },
             {
               "date": "2026-11-12T00:00:00.000Z",
               "opponent": "Indiana Pacers",
@@ -3933,14 +3152,6 @@
               "venue": "away",
               "scored": 132,
               "allowed": 139,
-              "result": "L"
-            },
-            {
-              "date": "2026-11-05T00:00:00.000Z",
-              "opponent": "Atlanta Hawks",
-              "venue": "home",
-              "scored": 105,
-              "allowed": 120,
               "result": "L"
             }
           ]
@@ -4003,13 +3214,13 @@
       "reasons": [],
       "features": {
         "x": [
-          -11.916666666666668,
-          -0.30303030303030304
+          -11.76923076923077,
+          -0.32867132867132864
         ],
-        "inputAsOf": "2026-11-12T01:00:00.000Z",
-        "oldestLatest": "2026-11-12T00:00:00.000Z",
+        "inputAsOf": "2026-11-13T00:00:00.000Z",
+        "oldestLatest": "2026-11-12T01:00:00.000Z",
         "sampleSizes": [
-          12,
+          13,
           11
         ]
       }
@@ -4080,15 +3291,23 @@
         },
         "away": {
           "team": "Philadelphia 76ers",
-          "count": 12,
-          "wins": 9,
+          "count": 13,
+          "wins": 10,
           "losses": 3,
           "ties": 0,
-          "averageMargin": 1,
-          "averageScored": 110.16666666666667,
-          "averageAllowed": 109.16666666666667,
-          "inputAsOf": "2026-11-11T01:00:00.000Z",
+          "averageMargin": 1.7692307692307692,
+          "averageScored": 111.15384615384616,
+          "averageAllowed": 109.38461538461539,
+          "inputAsOf": "2026-11-13T00:00:00.000Z",
           "recent": [
+            {
+              "date": "2026-11-13T00:00:00.000Z",
+              "opponent": "Toronto Raptors",
+              "venue": "home",
+              "scored": 123,
+              "allowed": 112,
+              "result": "W"
+            },
             {
               "date": "2026-11-11T01:00:00.000Z",
               "opponent": "Boston Celtics",
@@ -4120,14 +3339,6 @@
               "scored": 112,
               "allowed": 106,
               "result": "W"
-            },
-            {
-              "date": "2026-11-03T00:30:00.000Z",
-              "opponent": "Chicago Bulls",
-              "venue": "home",
-              "scored": 126,
-              "allowed": 107,
-              "result": "W"
             }
           ]
         }
@@ -4136,14 +3347,14 @@
       "reasons": [],
       "features": {
         "x": [
-          -6.090909090909091,
-          -0.4772727272727273
+          -6.86013986013986,
+          -0.49650349650349657
         ],
-        "inputAsOf": "2026-11-12T01:00:00.000Z",
-        "oldestLatest": "2026-11-11T01:00:00.000Z",
+        "inputAsOf": "2026-11-13T00:00:00.000Z",
+        "oldestLatest": "2026-11-12T01:00:00.000Z",
         "sampleSizes": [
           11,
-          12
+          13
         ]
       }
     },
@@ -4293,15 +3504,23 @@
         "cutoff": "2026-11-15T01:00:00.000Z",
         "home": {
           "team": "Minnesota Timberwolves",
-          "count": 11,
-          "wins": 8,
+          "count": 12,
+          "wins": 9,
           "losses": 3,
           "ties": 0,
-          "averageMargin": 11.090909090909092,
-          "averageScored": 118.0909090909091,
-          "averageAllowed": 107,
-          "inputAsOf": "2026-11-09T00:00:00.000Z",
+          "averageMargin": 13.416666666666666,
+          "averageScored": 119.33333333333333,
+          "averageAllowed": 105.91666666666667,
+          "inputAsOf": "2026-11-13T01:00:00.000Z",
           "recent": [
+            {
+              "date": "2026-11-13T01:00:00.000Z",
+              "opponent": "Dallas Mavericks",
+              "venue": "home",
+              "scored": 133,
+              "allowed": 94,
+              "result": "W"
+            },
             {
               "date": "2026-11-09T00:00:00.000Z",
               "opponent": "Utah Jazz",
@@ -4333,14 +3552,6 @@
               "scored": 112,
               "allowed": 100,
               "result": "W"
-            },
-            {
-              "date": "2026-11-01T00:00:00.000Z",
-              "opponent": "San Antonio Spurs",
-              "venue": "away",
-              "scored": 111,
-              "allowed": 121,
-              "result": "L"
             }
           ]
         },
@@ -4402,13 +3613,13 @@
       "reasons": [],
       "features": {
         "x": [
-          3.8181818181818192,
-          0
+          6.143939393939394,
+          0.022727272727272707
         ],
-        "inputAsOf": "2026-11-12T03:00:00.000Z",
-        "oldestLatest": "2026-11-09T00:00:00.000Z",
+        "inputAsOf": "2026-11-13T01:00:00.000Z",
+        "oldestLatest": "2026-11-12T03:00:00.000Z",
         "sampleSizes": [
-          11,
+          12,
           11
         ]
       }
@@ -4612,15 +3823,23 @@
         },
         "away": {
           "team": "Phoenix Suns",
-          "count": 10,
-          "wins": 4,
+          "count": 11,
+          "wins": 5,
           "losses": 6,
           "ties": 0,
-          "averageMargin": -5.3,
-          "averageScored": 112.8,
-          "averageAllowed": 118.1,
-          "inputAsOf": "2026-11-11T02:00:00.000Z",
+          "averageMargin": -4.363636363636363,
+          "averageScored": 111.72727272727273,
+          "averageAllowed": 116.0909090909091,
+          "inputAsOf": "2026-11-13T02:00:00.000Z",
           "recent": [
+            {
+              "date": "2026-11-13T02:00:00.000Z",
+              "opponent": "Charlotte Hornets",
+              "venue": "home",
+              "scored": 101,
+              "allowed": 96,
+              "result": "W"
+            },
             {
               "date": "2026-11-11T02:00:00.000Z",
               "opponent": "LA Clippers",
@@ -4652,14 +3871,6 @@
               "scored": 117,
               "allowed": 104,
               "result": "W"
-            },
-            {
-              "date": "2026-11-05T02:00:00.000Z",
-              "opponent": "Portland Trail Blazers",
-              "venue": "home",
-              "scored": 119,
-              "allowed": 132,
-              "result": "L"
             }
           ]
         }
@@ -4669,6 +3880,671 @@
         "Each team needs 10 current-season prior games"
       ],
       "features": null
+    },
+    {
+      "sourceEventId": "401910002",
+      "home": "Toronto Raptors",
+      "away": "New York Knicks",
+      "event": "New York Knicks at Toronto Raptors",
+      "eventStart": "2026-11-18T00:30:00.000Z",
+      "form": {
+        "season": 2027,
+        "window": 20,
+        "lagHours": 48,
+        "cutoff": "2026-11-16T00:30:00.000Z",
+        "home": {
+          "team": "Toronto Raptors",
+          "count": 12,
+          "wins": 5,
+          "losses": 7,
+          "ties": 0,
+          "averageMargin": 1.4166666666666667,
+          "averageScored": 114.25,
+          "averageAllowed": 112.83333333333333,
+          "inputAsOf": "2026-11-13T00:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-13T00:00:00.000Z",
+              "opponent": "Philadelphia 76ers",
+              "venue": "away",
+              "scored": 112,
+              "allowed": 123,
+              "result": "L"
+            },
+            {
+              "date": "2026-11-12T00:00:00.000Z",
+              "opponent": "Boston Celtics",
+              "venue": "home",
+              "scored": 93,
+              "allowed": 98,
+              "result": "L"
+            },
+            {
+              "date": "2026-11-10T00:30:00.000Z",
+              "opponent": "Memphis Grizzlies",
+              "venue": "home",
+              "scored": 102,
+              "allowed": 118,
+              "result": "L"
+            },
+            {
+              "date": "2026-11-07T01:00:00.000Z",
+              "opponent": "Milwaukee Bucks",
+              "venue": "away",
+              "scored": 121,
+              "allowed": 107,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-05T02:00:00.000Z",
+              "opponent": "Denver Nuggets",
+              "venue": "away",
+              "scored": 109,
+              "allowed": 128,
+              "result": "L"
+            }
+          ]
+        },
+        "away": {
+          "team": "New York Knicks",
+          "count": 11,
+          "wins": 6,
+          "losses": 5,
+          "ties": 0,
+          "averageMargin": 6.818181818181818,
+          "averageScored": 110.27272727272727,
+          "averageAllowed": 103.45454545454545,
+          "inputAsOf": "2026-11-12T00:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-12T00:00:00.000Z",
+              "opponent": "Cleveland Cavaliers",
+              "venue": "home",
+              "scored": 107,
+              "allowed": 115,
+              "result": "L"
+            },
+            {
+              "date": "2026-11-11T00:30:00.000Z",
+              "opponent": "Milwaukee Bucks",
+              "venue": "home",
+              "scored": 117,
+              "allowed": 85,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-08T01:00:00.000Z",
+              "opponent": "Cleveland Cavaliers",
+              "venue": "away",
+              "scored": 109,
+              "allowed": 97,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-05T00:30:00.000Z",
+              "opponent": "Chicago Bulls",
+              "venue": "home",
+              "scored": 135,
+              "allowed": 105,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-03T00:30:00.000Z",
+              "opponent": "Brooklyn Nets",
+              "venue": "home",
+              "scored": 103,
+              "allowed": 90,
+              "result": "W"
+            }
+          ]
+        }
+      },
+      "eligible": true,
+      "reasons": [],
+      "features": {
+        "x": [
+          -5.401515151515151,
+          -0.12878787878787873
+        ],
+        "inputAsOf": "2026-11-13T00:00:00.000Z",
+        "oldestLatest": "2026-11-12T00:00:00.000Z",
+        "sampleSizes": [
+          12,
+          11
+        ]
+      }
+    },
+    {
+      "sourceEventId": "401910003",
+      "home": "Minnesota Timberwolves",
+      "away": "Portland Trail Blazers",
+      "event": "Portland Trail Blazers at Minnesota Timberwolves",
+      "eventStart": "2026-11-18T01:00:00.000Z",
+      "form": {
+        "season": 2027,
+        "window": 20,
+        "lagHours": 48,
+        "cutoff": "2026-11-16T01:00:00.000Z",
+        "home": {
+          "team": "Minnesota Timberwolves",
+          "count": 12,
+          "wins": 9,
+          "losses": 3,
+          "ties": 0,
+          "averageMargin": 13.416666666666666,
+          "averageScored": 119.33333333333333,
+          "averageAllowed": 105.91666666666667,
+          "inputAsOf": "2026-11-13T01:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-13T01:00:00.000Z",
+              "opponent": "Dallas Mavericks",
+              "venue": "home",
+              "scored": 133,
+              "allowed": 94,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-09T00:00:00.000Z",
+              "opponent": "Utah Jazz",
+              "venue": "home",
+              "scored": 115,
+              "allowed": 100,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-07T01:00:00.000Z",
+              "opponent": "New Orleans Pelicans",
+              "venue": "away",
+              "scored": 115,
+              "allowed": 109,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-05T01:30:00.000Z",
+              "opponent": "Houston Rockets",
+              "venue": "away",
+              "scored": 117,
+              "allowed": 107,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-03T01:00:00.000Z",
+              "opponent": "Milwaukee Bucks",
+              "venue": "home",
+              "scored": 112,
+              "allowed": 100,
+              "result": "W"
+            }
+          ]
+        },
+        "away": {
+          "team": "Portland Trail Blazers",
+          "count": 11,
+          "wins": 8,
+          "losses": 3,
+          "ties": 0,
+          "averageMargin": 7.2727272727272725,
+          "averageScored": 119.54545454545455,
+          "averageAllowed": 112.27272727272727,
+          "inputAsOf": "2026-11-12T03:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-12T03:00:00.000Z",
+              "opponent": "Oklahoma City Thunder",
+              "venue": "home",
+              "scored": 118,
+              "allowed": 108,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-11T04:00:00.000Z",
+              "opponent": "Oklahoma City Thunder",
+              "venue": "home",
+              "scored": 123,
+              "allowed": 103,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-08T03:00:00.000Z",
+              "opponent": "San Antonio Spurs",
+              "venue": "home",
+              "scored": 103,
+              "allowed": 125,
+              "result": "L"
+            },
+            {
+              "date": "2026-11-07T03:00:00.000Z",
+              "opponent": "Los Angeles Lakers",
+              "venue": "away",
+              "scored": 118,
+              "allowed": 124,
+              "result": "L"
+            },
+            {
+              "date": "2026-11-05T02:00:00.000Z",
+              "opponent": "Phoenix Suns",
+              "venue": "away",
+              "scored": 132,
+              "allowed": 119,
+              "result": "W"
+            }
+          ]
+        }
+      },
+      "eligible": true,
+      "reasons": [],
+      "features": {
+        "x": [
+          6.143939393939394,
+          0.022727272727272707
+        ],
+        "inputAsOf": "2026-11-13T01:00:00.000Z",
+        "oldestLatest": "2026-11-12T03:00:00.000Z",
+        "sampleSizes": [
+          12,
+          11
+        ]
+      }
+    },
+    {
+      "sourceEventId": "401910004",
+      "home": "San Antonio Spurs",
+      "away": "Detroit Pistons",
+      "event": "Detroit Pistons at San Antonio Spurs",
+      "eventStart": "2026-11-18T01:00:00.000Z",
+      "form": {
+        "season": 2027,
+        "window": 20,
+        "lagHours": 48,
+        "cutoff": "2026-11-16T01:00:00.000Z",
+        "home": {
+          "team": "San Antonio Spurs",
+          "count": 12,
+          "wins": 10,
+          "losses": 2,
+          "ties": 0,
+          "averageMargin": 11.166666666666666,
+          "averageScored": 119.16666666666667,
+          "averageAllowed": 108,
+          "inputAsOf": "2026-11-12T01:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-12T01:00:00.000Z",
+              "opponent": "Chicago Bulls",
+              "venue": "away",
+              "scored": 124,
+              "allowed": 119,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-10T02:00:00.000Z",
+              "opponent": "Phoenix Suns",
+              "venue": "away",
+              "scored": 122,
+              "allowed": 96,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-08T03:00:00.000Z",
+              "opponent": "Portland Trail Blazers",
+              "venue": "away",
+              "scored": 125,
+              "allowed": 103,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-07T03:00:00.000Z",
+              "opponent": "Sacramento Kings",
+              "venue": "away",
+              "scored": 124,
+              "allowed": 109,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-05T02:30:00.000Z",
+              "opponent": "Dallas Mavericks",
+              "venue": "home",
+              "scored": 112,
+              "allowed": 111,
+              "result": "W"
+            }
+          ]
+        },
+        "away": {
+          "team": "Detroit Pistons",
+          "count": 11,
+          "wins": 8,
+          "losses": 3,
+          "ties": 0,
+          "averageMargin": 7.7272727272727275,
+          "averageScored": 115.54545454545455,
+          "averageAllowed": 107.81818181818181,
+          "inputAsOf": "2026-11-13T00:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-13T00:00:00.000Z",
+              "opponent": "Washington Wizards",
+              "venue": "away",
+              "scored": 144,
+              "allowed": 140,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-10T00:00:00.000Z",
+              "opponent": "Washington Wizards",
+              "venue": "home",
+              "scored": 122,
+              "allowed": 111,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-08T23:00:00.000Z",
+              "opponent": "Los Angeles Lakers",
+              "venue": "home",
+              "scored": 116,
+              "allowed": 121,
+              "result": "L"
+            },
+            {
+              "date": "2026-11-05T00:00:00.000Z",
+              "opponent": "Philadelphia 76ers",
+              "venue": "home",
+              "scored": 106,
+              "allowed": 112,
+              "result": "L"
+            },
+            {
+              "date": "2026-11-03T00:30:00.000Z",
+              "opponent": "Charlotte Hornets",
+              "venue": "away",
+              "scored": 124,
+              "allowed": 91,
+              "result": "W"
+            }
+          ]
+        }
+      },
+      "eligible": true,
+      "reasons": [],
+      "features": {
+        "x": [
+          3.4393939393939386,
+          0.10606060606060608
+        ],
+        "inputAsOf": "2026-11-13T00:00:00.000Z",
+        "oldestLatest": "2026-11-12T01:00:00.000Z",
+        "sampleSizes": [
+          12,
+          11
+        ]
+      }
+    },
+    {
+      "sourceEventId": "401910006",
+      "home": "LA Clippers",
+      "away": "Utah Jazz",
+      "event": "Utah Jazz at LA Clippers",
+      "eventStart": "2026-11-18T03:30:00.000Z",
+      "form": {
+        "season": 2027,
+        "window": 20,
+        "lagHours": 48,
+        "cutoff": "2026-11-16T03:30:00.000Z",
+        "home": {
+          "team": "LA Clippers",
+          "count": 10,
+          "wins": 2,
+          "losses": 8,
+          "ties": 0,
+          "averageMargin": -5.9,
+          "averageScored": 112.2,
+          "averageAllowed": 118.1,
+          "inputAsOf": "2026-11-11T02:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-11T02:00:00.000Z",
+              "opponent": "Phoenix Suns",
+              "venue": "away",
+              "scored": 110,
+              "allowed": 133,
+              "result": "L"
+            },
+            {
+              "date": "2026-11-09T02:00:00.000Z",
+              "opponent": "New Orleans Pelicans",
+              "venue": "home",
+              "scored": 139,
+              "allowed": 123,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-05T03:30:00.000Z",
+              "opponent": "Miami Heat",
+              "venue": "home",
+              "scored": 116,
+              "allowed": 117,
+              "result": "L"
+            },
+            {
+              "date": "2026-11-03T03:00:00.000Z",
+              "opponent": "Toronto Raptors",
+              "venue": "home",
+              "scored": 118,
+              "allowed": 125,
+              "result": "L"
+            },
+            {
+              "date": "2026-11-02T01:30:00.000Z",
+              "opponent": "Golden State Warriors",
+              "venue": "away",
+              "scored": 112,
+              "allowed": 124,
+              "result": "L"
+            }
+          ]
+        },
+        "away": {
+          "team": "Utah Jazz",
+          "count": 12,
+          "wins": 1,
+          "losses": 11,
+          "ties": 0,
+          "averageMargin": -11.5,
+          "averageScored": 106.58333333333333,
+          "averageAllowed": 118.08333333333333,
+          "inputAsOf": "2026-11-12T02:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-12T02:00:00.000Z",
+              "opponent": "Orlando Magic",
+              "venue": "home",
+              "scored": 108,
+              "allowed": 123,
+              "result": "L"
+            },
+            {
+              "date": "2026-11-11T02:00:00.000Z",
+              "opponent": "Miami Heat",
+              "venue": "home",
+              "scored": 109,
+              "allowed": 115,
+              "result": "L"
+            },
+            {
+              "date": "2026-11-09T00:00:00.000Z",
+              "opponent": "Minnesota Timberwolves",
+              "venue": "away",
+              "scored": 100,
+              "allowed": 115,
+              "result": "L"
+            },
+            {
+              "date": "2026-11-07T01:00:00.000Z",
+              "opponent": "Dallas Mavericks",
+              "venue": "away",
+              "scored": 100,
+              "allowed": 112,
+              "result": "L"
+            },
+            {
+              "date": "2026-11-05T01:00:00.000Z",
+              "opponent": "New Orleans Pelicans",
+              "venue": "away",
+              "scored": 113,
+              "allowed": 120,
+              "result": "L"
+            }
+          ]
+        }
+      },
+      "eligible": true,
+      "reasons": [],
+      "features": {
+        "x": [
+          5.6,
+          0.11666666666666668
+        ],
+        "inputAsOf": "2026-11-12T02:00:00.000Z",
+        "oldestLatest": "2026-11-11T02:00:00.000Z",
+        "sampleSizes": [
+          10,
+          12
+        ]
+      }
+    },
+    {
+      "sourceEventId": "401910005",
+      "home": "Los Angeles Lakers",
+      "away": "Charlotte Hornets",
+      "event": "Charlotte Hornets at Los Angeles Lakers",
+      "eventStart": "2026-11-18T04:00:00.000Z",
+      "form": {
+        "season": 2027,
+        "window": 20,
+        "lagHours": 48,
+        "cutoff": "2026-11-16T04:00:00.000Z",
+        "home": {
+          "team": "Los Angeles Lakers",
+          "count": 13,
+          "wins": 11,
+          "losses": 2,
+          "ties": 0,
+          "averageMargin": 7.923076923076923,
+          "averageScored": 122.15384615384616,
+          "averageAllowed": 114.23076923076923,
+          "inputAsOf": "2026-11-12T01:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-12T01:00:00.000Z",
+              "opponent": "Milwaukee Bucks",
+              "venue": "away",
+              "scored": 123,
+              "allowed": 112,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-10T00:00:00.000Z",
+              "opponent": "Atlanta Hawks",
+              "venue": "away",
+              "scored": 124,
+              "allowed": 114,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-08T23:00:00.000Z",
+              "opponent": "Detroit Pistons",
+              "venue": "away",
+              "scored": 121,
+              "allowed": 116,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-07T03:00:00.000Z",
+              "opponent": "Portland Trail Blazers",
+              "venue": "home",
+              "scored": 124,
+              "allowed": 118,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-05T03:00:00.000Z",
+              "opponent": "Sacramento Kings",
+              "venue": "away",
+              "scored": 116,
+              "allowed": 103,
+              "result": "W"
+            }
+          ]
+        },
+        "away": {
+          "team": "Charlotte Hornets",
+          "count": 12,
+          "wins": 4,
+          "losses": 8,
+          "ties": 0,
+          "averageMargin": -11,
+          "averageScored": 98.58333333333333,
+          "averageAllowed": 109.58333333333333,
+          "inputAsOf": "2026-11-13T02:00:00.000Z",
+          "recent": [
+            {
+              "date": "2026-11-13T02:00:00.000Z",
+              "opponent": "Phoenix Suns",
+              "venue": "away",
+              "scored": 96,
+              "allowed": 101,
+              "result": "L"
+            },
+            {
+              "date": "2026-11-10T00:00:00.000Z",
+              "opponent": "Cleveland Cavaliers",
+              "venue": "home",
+              "scored": 124,
+              "allowed": 112,
+              "result": "W"
+            },
+            {
+              "date": "2026-11-07T00:00:00.000Z",
+              "opponent": "Boston Celtics",
+              "venue": "home",
+              "scored": 80,
+              "allowed": 119,
+              "result": "L"
+            },
+            {
+              "date": "2026-11-05T00:30:00.000Z",
+              "opponent": "Brooklyn Nets",
+              "venue": "away",
+              "scored": 104,
+              "allowed": 114,
+              "result": "L"
+            },
+            {
+              "date": "2026-11-03T00:30:00.000Z",
+              "opponent": "Detroit Pistons",
+              "venue": "home",
+              "scored": 91,
+              "allowed": 124,
+              "result": "L"
+            }
+          ]
+        }
+      },
+      "eligible": true,
+      "reasons": [],
+      "features": {
+        "x": [
+          18.923076923076923,
+          0.5128205128205128
+        ],
+        "inputAsOf": "2026-11-13T02:00:00.000Z",
+        "oldestLatest": "2026-11-12T01:00:00.000Z",
+        "sampleSizes": [
+          13,
+          12
+        ]
+      }
     }
   ],
   "publishing": "Experimental prospective publication is scheduled daily, subject to data, freshness and evaluation gates. Historical backtests are never inserted into the public prediction ledger."
