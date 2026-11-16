@@ -4,54 +4,6 @@
   "checks": [
     {
       "league": "NFL",
-      "eventId": "6c932a965110f3f89ec4a5f1a6ac256e",
-      "sourceGameId": "2026_10_LA_ARI",
-      "home": "Arizona Cardinals",
-      "away": "Los Angeles Rams",
-      "eventStart": "2026-11-15T21:05:00.000Z",
-      "status": "already-published",
-      "reasons": [],
-      "forecastId": "nfl-2026_10_LA_ARI-form-v1",
-      "checkedAt": "2026-11-15T18:58:05.983Z"
-    },
-    {
-      "league": "NFL",
-      "eventId": "6079a5cbabf99b265a17edfc92a1da60",
-      "sourceGameId": "2026_10_SEA_LV",
-      "home": "Las Vegas Raiders",
-      "away": "Seattle Seahawks",
-      "eventStart": "2026-11-15T21:05:00.000Z",
-      "status": "already-published",
-      "reasons": [],
-      "forecastId": "nfl-2026_10_SEA_LV-form-v1",
-      "checkedAt": "2026-11-15T18:58:05.983Z"
-    },
-    {
-      "league": "NFL",
-      "eventId": "7627192fd89b05120ab6c712aa23fd81",
-      "sourceGameId": "2026_10_SF_DAL",
-      "home": "Dallas Cowboys",
-      "away": "San Francisco 49ers",
-      "eventStart": "2026-11-15T21:25:00.000Z",
-      "status": "already-published",
-      "reasons": [],
-      "forecastId": "nfl-2026_10_SF_DAL-form-v1",
-      "checkedAt": "2026-11-15T18:58:05.983Z"
-    },
-    {
-      "league": "NFL",
-      "eventId": "48e497c230e6c9afcb3b600091d28e17",
-      "sourceGameId": "2026_10_PIT_CIN",
-      "home": "Cincinnati Bengals",
-      "away": "Pittsburgh Steelers",
-      "eventStart": "2026-11-16T01:20:00.000Z",
-      "status": "already-published",
-      "reasons": [],
-      "forecastId": "nfl-2026_10_PIT_CIN-form-v1",
-      "checkedAt": "2026-11-15T18:58:05.983Z"
-    },
-    {
-      "league": "NFL",
       "eventId": "35e3bdff558b5d1506251e814986f164",
       "sourceGameId": "2026_10_LAC_BAL",
       "home": "Baltimore Ravens",
@@ -60,18 +12,18 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_10_LAC_BAL-form-v1",
-      "checkedAt": "2026-11-15T18:58:05.983Z"
+      "checkedAt": "2026-11-16T22:19:35.310Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-11-15T18:58:04.471Z",
+  "lastAttemptAt": "2026-11-16T22:19:33.061Z",
   "state": "waiting-for-eligible-games",
   "publishedThisRun": 0,
-  "gradedThisRun": 1,
+  "gradedThisRun": 0,
   "skipped": [],
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
   "sourceThrough": "2026-11-13T01:15:00.000Z",
-  "scheduleAsOf": "2026-11-15T18:58:05.971Z",
-  "completedAt": "2026-11-15T18:58:06.016Z"
+  "scheduleAsOf": "2026-11-16T22:19:35.274Z",
+  "completedAt": "2026-11-16T22:19:35.331Z"
 }
