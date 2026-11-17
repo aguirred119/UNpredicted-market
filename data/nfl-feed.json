@@ -4,26 +4,26 @@
   "checks": [
     {
       "league": "NFL",
-      "eventId": "35e3bdff558b5d1506251e814986f164",
-      "sourceGameId": "2026_10_LAC_BAL",
-      "home": "Baltimore Ravens",
-      "away": "Los Angeles Chargers",
-      "eventStart": "2026-11-17T01:15:00.000Z",
-      "status": "already-published",
+      "eventId": "66f9e83cf025d58acee12bce18661fb3",
+      "sourceGameId": "2026_11_IND_HOU",
+      "home": "Houston Texans",
+      "away": "Indianapolis Colts",
+      "eventStart": "2026-11-20T01:15:00.000Z",
+      "status": "published",
       "reasons": [],
-      "forecastId": "nfl-2026_10_LAC_BAL-form-v1",
-      "checkedAt": "2026-11-16T22:19:35.310Z"
+      "forecastId": "nfl-2026_11_IND_HOU-form-v1",
+      "checkedAt": "2026-11-17T21:05:21.013Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-11-16T22:19:33.061Z",
-  "state": "waiting-for-eligible-games",
-  "publishedThisRun": 0,
-  "gradedThisRun": 0,
+  "lastAttemptAt": "2026-11-17T21:05:19.107Z",
+  "state": "published",
+  "publishedThisRun": 1,
+  "gradedThisRun": 9,
   "skipped": [],
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
-  "sourceThrough": "2026-11-13T01:15:00.000Z",
-  "scheduleAsOf": "2026-11-16T22:19:35.274Z",
-  "completedAt": "2026-11-16T22:19:35.331Z"
+  "sourceThrough": "2026-11-15T21:05:00.000Z",
+  "scheduleAsOf": "2026-11-17T21:05:20.975Z",
+  "completedAt": "2026-11-17T21:05:21.075Z"
 }
