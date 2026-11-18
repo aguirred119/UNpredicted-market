@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "status": "retrospective-research",
-  "generatedAt": "2026-11-17T21:05:19.107Z",
-  "dataThrough": "2026-11-15T21:05:00.000Z",
+  "generatedAt": "2026-11-18T20:42:24.529Z",
+  "dataThrough": "2026-11-16T01:20:00.000Z",
   "holdoutSeasons": [
     2024,
     2025
@@ -15,13 +15,13 @@
     "sources": [
       {
         "url": "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.csv",
-        "sha256": "d9a471f21dc0e07d4d1fbb1a02a7df5a834227ad232481b6eeeac2cc84651a33"
+        "sha256": "b23ba8925e4a116a25deed4f446cdf3d21013dfa06ef59a25f6413c1f77e3398"
       }
     ]
   },
   "processing": {
-    "excluded": 5198,
-    "completedGames": 2229,
+    "excluded": 5196,
+    "completedGames": 2231,
     "lagHours": 48,
     "minimumGamesPerTeam": 4,
     "historyWindow": 8,
@@ -147,9 +147,9 @@
     "season": 2026,
     "window": 8,
     "lagHours": 48,
-    "cutoff": "2026-11-15T21:05:19.107Z",
-    "completedGames": 139,
-    "dataThrough": "2026-11-15T21:05:00.000Z",
+    "cutoff": "2026-11-16T20:42:24.529Z",
+    "completedGames": 141,
+    "dataThrough": "2026-11-16T01:20:00.000Z",
     "teams": [
       {
         "team": "Arizona Cardinals",
@@ -471,15 +471,23 @@
       },
       {
         "team": "Cincinnati Bengals",
-        "count": 7,
-        "wins": 5,
+        "count": 8,
+        "wins": 6,
         "losses": 2,
         "ties": 0,
-        "averageMargin": 6.857142857142857,
-        "averageScored": 29.428571428571427,
-        "averageAllowed": 22.571428571428573,
-        "inputAsOf": "2026-11-01T18:00:00.000Z",
+        "averageMargin": 8.5,
+        "averageScored": 30.5,
+        "averageAllowed": 22,
+        "inputAsOf": "2026-11-16T01:20:00.000Z",
         "recent": [
+          {
+            "date": "2026-11-16T01:20:00.000Z",
+            "opponent": "Pittsburgh Steelers",
+            "venue": "home",
+            "scored": 38,
+            "allowed": 18,
+            "result": "W"
+          },
           {
             "date": "2026-11-01T18:00:00.000Z",
             "opponent": "Tennessee Titans",
@@ -510,14 +518,6 @@
             "venue": "home",
             "scored": 17,
             "allowed": 22,
-            "result": "L"
-          },
-          {
-            "date": "2026-09-27T17:00:00.000Z",
-            "opponent": "Pittsburgh Steelers",
-            "venue": "away",
-            "scored": 27,
-            "allowed": 30,
             "result": "L"
           }
         ]
@@ -581,11 +581,19 @@
         "wins": 4,
         "losses": 4,
         "ties": 0,
-        "averageMargin": 1.625,
-        "averageScored": 26.875,
-        "averageAllowed": 25.25,
-        "inputAsOf": "2026-11-08T18:00:00.000Z",
+        "averageMargin": 1.875,
+        "averageScored": 29.375,
+        "averageAllowed": 27.5,
+        "inputAsOf": "2026-11-15T21:25:00.000Z",
         "recent": [
+          {
+            "date": "2026-11-15T21:25:00.000Z",
+            "opponent": "San Francisco 49ers",
+            "venue": "home",
+            "scored": 40,
+            "allowed": 46,
+            "result": "L"
+          },
           {
             "date": "2026-11-08T18:00:00.000Z",
             "opponent": "Indianapolis Colts",
@@ -616,14 +624,6 @@
             "venue": "away",
             "scored": 13,
             "allowed": 23,
-            "result": "L"
-          },
-          {
-            "date": "2026-10-09T00:15:00.000Z",
-            "opponent": "Tampa Bay Buccaneers",
-            "venue": "home",
-            "scored": 16,
-            "allowed": 24,
             "result": "L"
           }
         ]
@@ -1531,15 +1531,23 @@
       },
       {
         "team": "Pittsburgh Steelers",
-        "count": 7,
+        "count": 8,
         "wins": 5,
-        "losses": 2,
+        "losses": 3,
         "ties": 0,
-        "averageMargin": 4.285714285714286,
-        "averageScored": 23.428571428571427,
-        "averageAllowed": 19.142857142857142,
-        "inputAsOf": "2026-11-01T18:00:00.000Z",
+        "averageMargin": 1.25,
+        "averageScored": 22.75,
+        "averageAllowed": 21.5,
+        "inputAsOf": "2026-11-16T01:20:00.000Z",
         "recent": [
+          {
+            "date": "2026-11-16T01:20:00.000Z",
+            "opponent": "Cincinnati Bengals",
+            "venue": "away",
+            "scored": 18,
+            "allowed": 38,
+            "result": "L"
+          },
           {
             "date": "2026-11-01T18:00:00.000Z",
             "opponent": "Cleveland Browns",
@@ -1571,28 +1579,28 @@
             "scored": 24,
             "allowed": 27,
             "result": "L"
-          },
-          {
-            "date": "2026-09-27T17:00:00.000Z",
-            "opponent": "Cincinnati Bengals",
-            "venue": "home",
-            "scored": 30,
-            "allowed": 27,
-            "result": "W"
           }
         ]
       },
       {
         "team": "San Francisco 49ers",
-        "count": 7,
-        "wins": 6,
+        "count": 8,
+        "wins": 7,
         "losses": 1,
         "ties": 0,
-        "averageMargin": 8.428571428571429,
-        "averageScored": 29.714285714285715,
-        "averageAllowed": 21.285714285714285,
-        "inputAsOf": "2026-11-08T21:25:00.000Z",
+        "averageMargin": 8.125,
+        "averageScored": 31.75,
+        "averageAllowed": 23.625,
+        "inputAsOf": "2026-11-15T21:25:00.000Z",
         "recent": [
+          {
+            "date": "2026-11-15T21:25:00.000Z",
+            "opponent": "Dallas Cowboys",
+            "venue": "away",
+            "scored": 46,
+            "allowed": 40,
+            "result": "W"
+          },
           {
             "date": "2026-11-08T21:25:00.000Z",
             "opponent": "Las Vegas Raiders",
@@ -1623,14 +1631,6 @@
             "venue": "away",
             "scored": 32,
             "allowed": 29,
-            "result": "W"
-          },
-          {
-            "date": "2026-10-04T20:25:00.000Z",
-            "opponent": "Denver Broncos",
-            "venue": "home",
-            "scored": 24,
-            "allowed": 14,
             "result": "W"
           }
         ]

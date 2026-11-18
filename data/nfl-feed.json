@@ -9,21 +9,21 @@
       "home": "Houston Texans",
       "away": "Indianapolis Colts",
       "eventStart": "2026-11-20T01:15:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_11_IND_HOU-form-v1",
-      "checkedAt": "2026-11-17T21:05:21.013Z"
+      "checkedAt": "2026-11-18T20:42:26.513Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-11-17T21:05:19.107Z",
-  "state": "published",
-  "publishedThisRun": 1,
-  "gradedThisRun": 9,
+  "lastAttemptAt": "2026-11-18T20:42:24.529Z",
+  "state": "waiting-for-eligible-games",
+  "publishedThisRun": 0,
+  "gradedThisRun": 2,
   "skipped": [],
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
-  "sourceThrough": "2026-11-15T21:05:00.000Z",
-  "scheduleAsOf": "2026-11-17T21:05:20.975Z",
-  "completedAt": "2026-11-17T21:05:21.075Z"
+  "sourceThrough": "2026-11-16T01:20:00.000Z",
+  "scheduleAsOf": "2026-11-18T20:42:26.453Z",
+  "completedAt": "2026-11-18T20:42:26.542Z"
 }
