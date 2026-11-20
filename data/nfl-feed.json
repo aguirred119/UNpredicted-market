@@ -4,27 +4,15 @@
   "checks": [
     {
       "league": "NFL",
-      "eventId": "66f9e83cf025d58acee12bce18661fb3",
-      "sourceGameId": "2026_11_IND_HOU",
-      "home": "Houston Texans",
-      "away": "Indianapolis Colts",
-      "eventStart": "2026-11-20T01:15:00.000Z",
-      "status": "already-published",
-      "reasons": [],
-      "forecastId": "nfl-2026_11_IND_HOU-form-v1",
-      "checkedAt": "2026-11-19T20:48:14.105Z"
-    },
-    {
-      "league": "NFL",
       "eventId": "403a88701352da05b0710a9e883b803e",
       "sourceGameId": "2026_11_ARI_KC",
       "home": "Kansas City Chiefs",
       "away": "Arizona Cardinals",
       "eventStart": "2026-11-22T18:00:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_11_ARI_KC-form-v1",
-      "checkedAt": "2026-11-19T20:48:14.105Z"
+      "checkedAt": "2026-11-20T20:32:11.367Z"
     },
     {
       "league": "NFL",
@@ -33,10 +21,10 @@
       "home": "Carolina Panthers",
       "away": "Baltimore Ravens",
       "eventStart": "2026-11-22T18:00:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_11_BAL_CAR-form-v1",
-      "checkedAt": "2026-11-19T20:48:14.105Z"
+      "checkedAt": "2026-11-20T20:32:11.367Z"
     },
     {
       "league": "NFL",
@@ -50,7 +38,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-19T20:48:14.105Z"
+      "checkedAt": "2026-11-20T20:32:11.367Z"
     },
     {
       "league": "NFL",
@@ -59,10 +47,10 @@
       "home": "Buffalo Bills",
       "away": "Miami Dolphins",
       "eventStart": "2026-11-22T18:00:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_11_MIA_BUF-form-v1",
-      "checkedAt": "2026-11-19T20:48:14.105Z"
+      "checkedAt": "2026-11-20T20:32:11.367Z"
     },
     {
       "league": "NFL",
@@ -71,10 +59,10 @@
       "home": "Chicago Bears",
       "away": "New Orleans Saints",
       "eventStart": "2026-11-22T18:00:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_11_NO_CHI-form-v1",
-      "checkedAt": "2026-11-19T20:48:14.105Z"
+      "checkedAt": "2026-11-20T20:32:11.367Z"
     },
     {
       "league": "NFL",
@@ -83,10 +71,10 @@
       "home": "Detroit Lions",
       "away": "Tampa Bay Buccaneers",
       "eventStart": "2026-11-22T18:00:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_11_TB_DET-form-v1",
-      "checkedAt": "2026-11-19T20:48:14.105Z"
+      "checkedAt": "2026-11-20T20:32:11.367Z"
     },
     {
       "league": "NFL",
@@ -95,10 +83,48 @@
       "home": "Dallas Cowboys",
       "away": "Tennessee Titans",
       "eventStart": "2026-11-22T18:00:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_11_TEN_DAL-form-v1",
-      "checkedAt": "2026-11-19T20:48:14.105Z"
+      "checkedAt": "2026-11-20T20:32:11.367Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "4b20b742b6168aaca4f25d87f11b1526",
+      "sourceGameId": "2026_11_NYJ_LAC",
+      "home": "Los Angeles Chargers",
+      "away": "New York Jets",
+      "eventStart": "2026-11-22T21:05:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_11_NYJ_LAC-form-v1",
+      "checkedAt": "2026-11-20T20:32:11.367Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "1940706a79cbcbafacdcbf231069716b",
+      "sourceGameId": "2026_11_LV_DEN",
+      "home": "Denver Broncos",
+      "away": "Las Vegas Raiders",
+      "eventStart": "2026-11-22T21:25:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_11_LV_DEN-form-v1",
+      "checkedAt": "2026-11-20T20:32:11.367Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": null,
+      "sourceGameId": "2026_11_PIT_PHI",
+      "home": "Philadelphia Eagles",
+      "away": "Pittsburgh Steelers",
+      "eventStart": "2026-11-22T21:25:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-20T20:32:11.367Z"
     },
     {
       "league": "NFL",
@@ -112,14 +138,42 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-19T20:48:14.105Z"
+      "checkedAt": "2026-11-20T20:32:11.367Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "8ba112fabf4e87639338a5f437c5abfe",
+      "sourceGameId": null,
+      "home": "New York Giants",
+      "away": "Jacksonville Jaguars",
+      "eventStart": "2026-11-22T21:25:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-20T20:32:11.367Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "60e1d27b083a335b722c2c852ea85612",
+      "sourceGameId": null,
+      "home": "San Francisco 49ers",
+      "away": "Minnesota Vikings",
+      "eventStart": "2026-11-23T01:20:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-20T20:32:11.367Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-11-19T20:48:12.057Z",
+  "lastAttemptAt": "2026-11-20T20:32:09.287Z",
   "state": "published",
-  "publishedThisRun": 6,
-  "gradedThisRun": 1,
+  "publishedThisRun": 2,
+  "gradedThisRun": 0,
   "skipped": [
     {
       "event": "Jacksonville Jaguars at New York Giants",
@@ -130,7 +184,28 @@
     },
     {
       "event": "Pittsburgh Steelers at Philadelphia Eagles",
+      "eventStart": "2026-11-22T21:25:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ]
+    },
+    {
+      "event": "Pittsburgh Steelers at Philadelphia Eagles",
       "eventStart": "2026-11-22T18:00:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
+    },
+    {
+      "event": "Jacksonville Jaguars at New York Giants",
+      "eventStart": "2026-11-22T21:25:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
+    },
+    {
+      "event": "Minnesota Vikings at San Francisco 49ers",
+      "eventStart": "2026-11-23T01:20:00.000Z",
       "reasons": [
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ]
@@ -139,6 +214,6 @@
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
   "sourceThrough": "2026-11-17T01:15:00.000Z",
-  "scheduleAsOf": "2026-11-19T20:48:14.085Z",
-  "completedAt": "2026-11-19T20:48:14.190Z"
+  "scheduleAsOf": "2026-11-20T20:32:11.319Z",
+  "completedAt": "2026-11-20T20:32:11.412Z"
 }
