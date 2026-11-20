@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastAttemptAt": "2026-11-19T20:55:28.272Z",
+  "lastAttemptAt": "2026-11-20T20:40:02.770Z",
   "cadence": "Daily retrieval; upstream community results are not guaranteed to update daily.",
   "leagues": {
     "Premier League": {
@@ -8,7 +8,7 @@
       "league": "Premier League",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-11-19T20:55:28.272Z",
+      "generatedAt": "2026-11-20T20:40:02.770Z",
       "dataThrough": "2026-09-20",
       "completedGames": 50,
       "source": {
@@ -26,7 +26,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-11-19T20:55:28.770Z",
+      "scheduleAsOf": "2026-11-20T20:40:03.322Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -1370,7 +1370,7 @@
       "league": "La Liga",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-11-19T20:55:28.272Z",
+      "generatedAt": "2026-11-20T20:40:02.770Z",
       "dataThrough": "2026-09-20",
       "completedGames": 69,
       "source": {
@@ -1388,7 +1388,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-11-19T20:55:29.035Z",
+      "scheduleAsOf": "2026-11-20T20:40:03.568Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -2668,10 +2668,6 @@
       ],
       "skipped": [
         {
-          "event": "Espanyol at Athletic Bilbao",
-          "reason": "No unique uncompleted source fixture for these teams and competition-local date"
-        },
-        {
           "event": "Deportivo La Coruña at Alavés",
           "reason": "No unique uncompleted source fixture for these teams and competition-local date"
         },
@@ -2722,7 +2718,7 @@
       "league": "Serie A",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-11-19T20:55:28.272Z",
+      "generatedAt": "2026-11-20T20:40:02.770Z",
       "dataThrough": "2026-09-20",
       "completedGames": 50,
       "source": {
@@ -2740,7 +2736,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-11-19T20:55:29.264Z",
+      "scheduleAsOf": "2026-11-20T20:40:03.860Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -4099,7 +4095,7 @@
       "league": "Bundesliga",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-11-19T20:55:28.272Z",
+      "generatedAt": "2026-11-20T20:40:02.770Z",
       "dataThrough": "2026-09-20",
       "completedGames": 36,
       "source": {
@@ -4117,7 +4113,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-11-19T20:55:29.501Z",
+      "scheduleAsOf": "2026-11-20T20:40:04.232Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -5041,15 +5037,6 @@
       ],
       "upcoming": [
         {
-          "eventId": "cae480fb1195f0032554a268cb80eb44",
-          "home": "Bayern Munich",
-          "away": "1. FC Köln",
-          "eventStart": "2026-11-20T19:30:00.000Z",
-          "sourceEventId": "soccer-f0c967681f59224d00b6b657",
-          "sourceDate": "2026-11-20",
-          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
-        },
-        {
           "eventId": "c24cf629b4eaf0ebc4ca2c5beb73747c",
           "home": "Bayer Leverkusen",
           "away": "SC Paderborn",
@@ -5210,7 +5197,7 @@
       "league": "Ligue 1",
       "season": "2026-27",
       "status": "descriptive-statistics",
-      "generatedAt": "2026-11-19T20:55:28.272Z",
+      "generatedAt": "2026-11-20T20:40:02.770Z",
       "dataThrough": "2026-09-20",
       "completedGames": 45,
       "source": {
@@ -5228,7 +5215,7 @@
         "excluded": 0,
         "limitations": "Community-maintained results can be delayed or corrected. Match dates have day precision; source kickoff times are not used. Only same-season domestic league games. No cup games, injuries, lineups, xG or model probabilities."
       },
-      "scheduleAsOf": "2026-11-19T20:55:29.721Z",
+      "scheduleAsOf": "2026-11-20T20:40:04.478Z",
       "scheduleState": "matched-schedule",
       "teams": [
         {
@@ -6314,15 +6301,6 @@
       ],
       "upcoming": [
         {
-          "eventId": "5dcc9d2b0da87770a4f49e924275be39",
-          "home": "Troyes",
-          "away": "Le Havre",
-          "eventStart": "2026-11-20T19:45:00.000Z",
-          "sourceEventId": "soccer-471f0e33eb5c5f96fb6d50ff",
-          "sourceDate": "2026-11-20",
-          "identityBasis": "Exact explicit team aliases and competition-local calendar date; kickoff supplied by The Odds API, not verified by the day-precision results source"
-        },
-        {
           "eventId": "651c1847b5cdcc85e60a140edd2282c4",
           "home": "Nice",
           "away": "Paris Saint Germain",
@@ -6482,31 +6460,31 @@
   "refresh": {
     "Premier League": {
       "state": "updated",
-      "attemptedAt": "2026-11-19T20:55:28.272Z",
+      "attemptedAt": "2026-11-20T20:40:02.770Z",
       "resultsChanged": false,
       "sourceFileChanged": false
     },
     "La Liga": {
       "state": "updated",
-      "attemptedAt": "2026-11-19T20:55:28.272Z",
+      "attemptedAt": "2026-11-20T20:40:02.770Z",
       "resultsChanged": false,
       "sourceFileChanged": false
     },
     "Serie A": {
       "state": "updated",
-      "attemptedAt": "2026-11-19T20:55:28.272Z",
+      "attemptedAt": "2026-11-20T20:40:02.770Z",
       "resultsChanged": false,
       "sourceFileChanged": false
     },
     "Bundesliga": {
       "state": "updated",
-      "attemptedAt": "2026-11-19T20:55:28.272Z",
+      "attemptedAt": "2026-11-20T20:40:02.770Z",
       "resultsChanged": false,
       "sourceFileChanged": false
     },
     "Ligue 1": {
       "state": "updated",
-      "attemptedAt": "2026-11-19T20:55:28.272Z",
+      "attemptedAt": "2026-11-20T20:40:02.770Z",
       "resultsChanged": false,
       "sourceFileChanged": false
     }
