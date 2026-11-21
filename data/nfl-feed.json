@@ -12,7 +12,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_11_ARI_KC-form-v1",
-      "checkedAt": "2026-11-20T20:32:11.367Z"
+      "checkedAt": "2026-11-21T19:29:08.276Z"
     },
     {
       "league": "NFL",
@@ -24,7 +24,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_11_BAL_CAR-form-v1",
-      "checkedAt": "2026-11-20T20:32:11.367Z"
+      "checkedAt": "2026-11-21T19:29:08.276Z"
     },
     {
       "league": "NFL",
@@ -38,7 +38,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-20T20:32:11.367Z"
+      "checkedAt": "2026-11-21T19:29:08.276Z"
     },
     {
       "league": "NFL",
@@ -50,7 +50,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_11_MIA_BUF-form-v1",
-      "checkedAt": "2026-11-20T20:32:11.367Z"
+      "checkedAt": "2026-11-21T19:29:08.276Z"
     },
     {
       "league": "NFL",
@@ -62,7 +62,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_11_NO_CHI-form-v1",
-      "checkedAt": "2026-11-20T20:32:11.367Z"
+      "checkedAt": "2026-11-21T19:29:08.276Z"
     },
     {
       "league": "NFL",
@@ -74,7 +74,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_11_TB_DET-form-v1",
-      "checkedAt": "2026-11-20T20:32:11.367Z"
+      "checkedAt": "2026-11-21T19:29:08.276Z"
     },
     {
       "league": "NFL",
@@ -86,7 +86,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_11_TEN_DAL-form-v1",
-      "checkedAt": "2026-11-20T20:32:11.367Z"
+      "checkedAt": "2026-11-21T19:29:08.276Z"
     },
     {
       "league": "NFL",
@@ -95,10 +95,10 @@
       "home": "Los Angeles Chargers",
       "away": "New York Jets",
       "eventStart": "2026-11-22T21:05:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_11_NYJ_LAC-form-v1",
-      "checkedAt": "2026-11-20T20:32:11.367Z"
+      "checkedAt": "2026-11-21T19:29:08.276Z"
     },
     {
       "league": "NFL",
@@ -107,10 +107,10 @@
       "home": "Denver Broncos",
       "away": "Las Vegas Raiders",
       "eventStart": "2026-11-22T21:25:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_11_LV_DEN-form-v1",
-      "checkedAt": "2026-11-20T20:32:11.367Z"
+      "checkedAt": "2026-11-21T19:29:08.276Z"
     },
     {
       "league": "NFL",
@@ -124,7 +124,19 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-20T20:32:11.367Z"
+      "checkedAt": "2026-11-21T19:29:08.276Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "3a60ed1d20004aa4d4772b2c1a2272e7",
+      "sourceGameId": "2026_11_CIN_WAS",
+      "home": "Washington Commanders",
+      "away": "Cincinnati Bengals",
+      "eventStart": "2026-11-24T01:15:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_11_CIN_WAS-form-v1",
+      "checkedAt": "2026-11-21T19:29:08.276Z"
     },
     {
       "league": "NFL",
@@ -138,7 +150,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-20T20:32:11.367Z"
+      "checkedAt": "2026-11-21T19:29:08.276Z"
     },
     {
       "league": "NFL",
@@ -152,7 +164,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-20T20:32:11.367Z"
+      "checkedAt": "2026-11-21T19:29:08.276Z"
     },
     {
       "league": "NFL",
@@ -166,13 +178,13 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-20T20:32:11.367Z"
+      "checkedAt": "2026-11-21T19:29:08.276Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-11-20T20:32:09.287Z",
+  "lastAttemptAt": "2026-11-21T19:29:05.954Z",
   "state": "published",
-  "publishedThisRun": 2,
+  "publishedThisRun": 1,
   "gradedThisRun": 0,
   "skipped": [
     {
@@ -214,6 +226,6 @@
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
   "sourceThrough": "2026-11-17T01:15:00.000Z",
-  "scheduleAsOf": "2026-11-20T20:32:11.319Z",
-  "completedAt": "2026-11-20T20:32:11.412Z"
+  "scheduleAsOf": "2026-11-21T19:29:08.241Z",
+  "completedAt": "2026-11-21T19:29:08.312Z"
 }
