@@ -4,27 +4,15 @@
   "checks": [
     {
       "league": "NFL",
-      "eventId": "3a60ed1d20004aa4d4772b2c1a2272e7",
-      "sourceGameId": "2026_11_CIN_WAS",
-      "home": "Washington Commanders",
-      "away": "Cincinnati Bengals",
-      "eventStart": "2026-11-24T01:15:00.000Z",
-      "status": "already-published",
-      "reasons": [],
-      "forecastId": "nfl-2026_11_CIN_WAS-form-v1",
-      "checkedAt": "2026-11-24T00:03:59.097Z"
-    },
-    {
-      "league": "NFL",
       "eventId": "5b612899d6dcdf998107f2c6c6e49a58",
       "sourceGameId": "2026_12_GB_LA",
       "home": "Los Angeles Rams",
       "away": "Green Bay Packers",
       "eventStart": "2026-11-26T01:00:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_12_GB_LA-form-v1",
-      "checkedAt": "2026-11-24T00:03:59.097Z"
+      "checkedAt": "2026-11-24T22:36:21.665Z"
     },
     {
       "league": "NFL",
@@ -33,10 +21,10 @@
       "home": "Detroit Lions",
       "away": "Chicago Bears",
       "eventStart": "2026-11-26T18:00:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_12_CHI_DET-form-v1",
-      "checkedAt": "2026-11-24T00:03:59.097Z"
+      "checkedAt": "2026-11-24T22:36:21.665Z"
     },
     {
       "league": "NFL",
@@ -45,21 +33,45 @@
       "home": "Dallas Cowboys",
       "away": "Philadelphia Eagles",
       "eventStart": "2026-11-26T21:30:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_12_PHI_DAL-form-v1",
-      "checkedAt": "2026-11-24T00:03:59.097Z"
+      "checkedAt": "2026-11-24T22:36:21.665Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "f36f518585aec40e8cb40e071c0844aa",
+      "sourceGameId": "2026_12_KC_BUF",
+      "home": "Buffalo Bills",
+      "away": "Kansas City Chiefs",
+      "eventStart": "2026-11-27T01:20:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_12_KC_BUF-form-v1",
+      "checkedAt": "2026-11-24T22:36:21.665Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "44a3bcf5bd002583ddef2207a92dd977",
+      "sourceGameId": "2026_12_DEN_PIT",
+      "home": "Pittsburgh Steelers",
+      "away": "Denver Broncos",
+      "eventStart": "2026-11-27T20:00:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_12_DEN_PIT-form-v1",
+      "checkedAt": "2026-11-24T22:36:21.665Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-11-24T00:03:56.886Z",
+  "lastAttemptAt": "2026-11-24T22:36:19.933Z",
   "state": "published",
-  "publishedThisRun": 3,
-  "gradedThisRun": 0,
+  "publishedThisRun": 2,
+  "gradedThisRun": 9,
   "skipped": [],
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
-  "sourceThrough": "2026-11-20T01:15:00.000Z",
-  "scheduleAsOf": "2026-11-24T00:03:59.054Z",
-  "completedAt": "2026-11-24T00:03:59.148Z"
+  "sourceThrough": "2026-11-22T21:25:00.000Z",
+  "scheduleAsOf": "2026-11-24T22:36:21.639Z",
+  "completedAt": "2026-11-24T22:36:21.738Z"
 }
