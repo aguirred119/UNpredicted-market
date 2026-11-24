@@ -4,42 +4,6 @@
   "checks": [
     {
       "league": "NFL",
-      "eventId": "4b20b742b6168aaca4f25d87f11b1526",
-      "sourceGameId": "2026_11_NYJ_LAC",
-      "home": "Los Angeles Chargers",
-      "away": "New York Jets",
-      "eventStart": "2026-11-22T21:05:00.000Z",
-      "status": "already-published",
-      "reasons": [],
-      "forecastId": "nfl-2026_11_NYJ_LAC-form-v1",
-      "checkedAt": "2026-11-22T19:50:37.739Z"
-    },
-    {
-      "league": "NFL",
-      "eventId": "8ba112fabf4e87639338a5f437c5abfe",
-      "sourceGameId": "2026_11_JAX_NYG",
-      "home": "New York Giants",
-      "away": "Jacksonville Jaguars",
-      "eventStart": "2026-11-22T21:25:00.000Z",
-      "status": "published",
-      "reasons": [],
-      "forecastId": "nfl-2026_11_JAX_NYG-form-v1",
-      "checkedAt": "2026-11-22T19:50:37.739Z"
-    },
-    {
-      "league": "NFL",
-      "eventId": "1940706a79cbcbafacdcbf231069716b",
-      "sourceGameId": "2026_11_LV_DEN",
-      "home": "Denver Broncos",
-      "away": "Las Vegas Raiders",
-      "eventStart": "2026-11-22T21:25:00.000Z",
-      "status": "already-published",
-      "reasons": [],
-      "forecastId": "nfl-2026_11_LV_DEN-form-v1",
-      "checkedAt": "2026-11-22T19:50:37.739Z"
-    },
-    {
-      "league": "NFL",
       "eventId": "3a60ed1d20004aa4d4772b2c1a2272e7",
       "sourceGameId": "2026_11_CIN_WAS",
       "home": "Washington Commanders",
@@ -48,40 +12,54 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_11_CIN_WAS-form-v1",
-      "checkedAt": "2026-11-22T19:50:37.739Z"
+      "checkedAt": "2026-11-24T00:03:59.097Z"
     },
     {
       "league": "NFL",
-      "eventId": "60e1d27b083a335b722c2c852ea85612",
-      "sourceGameId": null,
-      "home": "San Francisco 49ers",
-      "away": "Minnesota Vikings",
-      "eventStart": "2026-11-23T01:20:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-22T19:50:37.739Z"
+      "eventId": "5b612899d6dcdf998107f2c6c6e49a58",
+      "sourceGameId": "2026_12_GB_LA",
+      "home": "Los Angeles Rams",
+      "away": "Green Bay Packers",
+      "eventStart": "2026-11-26T01:00:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_12_GB_LA-form-v1",
+      "checkedAt": "2026-11-24T00:03:59.097Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "9b825e6518156008da499be041975fdd",
+      "sourceGameId": "2026_12_CHI_DET",
+      "home": "Detroit Lions",
+      "away": "Chicago Bears",
+      "eventStart": "2026-11-26T18:00:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_12_CHI_DET-form-v1",
+      "checkedAt": "2026-11-24T00:03:59.097Z"
+    },
+    {
+      "league": "NFL",
+      "eventId": "ffaa06af56a7137d4b078c5c46c0b730",
+      "sourceGameId": "2026_12_PHI_DAL",
+      "home": "Dallas Cowboys",
+      "away": "Philadelphia Eagles",
+      "eventStart": "2026-11-26T21:30:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_12_PHI_DAL-form-v1",
+      "checkedAt": "2026-11-24T00:03:59.097Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-11-22T19:50:35.978Z",
+  "lastAttemptAt": "2026-11-24T00:03:56.886Z",
   "state": "published",
-  "publishedThisRun": 1,
-  "gradedThisRun": 1,
-  "skipped": [
-    {
-      "event": "Minnesota Vikings at San Francisco 49ers",
-      "eventStart": "2026-11-23T01:20:00.000Z",
-      "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
-      ]
-    }
-  ],
+  "publishedThisRun": 3,
+  "gradedThisRun": 0,
+  "skipped": [],
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
   "sourceThrough": "2026-11-20T01:15:00.000Z",
-  "scheduleAsOf": "2026-11-22T19:50:37.675Z",
-  "completedAt": "2026-11-22T19:50:37.773Z"
+  "scheduleAsOf": "2026-11-24T00:03:59.054Z",
+  "completedAt": "2026-11-24T00:03:59.148Z"
 }
