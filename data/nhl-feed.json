@@ -4,21 +4,6 @@
   "checks": [
     {
       "league": "NHL",
-      "eventId": null,
-      "sourceGameId": "2026020385",
-      "home": "Edmonton Oilers",
-      "away": "Vegas Golden Knights",
-      "eventStart": "2026-11-25T01:00:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
-    },
-    {
-      "league": "NHL",
       "eventId": "71f3e5885a8f467260baa9aa31c62332",
       "sourceGameId": "2026020386",
       "home": "Boston Bruins",
@@ -29,7 +14,7 @@
         "NHL research quality threshold not met"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -43,7 +28,7 @@
         "NHL research quality threshold not met"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -57,7 +42,7 @@
         "NHL research quality threshold not met"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -71,7 +56,7 @@
         "NHL research quality threshold not met"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -85,7 +70,7 @@
         "NHL research quality threshold not met"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -99,7 +84,7 @@
         "NHL research quality threshold not met"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -113,7 +98,7 @@
         "NHL research quality threshold not met"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -127,7 +112,7 @@
         "NHL research quality threshold not met"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -141,7 +126,7 @@
         "NHL research quality threshold not met"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -155,7 +140,7 @@
         "NHL research quality threshold not met"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -170,7 +155,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -185,7 +170,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -200,7 +185,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -215,7 +200,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -230,7 +215,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -245,7 +230,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -260,7 +245,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -275,7 +260,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -290,7 +275,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -305,7 +290,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -320,7 +305,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -335,7 +320,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -350,7 +335,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -365,7 +350,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -380,7 +365,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -395,21 +380,67 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
-      "eventId": "155fbdda10b6474a41649023baadfdf3",
-      "sourceGameId": null,
-      "home": "Edmonton Oilers",
-      "away": "Vegas Golden Knights",
-      "eventStart": "2026-11-25T01:10:00.000Z",
+      "eventId": null,
+      "sourceGameId": "2026020412",
+      "home": "New York Islanders",
+      "away": "Winnipeg Jets",
+      "eventStart": "2026-11-28T00:30:00.000Z",
       "status": "blocked",
       "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
+        "NHL research quality threshold not met",
+        "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
+    },
+    {
+      "league": "NHL",
+      "eventId": null,
+      "sourceGameId": "2026020413",
+      "home": "Buffalo Sabres",
+      "away": "Pittsburgh Penguins",
+      "eventStart": "2026-11-28T01:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "NHL research quality threshold not met",
+        "Provider teams/start time do not match"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-25T22:50:56.852Z"
+    },
+    {
+      "league": "NHL",
+      "eventId": null,
+      "sourceGameId": "2026020414",
+      "home": "Edmonton Oilers",
+      "away": "Seattle Kraken",
+      "eventStart": "2026-11-28T01:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "NHL research quality threshold not met",
+        "Provider teams/start time do not match"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-25T22:50:56.852Z"
+    },
+    {
+      "league": "NHL",
+      "eventId": null,
+      "sourceGameId": "2026020415",
+      "home": "Vegas Golden Knights",
+      "away": "Montreal Canadiens",
+      "eventStart": "2026-11-28T21:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "NHL research quality threshold not met",
+        "Provider teams/start time do not match"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -423,7 +454,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -437,7 +468,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -451,7 +482,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     },
     {
       "league": "NHL",
@@ -465,23 +496,15 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-24T23:17:56.959Z"
+      "checkedAt": "2026-11-25T22:50:56.852Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-11-24T23:17:54.105Z",
+  "lastAttemptAt": "2026-11-25T22:50:52.610Z",
   "state": "waiting-for-eligible-games",
   "publishedThisRun": 0,
   "gradedThisRun": 0,
   "skipped": [
-    {
-      "event": "Vegas Golden Knights at Edmonton Oilers",
-      "eventStart": "2026-11-25T01:00:00.000Z",
-      "reasons": [
-        "NHL research quality threshold not met",
-        "Provider teams/start time do not match"
-      ]
-    },
     {
       "event": "Winnipeg Jets at Boston Bruins",
       "eventStart": "2026-11-26T00:00:00.000Z",
@@ -681,10 +704,35 @@
       ]
     },
     {
-      "event": "Vegas Golden Knights at Edmonton Oilers",
-      "eventStart": "2026-11-25T01:10:00.000Z",
+      "event": "Winnipeg Jets at New York Islanders",
+      "eventStart": "2026-11-28T00:30:00.000Z",
       "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
+        "NHL research quality threshold not met",
+        "Provider teams/start time do not match"
+      ]
+    },
+    {
+      "event": "Pittsburgh Penguins at Buffalo Sabres",
+      "eventStart": "2026-11-28T01:00:00.000Z",
+      "reasons": [
+        "NHL research quality threshold not met",
+        "Provider teams/start time do not match"
+      ]
+    },
+    {
+      "event": "Seattle Kraken at Edmonton Oilers",
+      "eventStart": "2026-11-28T01:00:00.000Z",
+      "reasons": [
+        "NHL research quality threshold not met",
+        "Provider teams/start time do not match"
+      ]
+    },
+    {
+      "event": "Montreal Canadiens at Vegas Golden Knights",
+      "eventStart": "2026-11-28T21:00:00.000Z",
+      "reasons": [
+        "NHL research quality threshold not met",
+        "Provider teams/start time do not match"
       ]
     },
     {
@@ -718,7 +766,7 @@
   ],
   "cadence": "Daily around 13:57 UTC. Scheduled jobs can be delayed.",
   "grading": "Official final game result including overtime and shootouts from the dated community source, at least 48 hours after scheduled start. Ambiguous or changed identities remain pending.",
-  "sourceThrough": "2026-11-22T22:00:00.000Z",
-  "scheduleAsOf": "2026-11-24T23:17:56.928Z",
-  "completedAt": "2026-11-24T23:17:56.973Z"
+  "sourceThrough": "2026-11-23T01:00:00.000Z",
+  "scheduleAsOf": "2026-11-25T22:50:56.805Z",
+  "completedAt": "2026-11-25T22:50:56.878Z"
 }
