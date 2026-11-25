@@ -12,7 +12,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_12_GB_LA-form-v1",
-      "checkedAt": "2026-11-24T22:36:21.665Z"
+      "checkedAt": "2026-11-25T21:49:55.637Z"
     },
     {
       "league": "NFL",
@@ -24,7 +24,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_12_CHI_DET-form-v1",
-      "checkedAt": "2026-11-24T22:36:21.665Z"
+      "checkedAt": "2026-11-25T21:49:55.637Z"
     },
     {
       "league": "NFL",
@@ -36,7 +36,7 @@
       "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_12_PHI_DAL-form-v1",
-      "checkedAt": "2026-11-24T22:36:21.665Z"
+      "checkedAt": "2026-11-25T21:49:55.637Z"
     },
     {
       "league": "NFL",
@@ -45,10 +45,10 @@
       "home": "Buffalo Bills",
       "away": "Kansas City Chiefs",
       "eventStart": "2026-11-27T01:20:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_12_KC_BUF-form-v1",
-      "checkedAt": "2026-11-24T22:36:21.665Z"
+      "checkedAt": "2026-11-25T21:49:55.637Z"
     },
     {
       "league": "NFL",
@@ -57,21 +57,21 @@
       "home": "Pittsburgh Steelers",
       "away": "Denver Broncos",
       "eventStart": "2026-11-27T20:00:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_12_DEN_PIT-form-v1",
-      "checkedAt": "2026-11-24T22:36:21.665Z"
+      "checkedAt": "2026-11-25T21:49:55.637Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-11-24T22:36:19.933Z",
-  "state": "published",
-  "publishedThisRun": 2,
-  "gradedThisRun": 9,
+  "lastAttemptAt": "2026-11-25T21:49:53.711Z",
+  "state": "waiting-for-eligible-games",
+  "publishedThisRun": 0,
+  "gradedThisRun": 0,
   "skipped": [],
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
   "sourceThrough": "2026-11-22T21:25:00.000Z",
-  "scheduleAsOf": "2026-11-24T22:36:21.639Z",
-  "completedAt": "2026-11-24T22:36:21.738Z"
+  "scheduleAsOf": "2026-11-25T21:49:55.581Z",
+  "completedAt": "2026-11-25T21:49:55.654Z"
 }
