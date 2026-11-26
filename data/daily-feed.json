@@ -5,133 +5,6 @@
     {
       "league": "NBA",
       "eventId": null,
-      "sourceGameId": "401909317",
-      "home": "Philadelphia 76ers",
-      "away": "Miami Heat",
-      "eventStart": "2026-11-25T22:00:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "Provider teams/start time do not match",
-        "Less than 30 minutes before start"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
-    },
-    {
-      "league": "NBA",
-      "eventId": null,
-      "sourceGameId": "401909318",
-      "home": "Charlotte Hornets",
-      "away": "Chicago Bulls",
-      "eventStart": "2026-11-26T00:00:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "Provider teams/start time do not match"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
-    },
-    {
-      "league": "NBA",
-      "eventId": null,
-      "sourceGameId": "401909319",
-      "home": "New York Knicks",
-      "away": "Cleveland Cavaliers",
-      "eventStart": "2026-11-26T00:30:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "Provider teams/start time do not match"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
-    },
-    {
-      "league": "NBA",
-      "eventId": null,
-      "sourceGameId": "401909320",
-      "home": "Oklahoma City Thunder",
-      "away": "Minnesota Timberwolves",
-      "eventStart": "2026-11-26T00:30:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "Provider teams/start time do not match"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
-    },
-    {
-      "league": "NBA",
-      "eventId": null,
-      "sourceGameId": "401909321",
-      "home": "Memphis Grizzlies",
-      "away": "LA Clippers",
-      "eventStart": "2026-11-26T01:00:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "Provider teams/start time do not match"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
-    },
-    {
-      "league": "NBA",
-      "eventId": null,
-      "sourceGameId": "401909322",
-      "home": "Milwaukee Bucks",
-      "away": "Brooklyn Nets",
-      "eventStart": "2026-11-26T01:00:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "Provider teams/start time do not match"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
-    },
-    {
-      "league": "NBA",
-      "eventId": null,
-      "sourceGameId": "401909323",
-      "home": "Houston Rockets",
-      "away": "Phoenix Suns",
-      "eventStart": "2026-11-26T01:30:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "Provider teams/start time do not match"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
-    },
-    {
-      "league": "NBA",
-      "eventId": null,
-      "sourceGameId": "401909324",
-      "home": "Golden State Warriors",
-      "away": "Sacramento Kings",
-      "eventStart": "2026-11-26T03:00:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "Provider teams/start time do not match"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
-    },
-    {
-      "league": "NBA",
-      "eventId": null,
-      "sourceGameId": "401909325",
-      "home": "Portland Trail Blazers",
-      "away": "San Antonio Spurs",
-      "eventStart": "2026-11-26T03:00:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "Provider teams/start time do not match"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
-    },
-    {
-      "league": "NBA",
-      "eventId": null,
       "sourceGameId": "401909326",
       "home": "New York Knicks",
       "away": "Miami Heat",
@@ -141,7 +14,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
+      "checkedAt": "2026-11-26T21:29:22.826Z"
     },
     {
       "league": "NBA",
@@ -155,7 +28,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
+      "checkedAt": "2026-11-26T21:29:22.826Z"
     },
     {
       "league": "NBA",
@@ -169,7 +42,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
+      "checkedAt": "2026-11-26T21:29:22.826Z"
     },
     {
       "league": "NBA",
@@ -183,7 +56,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
+      "checkedAt": "2026-11-26T21:29:22.826Z"
     },
     {
       "league": "NBA",
@@ -197,7 +70,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
+      "checkedAt": "2026-11-26T21:29:22.826Z"
     },
     {
       "league": "NBA",
@@ -211,7 +84,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
+      "checkedAt": "2026-11-26T21:29:22.826Z"
     },
     {
       "league": "NBA",
@@ -225,7 +98,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
+      "checkedAt": "2026-11-26T21:29:22.826Z"
     },
     {
       "league": "NBA",
@@ -239,7 +112,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
+      "checkedAt": "2026-11-26T21:29:22.826Z"
     },
     {
       "league": "NBA",
@@ -253,7 +126,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
+      "checkedAt": "2026-11-26T21:29:22.826Z"
     },
     {
       "league": "NBA",
@@ -267,7 +140,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
+      "checkedAt": "2026-11-26T21:29:22.826Z"
     },
     {
       "league": "NBA",
@@ -281,205 +154,281 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
+      "checkedAt": "2026-11-26T21:29:22.826Z"
     },
     {
       "league": "NBA",
-      "eventId": "4f6d199bb67cf3a517a3880fd2f00b26",
-      "sourceGameId": null,
-      "home": "Philadelphia 76ers",
-      "away": "Miami Heat",
-      "eventStart": "2026-11-25T22:10:00.000Z",
+      "eventId": null,
+      "sourceGameId": "401910046",
+      "home": "Washington Wizards",
+      "away": "Orlando Magic",
+      "eventStart": "2026-11-28T22:00:00.000Z",
       "status": "blocked",
       "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
+        "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
+      "checkedAt": "2026-11-26T21:29:22.826Z"
     },
     {
       "league": "NBA",
-      "eventId": "87ce247fb83685389ca8ffb21be6cd3e",
-      "sourceGameId": null,
+      "eventId": null,
+      "sourceGameId": "401910047",
       "home": "Charlotte Hornets",
-      "away": "Chicago Bulls",
-      "eventStart": "2026-11-26T00:10:00.000Z",
+      "away": "Brooklyn Nets",
+      "eventStart": "2026-11-28T23:00:00.000Z",
       "status": "blocked",
       "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
+        "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
+      "checkedAt": "2026-11-26T21:29:22.826Z"
     },
     {
       "league": "NBA",
-      "eventId": "f08629281f1510f47d91cc408f86a2a8",
+      "eventId": null,
+      "sourceGameId": "401910048",
+      "home": "Chicago Bulls",
+      "away": "Indiana Pacers",
+      "eventStart": "2026-11-29T01:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-26T21:29:22.826Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": null,
+      "sourceGameId": "401910049",
+      "home": "Milwaukee Bucks",
+      "away": "Oklahoma City Thunder",
+      "eventStart": "2026-11-29T01:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-26T21:29:22.826Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": null,
+      "sourceGameId": "401910050",
+      "home": "Houston Rockets",
+      "away": "Philadelphia 76ers",
+      "eventStart": "2026-11-29T01:30:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-26T21:29:22.826Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": null,
+      "sourceGameId": "401910054",
+      "home": "Cleveland Cavaliers",
+      "away": "Miami Heat",
+      "eventStart": "2026-11-29T20:30:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-26T21:29:22.826Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": null,
+      "sourceGameId": "401910051",
+      "home": "Memphis Grizzlies",
+      "away": "Los Angeles Lakers",
+      "eventStart": "2026-11-29T21:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-26T21:29:22.826Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": null,
+      "sourceGameId": "401910052",
+      "home": "San Antonio Spurs",
+      "away": "Boston Celtics",
+      "eventStart": "2026-11-29T21:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-26T21:29:22.826Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": "3c522e32c3035d7dc3e1734903b84654",
       "sourceGameId": null,
       "home": "New York Knicks",
-      "away": "Cleveland Cavaliers",
-      "eventStart": "2026-11-26T00:40:00.000Z",
+      "away": "Miami Heat",
+      "eventStart": "2026-11-28T00:10:00.000Z",
       "status": "blocked",
       "reasons": [
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
+      "checkedAt": "2026-11-26T21:29:22.826Z"
     },
     {
       "league": "NBA",
-      "eventId": "07421d1675d6bc51bb5fa91f84a09eb3",
+      "eventId": "709de4f76f95aebf383d180ac3c6f679",
       "sourceGameId": null,
-      "home": "Oklahoma City Thunder",
-      "away": "Minnesota Timberwolves",
-      "eventStart": "2026-11-26T00:40:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
-    },
-    {
-      "league": "NBA",
-      "eventId": "9e203cbbc6d37b7b0d9c08cb89fe0b28",
-      "sourceGameId": null,
-      "home": "Milwaukee Bucks",
+      "home": "Toronto Raptors",
       "away": "Brooklyn Nets",
-      "eventStart": "2026-11-26T01:10:00.000Z",
+      "eventStart": "2026-11-28T00:40:00.000Z",
       "status": "blocked",
       "reasons": [
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
+      "checkedAt": "2026-11-26T21:29:22.826Z"
     },
     {
       "league": "NBA",
-      "eventId": "698d6d78acf30f4ff4e4aaf6670249ee",
+      "eventId": "326e8215b0369df0d4d65e5c0afe9ff5",
       "sourceGameId": null,
-      "home": "Memphis Grizzlies",
-      "away": "Los Angeles Clippers",
-      "eventStart": "2026-11-26T01:10:00.000Z",
+      "home": "Detroit Pistons",
+      "away": "Milwaukee Bucks",
+      "eventStart": "2026-11-28T00:40:00.000Z",
       "status": "blocked",
       "reasons": [
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
+      "checkedAt": "2026-11-26T21:29:22.826Z"
     },
     {
       "league": "NBA",
-      "eventId": "60fd73164f7b0d1848f998d922155d87",
+      "eventId": "5b64071f3e3bf67b0fdea8d1ac81d0ec",
       "sourceGameId": null,
-      "home": "Houston Rockets",
-      "away": "Phoenix Suns",
-      "eventStart": "2026-11-26T01:40:00.000Z",
+      "home": "Indiana Pacers",
+      "away": "Philadelphia 76ers",
+      "eventStart": "2026-11-28T00:40:00.000Z",
       "status": "blocked",
       "reasons": [
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
+      "checkedAt": "2026-11-26T21:29:22.826Z"
     },
     {
       "league": "NBA",
-      "eventId": "e6df92326adb480e427bb7c10f445c60",
+      "eventId": "c5dc35b4116988de2c1425df17456478",
       "sourceGameId": null,
-      "home": "Golden State Warriors",
-      "away": "Sacramento Kings",
-      "eventStart": "2026-11-26T03:10:00.000Z",
+      "home": "Boston Celtics",
+      "away": "Atlanta Hawks",
+      "eventStart": "2026-11-28T01:10:00.000Z",
       "status": "blocked",
       "reasons": [
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
+      "checkedAt": "2026-11-26T21:29:22.826Z"
     },
     {
       "league": "NBA",
-      "eventId": "9aa9f220709533d70d11f85fae886771",
+      "eventId": "f0bc60d1516d217dba58c1f4fa653a59",
+      "sourceGameId": null,
+      "home": "Minnesota Timberwolves",
+      "away": "Memphis Grizzlies",
+      "eventStart": "2026-11-28T01:40:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-26T21:29:22.826Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": "46b1c571cf786a86e800d61fd1d79004",
+      "sourceGameId": null,
+      "home": "Phoenix Suns",
+      "away": "Dallas Mavericks",
+      "eventStart": "2026-11-28T02:10:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-26T21:29:22.826Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": "428050645d1dc8b16d84287e21de55fa",
+      "sourceGameId": null,
+      "home": "Utah Jazz",
+      "away": "Denver Nuggets",
+      "eventStart": "2026-11-28T02:40:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-26T21:29:22.826Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": "592a440c590415d43f5ffbfd922cd41e",
       "sourceGameId": null,
       "home": "Portland Trail Blazers",
-      "away": "San Antonio Spurs",
-      "eventStart": "2026-11-26T03:10:00.000Z",
+      "away": "Golden State Warriors",
+      "eventStart": "2026-11-28T02:40:00.000Z",
       "status": "blocked",
       "reasons": [
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-25T21:39:49.593Z"
+      "checkedAt": "2026-11-26T21:29:22.826Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": "fecbaa4e1973217826262c63d8f52dea",
+      "sourceGameId": null,
+      "home": "Los Angeles Clippers",
+      "away": "New Orleans Pelicans",
+      "eventStart": "2026-11-28T02:40:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-26T21:29:22.826Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": "13d9ca3bcb664829c603755d31401002",
+      "sourceGameId": null,
+      "home": "San Antonio Spurs",
+      "away": "Los Angeles Lakers",
+      "eventStart": "2026-11-28T02:40:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-26T21:29:22.826Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-11-25T21:39:44.948Z",
+  "lastAttemptAt": "2026-11-26T21:29:15.964Z",
   "state": "waiting-for-eligible-games",
   "publishedThisRun": 0,
   "gradedThisRun": 0,
   "skipped": [
-    {
-      "event": "Miami Heat at Philadelphia 76ers",
-      "eventStart": "2026-11-25T22:00:00.000Z",
-      "reasons": [
-        "Provider teams/start time do not match",
-        "Less than 30 minutes before start"
-      ]
-    },
-    {
-      "event": "Chicago Bulls at Charlotte Hornets",
-      "eventStart": "2026-11-26T00:00:00.000Z",
-      "reasons": [
-        "Provider teams/start time do not match"
-      ]
-    },
-    {
-      "event": "Cleveland Cavaliers at New York Knicks",
-      "eventStart": "2026-11-26T00:30:00.000Z",
-      "reasons": [
-        "Provider teams/start time do not match"
-      ]
-    },
-    {
-      "event": "Minnesota Timberwolves at Oklahoma City Thunder",
-      "eventStart": "2026-11-26T00:30:00.000Z",
-      "reasons": [
-        "Provider teams/start time do not match"
-      ]
-    },
-    {
-      "event": "LA Clippers at Memphis Grizzlies",
-      "eventStart": "2026-11-26T01:00:00.000Z",
-      "reasons": [
-        "Provider teams/start time do not match"
-      ]
-    },
-    {
-      "event": "Brooklyn Nets at Milwaukee Bucks",
-      "eventStart": "2026-11-26T01:00:00.000Z",
-      "reasons": [
-        "Provider teams/start time do not match"
-      ]
-    },
-    {
-      "event": "Phoenix Suns at Houston Rockets",
-      "eventStart": "2026-11-26T01:30:00.000Z",
-      "reasons": [
-        "Provider teams/start time do not match"
-      ]
-    },
-    {
-      "event": "Sacramento Kings at Golden State Warriors",
-      "eventStart": "2026-11-26T03:00:00.000Z",
-      "reasons": [
-        "Provider teams/start time do not match"
-      ]
-    },
-    {
-      "event": "San Antonio Spurs at Portland Trail Blazers",
-      "eventStart": "2026-11-26T03:00:00.000Z",
-      "reasons": [
-        "Provider teams/start time do not match"
-      ]
-    },
     {
       "event": "Miami Heat at New York Knicks",
       "eventStart": "2026-11-28T00:00:00.000Z",
@@ -558,64 +507,134 @@
       ]
     },
     {
-      "event": "Miami Heat at Philadelphia 76ers",
-      "eventStart": "2026-11-25T22:10:00.000Z",
+      "event": "Orlando Magic at Washington Wizards",
+      "eventStart": "2026-11-28T22:00:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ]
+    },
+    {
+      "event": "Brooklyn Nets at Charlotte Hornets",
+      "eventStart": "2026-11-28T23:00:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ]
+    },
+    {
+      "event": "Indiana Pacers at Chicago Bulls",
+      "eventStart": "2026-11-29T01:00:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ]
+    },
+    {
+      "event": "Oklahoma City Thunder at Milwaukee Bucks",
+      "eventStart": "2026-11-29T01:00:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ]
+    },
+    {
+      "event": "Philadelphia 76ers at Houston Rockets",
+      "eventStart": "2026-11-29T01:30:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ]
+    },
+    {
+      "event": "Miami Heat at Cleveland Cavaliers",
+      "eventStart": "2026-11-29T20:30:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ]
+    },
+    {
+      "event": "Los Angeles Lakers at Memphis Grizzlies",
+      "eventStart": "2026-11-29T21:00:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ]
+    },
+    {
+      "event": "Boston Celtics at San Antonio Spurs",
+      "eventStart": "2026-11-29T21:00:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ]
+    },
+    {
+      "event": "Miami Heat at New York Knicks",
+      "eventStart": "2026-11-28T00:10:00.000Z",
       "reasons": [
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ]
     },
     {
-      "event": "Chicago Bulls at Charlotte Hornets",
-      "eventStart": "2026-11-26T00:10:00.000Z",
+      "event": "Brooklyn Nets at Toronto Raptors",
+      "eventStart": "2026-11-28T00:40:00.000Z",
       "reasons": [
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ]
     },
     {
-      "event": "Cleveland Cavaliers at New York Knicks",
-      "eventStart": "2026-11-26T00:40:00.000Z",
+      "event": "Milwaukee Bucks at Detroit Pistons",
+      "eventStart": "2026-11-28T00:40:00.000Z",
       "reasons": [
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ]
     },
     {
-      "event": "Minnesota Timberwolves at Oklahoma City Thunder",
-      "eventStart": "2026-11-26T00:40:00.000Z",
+      "event": "Philadelphia 76ers at Indiana Pacers",
+      "eventStart": "2026-11-28T00:40:00.000Z",
       "reasons": [
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ]
     },
     {
-      "event": "Brooklyn Nets at Milwaukee Bucks",
-      "eventStart": "2026-11-26T01:10:00.000Z",
+      "event": "Atlanta Hawks at Boston Celtics",
+      "eventStart": "2026-11-28T01:10:00.000Z",
       "reasons": [
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ]
     },
     {
-      "event": "Los Angeles Clippers at Memphis Grizzlies",
-      "eventStart": "2026-11-26T01:10:00.000Z",
+      "event": "Memphis Grizzlies at Minnesota Timberwolves",
+      "eventStart": "2026-11-28T01:40:00.000Z",
       "reasons": [
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ]
     },
     {
-      "event": "Phoenix Suns at Houston Rockets",
-      "eventStart": "2026-11-26T01:40:00.000Z",
+      "event": "Dallas Mavericks at Phoenix Suns",
+      "eventStart": "2026-11-28T02:10:00.000Z",
       "reasons": [
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ]
     },
     {
-      "event": "Sacramento Kings at Golden State Warriors",
-      "eventStart": "2026-11-26T03:10:00.000Z",
+      "event": "Denver Nuggets at Utah Jazz",
+      "eventStart": "2026-11-28T02:40:00.000Z",
       "reasons": [
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ]
     },
     {
-      "event": "San Antonio Spurs at Portland Trail Blazers",
-      "eventStart": "2026-11-26T03:10:00.000Z",
+      "event": "Golden State Warriors at Portland Trail Blazers",
+      "eventStart": "2026-11-28T02:40:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
+    },
+    {
+      "event": "New Orleans Pelicans at Los Angeles Clippers",
+      "eventStart": "2026-11-28T02:40:00.000Z",
+      "reasons": [
+        "No unique eligible regular-season statistical-source event matches these teams and start time"
+      ]
+    },
+    {
+      "event": "Los Angeles Lakers at San Antonio Spurs",
+      "eventStart": "2026-11-28T02:40:00.000Z",
       "reasons": [
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ]
@@ -623,7 +642,7 @@
   ],
   "cadence": "Daily, approximately 05:17 Pacific daylight time / 04:17 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
-  "sourceThrough": "2026-11-23T01:30:00.000Z",
-  "scheduleAsOf": "2026-11-25T21:39:49.581Z",
-  "completedAt": "2026-11-25T21:39:49.611Z"
+  "sourceThrough": "2026-11-24T03:00:00.000Z",
+  "scheduleAsOf": "2026-11-26T21:29:22.769Z",
+  "completedAt": "2026-11-26T21:29:22.852Z"
 }
