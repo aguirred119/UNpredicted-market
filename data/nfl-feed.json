@@ -4,39 +4,15 @@
   "checks": [
     {
       "league": "NFL",
-      "eventId": "f36f518585aec40e8cb40e071c0844aa",
-      "sourceGameId": "2026_12_KC_BUF",
-      "home": "Buffalo Bills",
-      "away": "Kansas City Chiefs",
-      "eventStart": "2026-11-27T01:20:00.000Z",
-      "status": "already-published",
-      "reasons": [],
-      "forecastId": "nfl-2026_12_KC_BUF-form-v1",
-      "checkedAt": "2026-11-26T21:43:33.215Z"
-    },
-    {
-      "league": "NFL",
-      "eventId": "44a3bcf5bd002583ddef2207a92dd977",
-      "sourceGameId": "2026_12_DEN_PIT",
-      "home": "Pittsburgh Steelers",
-      "away": "Denver Broncos",
-      "eventStart": "2026-11-27T20:00:00.000Z",
-      "status": "already-published",
-      "reasons": [],
-      "forecastId": "nfl-2026_12_DEN_PIT-form-v1",
-      "checkedAt": "2026-11-26T21:43:33.215Z"
-    },
-    {
-      "league": "NFL",
       "eventId": "6a05021bdb6bab24b9bb381ffff10f0c",
       "sourceGameId": "2026_12_ATL_MIN",
       "home": "Minnesota Vikings",
       "away": "Atlanta Falcons",
       "eventStart": "2026-11-29T18:00:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_12_ATL_MIN-form-v1",
-      "checkedAt": "2026-11-26T21:43:33.215Z"
+      "checkedAt": "2026-11-27T21:27:50.968Z"
     },
     {
       "league": "NFL",
@@ -45,10 +21,10 @@
       "home": "Houston Texans",
       "away": "Baltimore Ravens",
       "eventStart": "2026-11-29T18:00:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_12_BAL_HOU-form-v1",
-      "checkedAt": "2026-11-26T21:43:33.215Z"
+      "checkedAt": "2026-11-27T21:27:50.968Z"
     },
     {
       "league": "NFL",
@@ -57,10 +33,10 @@
       "home": "Cincinnati Bengals",
       "away": "New Orleans Saints",
       "eventStart": "2026-11-29T18:00:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_12_NO_CIN-form-v1",
-      "checkedAt": "2026-11-26T21:43:33.215Z"
+      "checkedAt": "2026-11-27T21:27:50.968Z"
     },
     {
       "league": "NFL",
@@ -69,10 +45,10 @@
       "home": "Indianapolis Colts",
       "away": "New York Giants",
       "eventStart": "2026-11-29T18:00:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_12_NYG_IND-form-v1",
-      "checkedAt": "2026-11-26T21:43:33.215Z"
+      "checkedAt": "2026-11-27T21:27:50.968Z"
     },
     {
       "league": "NFL",
@@ -81,10 +57,10 @@
       "home": "Miami Dolphins",
       "away": "New York Jets",
       "eventStart": "2026-11-29T18:00:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_12_NYJ_MIA-form-v1",
-      "checkedAt": "2026-11-26T21:43:33.215Z"
+      "checkedAt": "2026-11-27T21:27:50.968Z"
     },
     {
       "league": "NFL",
@@ -93,10 +69,10 @@
       "home": "Jacksonville Jaguars",
       "away": "Tennessee Titans",
       "eventStart": "2026-11-29T18:00:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_12_TEN_JAX-form-v1",
-      "checkedAt": "2026-11-26T21:43:33.215Z"
+      "checkedAt": "2026-11-27T21:27:50.968Z"
     },
     {
       "league": "NFL",
@@ -105,10 +81,10 @@
       "home": "Los Angeles Chargers",
       "away": "New England Patriots",
       "eventStart": "2026-11-29T21:05:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_12_NE_LAC-form-v1",
-      "checkedAt": "2026-11-26T21:43:33.215Z"
+      "checkedAt": "2026-11-27T21:27:50.968Z"
     },
     {
       "league": "NFL",
@@ -117,10 +93,10 @@
       "home": "San Francisco 49ers",
       "away": "Seattle Seahawks",
       "eventStart": "2026-11-29T21:25:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_12_SEA_SF-form-v1",
-      "checkedAt": "2026-11-26T21:43:33.215Z"
+      "checkedAt": "2026-11-27T21:27:50.968Z"
     },
     {
       "league": "NFL",
@@ -129,43 +105,33 @@
       "home": "Arizona Cardinals",
       "away": "Washington Commanders",
       "eventStart": "2026-11-29T21:25:00.000Z",
-      "status": "published",
+      "status": "already-published",
       "reasons": [],
       "forecastId": "nfl-2026_12_WAS_ARI-form-v1",
-      "checkedAt": "2026-11-26T21:43:33.215Z"
+      "checkedAt": "2026-11-27T21:27:50.968Z"
     },
     {
       "league": "NFL",
-      "eventId": "ffaa06af56a7137d4b078c5c46c0b730",
-      "sourceGameId": null,
-      "home": "Dallas Cowboys",
-      "away": "Philadelphia Eagles",
-      "eventStart": "2026-11-26T21:45:00.000Z",
-      "status": "blocked",
-      "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
-      ],
-      "forecastId": null,
-      "checkedAt": "2026-11-26T21:43:33.215Z"
+      "eventId": "eaa993c3d62d6b5aeb6142cdd7862fd5",
+      "sourceGameId": "2026_12_LV_CLE",
+      "home": "Cleveland Browns",
+      "away": "Las Vegas Raiders",
+      "eventStart": "2026-11-30T01:20:00.000Z",
+      "status": "published",
+      "reasons": [],
+      "forecastId": "nfl-2026_12_LV_CLE-form-v1",
+      "checkedAt": "2026-11-27T21:27:50.968Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-11-26T21:43:31.481Z",
+  "lastAttemptAt": "2026-11-27T21:27:48.670Z",
   "state": "published",
-  "publishedThisRun": 9,
-  "gradedThisRun": 1,
-  "skipped": [
-    {
-      "event": "Philadelphia Eagles at Dallas Cowboys",
-      "eventStart": "2026-11-26T21:45:00.000Z",
-      "reasons": [
-        "No unique eligible regular-season statistical-source event matches these teams and start time"
-      ]
-    }
-  ],
+  "publishedThisRun": 1,
+  "gradedThisRun": 0,
+  "skipped": [],
   "cadence": "Daily, approximately 05:27 Pacific daylight time / 04:27 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
   "sourceThrough": "2026-11-24T01:15:00.000Z",
-  "scheduleAsOf": "2026-11-26T21:43:33.187Z",
-  "completedAt": "2026-11-26T21:43:33.321Z"
+  "scheduleAsOf": "2026-11-27T21:27:50.922Z",
+  "completedAt": "2026-11-27T21:27:51.002Z"
 }
