@@ -14,7 +14,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -28,7 +28,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -42,7 +42,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -56,7 +56,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -70,7 +70,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -84,7 +84,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -98,7 +98,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -112,7 +112,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -126,7 +126,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -140,7 +140,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -154,7 +154,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -168,7 +168,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -182,7 +182,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -196,7 +196,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -210,7 +210,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -224,7 +224,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -238,7 +238,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -252,7 +252,7 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -266,7 +266,105 @@
         "Provider teams/start time do not match"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": null,
+      "sourceGameId": "401910053",
+      "home": "Utah Jazz",
+      "away": "Phoenix Suns",
+      "eventStart": "2026-11-29T22:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-27T21:14:33.151Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": null,
+      "sourceGameId": "401910055",
+      "home": "Detroit Pistons",
+      "away": "Orlando Magic",
+      "eventStart": "2026-11-29T23:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-27T21:14:33.151Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": null,
+      "sourceGameId": "401910056",
+      "home": "New York Knicks",
+      "away": "Atlanta Hawks",
+      "eventStart": "2026-11-29T23:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-27T21:14:33.151Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": null,
+      "sourceGameId": "401910057",
+      "home": "Toronto Raptors",
+      "away": "Denver Nuggets",
+      "eventStart": "2026-11-29T23:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-27T21:14:33.151Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": null,
+      "sourceGameId": "401910058",
+      "home": "Portland Trail Blazers",
+      "away": "New Orleans Pelicans",
+      "eventStart": "2026-11-29T23:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-27T21:14:33.151Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": null,
+      "sourceGameId": "401910059",
+      "home": "Golden State Warriors",
+      "away": "LA Clippers",
+      "eventStart": "2026-11-30T01:30:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-27T21:14:33.151Z"
+    },
+    {
+      "league": "NBA",
+      "eventId": null,
+      "sourceGameId": "401910060",
+      "home": "Sacramento Kings",
+      "away": "Minnesota Timberwolves",
+      "eventStart": "2026-11-30T02:00:00.000Z",
+      "status": "blocked",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ],
+      "forecastId": null,
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -280,7 +378,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -294,7 +392,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -308,7 +406,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -322,7 +420,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -336,7 +434,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -350,7 +448,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -364,7 +462,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -378,7 +476,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -392,7 +490,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -406,7 +504,7 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     },
     {
       "league": "NBA",
@@ -420,11 +518,11 @@
         "No unique eligible regular-season statistical-source event matches these teams and start time"
       ],
       "forecastId": null,
-      "checkedAt": "2026-11-26T21:29:22.826Z"
+      "checkedAt": "2026-11-27T21:14:33.151Z"
     }
   ],
   "mode": "experimental",
-  "lastAttemptAt": "2026-11-26T21:29:15.964Z",
+  "lastAttemptAt": "2026-11-27T21:14:28.120Z",
   "state": "waiting-for-eligible-games",
   "publishedThisRun": 0,
   "gradedThisRun": 0,
@@ -563,6 +661,55 @@
       ]
     },
     {
+      "event": "Phoenix Suns at Utah Jazz",
+      "eventStart": "2026-11-29T22:00:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ]
+    },
+    {
+      "event": "Orlando Magic at Detroit Pistons",
+      "eventStart": "2026-11-29T23:00:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ]
+    },
+    {
+      "event": "Atlanta Hawks at New York Knicks",
+      "eventStart": "2026-11-29T23:00:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ]
+    },
+    {
+      "event": "Denver Nuggets at Toronto Raptors",
+      "eventStart": "2026-11-29T23:00:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ]
+    },
+    {
+      "event": "New Orleans Pelicans at Portland Trail Blazers",
+      "eventStart": "2026-11-29T23:00:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ]
+    },
+    {
+      "event": "LA Clippers at Golden State Warriors",
+      "eventStart": "2026-11-30T01:30:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ]
+    },
+    {
+      "event": "Minnesota Timberwolves at Sacramento Kings",
+      "eventStart": "2026-11-30T02:00:00.000Z",
+      "reasons": [
+        "Provider teams/start time do not match"
+      ]
+    },
+    {
       "event": "Miami Heat at New York Knicks",
       "eventStart": "2026-11-28T00:10:00.000Z",
       "reasons": [
@@ -642,7 +789,7 @@
   ],
   "cadence": "Daily, approximately 05:17 Pacific daylight time / 04:17 Pacific standard time. Scheduled jobs can be delayed.",
   "grading": "Completed results from the licensed historical source, at least 48 hours after scheduled start. Postponed, changed or ambiguous events remain pending for review.",
-  "sourceThrough": "2026-11-24T03:00:00.000Z",
-  "scheduleAsOf": "2026-11-26T21:29:22.769Z",
-  "completedAt": "2026-11-26T21:29:22.852Z"
+  "sourceThrough": "2026-11-25T03:00:00.000Z",
+  "scheduleAsOf": "2026-11-27T21:14:33.102Z",
+  "completedAt": "2026-11-27T21:14:33.172Z"
 }
